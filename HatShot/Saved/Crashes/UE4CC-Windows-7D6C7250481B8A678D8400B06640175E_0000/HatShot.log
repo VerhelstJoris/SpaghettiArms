@@ -1,0 +1,800 @@
+﻿Log file open, 09/22/17 11:14:25
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: HatShot
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1465968765) SRandInit(1465968765).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.150725
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.22-08.14.25:936][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.22-08.14.25:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.22-08.14.25:954][  0]LogInit: Computer: AOTA1-1L141-17D
+[2017.09.22-08.14.25:954][  0]LogInit: User: JorisVer
+[2017.09.22-08.14.25:954][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.22-08.14.25:954][  0]LogInit: High frequency timer resolution =3.328505 MHz
+[2017.09.22-08.14.25:954][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.22-08.14.25:954][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.22-08.14.25:954][  0]LogMemory: Process Physical Memory: 281.23 MB used, 281.23 MB peak
+[2017.09.22-08.14.25:954][  0]LogMemory: Process Virtual Memory: 278.04 MB used, 278.04 MB peak
+[2017.09.22-08.14.25:954][  0]LogMemory: Physical Memory: 7017.13 MB used,  9247.17 MB free, 16264.30 MB total
+[2017.09.22-08.14.25:955][  0]LogMemory: Virtual Memory: 657.80 MB used,  9247.17 MB free, 8388608.00 MB total
+[2017.09.22-08.14.26:128][  0]LogInit: Using OS detected language (fi-FI).
+[2017.09.22-08.14.26:128][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.09.22-08.14.26:130][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the language.
+[2017.09.22-08.14.26:130][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the locale.
+[2017.09.22-08.14.26:701][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.22-08.14.26:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.09.22-08.14.26:720][  0]LogD3D11RHI:       1994/0/7876 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.22-08.14.26:726][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.09.22-08.14.26:726][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.22-08.14.26:726][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.22-08.14.26:731][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.22-08.14.26:731][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.22-08.14.26:731][  0]LogWindows: EnumDisplayDevices:
+[2017.09.22-08.14.26:731][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.09.22-08.14.26:732][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2017.09.22-08.14.26:732][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.22-08.14.26:732][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.22-08.14.26:732][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.09.22-08.14.26:732][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.09.22-08.14.26:732][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.09.22-08.14.26:732][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.22-08.14.26:739][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.22-08.14.26:754][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.22-08.14.26:844][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Intermediate/Shaders/WorkingDirectory/8460/).
+[2017.09.22-08.14.26:844][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JorisVer/AppData/Local/Temp/UnrealShaderWorkingDir/DA9B343B4EBE282683D226B88534639F/'.
+[2017.09.22-08.14.26:844][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.22-08.14.27:700][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.22-08.14.27:743][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.22-08.14.27:786][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.22-08.14.27:831][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.22-08.14.27:874][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.22-08.14.27:916][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.22-08.14.27:959][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.22-08.14.28:003][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.22-08.14.28:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.22-08.14.28:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.22-08.14.28:122][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.22-08.14.28:164][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.22-08.14.28:206][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.22-08.14.28:249][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.22-08.14.28:290][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.22-08.14.28:374][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.22-08.14.28:374][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.22-08.14.28:405][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.22-08.14.28:482][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.22-08.14.28:506][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.22-08.14.28:547][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.22-08.14.28:587][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.22-08.14.28:627][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.22-08.14.28:668][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.22-08.14.28:668][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.22-08.14.29:046][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.22-08.14.29:125][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/JorisVer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.22-08.14.29:126][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JorisVer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.22-08.14.29:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.22-08.14.29:126][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.22-08.14.29:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.22-08.14.29:126][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.22-08.14.29:142][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.22-08.14.29:155][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JorisVer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.22-08.14.29:164][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.22-08.14.29:164][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.22-08.14.29:165][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.22-08.14.29:165][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.22-08.14.29:385][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2017.09.22-08.14.29:536][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.22-08.14.29:541][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.22-08.14.29:897][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.22-08.14.29:943][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.22-08.14.29:943][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.22-08.14.29:943][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.22-08.14.29:943][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.22-08.14.29:943][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.22-08.14.30:251][  0]LogNetVersion: HatShot , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232607195)
+[2017.09.22-08.14.30:415][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019512 seconds
+[2017.09.22-08.14.30:420][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.22-08.14.30:420][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.22-08.14.30:420][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.22-08.14.30:467][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.22-08.14.32:608][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.22-08.14.32:641][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.22-08.14.33:183][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.22-08.14.33:550][  0]SourceControl: Source control is disabled
+[2017.09.22-08.14.33:550][  0]SourceControl: Source control is disabled
+[2017.09.22-08.14.33:591][  0]SourceControl: Source control is disabled
+[2017.09.22-08.14.33:632][  0]SourceControl: Source control is disabled
+[2017.09.22-08.14.34:122][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.22-08.14.34:324][  0]LogOcInput: OculusInput pre-init called
+[2017.09.22-08.14.34:548][  0]LogEngine: Initializing Engine...
+[2017.09.22-08.14.34:550][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.22-08.14.34:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.22-08.14.34:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.22-08.14.34:926][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.22-08.14.34:935][  0]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.22-08.14.34:947][  0]LogInit: FAudioDevice initialized.
+[2017.09.22-08.14.35:071][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/JorisVer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.22-08.14.35:082][  0]LogInit: Texture streaming: Enabled
+[2017.09.22-08.14.35:177][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.22-08.14.35:369][  0]LogInit: Transaction tracking system initialized
+[2017.09.22-08.14.35:629][  0]BlueprintLog: New page: Editor Load
+[2017.09.22-08.14.36:403][  0]LocalizationService: Localization service is disabled
+[2017.09.22-08.14.36:962][  0]LogConsoleResponse: Display: 
+[2017.09.22-08.14.37:126][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.22-08.14.37:126][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.22-08.14.37:126][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.22-08.14.37:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/' took 0.01s
+[2017.09.22-08.14.37:977][  0]SourceControl: Source control is disabled
+[2017.09.22-08.14.37:977][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.22-08.14.37:978][  0]LightingResults: New page: Lighting Build
+[2017.09.22-08.14.38:012][  0]MapCheck: New page: Map Check
+[2017.09.22-08.14.38:012][  0]LightingResults: New page: Lighting Build
+[2017.09.22-08.14.38:095][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
+[2017.09.22-08.14.38:096][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset.
+[2017.09.22-08.14.38:096][  0]LoadErrors: Error: /Game/FP_Character/FP_Character : Can't find file for asset. /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset.
+[2017.09.22-08.14.38:097][  0]LoadErrors: Error: /Game/FP_Character/FP_Character : Can't find file for asset. /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset.
+[2017.09.22-08.14.38:097][  0]LoadErrors: Error: /Game/FP_Character/FP_Character : Can't find file for asset. /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
+[2017.09.22-08.14.38:097][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset.
+[2017.09.22-08.14.38:097][  0]LoadErrors: Error: /Game/FP_Character/FP_Character : Can't find file for asset. /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms
+[2017.09.22-08.14.38:099][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
+[2017.09.22-08.14.38:099][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:099][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:100][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:100][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
+[2017.09.22-08.14.38:100][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:100][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms
+[2017.09.22-08.14.38:102][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Animations/FirstPerson_AnimBP'
+[2017.09.22-08.14.38:102][  0]LoadErrors: Failed to load /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C Referenced by FirstPersonmesh_GEN_VARIABLE
+[2017.09.22-08.14.38:102][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:102][  0]LoadErrors: Failed to load /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C Referenced by FirstPersonmesh_GEN_VARIABLE
+[2017.09.22-08.14.38:102][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.09.22-08.14.38:102][  0]LogLinker: Warning: Can't find file '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms'
+[2017.09.22-08.14.38:102][  0]LoadErrors: Failed to load /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms Referenced by FirstPersonmesh_GEN_VARIABLE
+[2017.09.22-08.14.38:102][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms' while loading ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/My_Gamemode.uasset.
+[2017.09.22-08.14.38:102][  0]LoadErrors: Failed to load /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms Referenced by FirstPersonmesh_GEN_VARIABLE
+[2017.09.22-08.14.38:102][  0]LoadErrors: Error: /Game/My_Gamemode : Can't find file for asset. /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms
+[2017.09.22-08.14.38:240][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.09.22-08.14.38:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.22-08.14.38:256][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.22-08.14.38:291][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.541ms to complete.
+[2017.09.22-08.14.38:292][  0]LogFileHelpers: Loading map 'NewMap' took 0.314
+[2017.09.22-08.14.38:495][  0]LogCollectionManager: Loaded 0 collections in 0.001405 seconds
+[2017.09.22-08.14.38:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/Collections/' took 0.01s
+[2017.09.22-08.14.38:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Developers/JorisVer/Collections/' took 0.01s
+[2017.09.22-08.14.38:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Collections/' took 0.01s
+[2017.09.22-08.14.38:568][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.22-08.14.38:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2386 classes and 500 folders.
+[2017.09.22-08.14.38:624][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.22-08.14.38:656][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.22-08.14.38:690][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.22-08.14.38:745][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.22-08.14.38:747][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.22-08.14.38:751][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.22-08.14.38:834][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 9 NumSamples 1 (Frame:1).
+[2017.09.22-08.14.38:869][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.22-08.14.39:050][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.22-08.14.39:050][  0]LogLoad: (Engine Initialization) Total time: 14.42 seconds
+[2017.09.22-08.14.39:050][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.22-08.14.39:051][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.22-08.14.39:051][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.22-08.14.39:083][  0]LogAssetRegistry: Asset discovery search completed in 9.7128 seconds
+[2017.09.22-08.14.39:085][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.22-08.14.39:085][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.09.22-08.14.39:088][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.09.22-08.14.54:421][387]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.22-08.14.54:441][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.22-08.14.54:441][387]PIE: New page: PIE session: NewMap (Sep 22, 2017, 2:14:54 PM)
+[2017.09.22-08.14.54:441][387]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.09.22-08.14.54:442][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001169s)
+[2017.09.22-08.14.54:443][387]LogAIModule: Creating AISystem for world NewMap
+[2017.09.22-08.14.54:444][387]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2017.09.22-08.14.54:444][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002757s)
+[2017.09.22-08.14.54:454][387]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.22-08.14.54:465][387]LogInit: FAudioDevice initialized.
+[2017.09.22-08.14.54:504][387]LogLoad: Game class is 'My_Gamemode_C'
+[2017.09.22-08.14.54:506][387]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.22-11.14.54
+[2017.09.22-08.14.54:506][387]LogWorld: Bringing up level for play took: 0.001027
+[2017.09.22-08.14.54:541][387]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.22-08.14.54:541][387]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.22-08.14.54:541][387]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.22-08.14.54:541][387]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.22-08.14.54:542][387]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.22-08.14.54:542][387]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.468
+[2017.09.22-08.15.18:335][426]LogSlate: Took 0.004198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.22-08.15.21:729][537]Cmd: DELETE
+[2017.09.22-08.15.21:729][537]Cmd: ACTOR DELETE
+[2017.09.22-08.15.21:729][537]LogEditorActor: Deleted Actor: FP_Character_C
+[2017.09.22-08.15.21:789][537]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2017.09.22-08.15.25:963][701]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.22-08.15.26:311][701]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.09.22-08.15.26:893][701]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.22-08.15.27:005][701]LogSlate: Took 0.001243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.22-08.15.38:523][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:06B9
+[2017.09.22-08.15.38:523][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:04D0
+[2017.09.22-08.15.38:523][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:0431
+[2017.09.22-08.15.38:524][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:02CF
+[2017.09.22-08.15.38:524][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:071E
+[2017.09.22-08.15.38:524][ 54]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:074C
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:06B9
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:04D0
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:0431
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:02CF
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:071E
+[2017.09.22-08.15.38:704][ 55]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:074C
+[2017.09.22-08.15.38:742][ 56]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:06B9
+[2017.09.22-08.15.38:743][ 56]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:04D0
+[2017.09.22-08.15.38:743][ 56]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:0431
+[2017.09.22-08.15.38:743][ 56]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:02CF
+[2017.09.22-08.15.38:743][ 56]LogScript: Warning: Accessed None trying to read property myCharacterRef
+	FP_Controller_C /Engine/Transient.World_3:PersistentLevel.FP_Controller_C_0
+	Function /Game/FP_Character/FP_Controller.FP_Controller_C:ExecuteUbergraph_FP_Controller:071E
+[2017.09.22-08.15.40:844][121]LogRenderer: Reallocating scene render targets to support 1208x900 Format 9 NumSamples 1 (Frame:1).
+[2017.09.22-08.15.49:668][337]BlueprintLog: New page: Compile FP_Character
+[2017.09.22-08.15.51:072][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Character" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset" SILENT=true
+[2017.09.22-08.15.51:113][365]LogSavePackage: Save=32.60ms
+[2017.09.22-08.15.51:113][365]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_CharacterD9AE00B3465D45D6C889E78C4C2602F3.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset'
+[2017.09.22-08.15.51:115][365]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset
+[2017.09.22-08.16.02:447][686]BlueprintLog: New page: Compile FP_Character
+[2017.09.22-08.16.03:155][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Character" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset" SILENT=true
+[2017.09.22-08.16.03:194][700]LogSavePackage: Save=32.58ms
+[2017.09.22-08.16.03:195][700]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_CharacterBACE4776414EBEB7A8F522A334708255.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset'
+[2017.09.22-08.16.03:196][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Character.uasset
+[2017.09.22-08.16.29:653][226]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.22-08.16.29:671][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.22-08.16.29:671][226]PIE: New page: PIE session: NewMap (Sep 22, 2017, 2:16:29 PM)
+[2017.09.22-08.16.29:671][226]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.09.22-08.16.29:672][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001214s)
+[2017.09.22-08.16.29:672][226]LogAIModule: Creating AISystem for world NewMap
+[2017.09.22-08.16.29:673][226]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.09.22-08.16.29:673][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.001984s)
+[2017.09.22-08.16.29:689][226]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.22-08.16.29:701][226]LogInit: FAudioDevice initialized.
+[2017.09.22-08.16.29:728][226]LogLoad: Game class is 'My_Gamemode_C'
+[2017.09.22-08.16.29:730][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.22-11.16.29
+[2017.09.22-08.16.29:730][226]LogWorld: Bringing up level for play took: 0.000893
+[2017.09.22-08.16.29:731][226]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.22-08.16.29:731][226]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.09.22-08.16.29:731][226]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.09.22-08.16.29:732][226]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.09.22-08.16.29:732][226]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.372
+[2017.09.22-08.16.49:525][687]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\JorisVer\Desktop\Revolver_Temp.FBX)
+[2017.09.22-08.16.49:556][687]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.22-08.16.49:556][687]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.22-08.16.49:556][687]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.22-08.16.49:556][687]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.22-08.16.49:556][687]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.22-08.16.49:566][687]LogFbx: Loading FBX Scene from C:\Users\JorisVer\Desktop\Revolver_Temp.FBX
+[2017.09.22-08.16.49:575][687]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.22-08.17.01:709][687]LogFbx: Loading FBX Scene from C:\Users\JorisVer\Desktop\Revolver_Temp.FBX
+[2017.09.22-08.17.01:714][687]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.22-08.17.01:718][687]LogStaticMesh: Building static mesh Revolver_Temp...
+[2017.09.22-08.17.01:727][687]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/Revolver_Temp.Revolver_Temp
+[2017.09.22-08.17.01:737][687]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.22-08.17.05:522][786]LogRenderer: Reallocating scene render targets to support 1432x924 Format 9 NumSamples 1 (Frame:1).
+[2017.09.22-08.17.12:305][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.22-08.17.12:364][947]LogSavePackage: Save=18.52ms
+[2017.09.22-08.17.12:364][947]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/NewMap70B9D135407A2CCEEDAD04AFA7CE8442.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap'
+[2017.09.22-08.17.12:367][947]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap
+[2017.09.22-08.17.12:390][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.22-08.17.12:409][947]LogSavePackage: Save=11.41ms
+[2017.09.22-08.17.12:409][947]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/NewMap_BuiltData76229D1B406045155D75FAAC73DC331F.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset'
+[2017.09.22-08.17.12:410][947]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset
+[2017.09.22-08.17.17:633][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Revolver_Temp" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Geometry/Meshes/Revolver_Temp.uasset" SILENT=true
+[2017.09.22-08.17.17:648][ 49]LogSavePackage: Save=12.79ms
+[2017.09.22-08.17.17:648][ 49]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/Revolver_Temp2F0C89A84AA75E539FE3D18CD32236DB.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Geometry/Meshes/Revolver_Temp.uasset'
+[2017.09.22-08.17.17:650][ 49]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Geometry/Meshes/Revolver_Temp.uasset
+[2017.09.22-08.25.05:690][223]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HatShot
+[2017.09.22-08.25.05:690][223]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.22-08.25.05:690][223]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.22-08.25.05:690][223]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.22-08.25.05:690][223]LogTemp: BranchPath = AOTA1-1L141-17D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AOTA1-1L141-17D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.22-08.25.05:701][223]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\JorisVer\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.22-08.26.56:141][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.22-08.26.56:183][108]LogSavePackage: Save=17.22ms
+[2017.09.22-08.26.56:183][108]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/NewMap3F90A3F64DD526EFB043759D464AA136.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap'
+[2017.09.22-08.26.56:184][108]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap.umap
+[2017.09.22-08.26.56:207][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.22-08.26.56:228][108]LogSavePackage: Save=12.77ms
+[2017.09.22-08.26.56:228][108]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/NewMap_BuiltDataE66932544AD27DA11714FEA165FA4845.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset'
+[2017.09.22-08.26.56:229][108]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset
+[2017.09.22-08.30.05:583][878]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HatShot
+[2017.09.22-08.30.05:583][878]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.22-08.30.05:583][878]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.22-08.30.05:583][878]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.22-08.30.05:586][878]LogTemp: BranchPath = AOTA1-1L141-17D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AOTA1-1L141-17D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.22-08.30.05:596][878]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\JorisVer\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.22-08.30.52:203][509]BlueprintLog: New page: Compile FP_Controller
+[2017.09.22-08.30.52:769][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Controller" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset" SILENT=true
+[2017.09.22-08.30.52:890][521]LogSavePackage: Save=111.00ms
+[2017.09.22-08.30.52:890][521]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_Controller898CFFEB4C5FAAED43DADFA323C89E40.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset'
+[2017.09.22-08.30.52:892][521]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset
+[2017.09.22-08.32.10:815][820]BlueprintLog: New page: Compile FP_Controller
+[2017.09.22-08.32.11:445][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Controller" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset" SILENT=true
+[2017.09.22-08.32.11:576][834]LogSavePackage: Save=116.85ms
+[2017.09.22-08.32.11:576][834]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_Controller6B9BE1684DB9F3616E0C01AB92A77A11.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset'
+[2017.09.22-08.32.11:578][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset
+[2017.09.22-08.34.38:552][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Controller" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset" SILENT=true
+[2017.09.22-08.34.38:659][142]LogSavePackage: Save=99.28ms
+[2017.09.22-08.34.38:659][142]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_Controller1EE67E8440337E9991937D9762538C09.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset'
+[2017.09.22-08.34.38:661][142]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset
+[2017.09.22-08.34.40:529][205]BlueprintLog: New page: Compile FP_Controller
+[2017.09.22-08.34.41:137][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FP_Character/FP_Controller" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset" SILENT=true
+[2017.09.22-08.34.41:256][218]LogSavePackage: Save=102.27ms
+[2017.09.22-08.34.41:256][218]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_Controller6B4CB2AA4B58AA4120C8858EA39D810B.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset'
+[2017.09.22-08.34.41:257][218]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FP_Character/FP_Controller.uasset
+[2017.09.22-08.37.13:829][120]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.22-08.37.22:897][147]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.017
+[2017.09.22-08.37.22:898][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FP_Character/FP_Controller] ([1] browsable assets)...
+[2017.09.22-08.37.22:898][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/FP_Character/FP_Controller]
+[2017.09.22-08.37.23:021][147]LogSavePackage: Save=112.32ms
+[2017.09.22-08.37.23:021][147]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FP_Controller_Auto13F2811FD48972A9EBDFD4EBBA7DDB7FD.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/Autosaves/Game/FP_Character/FP_Controller_Auto1.uasset'
+[2017.09.22-08.37.23:022][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/Autosaves/Game/FP_Character/FP_Controller_Auto1.uasset
+[2017.09.22-08.37.23:022][147]LogFileHelpers: Auto-saving content packages took 0.124
+[2017.09.22-08.41.34:934][670]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.17/FeaturePacks/FP_FirstPersonBP.upack)
+[2017.09.22-08.41.34:941][670]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.09.22-08.41.34:942][670]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/FirstPersonOverview.uasset" to "../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/FirstPersonOverview.uasset"
+[2017.09.22-08.41.34:945][670]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" to "../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset"
+[2017.09.22-08.41.34:946][670]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" to "../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset"
+[2017.09.22-08.41.34:948][670]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" to "../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset"
+[2017.09.22-08.41.35:005][670]LogPackFactory: Copied "../../../Templates/FP_FirstPersonBP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" to "../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"
+[2017.09.22-08.41.35:034][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/FirstPersonOverview" FILE="../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/FirstPersonOverview.uasset" SILENT=true
+[2017.09.22-08.41.35:047][670]LogSavePackage: Save=5.38ms
+[2017.09.22-08.41.35:047][670]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonOverviewFDC944B4462513F91322A69326809351.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/FirstPersonOverview.uasset'
+[2017.09.22-08.41.35:049][670]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPersonBP/FirstPersonOverview.uasset
+[2017.09.22-08.42.03:757][832]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.09.22-08.42.05:866][832]LogTexture: Display: Building textures: T_ML_FineRubber (AutoDXT, 2048X2048)
+[2017.09.22-08.42.05:913][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview.PackageMetaData'
+[2017.09.22-08.42.05:913][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/FirstPersonOverview.SKEL_FirstPersonOverview_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:GetPlayerViewPoint.K2Node_FunctionResult_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:GetPlayerViewPoint.K2Node_FunctionEntry_111' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ShootDir' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:EndTrace' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:StartTrace' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:WeaponDamage' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:WeaponRange' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:GunOffset' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:Mesh1P' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:FP_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:GetPlayerViewPoint.MyPlayerController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ShootDir' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:EndTrace' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:StartTrace' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:WeaponDamage' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:WeaponRange' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:GunOffset' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:Mesh1P' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:FP_Gun' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:GetPlayerViewPoint.MyPlayerController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:919][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:920][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpTchEvt_K2Node_InputTouchEvent_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:925][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.05:931][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ExecuteUbergraph_FirstPersonHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2017.09.22-08.42.06:541][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.09.22-08.42.06:541][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPersonBP/Maps/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.09.22-08.42.06:575][832]LogSavePackage: Save=5.22ms
+[2017.09.22-08.42.06:575][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonOverview320CE4D042A5F2F5253634BFF390CA0B.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/FirstPersonOverview.uasset'
+[2017.09.22-08.42.06:576][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/FirstPersonOverview.uasset
+[2017.09.22-08.42.06:808][832]LogSavePackage: Save=123.83ms
+[2017.09.22-08.42.06:808][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonCharacterDD4A3612491C90B73817949C1B909960.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.09.22-08.42.06:810][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.09.22-08.42.06:821][832]LogSavePackage: Save=6.72ms
+[2017.09.22-08.42.06:821][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonGameMode68C217D741D214AF31AA179CB9C27400.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2017.09.22-08.42.06:823][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.09.22-08.42.06:850][832]LogSavePackage: Save=18.24ms
+[2017.09.22-08.42.06:851][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonHUD2576C0E149493E6E0387F99D3B4A1E0F.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.09.22-08.42.06:852][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.09.22-08.42.08:120][832]LogSavePackage: Save=1193.11ms
+[2017.09.22-08.42.08:120][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonExampleMap0DC57AAE4AD390EF5263E4A369FF0E82.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.09.22-08.42.08:121][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.09.22-08.42.08:127][832]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.267
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:bIsInAir' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:IsMoving' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:bIsInAir' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:IsMoving' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.08:551][832]LogMetaData: Removing '/Game/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
+[2017.09.22-08.42.09:246][832]LogSavePackage: Save=128.96ms
+[2017.09.22-08.42.09:246][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_AnimBP3BFA96584C33C10D4E65CCA3D064437E.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.uasset'
+[2017.09.22-08.42.09:248][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_AnimBP.uasset
+[2017.09.22-08.42.09:388][832]LogSavePackage: Save=26.96ms
+[2017.09.22-08.42.09:388][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_RunD5FF0EFF44F9E6F8B827DB9A36A4554F.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Run.uasset'
+[2017.09.22-08.42.09:391][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Run.uasset
+[2017.09.22-08.42.09:473][832]LogSavePackage: Save=14.28ms
+[2017.09.22-08.42.09:473][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_JumpStartA7EF06F44A00073F8CAF3E977A337B6D.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpStart.uasset'
+[2017.09.22-08.42.09:474][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpStart.uasset
+[2017.09.22-08.42.09:576][832]LogSavePackage: Save=18.16ms
+[2017.09.22-08.42.09:576][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_JumpLoop9A510392411D2FD05C99F29774E29601.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpLoop.uasset'
+[2017.09.22-08.42.09:578][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpLoop.uasset
+[2017.09.22-08.42.09:680][832]LogSavePackage: Save=24.65ms
+[2017.09.22-08.42.09:680][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_JumpEnd21FFE78543960E2C2D11629FFC4A907E.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpEnd.uasset'
+[2017.09.22-08.42.09:682][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_JumpEnd.uasset
+[2017.09.22-08.42.09:778][832]LogSavePackage: Save=23.86ms
+[2017.09.22-08.42.09:778][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_Idle3CBD8CA240B18486DF28249A2E1BE585.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Idle.uasset'
+[2017.09.22-08.42.09:780][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Idle.uasset
+[2017.09.22-08.42.09:792][832]LogSavePackage: Save=3.82ms
+[2017.09.22-08.42.09:792][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_Mannequin_Arms_SkeletonC47F272546A74D0D941561AECCFB5237.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
+[2017.09.22-08.42.09:794][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2017.09.22-08.42.09:865][832]LogSavePackage: Save=9.52ms
+[2017.09.22-08.42.09:865][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPerson_FireB9CB5C034E0BB7FFAD12208DEE219E4E.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Fire.uasset'
+[2017.09.22-08.42.09:867][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPerson_Fire.uasset
+[2017.09.22-08.42.09:952][832]LogSavePackage: Save=20.57ms
+[2017.09.22-08.42.09:952][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonFire_Montage59108CD2442858F622443FB913B38CCF.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPersonFire_Montage.uasset'
+[2017.09.22-08.42.09:953][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Animations/FirstPersonFire_Montage.uasset
+[2017.09.22-08.42.09:971][832]LogSavePackage: Save=3.86ms
+[2017.09.22-08.42.09:971][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonTemplateWeaponFire02BAAD99844C595650F05F57A144DB6830.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset'
+[2017.09.22-08.42.09:972][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2017.09.22-08.42.10:055][832]LogSavePackage: Save=66.91ms
+[2017.09.22-08.42.10:055][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Rubber_Blue_01_D963AA0874C7BAB509E7429BE9D43939B.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.09.22-08.42.10:057][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.09.22-08.42.10:130][832]LogSavePackage: Save=54.34ms
+[2017.09.22-08.42.10:130][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Rubber_Blue_01_N989FAFFC4974E7AC847E7095F064117A.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.09.22-08.42.10:132][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.09.22-08.42.10:147][832]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.09.22-08.42.10:286][832]LogSavePackage: Save=12.25ms
+[2017.09.22-08.42.10:286][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_GlossyBlack_Latex_UE484E8E82E48D00EFB57514DA6FD6A2155.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.09.22-08.42.10:289][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.09.22-08.42.10:295][832]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.09.22-08.42.10:396][832]LogSavePackage: Save=9.60ms
+[2017.09.22-08.42.10:396][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_Plastic_Shiny_BeigeD171AE3049D81AE5D3AF26A41E5022DE.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.09.22-08.42.10:398][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.09.22-08.42.10:422][832]LogSavePackage: Save=8.64ms
+[2017.09.22-08.42.10:422][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/UE4_LOGO_CARD57F62C5349D47F640B626795CA08CD4F.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset'
+[2017.09.22-08.42.10:423][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.09.22-08.42.10:435][832]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.09.22-08.42.10:528][832]LogSavePackage: Save=10.37ms
+[2017.09.22-08.42.10:528][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_Plastic_Shiny_Beige_LOGO69A6FDCE4A20CEEA9C3A46BAE9F27988.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.09.22-08.42.10:530][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.09.22-08.42.10:688][832]LogSavePackage: Save=143.68ms
+[2017.09.22-08.42.10:688][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Aluminum01DCBAE3E345C17DA5E3E9DDBC5121AFB4.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.09.22-08.42.10:690][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.09.22-08.42.10:774][832]LogSavePackage: Save=68.29ms
+[2017.09.22-08.42.10:774][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Aluminum01_N5909A19248AF281326C611B62D11F559.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.09.22-08.42.10:777][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.09.22-08.42.10:789][832]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.09.22-08.42.10:906][832]LogSavePackage: Save=16.35ms
+[2017.09.22-08.42.10:906][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_SoftMetal_UE40E5A4F5248AC01CA5C3A3DBE49F7A767.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.09.22-08.42.10:908][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.09.22-08.42.11:013][832]LogSavePackage: Save=88.46ms
+[2017.09.22-08.42.11:013][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/UE4_Mannequin__normals3F7CA7DE4C5E645EF7F5AA99B5073729.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset'
+[2017.09.22-08.42.11:015][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.09.22-08.42.11:043][832]LogSavePackage: Save=15.11ms
+[2017.09.22-08.42.11:043][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/UE4_Mannequin_MAT_MASKADAD8DFF048DD3090E1B57E8F46FE4FB0.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2017.09.22-08.42.11:045][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.09.22-08.42.11:136][832]LogSavePackage: Save=19.94ms
+[2017.09.22-08.42.11:136][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/M_UE4Man_Body1F3B82004A35483B898C3D8D2A76EF08.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/M_UE4Man_Body.uasset'
+[2017.09.22-08.42.11:138][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
+[2017.09.22-08.42.11:148][832]LogSavePackage: Save=5.05ms
+[2017.09.22-08.42.11:148][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_Mannequin_Arms_PhysicsAsset5E1A7BD349C34E57D3457ABFB6976FAF.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset'
+[2017.09.22-08.42.11:150][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2017.09.22-08.42.11:270][832]LogSavePackage: Save=34.29ms
+[2017.09.22-08.42.11:270][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_Mannequin_Arms5C882DED4C15643F4CBACF9092CB8441.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset'
+[2017.09.22-08.42.11:272][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
+[2017.09.22-08.42.11:373][832]LogSavePackage: Save=85.66ms
+[2017.09.22-08.42.11:373][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Rubber_Blue_01_D6818E66C4B3ED051DACAC2A9EA57485A.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.09.22-08.42.11:375][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.09.22-08.42.11:467][832]LogSavePackage: Save=76.60ms
+[2017.09.22-08.42.11:467][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Rubber_Blue_01_NB504134842697BAF89EFBEB5EE2CD4F7.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.09.22-08.42.11:469][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.09.22-08.42.11:476][832]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2017.09.22-08.42.11:581][832]LogSavePackage: Save=14.34ms
+[2017.09.22-08.42.11:581][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_GlossyBlack_Latex_UE4A67CF3864059060098C3209100282913.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.09.22-08.42.11:583][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.09.22-08.42.11:593][832]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2017.09.22-08.42.11:697][832]LogSavePackage: Save=12.36ms
+[2017.09.22-08.42.11:697][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_Plastic_Shiny_BeigeB859030A46046683557B35BEEBAC23D4.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.09.22-08.42.11:699][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.09.22-08.42.11:707][832]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2017.09.22-08.42.11:814][832]LogSavePackage: Save=12.00ms
+[2017.09.22-08.42.11:814][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_Screen0477639E4C1817DD36A6F19B02164E7B.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset'
+[2017.09.22-08.42.11:816][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2017.09.22-08.42.11:978][832]LogSavePackage: Save=146.28ms
+[2017.09.22-08.42.11:978][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Aluminum01590BCF36486C0D24DF2640871ED44274.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.09.22-08.42.11:980][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.09.22-08.42.12:067][832]LogSavePackage: Save=68.63ms
+[2017.09.22-08.42.12:067][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_Aluminum01_NED1F67074E6EE29B2905EA8035DAE1E8.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.09.22-08.42.12:069][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.09.22-08.42.12:077][832]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2017.09.22-08.42.12:186][832]LogSavePackage: Save=15.94ms
+[2017.09.22-08.42.12:186][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_SoftMetal_UE438CDFF1B442FA5A56D66AA80BA9F43FC.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.09.22-08.42.12:188][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.09.22-08.42.12:215][832]LogSavePackage: Save=13.75ms
+[2017.09.22-08.42.12:215][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_FPGun_MDB2EFF624FF118B355808A9C7ADBB3D0.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset'
+[2017.09.22-08.42.12:218][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset
+[2017.09.22-08.42.12:274][832]LogSavePackage: Save=40.31ms
+[2017.09.22-08.42.12:274][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_FPGun_N27DA9E1A40068CF753EA56BDDBFA9289.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset'
+[2017.09.22-08.42.12:276][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset
+[2017.09.22-08.42.12:365][832]LogSavePackage: Save=23.25ms
+[2017.09.22-08.42.12:365][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/M_FPGunA073B71249A85FBEC7A5B8849E72AD30.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/M_FPGun.uasset'
+[2017.09.22-08.42.12:367][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/M_FPGun.uasset
+[2017.09.22-08.42.12:375][832]LogSavePackage: Save=1.85ms
+[2017.09.22-08.42.12:375][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_FPGun_SkeletonEFEF84A64C4A22542DEA2F888FBEAB44.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
+[2017.09.22-08.42.12:377][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2017.09.22-08.42.12:464][832]LogSavePackage: Save=25.03ms
+[2017.09.22-08.42.12:464][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_FPGunB417C6C244B4B52015A63384D1EF5507.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset'
+[2017.09.22-08.42.12:466][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
+[2017.09.22-08.42.12:474][832]LogSavePackage: Save=2.30ms
+[2017.09.22-08.42.12:474][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonCrosshairDCC12F6D4869FAE8D5DD2ABD0519CE3A.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Textures/FirstPersonCrosshair.uasset'
+[2017.09.22-08.42.12:476][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2017.09.22-08.42.12:557][832]LogSavePackage: Save=14.58ms
+[2017.09.22-08.42.12:557][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/BaseMaterial56A138954EE42658FE211AA1B39E8EC9.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/BaseMaterial.uasset'
+[2017.09.22-08.42.12:559][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/BaseMaterial.uasset
+[2017.09.22-08.42.12:632][832]LogSavePackage: Save=12.83ms
+[2017.09.22-08.42.12:633][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/CubeMaterialOverrideFDBE7D014EC127DDCE5C6782C4D098D0.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/CubeMaterialOverride.uasset'
+[2017.09.22-08.42.12:636][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/CubeMaterialOverride.uasset
+[2017.09.22-08.42.12:654][832]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2017.09.22-08.42.12:757][832]LogSavePackage: Save=14.18ms
+[2017.09.22-08.42.12:757][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/ML_Plastic_Shiny_Beige_LOGO659DD95C40A5D513578ED2B11F10EDA4.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.09.22-08.42.12:759][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.09.22-08.42.12:874][832]LogSavePackage: Save=99.91ms
+[2017.09.22-08.42.12:874][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/T_ML_FineRubber50A847C04DBA674AD1209D8E0E41BD1C.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset'
+[2017.09.22-08.42.12:876][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2017.09.22-08.42.12:884][832]LogSavePackage: Save=2.35ms
+[2017.09.22-08.42.12:884][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/SK_FPGun_PhysicsAsset6827054544E9D3E8FB77ED806E62A65C.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset'
+[2017.09.22-08.42.12:885][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2017.09.22-08.42.12:967][832]LogSavePackage: Save=11.79ms
+[2017.09.22-08.42.12:967][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonProjectileMaterial8A7449F743666F16D980C18B36660DEE.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset'
+[2017.09.22-08.42.12:969][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset
+[2017.09.22-08.42.13:045][832]LogSavePackage: Save=13.12ms
+[2017.09.22-08.42.13:045][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonProjectileMesh800E78B249CBFC4D86AC5593BB1EFB41.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset'
+[2017.09.22-08.42.13:047][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset
+[2017.09.22-08.42.17:100][832]LogSavePackage: Save=2.30ms
+[2017.09.22-08.42.17:100][832]LogSavePackage: Moving '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Saved/FirstPersonAnimBlueprint_Copy2892E417443A8E6EB66029B093B4F0D0.tmp' to '../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset'
+[2017.09.22-08.42.17:101][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JorisVer/Desktop/SpaghettiArms/HatShot/Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset
+[2017.09.22-08.42.35:983][535]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.253 s
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: === Handled ensure: ===
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: 
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 248]
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: Cannot remove redirection from /Game/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.Default__FirstPersonAnimBlueprint_Copy_C, it was not registered
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: Stack: 
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04D3606
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D025C2D2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D0274746
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CFB51E43
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-AssetRegistry.dll!0x00000000C8325648
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C944D09B
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C944C854
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8C4DEA7
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8EB1482
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8E44BB2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8E477C9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8EBB3B5
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBD6B967
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBD974D4
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBBB42BC
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBB87145
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBC21452
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBC09C92
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBBFB68F
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AB3C9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D0493B51
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AD22B
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D048ECB2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: USER32.dll!0x0000000077429BBD
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: USER32.dll!0x00000000774298C2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AD899
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBC2C576
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBBBDE33
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C8F510AC
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C944C323
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7FB490D
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7FBCC86
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7F33C9E
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7F37109
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7FB8EB5
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7FB6B27
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B801A2D9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7F34012
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7F373D9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000B7FB9BC5
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBD6B967
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBD974D4
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBBB42BC
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBB87145
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBC21452
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBC09C92
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000CBBFB68F
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AB3C9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D0493B51
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AD22B
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D048ECB2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: USER32.dll!0x0000000077429BBD
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: USER32.dll!0x00000000774298C2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000D04AD936
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor.exe!0x000000003F204BE2
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor.exe!0x000000003F213970
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor.exe!0x000000003F2139EA
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor.exe!0x000000003F2202D9
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: UE4Editor.exe!0x000000003F221C47
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: kernel32.dll!0x00000000775259CD
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: ntdll.dll!0x000000007765A561
+[2017.09.22-08.42.35:983][535]LogOutputDevice: Error: 
+[2017.09.22-08.42.35:988][535]LogStats:                SubmitErrorReport -  0.000 s
