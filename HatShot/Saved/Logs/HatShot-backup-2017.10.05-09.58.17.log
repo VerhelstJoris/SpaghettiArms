@@ -1,0 +1,1173 @@
+﻿Log file open, 10/04/17 09:28:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HatShot
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-237607166) SRandInit(-237607166).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158995
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.04-06.28.57:900][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-06.28.57:901][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.04-06.28.57:908][  0]LogInit: Computer: AOTA1-1L141-14D
+[2017.10.04-06.28.57:908][  0]LogInit: User: MitjaSal
+[2017.10.04-06.28.57:908][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.04-06.28.57:908][  0]LogInit: High frequency timer resolution =3.328730 MHz
+[2017.10.04-06.28.57:908][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.04-06.28.57:908][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-06.28.57:908][  0]LogMemory: Process Physical Memory: 282.50 MB used, 282.50 MB peak
+[2017.10.04-06.28.57:908][  0]LogMemory: Process Virtual Memory: 286.49 MB used, 286.49 MB peak
+[2017.10.04-06.28.57:908][  0]LogMemory: Physical Memory: 6096.11 MB used,  10168.19 MB free, 16264.30 MB total
+[2017.10.04-06.28.57:908][  0]LogMemory: Virtual Memory: 665.80 MB used,  10168.19 MB free, 8388608.00 MB total
+[2017.10.04-06.28.58:039][  0]LogInit: Using OS detected language (fi-FI).
+[2017.10.04-06.28.58:039][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.10.04-06.28.58:041][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the language.
+[2017.10.04-06.28.58:042][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the locale.
+[2017.10.04-06.28.58:606][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.04-06.28.58:625][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.10.04-06.28.58:625][  0]LogD3D11RHI:       1994/0/7876 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.04-06.28.58:631][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.04-06.28.58:631][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.04-06.28.58:631][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.04-06.28.58:636][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.04-06.28.58:636][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.04-06.28.58:636][  0]LogWindows: EnumDisplayDevices:
+[2017.10.04-06.28.58:636][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.10.04-06.28.58:636][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2017.10.04-06.28.58:636][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.10.04-06.28.58:636][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.10.04-06.28.58:636][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.04-06.28.58:636][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.04-06.28.58:637][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.04-06.28.58:637][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.04-06.28.58:637][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.04-06.28.58:637][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.04-06.28.58:637][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.04-06.28.58:637][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.10.04-06.28.58:637][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.10.04-06.28.58:637][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.10.04-06.28.58:637][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.04-06.28.58:645][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.04-06.28.58:659][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.04-06.28.58:749][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Intermediate/Shaders/WorkingDirectory/8184/).
+[2017.10.04-06.28.58:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MitjaSal/AppData/Local/Temp/UnrealShaderWorkingDir/F134D42E4C4FCD51B97F909376296D39/'.
+[2017.10.04-06.28.58:749][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.04-06.28.59:546][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.04-06.28.59:586][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.04-06.28.59:626][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.04-06.28.59:666][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.04-06.28.59:706][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.04-06.28.59:747][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.04-06.28.59:787][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.04-06.28.59:827][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.04-06.28.59:861][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.04-06.28.59:902][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.04-06.28.59:943][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.04-06.28.59:984][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.04-06.29.00:025][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.04-06.29.00:067][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.04-06.29.00:108][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.04-06.29.00:189][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.04-06.29.00:189][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.04-06.29.00:220][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.04-06.29.00:297][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.04-06.29.00:320][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.04-06.29.00:360][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.04-06.29.00:401][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.04-06.29.00:441][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.04-06.29.00:484][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.04-06.29.00:484][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.04-06.29.00:851][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.04-06.29.00:933][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.04-06.29.00:948][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.04-06.29.00:960][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MitjaSal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.04-06.29.00:969][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.04-06.29.00:969][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.04-06.29.00:969][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-06.29.00:969][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.04-06.29.01:184][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2017.10.04-06.29.01:359][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.04-06.29.01:363][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.04-06.29.01:737][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.04-06.29.01:780][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.04-06.29.01:780][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.04-06.29.01:780][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.04-06.29.01:780][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.04-06.29.01:780][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.04-06.29.02:130][  0]LogNetVersion: HatShot , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232607195)
+[2017.10.04-06.29.02:311][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021103 seconds
+[2017.10.04-06.29.02:317][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.04-06.29.02:317][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.04-06.29.02:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.04-06.29.02:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.04-06.29.04:611][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.04-06.29.04:641][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.04-06.29.05:186][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.04-06.29.05:520][  0]SourceControl: Source control is disabled
+[2017.10.04-06.29.05:520][  0]SourceControl: Source control is disabled
+[2017.10.04-06.29.05:557][  0]SourceControl: Source control is disabled
+[2017.10.04-06.29.05:593][  0]SourceControl: Source control is disabled
+[2017.10.04-06.29.06:056][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.04-06.29.06:260][  0]LogOcInput: OculusInput pre-init called
+[2017.10.04-06.29.06:493][  0]LogEngine: Initializing Engine...
+[2017.10.04-06.29.06:494][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.04-06.29.06:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.04-06.29.06:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.04-06.29.06:828][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.04-06.29.06:839][  0]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-06.29.06:850][  0]LogInit: FAudioDevice initialized.
+[2017.10.04-06.29.06:943][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.04-06.29.06:958][  0]LogInit: Texture streaming: Enabled
+[2017.10.04-06.29.07:057][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.04-06.29.07:259][  0]LogInit: Transaction tracking system initialized
+[2017.10.04-06.29.07:536][  0]BlueprintLog: New page: Editor Load
+[2017.10.04-06.29.08:296][  0]LocalizationService: Localization service is disabled
+[2017.10.04-06.29.08:985][  0]LogConsoleResponse: Display: 
+[2017.10.04-06.29.09:152][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.04-06.29.09:152][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.04-06.29.09:152][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.04-06.29.09:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/' took 0.01s
+[2017.10.04-06.29.10:011][  0]SourceControl: Source control is disabled
+[2017.10.04-06.29.10:011][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.04-06.29.10:011][  0]LightingResults: New page: Lighting Build
+[2017.10.04-06.29.10:044][  0]MapCheck: New page: Map Check
+[2017.10.04-06.29.10:044][  0]LightingResults: New page: Lighting Build
+[2017.10.04-06.29.10:478][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.29.10:499][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.04-06.29.10:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.04-06.29.10:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.487ms to complete.
+[2017.10.04-06.29.10:551][  0]LogFileHelpers: Loading map 'NewMap' took 0.540
+[2017.10.04-06.29.10:683][  0]LogCollectionManager: Loaded 0 collections in 0.001445 seconds
+[2017.10.04-06.29.10:752][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Collections/' took 0.01s
+[2017.10.04-06.29.10:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Developers/MitjaSal/Collections/' took 0.01s
+[2017.10.04-06.29.10:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Collections/' took 0.01s
+[2017.10.04-06.29.10:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.04-06.29.10:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2386 classes and 500 folders.
+[2017.10.04-06.29.10:810][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.04-06.29.10:842][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.04-06.29.10:879][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.04-06.29.10:898][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-06.29.10:899][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.04-06.29.10:903][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.04-06.29.10:996][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.10.04-06.29.11:042][  0]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-06.29.11:192][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.04-06.29.11:192][  0]LogLoad: (Engine Initialization) Total time: 14.63 seconds
+[2017.10.04-06.29.11:192][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.04-06.29.11:192][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.04-06.29.11:192][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.04-06.29.11:549][  0]LogAssetRegistry: Asset discovery search completed in 10.3830 seconds
+[2017.10.04-06.29.11:551][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.04-06.29.11:551][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.10.04-06.29.11:552][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.04-06.46.37:076][852]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-06.46.37:111][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-06.46.37:113][852]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:46:37 PM)
+[2017.10.04-06.46.37:113][852]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.10.04-06.46.37:115][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001676s)
+[2017.10.04-06.46.37:115][852]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.46.37:115][852]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.10.04-06.46.37:116][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002902s)
+[2017.10.04-06.46.37:126][852]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-06.46.37:138][852]LogInit: FAudioDevice initialized.
+[2017.10.04-06.46.37:181][852]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-06.46.37:183][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.46.37
+[2017.10.04-06.46.37:183][852]LogWorld: Bringing up level for play took: 0.001034
+[2017.10.04-06.46.37:218][852]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.10.04-06.46.37:218][852]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.46.37:218][852]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.46.37:218][852]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.46.37:225][852]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.46.37:225][852]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.071
+[2017.10.04-06.46.54:048][725]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-06.46.54:428][725]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2017.10.04-06.46.54:964][725]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.04-06.46.55:014][725]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.04-06.46.55:059][726]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.04-06.50.21:062][ 35]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2017.10.04-06.51.52:718][416]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-06.51.52:735][416]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.10.04-06.51.52:997][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 279 ms (1 blueprints)
+[2017.10.04-06.51.53:003][416]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:51:53 PM)
+[2017.10.04-06.51.53:003][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-06.51.53:005][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001388s)
+[2017.10.04-06.51.53:005][416]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.51.53:005][416]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2017.10.04-06.51.53:005][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002057s)
+[2017.10.04-06.51.53:022][416]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-06.51.53:036][416]LogInit: FAudioDevice initialized.
+[2017.10.04-06.51.53:083][416]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-06.51.53:085][416]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.51.53
+[2017.10.04-06.51.53:085][416]LogWorld: Bringing up level for play took: 0.000958
+[2017.10.04-06.51.53:086][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.51.53:086][416]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.10.04-06.51.53:086][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.51.53:087][416]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-06.51.53:090][416]LogInit: WinSock: I am AOTA1-1L141-14D (172.31.16.136:0)
+[2017.10.04-06.51.53:090][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.51.53:090][416]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.10.04-06.51.53:090][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.51.53:090][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.51.53:090][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.51.53:093][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.51.53:095][416]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.259
+[2017.10.04-06.51.53:101][416]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:51:53 PM)
+[2017.10.04-06.51.53:149][416]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-06.51.53:149][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.51.53:149][416]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.10.04-06.51.53:149][416]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-06.51.53:149][416]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-06.51.53:150][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.51.53:150][416]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-06.51.53:152][416]PIE: Play in editor start time for /Engine/Maps/Entry -0.202
+[2017.10.04-06.51.53:164][416]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53986
+[2017.10.04-06.51.53:164][416]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 123139196197120051044074132063098124131087011145064009221248
+[2017.10.04-06.51.53:184][416]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 123139196197120051044074132063098124131087011145064009221248
+[2017.10.04-06.51.53:230][416]LogRenderer: Reallocating scene render targets to support 1292x900 Format 10 NumSamples 1 (Frame:1).
+[2017.10.04-06.51.53:280][417]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53986
+[2017.10.04-06.51.53:280][417]LogHandshake: SendChallengeAck. InCookie: 123139196197120051044074132063098124131087011145064009221248
+[2017.10.04-06.51.53:280][417]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53986
+[2017.10.04-06.51.53:280][417]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.51.53:280][417]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 09:51:53, [UNetConnection] RemoteAddr: 127.0.0.1:53986, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.51.53:281][417]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53986, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.51.53:281][417]LogNetVersion: HatShot 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821346063)
+[2017.10.04-06.51.53:281][417]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-06.51.53:346][418]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-06.51.53:346][418]LogNet: Remote platform little endian=1
+[2017.10.04-06.51.53:346][418]LogNet: This platform little endian=1
+[2017.10.04-06.51.53:444][419]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-06.51.53:445][419]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-06.51.53:452][419]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-06.51.53:473][419]Cmd: MEM
+[2017.10.04-06.51.53:490][419]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-06.51.53:490][419]LogMemory: Process Physical Memory: 1328.90 MB used, 1328.90 MB peak
+[2017.10.04-06.51.53:490][419]LogMemory: Process Virtual Memory: 2309.43 MB used, 2489.27 MB peak
+[2017.10.04-06.51.53:490][419]LogMemory: Physical Memory: 6994.91 MB used,  9269.39 MB free, 16264.30 MB total
+[2017.10.04-06.51.53:490][419]LogMemory: Virtual Memory: 3017.70 MB used,  9269.39 MB free, 8388608.00 MB total
+[2017.10.04-06.51.53:490][419]LogMemory: 
+[2017.10.04-06.51.53:490][419]Allocator Stats for TBB: (not implemented)
+[2017.10.04-06.51.53:492][419]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.51.53:492][419]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.51.53:494][419]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.51.53
+[2017.10.04-06.51.53:495][419]LogWorld: Bringing up level for play took: 0.001026
+[2017.10.04-06.51.53:495][419]LogLoad: Took 0.042933 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-06.51.53:504][420]LogNet: Client netspeed is 10000
+[2017.10.04-06.51.53:504][420]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-06.51.53:509][420]LogNet: Join succeeded: 258
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:08C8
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0740
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:03E0
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0322
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0925
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:511][420]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0953
+[2017.10.04-06.51.53:511][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:08C8
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0740
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:03E0
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0322
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0925
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.53:545][421]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0953
+[2017.10.04-06.51.53:545][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.51.59:724][514]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53986, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.04-06.51.59:724][514]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53986, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1, Channels: 2, Time: 2017.10.04-06.51.59
+[2017.10.04-06.51.59:724][514]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53986, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.04-06.51.59:725][514]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.51.59:725][514]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-06.51.59
+[2017.10.04-06.51.59:725][514]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.51.59:729][514]LogExit: GameNetDriver None shut down
+[2017.10.04-06.51.59:729][514]LogExit: GameNetDriver None shut down
+[2017.10.04-06.53.12:708][477]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-06.53.12:726][477]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-06.53.12:744][477]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.10.04-06.53.13:046][477]LogPlayLevel: PlayLevel: Blueprint regeneration took 320 ms (1 blueprints)
+[2017.10.04-06.53.13:052][477]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:53:13 PM)
+[2017.10.04-06.53.13:052][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-06.53.13:053][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001170s)
+[2017.10.04-06.53.13:054][477]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.53.13:054][477]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.10.04-06.53.13:054][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.001872s)
+[2017.10.04-06.53.13:070][477]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-06.53.13:081][477]LogInit: FAudioDevice initialized.
+[2017.10.04-06.53.13:126][477]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-06.53.13:128][477]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.53.13
+[2017.10.04-06.53.13:128][477]LogWorld: Bringing up level for play took: 0.001011
+[2017.10.04-06.53.13:128][477]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.13:128][477]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2017.10.04-06.53.13:129][477]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.13:129][477]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-06.53.13:130][477]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.13:130][477]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.10.04-06.53.13:130][477]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.53.13:130][477]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.53.13:130][477]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.53.13:132][477]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.53.13:134][477]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.234
+[2017.10.04-06.53.13:139][477]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:53:13 PM)
+[2017.10.04-06.53.13:186][477]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-06.53.13:186][477]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.13:186][477]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2017.10.04-06.53.13:186][477]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-06.53.13:186][477]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-06.53.13:187][477]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.13:187][477]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-06.53.13:189][477]PIE: Play in editor start time for /Engine/Maps/Entry -0.179
+[2017.10.04-06.53.13:201][477]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57094
+[2017.10.04-06.53.13:201][477]LogHandshake: SendConnectChallenge. Timestamp: 0.022031, Cookie: 210074074148081119194133192104115016207078069073022167054093
+[2017.10.04-06.53.13:202][477]LogHandshake: SendChallengeResponse. Timestamp: 0.022031, Cookie: 210074074148081119194133192104115016207078069073022167054093
+[2017.10.04-06.53.13:340][478]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57094
+[2017.10.04-06.53.13:341][478]LogHandshake: SendChallengeAck. InCookie: 210074074148081119194133192104115016207078069073022167054093
+[2017.10.04-06.53.13:341][478]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57094
+[2017.10.04-06.53.13:341][478]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.13:341][478]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 09:53:13, [UNetConnection] RemoteAddr: 127.0.0.1:57094, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.53.13:341][478]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57094, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.53.13:342][478]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-06.53.13:436][479]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-06.53.13:436][479]LogNet: Remote platform little endian=1
+[2017.10.04-06.53.13:436][479]LogNet: This platform little endian=1
+[2017.10.04-06.53.13:444][480]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-06.53.13:446][480]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-06.53.13:481][480]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-06.53.13:515][480]Cmd: MEM
+[2017.10.04-06.53.13:531][480]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-06.53.13:531][480]LogMemory: Process Physical Memory: 1376.09 MB used, 1378.14 MB peak
+[2017.10.04-06.53.13:531][480]LogMemory: Process Virtual Memory: 2439.96 MB used, 2489.27 MB peak
+[2017.10.04-06.53.13:531][480]LogMemory: Physical Memory: 7051.63 MB used,  9212.67 MB free, 16264.30 MB total
+[2017.10.04-06.53.13:531][480]LogMemory: Virtual Memory: 3163.66 MB used,  9212.67 MB free, 8388608.00 MB total
+[2017.10.04-06.53.13:531][480]LogMemory: 
+[2017.10.04-06.53.13:531][480]Allocator Stats for TBB: (not implemented)
+[2017.10.04-06.53.13:532][480]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.53.13:533][480]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.13:534][480]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.53.13
+[2017.10.04-06.53.13:534][480]LogWorld: Bringing up level for play took: 0.000788
+[2017.10.04-06.53.13:535][480]LogLoad: Took 0.053714 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-06.53.13:541][481]LogNet: Client netspeed is 10000
+[2017.10.04-06.53.13:541][481]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-06.53.13:544][481]LogNet: Join succeeded: 260
+[2017.10.04-06.53.13:546][481]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:08C8
+[2017.10.04-06.53.13:546][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:546][481]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0740
+[2017.10.04-06.53.13:546][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:546][481]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:03E0
+[2017.10.04-06.53.13:546][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:546][481]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0322
+[2017.10.04-06.53.13:547][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:547][481]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Game/Maps/UEDPIE_2_NewMap.NewMap:PersistentLevel.BP_Controller_C_0
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0925
+[2017.10.04-06.53.13:547][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:547][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.13:558][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.20:631][593]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57094, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.10.04-06.53.20:631][593]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57094, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-06.53.20
+[2017.10.04-06.53.20:631][593]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57094, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.10.04-06.53.20:631][593]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.53.20:631][593]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-06.53.20
+[2017.10.04-06.53.20:631][593]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.53.20:635][593]LogExit: GameNetDriver None shut down
+[2017.10.04-06.53.20:635][593]LogExit: GameNetDriver None shut down
+[2017.10.04-06.53.26:259][851]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.04-06.53.35:062][239]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.10.04-06.53.35:593][239]LogSavePackage: Save=113.97ms
+[2017.10.04-06.53.35:593][239]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/FirstPersonCharacterE0CBDA274B7A2EE450D9FCAA37DBB976.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.10.04-06.53.35:596][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/FirstPerson_Template/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.10.04-06.53.38:206][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-06.53.38:228][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-06.53.38:234][366]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:53:38 PM)
+[2017.10.04-06.53.38:234][366]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-06.53.38:236][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001366s)
+[2017.10.04-06.53.38:236][366]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.53.38:236][366]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2017.10.04-06.53.38:237][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002150s)
+[2017.10.04-06.53.38:253][366]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-06.53.38:263][366]LogInit: FAudioDevice initialized.
+[2017.10.04-06.53.38:313][366]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-06.53.38:315][366]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.53.38
+[2017.10.04-06.53.38:315][366]LogWorld: Bringing up level for play took: 0.000982
+[2017.10.04-06.53.38:316][366]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.38:316][366]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2017.10.04-06.53.38:316][366]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.38:316][366]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-06.53.38:317][366]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.38:317][366]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.10.04-06.53.38:317][366]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.53.38:317][366]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-06.53.38:317][366]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.53.38:319][366]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-06.53.38:321][366]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.948
+[2017.10.04-06.53.38:327][366]PIE: New page: PIE session: NewMap (Oct 4, 2017, 12:53:38 PM)
+[2017.10.04-06.53.38:380][366]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-06.53.38:380][366]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.38:380][366]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2017.10.04-06.53.38:380][366]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-06.53.38:380][366]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-06.53.38:381][366]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.38:381][366]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-06.53.38:383][366]PIE: Play in editor start time for /Engine/Maps/Entry 1.01
+[2017.10.04-06.53.38:394][366]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57096
+[2017.10.04-06.53.38:394][366]LogHandshake: SendConnectChallenge. Timestamp: 0.019618, Cookie: 018037020159180057157071056039238010014238152176125206216245
+[2017.10.04-06.53.38:394][366]LogHandshake: SendChallengeResponse. Timestamp: 0.019618, Cookie: 018037020159180057157071056039238010014238152176125206216245
+[2017.10.04-06.53.38:487][367]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57096
+[2017.10.04-06.53.38:487][367]LogHandshake: SendChallengeAck. InCookie: 018037020159180057157071056039238010014238152176125206216245
+[2017.10.04-06.53.38:487][367]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57096
+[2017.10.04-06.53.38:487][367]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-06.53.38:487][367]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 09:53:38, [UNetConnection] RemoteAddr: 127.0.0.1:57096, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.53.38:487][367]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57096, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-06.53.38:487][367]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-06.53.38:565][368]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-06.53.38:565][368]LogNet: Remote platform little endian=1
+[2017.10.04-06.53.38:565][368]LogNet: This platform little endian=1
+[2017.10.04-06.53.38:573][369]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-06.53.38:574][369]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-06.53.38:609][369]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-06.53.38:627][369]Cmd: MEM
+[2017.10.04-06.53.38:644][369]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-06.53.38:644][369]LogMemory: Process Physical Memory: 1376.94 MB used, 1392.92 MB peak
+[2017.10.04-06.53.38:644][369]LogMemory: Process Virtual Memory: 2452.86 MB used, 2584.20 MB peak
+[2017.10.04-06.53.38:644][369]LogMemory: Physical Memory: 7059.26 MB used,  9205.04 MB free, 16264.30 MB total
+[2017.10.04-06.53.38:644][369]LogMemory: Virtual Memory: 3171.72 MB used,  9205.04 MB free, 8388608.00 MB total
+[2017.10.04-06.53.38:644][369]LogMemory: 
+[2017.10.04-06.53.38:644][369]Allocator Stats for TBB: (not implemented)
+[2017.10.04-06.53.38:646][369]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-06.53.38:647][369]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-06.53.38:648][369]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-09.53.38
+[2017.10.04-06.53.38:649][369]LogWorld: Bringing up level for play took: 0.000963
+[2017.10.04-06.53.38:649][369]LogLoad: Took 0.040178 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-06.53.38:655][370]LogNet: Client netspeed is 10000
+[2017.10.04-06.53.38:655][370]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-06.53.38:658][370]LogNet: Join succeeded: 262
+[2017.10.04-06.53.38:660][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:660][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:661][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:661][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:661][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:661][370]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:671][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.38:735][372]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-06.53.49:331][539]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57096, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.10.04-06.53.49:331][539]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57096, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-06.53.49
+[2017.10.04-06.53.49:331][539]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57096, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.10.04-06.53.49:332][539]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.53.49:332][539]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-06.53.49
+[2017.10.04-06.53.49:332][539]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.10.04-06.53.49:336][539]LogExit: GameNetDriver None shut down
+[2017.10.04-06.53.49:336][539]LogExit: GameNetDriver None shut down
+[2017.10.04-07.28.47:383][338]MapCheck: New page: Map Check
+[2017.10.04-07.28.47:444][338]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.04-07.28.47:444][338]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.04-07.28.47:535][338]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.04-07.28.47:544][338]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.10.04-07.28.47:550][338]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.10.04-07.28.47:557][338]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.04-07.28.47:965][338]TextureStreamingBuild: Display: Compiling optional shaders took 0.436 seconds.
+[2017.10.04-07.28.47:968][338]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.10.04-07.28.47:972][338]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2017.10.04-07.28.47:985][338]LightingResults: New page: Lighting Build - Oct 4, 2017, 1:28:47 PM
+[2017.10.04-07.28.48:022][338]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.04-07.28.48:050][338]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.04-07.28.48:064][338]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.04-07.28.48:580][338]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.04-07.28.48:580][338]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8184
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.04-07.28.52:882][338]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.04-07.28.52:967][338]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.04-07.28.52:967][338]MapCheck: New page: NewMap - Oct 4, 2017, 1:28:52 PM
+[2017.10.04-07.28.53:010][338]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.396ms to complete.
+[2017.10.04-07.28.53:032][338]LogEditorBuildUtils: Build time 0:05
+[2017.10.04-07.28.54:740][436]Job is a success!
+[2017.10.04-07.28.54:865][437]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.10.04-07.28.54:865][437]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.10.04-07.28.54:866][437]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.10.04-07.28.54:866][437]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.10.04-07.28.54:866][437]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.10.04-07.28.54:866][437]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2017.10.04-07.28.54:893][437]Lightmass on AOTA1-1L141-14D: 818 ms total, 80 ms importing, 13 ms setup, 312 ms photons, 392 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.59 sec total, 269 ms processing.
+[2017.10.04-07.28.54:921][437]LogStaticLightingSystem: Illumination: 6.91 sec (9 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2017.10.04-07.28.54:921][437]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.04-07.28.54:921][437]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.04-07.28.55:883][437]DumpUnbuiltLightIteractions
+[2017.10.04-07.28.55:883][437]Lights with unbuilt interactions: 0
+[2017.10.04-07.28.55:883][437]
+[2017.10.04-07.28.55:883][437]Primitives with unbuilt interactions: 0
+[2017.10.04-07.28.55:893][438]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.04-07.28.55:893][438]MapCheck: New page: NewMap - Oct 4, 2017, 1:28:55 PM
+[2017.10.04-07.28.55:986][438]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.035ms to complete.
+[2017.10.04-07.29.04:145][416]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-07.29.04:175][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-07.29.04:185][416]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:29:04 PM)
+[2017.10.04-07.29.04:185][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-07.29.04:186][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001328s)
+[2017.10.04-07.29.04:187][416]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.29.04:187][416]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.10.04-07.29.04:187][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002191s)
+[2017.10.04-07.29.04:206][416]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-07.29.04:218][416]LogInit: FAudioDevice initialized.
+[2017.10.04-07.29.04:271][416]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-07.29.04:273][416]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.29.04
+[2017.10.04-07.29.04:274][416]LogWorld: Bringing up level for play took: 0.001145
+[2017.10.04-07.29.04:274][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.04:274][416]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2017.10.04-07.29.04:274][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.04:274][416]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-07.29.04:275][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.04:275][416]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2017.10.04-07.29.04:275][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.29.04:276][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.29.04:276][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.29.04:279][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.29.04:281][416]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.522
+[2017.10.04-07.29.04:287][416]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:29:04 PM)
+[2017.10.04-07.29.04:337][416]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-07.29.04:337][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.04:337][416]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2017.10.04-07.29.04:337][416]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-07.29.04:337][416]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-07.29.04:338][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.04:338][416]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-07.29.04:341][416]PIE: Play in editor start time for /Engine/Maps/Entry 0.582
+[2017.10.04-07.29.04:354][416]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58687
+[2017.10.04-07.29.04:354][416]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 250114049022153185162015067254034062074221185119135164085192
+[2017.10.04-07.29.04:354][416]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 250114049022153185162015067254034062074221185119135164085192
+[2017.10.04-07.29.04:413][417]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58687
+[2017.10.04-07.29.04:413][417]LogHandshake: SendChallengeAck. InCookie: 250114049022153185162015067254034062074221185119135164085192
+[2017.10.04-07.29.04:413][417]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58687
+[2017.10.04-07.29.04:413][417]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.04:413][417]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 10:29:04, [UNetConnection] RemoteAddr: 127.0.0.1:58687, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.29.04:413][417]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58687, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.29.04:414][417]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-07.29.04:487][418]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-07.29.04:487][418]LogNet: Remote platform little endian=1
+[2017.10.04-07.29.04:487][418]LogNet: This platform little endian=1
+[2017.10.04-07.29.04:511][419]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-07.29.04:511][419]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-07.29.04:581][419]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-07.29.04:596][419]Cmd: MEM
+[2017.10.04-07.29.04:610][419]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-07.29.04:610][419]LogMemory: Process Physical Memory: 1404.36 MB used, 1415.28 MB peak
+[2017.10.04-07.29.04:610][419]LogMemory: Process Virtual Memory: 2402.54 MB used, 2584.20 MB peak
+[2017.10.04-07.29.04:610][419]LogMemory: Physical Memory: 7564.73 MB used,  8699.57 MB free, 16264.30 MB total
+[2017.10.04-07.29.04:610][419]LogMemory: Virtual Memory: 3597.56 MB used,  8699.57 MB free, 8388608.00 MB total
+[2017.10.04-07.29.04:610][419]LogMemory: 
+[2017.10.04-07.29.04:610][419]Allocator Stats for TBB: (not implemented)
+[2017.10.04-07.29.04:611][419]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.29.04:612][419]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.04:613][419]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.29.04
+[2017.10.04-07.29.04:613][419]LogWorld: Bringing up level for play took: 0.000769
+[2017.10.04-07.29.04:614][419]LogLoad: Took 0.032599 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-07.29.04:625][420]LogNet: Client netspeed is 10000
+[2017.10.04-07.29.04:625][420]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-07.29.04:628][420]LogNet: Join succeeded: 264
+[2017.10.04-07.29.04:630][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.04:630][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.04:630][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.04:630][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.04:631][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.04:631][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.12:921][550]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58687, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.29.12:921][550]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58687, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.29.12
+[2017.10.04-07.29.12:921][550]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58687, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.29.12:921][550]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.29.12:921][550]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.29.12
+[2017.10.04-07.29.12:921][550]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.29.12:925][550]LogExit: GameNetDriver None shut down
+[2017.10.04-07.29.12:925][550]LogExit: GameNetDriver None shut down
+[2017.10.04-07.29.26:998][883]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-07.29.27:016][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-07.29.27:022][883]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:29:27 PM)
+[2017.10.04-07.29.27:022][883]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-07.29.27:023][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001244s)
+[2017.10.04-07.29.27:024][883]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.29.27:024][883]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.10.04-07.29.27:024][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002112s)
+[2017.10.04-07.29.27:043][883]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-07.29.27:053][883]LogInit: FAudioDevice initialized.
+[2017.10.04-07.29.27:103][883]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-07.29.27:105][883]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.29.27
+[2017.10.04-07.29.27:105][883]LogWorld: Bringing up level for play took: 0.000942
+[2017.10.04-07.29.27:105][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.27:105][883]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2017.10.04-07.29.27:105][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.27:106][883]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-07.29.27:106][883]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.27:106][883]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2017.10.04-07.29.27:106][883]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.29.27:106][883]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.29.27:106][883]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.29.27:109][883]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.29.27:112][883]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.651
+[2017.10.04-07.29.27:117][883]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:29:27 PM)
+[2017.10.04-07.29.27:171][883]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-07.29.27:171][883]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.27:171][883]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2017.10.04-07.29.27:171][883]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-07.29.27:171][883]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-07.29.27:172][883]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.27:172][883]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-07.29.27:175][883]PIE: Play in editor start time for /Engine/Maps/Entry -0.588
+[2017.10.04-07.29.27:188][883]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58688
+[2017.10.04-07.29.27:188][883]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 241015189222101139248232180039176056251060053137038201152245
+[2017.10.04-07.29.27:189][883]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 241015189222101139248232180039176056251060053137038201152245
+[2017.10.04-07.29.27:257][884]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58688
+[2017.10.04-07.29.27:257][884]LogHandshake: SendChallengeAck. InCookie: 241015189222101139248232180039176056251060053137038201152245
+[2017.10.04-07.29.27:257][884]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58688
+[2017.10.04-07.29.27:257][884]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.29.27:257][884]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 10:29:27, [UNetConnection] RemoteAddr: 127.0.0.1:58688, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.29.27:257][884]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58688, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.29.27:258][884]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-07.29.27:295][885]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-07.29.27:295][885]LogNet: Remote platform little endian=1
+[2017.10.04-07.29.27:295][885]LogNet: This platform little endian=1
+[2017.10.04-07.29.27:335][886]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-07.29.27:336][886]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-07.29.27:376][886]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-07.29.27:391][886]Cmd: MEM
+[2017.10.04-07.29.27:405][886]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-07.29.27:405][886]LogMemory: Process Physical Memory: 1408.28 MB used, 1415.28 MB peak
+[2017.10.04-07.29.27:405][886]LogMemory: Process Virtual Memory: 2429.60 MB used, 2584.20 MB peak
+[2017.10.04-07.29.27:405][886]LogMemory: Physical Memory: 7462.01 MB used,  8802.29 MB free, 16264.30 MB total
+[2017.10.04-07.29.27:405][886]LogMemory: Virtual Memory: 3619.56 MB used,  8802.29 MB free, 8388608.00 MB total
+[2017.10.04-07.29.27:406][886]LogMemory: 
+[2017.10.04-07.29.27:406][886]Allocator Stats for TBB: (not implemented)
+[2017.10.04-07.29.27:407][886]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.29.27:408][886]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.29.27:410][886]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.29.27
+[2017.10.04-07.29.27:410][886]LogWorld: Bringing up level for play took: 0.000847
+[2017.10.04-07.29.27:410][886]LogLoad: Took 0.033958 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-07.29.27:421][887]LogNet: Client netspeed is 10000
+[2017.10.04-07.29.27:421][887]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-07.29.27:425][887]LogNet: Join succeeded: 266
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:427][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:437][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:438][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:438][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:438][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:438][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:438][888]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.29.27:489][889]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.30.38:070][987]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58688, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.30.38:070][987]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58688, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.30.38
+[2017.10.04-07.30.38:071][987]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58688, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.30.38:071][987]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.30.38:071][987]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.30.38
+[2017.10.04-07.30.38:071][987]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.30.38:075][987]LogExit: GameNetDriver None shut down
+[2017.10.04-07.30.38:075][987]LogExit: GameNetDriver None shut down
+[2017.10.04-07.30.51:852][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.04-07.31.29:691][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2017.10.04-07.31.29:708][142]LogSavePackage: Save=15.02ms
+[2017.10.04-07.31.29:708][142]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_CubeE89782A04C95693331E262B1480F0509.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset'
+[2017.10.04-07.31.29:710][142]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset
+[2017.10.04-07.31.38:347][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2017.10.04-07.31.38:415][560]LogSavePackage: Save=14.83ms
+[2017.10.04-07.31.38:416][560]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_CubeDF5DCD5B4941F542E977409217C948D7.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset'
+[2017.10.04-07.31.38:418][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Cube.uasset
+[2017.10.04-07.31.39:033][593]BlueprintLog: New page: Compile BP_Cube
+[2017.10.04-07.31.41:270][756]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-07.31.41:289][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-07.31.41:294][756]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:31:41 PM)
+[2017.10.04-07.31.41:294][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-07.31.41:296][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001408s)
+[2017.10.04-07.31.41:296][756]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.31.41:296][756]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.10.04-07.31.41:297][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002444s)
+[2017.10.04-07.31.41:316][756]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-07.31.41:326][756]LogInit: FAudioDevice initialized.
+[2017.10.04-07.31.41:373][756]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-07.31.41:375][756]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.31.41
+[2017.10.04-07.31.41:375][756]LogWorld: Bringing up level for play took: 0.000994
+[2017.10.04-07.31.41:376][756]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.31.41:376][756]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2017.10.04-07.31.41:376][756]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.31.41:376][756]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-07.31.41:377][756]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.31.41:377][756]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2017.10.04-07.31.41:377][756]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.31.41:377][756]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.31.41:377][756]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.31.41:380][756]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.31.41:383][756]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.404
+[2017.10.04-07.31.41:389][756]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:31:41 PM)
+[2017.10.04-07.31.41:441][756]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-07.31.41:441][756]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.31.41:441][756]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2017.10.04-07.31.41:441][756]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-07.31.41:441][756]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-07.31.41:442][756]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.31.41:442][756]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-07.31.41:445][756]PIE: Play in editor start time for /Engine/Maps/Entry -0.342
+[2017.10.04-07.31.41:460][756]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57914
+[2017.10.04-07.31.41:460][756]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 193063006104015060133046096005208036255042107119192088229028
+[2017.10.04-07.31.41:460][756]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 193063006104015060133046096005208036255042107119192088229028
+[2017.10.04-07.31.41:525][757]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57914
+[2017.10.04-07.31.41:525][757]LogHandshake: SendChallengeAck. InCookie: 193063006104015060133046096005208036255042107119192088229028
+[2017.10.04-07.31.41:525][757]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57914
+[2017.10.04-07.31.41:525][757]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.31.41:525][757]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 10:31:41, [UNetConnection] RemoteAddr: 127.0.0.1:57914, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.31.41:525][757]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57914, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.31.41:526][757]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-07.31.41:584][758]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-07.31.41:584][758]LogNet: Remote platform little endian=1
+[2017.10.04-07.31.41:584][758]LogNet: This platform little endian=1
+[2017.10.04-07.31.41:598][759]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-07.31.41:599][759]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-07.31.41:637][759]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-07.31.41:657][759]Cmd: MEM
+[2017.10.04-07.31.41:672][759]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-07.31.41:673][759]LogMemory: Process Physical Memory: 1487.69 MB used, 1489.71 MB peak
+[2017.10.04-07.31.41:673][759]LogMemory: Process Virtual Memory: 2863.89 MB used, 2863.89 MB peak
+[2017.10.04-07.31.41:673][759]LogMemory: Physical Memory: 7543.28 MB used,  8721.02 MB free, 16264.30 MB total
+[2017.10.04-07.31.41:673][759]LogMemory: Virtual Memory: 4045.57 MB used,  8721.02 MB free, 8388608.00 MB total
+[2017.10.04-07.31.41:673][759]LogMemory: 
+[2017.10.04-07.31.41:673][759]Allocator Stats for TBB: (not implemented)
+[2017.10.04-07.31.41:675][759]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.31.41:675][759]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.31.41:677][759]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.31.41
+[2017.10.04-07.31.41:677][759]LogWorld: Bringing up level for play took: 0.000990
+[2017.10.04-07.31.41:677][759]LogLoad: Took 0.040729 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-07.31.41:688][760]LogNet: Client netspeed is 10000
+[2017.10.04-07.31.41:688][760]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-07.31.41:692][760]LogNet: Join succeeded: 268
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:694][760]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:705][761]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:772][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:773][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:773][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:773][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:773][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.31.41:774][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.32.26:146][454]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57914, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.04-07.32.26:146][454]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57914, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1, Channels: 2, Time: 2017.10.04-07.32.26
+[2017.10.04-07.32.26:146][454]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57914, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.04-07.32.26:146][454]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.32.26:146][454]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.32.26
+[2017.10.04-07.32.26:146][454]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.32.26:151][454]LogExit: GameNetDriver None shut down
+[2017.10.04-07.32.26:151][454]LogExit: GameNetDriver None shut down
+[2017.10.04-07.32.52:682][242]LogSavePackage: Save=139.14ms
+[2017.10.04-07.32.52:682][242]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_BaseWeapon5A6C6782403B0861DDE8D79A9EA6484D.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset'
+[2017.10.04-07.32.52:684][242]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset
+[2017.10.04-07.32.55:317][555]MapCheck: New page: Map Check
+[2017.10.04-07.32.55:349][555]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.04-07.32.55:349][555]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.04-07.32.55:375][555]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.10.04-07.32.55:382][555]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.10.04-07.32.55:388][555]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.10.04-07.32.55:395][555]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.10.04-07.32.55:809][555]TextureStreamingBuild: Display: Compiling optional shaders took 0.438 seconds.
+[2017.10.04-07.32.55:811][555]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.10.04-07.32.55:815][555]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2017.10.04-07.32.55:829][555]LightingResults: New page: Lighting Build - Oct 4, 2017, 1:32:55 PM
+[2017.10.04-07.32.55:835][555]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.04-07.32.55:837][555]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.04-07.32.55:837][555]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.04-07.32.55:838][555]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.04-07.32.55:838][555]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8184
+[2017.10.04-07.33.00:357][555]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.04-07.33.00:357][555]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.04-07.33.00:358][555]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.04-07.33.00:358][555]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.04-07.33.00:358][555]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.04-07.33.00:358][555]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.04-07.33.00:476][555]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.04-07.33.00:476][555]MapCheck: New page: NewMap - Oct 4, 2017, 1:33:00 PM
+[2017.10.04-07.33.00:537][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.564ms to complete.
+[2017.10.04-07.33.00:559][555]LogEditorBuildUtils: Build time 0:05
+[2017.10.04-07.33.02:405][561]Job is a success!
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.10.04-07.33.02:959][562]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.10.04-07.33.02:987][562]Lightmass on AOTA1-1L141-14D: 1.30 sec total, 72 ms importing, 31 ms setup, 309 ms photons, 861 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 5.88 sec total, 251 ms processing.
+[2017.10.04-07.33.02:988][562]LogStaticLightingSystem: Illumination: 6.81 sec (17 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2017.10.04-07.33.02:988][562]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.10.04-07.33.02:988][562]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.04-07.33.03:361][562]DumpUnbuiltLightIteractions
+[2017.10.04-07.33.03:361][562]Lights with unbuilt interactions: 0
+[2017.10.04-07.33.03:362][562]
+[2017.10.04-07.33.03:362][562]Primitives with unbuilt interactions: 0
+[2017.10.04-07.33.03:376][563]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.04-07.33.03:377][563]MapCheck: New page: NewMap - Oct 4, 2017, 1:33:03 PM
+[2017.10.04-07.33.03:456][563]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.699ms to complete.
+[2017.10.04-07.33.07:794][576]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-07.33.07:834][576]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-07.33.07:876][576]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.10.04-07.33.07:901][576]LogPlayLevel: [PlayLevel]   Compiling BP_Controller as a dependent...
+[2017.10.04-07.33.07:937][576]LogPlayLevel: [PlayLevel]   Compiling HUD_BaseWeapon as a dependent...
+[2017.10.04-07.33.08:127][576]LogPlayLevel: PlayLevel: Blueprint regeneration took 292 ms (3 blueprints)
+[2017.10.04-07.33.08:132][576]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:33:08 PM)
+[2017.10.04-07.33.08:132][576]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-07.33.08:133][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001349s)
+[2017.10.04-07.33.08:134][576]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.33.08:134][576]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.10.04-07.33.08:134][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002055s)
+[2017.10.04-07.33.08:153][576]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-07.33.08:167][576]LogInit: FAudioDevice initialized.
+[2017.10.04-07.33.08:215][576]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-07.33.08:217][576]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.33.08
+[2017.10.04-07.33.08:217][576]LogWorld: Bringing up level for play took: 0.001288
+[2017.10.04-07.33.08:218][576]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.33.08:218][576]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2017.10.04-07.33.08:218][576]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.33.08:218][576]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-07.33.08:219][576]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.33.08:219][576]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2017.10.04-07.33.08:219][576]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.33.08:219][576]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.33.08:219][576]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.33.08:222][576]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.33.08:225][576]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.422
+[2017.10.04-07.33.08:231][576]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:33:08 PM)
+[2017.10.04-07.33.08:287][576]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-07.33.08:287][576]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.33.08:287][576]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2017.10.04-07.33.08:287][576]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-07.33.08:288][576]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-07.33.08:288][576]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.33.08:288][576]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-07.33.08:292][576]PIE: Play in editor start time for /Engine/Maps/Entry 0.488
+[2017.10.04-07.33.08:306][576]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50207
+[2017.10.04-07.33.08:306][576]LogHandshake: SendConnectChallenge. Timestamp: 0.333334, Cookie: 226125202107041198008060081057179091224023157180028000145144
+[2017.10.04-07.33.08:307][576]LogHandshake: SendChallengeResponse. Timestamp: 0.333334, Cookie: 226125202107041198008060081057179091224023157180028000145144
+[2017.10.04-07.33.08:384][577]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50207
+[2017.10.04-07.33.08:384][577]LogHandshake: SendChallengeAck. InCookie: 226125202107041198008060081057179091224023157180028000145144
+[2017.10.04-07.33.08:384][577]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50207
+[2017.10.04-07.33.08:384][577]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.33.08:385][577]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 10:33:08, [UNetConnection] RemoteAddr: 127.0.0.1:50207, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.33.08:385][577]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50207, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.33.08:385][577]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-07.33.08:485][578]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-07.33.08:485][578]LogNet: Remote platform little endian=1
+[2017.10.04-07.33.08:485][578]LogNet: This platform little endian=1
+[2017.10.04-07.33.08:496][579]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-07.33.08:497][579]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-07.33.08:599][579]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-07.33.08:617][579]Cmd: MEM
+[2017.10.04-07.33.08:632][579]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-07.33.08:632][579]LogMemory: Process Physical Memory: 1570.23 MB used, 1570.23 MB peak
+[2017.10.04-07.33.08:632][579]LogMemory: Process Virtual Memory: 3011.34 MB used, 3027.19 MB peak
+[2017.10.04-07.33.08:633][579]LogMemory: Physical Memory: 7682.29 MB used,  8582.01 MB free, 16264.30 MB total
+[2017.10.04-07.33.08:633][579]LogMemory: Virtual Memory: 4188.95 MB used,  8582.01 MB free, 8388608.00 MB total
+[2017.10.04-07.33.08:633][579]LogMemory: 
+[2017.10.04-07.33.08:633][579]Allocator Stats for TBB: (not implemented)
+[2017.10.04-07.33.08:634][579]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.33.08:634][579]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.33.08:636][579]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.33.08
+[2017.10.04-07.33.08:637][579]LogWorld: Bringing up level for play took: 0.001157
+[2017.10.04-07.33.08:637][579]LogLoad: Took 0.037361 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-07.33.08:648][580]LogNet: Client netspeed is 10000
+[2017.10.04-07.33.08:648][580]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-07.33.08:651][580]LogNet: Join succeeded: 270
+[2017.10.04-07.33.08:653][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.08:653][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.08:654][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.08:654][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.08:654][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.08:654][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.33.39:234][ 54]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50207, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.33.39:234][ 54]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50207, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.33.39
+[2017.10.04-07.33.39:234][ 54]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50207, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.33.39:235][ 54]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.33.39:235][ 54]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.33.39
+[2017.10.04-07.33.39:235][ 54]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.33.39:239][ 54]LogExit: GameNetDriver None shut down
+[2017.10.04-07.33.39:239][ 54]LogExit: GameNetDriver None shut down
+[2017.10.04-07.34.38:395][770]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-07.34.47:467][827]LogSavePackage: Save=18.00ms
+[2017.10.04-07.34.47:467][827]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/NewMap_Auto1E42F753F48BFF2F16D61548204D67D12.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap'
+[2017.10.04-07.34.47:468][827]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Maps/NewMap_Auto1.umap
+[2017.10.04-07.34.47:470][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.092
+[2017.10.04-07.34.47:470][827]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2017.10.04-07.34.47:472][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Projectile] ([1] browsable assets)...
+[2017.10.04-07.34.47:500][827]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile]
+[2017.10.04-07.34.47:500][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Projectile]
+[2017.10.04-07.34.47:572][827]LogSavePackage: Save=15.85ms
+[2017.10.04-07.34.47:572][827]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Projectile_Auto111E2A4284D84768E3D061EBCCB2D1E29.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/BP_Projectile_Auto1.uasset'
+[2017.10.04-07.34.47:573][827]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/BP_Projectile_Auto1.uasset
+[2017.10.04-07.34.47:574][827]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/NewMap_BuiltData] ([1] browsable assets)...
+[2017.10.04-07.34.47:574][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/NewMap_BuiltData]
+[2017.10.04-07.34.47:636][827]LogSavePackage: Save=9.04ms
+[2017.10.04-07.34.47:636][827]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/NewMap_BuiltData_Auto10606C9984E11AA2E971534974EF39129.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Maps/NewMap_BuiltData_Auto1.uasset'
+[2017.10.04-07.34.47:637][827]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Maps/NewMap_BuiltData_Auto1.uasset
+[2017.10.04-07.34.47:637][827]LogFileHelpers: Auto-saving content packages took 0.166
+[2017.10.04-07.47.16:160][ 27]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.04-07.47.16:219][ 27]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.04-07.47.16:228][ 27]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.10.04-07.47.16:262][ 27]LogPlayLevel: [PlayLevel]   Compiling BP_Projectile as a dependent...
+[2017.10.04-07.47.16:725][ 27]LogSavePackage: Save=16.30ms
+[2017.10.04-07.47.16:725][ 27]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Projectile75E4D48344722DF77CF0638AF9EEF962.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Projectile.uasset'
+[2017.10.04-07.47.16:727][ 27]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_Projectile.uasset
+[2017.10.04-07.47.16:750][ 27]LogPlayLevel: PlayLevel: Blueprint regeneration took 530 ms (2 blueprints)
+[2017.10.04-07.47.16:756][ 27]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:47:16 PM)
+[2017.10.04-07.47.16:756][ 27]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.04-07.47.16:757][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001245s)
+[2017.10.04-07.47.16:758][ 27]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.47.16:758][ 27]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.10.04-07.47.16:758][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.001957s)
+[2017.10.04-07.47.16:780][ 27]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-07.47.16:793][ 27]LogInit: FAudioDevice initialized.
+[2017.10.04-07.47.16:840][ 27]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.04-07.47.16:842][ 27]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.47.16
+[2017.10.04-07.47.16:842][ 27]LogWorld: Bringing up level for play took: 0.000950
+[2017.10.04-07.47.16:843][ 27]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.47.16:843][ 27]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2017.10.04-07.47.16:843][ 27]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.47.16:843][ 27]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.04-07.47.16:844][ 27]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.47.16:844][ 27]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2017.10.04-07.47.16:844][ 27]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.47.16:844][ 27]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.04-07.47.16:844][ 27]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.47.16:847][ 27]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.04-07.47.16:849][ 27]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.891
+[2017.10.04-07.47.16:854][ 27]PIE: New page: PIE session: NewMap (Oct 4, 2017, 1:47:16 PM)
+[2017.10.04-07.47.16:910][ 27]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.04-07.47.16:910][ 27]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.47.16:910][ 27]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2017.10.04-07.47.16:910][ 27]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.04-07.47.16:910][ 27]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.04-07.47.16:911][ 27]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.47.16:911][ 27]LogNet: Game client on port 7777, rate 10000
+[2017.10.04-07.47.16:913][ 27]PIE: Play in editor start time for /Engine/Maps/Entry 0.955
+[2017.10.04-07.47.16:923][ 27]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50080
+[2017.10.04-07.47.16:924][ 27]LogHandshake: SendConnectChallenge. Timestamp: 0.333333, Cookie: 144075180066122173072028200177064043119117201121138157115137
+[2017.10.04-07.47.16:924][ 27]LogHandshake: SendChallengeResponse. Timestamp: 0.333333, Cookie: 144075180066122173072028200177064043119117201121138157115137
+[2017.10.04-07.47.17:000][ 28]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50080
+[2017.10.04-07.47.17:001][ 28]LogHandshake: SendChallengeAck. InCookie: 144075180066122173072028200177064043119117201121138157115137
+[2017.10.04-07.47.17:001][ 28]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50080
+[2017.10.04-07.47.17:001][ 28]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.04-07.47.17:001][ 28]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/04/17 10:47:17, [UNetConnection] RemoteAddr: 127.0.0.1:50080, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.47.17:001][ 28]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50080, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.04-07.47.17:002][ 28]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.04-07.47.17:053][ 29]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.04-07.47.17:053][ 29]LogNet: Remote platform little endian=1
+[2017.10.04-07.47.17:053][ 29]LogNet: This platform little endian=1
+[2017.10.04-07.47.17:081][ 30]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.04-07.47.17:082][ 30]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.04-07.47.17:189][ 30]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.04-07.47.17:219][ 30]Cmd: MEM
+[2017.10.04-07.47.17:240][ 30]LogMemory: Platform Memory Stats for Windows
+[2017.10.04-07.47.17:241][ 30]LogMemory: Process Physical Memory: 1590.22 MB used, 1597.77 MB peak
+[2017.10.04-07.47.17:241][ 30]LogMemory: Process Virtual Memory: 3093.84 MB used, 3166.22 MB peak
+[2017.10.04-07.47.17:241][ 30]LogMemory: Physical Memory: 7770.09 MB used,  8494.21 MB free, 16264.30 MB total
+[2017.10.04-07.47.17:241][ 30]LogMemory: Virtual Memory: 4270.02 MB used,  8494.21 MB free, 8388608.00 MB total
+[2017.10.04-07.47.17:241][ 30]LogMemory: 
+[2017.10.04-07.47.17:241][ 30]Allocator Stats for TBB: (not implemented)
+[2017.10.04-07.47.17:242][ 30]LogAIModule: Creating AISystem for world NewMap
+[2017.10.04-07.47.17:242][ 30]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.04-07.47.17:244][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.04-10.47.17
+[2017.10.04-07.47.17:245][ 30]LogWorld: Bringing up level for play took: 0.000796
+[2017.10.04-07.47.17:245][ 30]LogLoad: Took 0.055771 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.04-07.47.17:252][ 31]LogNet: Client netspeed is 10000
+[2017.10.04-07.47.17:252][ 31]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.04-07.47.17:255][ 31]LogNet: Join succeeded: 272
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.17:257][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.04-07.47.26:527][169]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50080, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.47.26:527][169]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50080, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.47.26
+[2017.10.04-07.47.26:527][169]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50080, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None
+[2017.10.04-07.47.26:527][169]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.47.26:527][169]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.04-07.47.26
+[2017.10.04-07.47.26:527][169]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None
+[2017.10.04-07.47.26:531][169]LogExit: GameNetDriver None shut down
+[2017.10.04-07.47.26:531][169]LogExit: GameNetDriver None shut down
+[2017.10.04-07.48.04:074][627]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HatShot
+[2017.10.04-07.48.04:074][627]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.04-07.48.04:074][627]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.04-07.48.04:075][627]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.04-07.48.04:077][627]LogTemp: BranchPath = AOTA1-1L141-14D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AOTA1-1L141-14D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.04-07.48.04:094][627]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\MitjaSal\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
