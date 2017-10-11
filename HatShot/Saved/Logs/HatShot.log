@@ -9182,3 +9182,1181 @@ LogInit: Object subsystem initialized
 [2017.10.11-07.54.58:253][491]LogSavePackage: Save=11.36ms
 [2017.10.11-07.54.58:253][491]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/NewMap_BuiltDataF83CE95D46BE19D58743B59BA87312B8.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset'
 [2017.10.11-07.54.58:255][491]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Maps/NewMap_BuiltData.uasset
+[2017.10.11-07.56.12:153][380]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HatShot
+[2017.10.11-07.56.12:153][380]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-07.56.12:153][380]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.11-07.56.12:153][380]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-07.56.12:156][380]LogTemp: BranchPath = AOTA1-1L141-14D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = AOTA1-1L141-14D/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.11-07.56.12:167][380]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\MitjaSal\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.11-08.14.59:522][539]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.14.59:544][539]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.11-08.14.59:587][539]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.10.11-08.14.59:613][539]LogPlayLevel: [PlayLevel]   Compiling BP_Controller as a dependent...
+[2017.10.11-08.14.59:656][539]LogPlayLevel: [PlayLevel]   Compiling HUD_BaseWeapon as a dependent...
+[2017.10.11-08.15.00:177][539]LogSavePackage: Save=137.38ms
+[2017.10.11-08.15.00:177][539]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_BaseWeaponD6DB752341DDF0F9D921BD8C19D7EA9D.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset'
+[2017.10.11-08.15.00:179][539]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset
+[2017.10.11-08.15.00:206][539]LogPlayLevel: PlayLevel: Blueprint regeneration took 662 ms (3 blueprints)
+[2017.10.11-08.15.00:212][539]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:15:00 PM)
+[2017.10.11-08.15.00:212][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.15.00:213][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001429s)
+[2017.10.11-08.15.00:214][539]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.15.00:214][539]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.10.11-08.15.00:214][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002173s)
+[2017.10.11-08.15.00:233][539]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.15.00:245][539]LogInit: FAudioDevice initialized.
+[2017.10.11-08.15.00:292][539]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.15.00:293][539]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.15.00
+[2017.10.11-08.15.00:293][539]LogWorld: Bringing up level for play took: 0.001028
+[2017.10.11-08.15.00:294][539]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.15.00:294][539]LogTemp: Display: ParseSettings for IpNetDriver_62
+[2017.10.11-08.15.00:294][539]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.15.00:294][539]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.15.00:295][539]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.15.00:295][539]LogNet: GameNetDriver IpNetDriver_62 IpNetDriver listening on port 7777
+[2017.10.11-08.15.00:295][539]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.15.00:295][539]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.15.00:295][539]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.15.00:298][539]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.15.00:299][539]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.202
+[2017.10.11-08.15.00:304][539]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:15:00 PM)
+[2017.10.11-08.15.00:351][539]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.15.00:351][539]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.15.00:351][539]LogTemp: Display: ParseSettings for IpNetDriver_63
+[2017.10.11-08.15.00:351][539]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.15.00:351][539]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.15.00:352][539]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.15.00:352][539]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.15.00:353][539]PIE: Play in editor start time for /Engine/Maps/Entry -0.148
+[2017.10.11-08.15.00:364][539]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64104
+[2017.10.11-08.15.00:364][539]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 084183197073018003013224018142073116135236214020142240237219
+[2017.10.11-08.15.00:365][539]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 084183197073018003013224018142073116135236214020142240237219
+[2017.10.11-08.15.00:524][540]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64104
+[2017.10.11-08.15.00:524][540]LogHandshake: SendChallengeAck. InCookie: 084183197073018003013224018142073116135236214020142240237219
+[2017.10.11-08.15.00:524][540]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64104
+[2017.10.11-08.15.00:524][540]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.15.00:524][540]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:15:00, [UNetConnection] RemoteAddr: 127.0.0.1:64104, Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_62, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.15.00:525][540]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64104, Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_62, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.15.00:526][540]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_62, Driver: PendingNetDriver IpNetDriver_63, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.15.00:559][541]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.15.00:559][541]LogNet: Remote platform little endian=1
+[2017.10.11-08.15.00:559][541]LogNet: This platform little endian=1
+[2017.10.11-08.15.00:568][542]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.15.00:569][542]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.15.00:587][542]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.15.00:605][542]Cmd: MEM
+[2017.10.11-08.15.00:622][542]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.15.00:622][542]LogMemory: Process Physical Memory: 3269.02 MB used, 3462.46 MB peak
+[2017.10.11-08.15.00:622][542]LogMemory: Process Virtual Memory: 3894.49 MB used, 4061.95 MB peak
+[2017.10.11-08.15.00:622][542]LogMemory: Physical Memory: 10707.75 MB used,  5556.55 MB free, 16264.30 MB total
+[2017.10.11-08.15.00:622][542]LogMemory: Virtual Memory: 5058.53 MB used,  5556.55 MB free, 8388608.00 MB total
+[2017.10.11-08.15.00:622][542]LogMemory: 
+[2017.10.11-08.15.00:622][542]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.15.00:624][542]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.15.00:624][542]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.15.00:626][542]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.15.00
+[2017.10.11-08.15.00:626][542]LogWorld: Bringing up level for play took: 0.000813
+[2017.10.11-08.15.00:627][542]LogLoad: Took 0.039210 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.15.00:635][543]LogNet: Client netspeed is 10000
+[2017.10.11-08.15.00:635][543]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.15.00:638][543]LogNet: Join succeeded: 319
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:641][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:652][544]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.15.00:652][544]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:654][544]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:683][545]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.15.00:683][545]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.15.00:684][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:684][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:684][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:685][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:685][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:685][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:716][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:749][547]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:782][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:782][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:782][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:782][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:782][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.00:783][548]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.15.07:223][714]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64104, Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_62, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.15.07:223][714]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64104, Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_62, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.15.07
+[2017.10.11-08.15.07:223][714]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64104, Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_62, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.15.07:223][714]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_62, Driver: GameNetDriver IpNetDriver_63, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.15.07:223][714]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_62, Driver: GameNetDriver IpNetDriver_63, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.15.07
+[2017.10.11-08.15.07:223][714]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_62, Driver: GameNetDriver IpNetDriver_63, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.15.07:227][714]LogExit: GameNetDriver None shut down
+[2017.10.11-08.15.07:227][714]LogExit: GameNetDriver None shut down
+[2017.10.11-08.16.23:877][778]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.16.23:898][778]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.11-08.16.23:928][778]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.10.11-08.16.23:952][778]LogPlayLevel: [PlayLevel]   Compiling BP_Controller as a dependent...
+[2017.10.11-08.16.23:994][778]LogPlayLevel: [PlayLevel]   Compiling HUD_BaseWeapon as a dependent...
+[2017.10.11-08.16.24:523][778]LogSavePackage: Save=137.16ms
+[2017.10.11-08.16.24:523][778]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_BaseWeapon9CD09A5D49533B3D4BDDDBA96E013FB3.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset'
+[2017.10.11-08.16.24:526][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset
+[2017.10.11-08.16.24:551][778]LogPlayLevel: PlayLevel: Blueprint regeneration took 653 ms (3 blueprints)
+[2017.10.11-08.16.24:556][778]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:16:24 PM)
+[2017.10.11-08.16.24:557][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.16.24:558][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001213s)
+[2017.10.11-08.16.24:558][778]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.16.24:558][778]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2017.10.11-08.16.24:558][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.001902s)
+[2017.10.11-08.16.24:577][778]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.16.24:590][778]LogInit: FAudioDevice initialized.
+[2017.10.11-08.16.24:635][778]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.16.24:636][778]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.16.24
+[2017.10.11-08.16.24:636][778]LogWorld: Bringing up level for play took: 0.000791
+[2017.10.11-08.16.24:637][778]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.16.24:637][778]LogTemp: Display: ParseSettings for IpNetDriver_64
+[2017.10.11-08.16.24:637][778]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.16.24:637][778]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.16.24:638][778]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.16.24:638][778]LogNet: GameNetDriver IpNetDriver_64 IpNetDriver listening on port 7777
+[2017.10.11-08.16.24:638][778]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.16.24:638][778]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.16.24:638][778]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.16.24:640][778]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.16.24:642][778]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.124
+[2017.10.11-08.16.24:647][778]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:16:24 PM)
+[2017.10.11-08.16.24:694][778]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.16.24:694][778]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.16.24:694][778]LogTemp: Display: ParseSettings for IpNetDriver_65
+[2017.10.11-08.16.24:694][778]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.16.24:694][778]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.16.24:694][778]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.16.24:695][778]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.16.24:696][778]PIE: Play in editor start time for /Engine/Maps/Entry 0.178
+[2017.10.11-08.16.24:705][778]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60688
+[2017.10.11-08.16.24:705][778]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 175107063052095223164202192209060099226214228114231068201222
+[2017.10.11-08.16.24:705][778]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 175107063052095223164202192209060099226214228114231068201222
+[2017.10.11-08.16.24:853][779]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60688
+[2017.10.11-08.16.24:853][779]LogHandshake: SendChallengeAck. InCookie: 175107063052095223164202192209060099226214228114231068201222
+[2017.10.11-08.16.24:853][779]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60688
+[2017.10.11-08.16.24:854][779]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.16.24:854][779]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:16:24, [UNetConnection] RemoteAddr: 127.0.0.1:60688, Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_64, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.16.24:854][779]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60688, Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_64, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.16.24:854][779]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_64, Driver: PendingNetDriver IpNetDriver_65, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.16.24:914][780]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.16.24:914][780]LogNet: Remote platform little endian=1
+[2017.10.11-08.16.24:915][780]LogNet: This platform little endian=1
+[2017.10.11-08.16.24:935][781]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.16.24:936][781]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.16.24:944][781]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.16.24:962][781]Cmd: MEM
+[2017.10.11-08.16.24:978][781]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.16.24:978][781]LogMemory: Process Physical Memory: 3269.25 MB used, 3462.46 MB peak
+[2017.10.11-08.16.24:978][781]LogMemory: Process Virtual Memory: 3870.11 MB used, 4061.95 MB peak
+[2017.10.11-08.16.24:978][781]LogMemory: Physical Memory: 10702.79 MB used,  5561.51 MB free, 16264.30 MB total
+[2017.10.11-08.16.24:978][781]LogMemory: Virtual Memory: 5043.65 MB used,  5561.51 MB free, 8388608.00 MB total
+[2017.10.11-08.16.24:978][781]LogMemory: 
+[2017.10.11-08.16.24:978][781]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.16.24:981][781]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.16.24:981][781]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.16.24:983][781]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.16.24
+[2017.10.11-08.16.24:983][781]LogWorld: Bringing up level for play took: 0.000814
+[2017.10.11-08.16.24:983][781]LogLoad: Took 0.038908 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.16.24:992][782]LogNet: Client netspeed is 10000
+[2017.10.11-08.16.24:992][782]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.16.24:995][782]LogNet: Join succeeded: 321
+[2017.10.11-08.16.24:997][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.24:998][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.24:998][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.24:998][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.24:998][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.24:998][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:010][783]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.16.25:010][783]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:012][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:039][784]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.16.25:039][784]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:041][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:071][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:103][786]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:135][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:135][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:135][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:136][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:136][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:136][787]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:168][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:168][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:168][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:168][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:169][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.25:169][788]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.16.36:114][114]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60688, Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_64, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.16.36:114][114]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60688, Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_64, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.16.36
+[2017.10.11-08.16.36:114][114]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60688, Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_64, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.16.36:114][114]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_64, Driver: GameNetDriver IpNetDriver_65, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.16.36:114][114]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_64, Driver: GameNetDriver IpNetDriver_65, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.16.36
+[2017.10.11-08.16.36:114][114]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_64, Driver: GameNetDriver IpNetDriver_65, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.16.36:118][114]LogExit: GameNetDriver None shut down
+[2017.10.11-08.16.36:118][114]LogExit: GameNetDriver None shut down
+[2017.10.11-08.18.12:375][448]LogSavePackage: Save=138.35ms
+[2017.10.11-08.18.12:376][448]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_BaseWeapon6EF42ADB4D99B3A528520DB8D9F1F79E.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset'
+[2017.10.11-08.18.12:378][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/BP_BaseWeapon.uasset
+[2017.10.11-08.19.02:549][416]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.19.02:571][416]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.11-08.19.02:615][416]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2017.10.11-08.19.02:640][416]LogPlayLevel: [PlayLevel]   Compiling BP_Controller as a dependent...
+[2017.10.11-08.19.02:679][416]LogPlayLevel: [PlayLevel]   Compiling HUD_BaseWeapon as a dependent...
+[2017.10.11-08.19.03:171][416]LogSavePackage: Save=130.60ms
+[2017.10.11-08.19.03:171][416]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller1777D6484BF27E7EA755E798F6E9CD83.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset'
+[2017.10.11-08.19.03:173][416]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset
+[2017.10.11-08.19.03:197][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 626 ms (3 blueprints)
+[2017.10.11-08.19.03:202][416]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:19:03 PM)
+[2017.10.11-08.19.03:202][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.19.03:203][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001258s)
+[2017.10.11-08.19.03:204][416]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.19.03:204][416]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.10.11-08.19.03:204][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.001973s)
+[2017.10.11-08.19.03:223][416]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.19.03:233][416]LogInit: FAudioDevice initialized.
+[2017.10.11-08.19.03:275][416]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.19.03:276][416]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.19.03
+[2017.10.11-08.19.03:276][416]LogWorld: Bringing up level for play took: 0.000987
+[2017.10.11-08.19.03:277][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.19.03:277][416]LogTemp: Display: ParseSettings for IpNetDriver_66
+[2017.10.11-08.19.03:277][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.19.03:277][416]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.19.03:278][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.19.03:278][416]LogNet: GameNetDriver IpNetDriver_66 IpNetDriver listening on port 7777
+[2017.10.11-08.19.03:278][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.19.03:278][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.19.03:278][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.19.03:281][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.19.03:282][416]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.751
+[2017.10.11-08.19.03:288][416]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:19:03 PM)
+[2017.10.11-08.19.03:336][416]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.19.03:336][416]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.19.03:336][416]LogTemp: Display: ParseSettings for IpNetDriver_67
+[2017.10.11-08.19.03:336][416]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.19.03:336][416]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.19.03:337][416]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.19.03:337][416]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.19.03:339][416]PIE: Play in editor start time for /Engine/Maps/Entry 0.807
+[2017.10.11-08.19.03:350][416]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61441
+[2017.10.11-08.19.03:350][416]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 033219123079048047008224018137034048044022006177085067142218
+[2017.10.11-08.19.03:351][416]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 033219123079048047008224018137034048044022006177085067142218
+[2017.10.11-08.19.03:515][417]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61441
+[2017.10.11-08.19.03:515][417]LogHandshake: SendChallengeAck. InCookie: 033219123079048047008224018137034048044022006177085067142218
+[2017.10.11-08.19.03:515][417]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61441
+[2017.10.11-08.19.03:516][417]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.19.03:516][417]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:19:03, [UNetConnection] RemoteAddr: 127.0.0.1:61441, Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_66, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.19.03:516][417]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61441, Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_66, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.19.03:517][417]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_66, Driver: PendingNetDriver IpNetDriver_67, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.19.03:582][418]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.19.03:582][418]LogNet: Remote platform little endian=1
+[2017.10.11-08.19.03:582][418]LogNet: This platform little endian=1
+[2017.10.11-08.19.03:593][419]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.19.03:594][419]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.19.03:609][419]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.19.03:631][419]Cmd: MEM
+[2017.10.11-08.19.03:650][419]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.19.03:650][419]LogMemory: Process Physical Memory: 3281.64 MB used, 3462.46 MB peak
+[2017.10.11-08.19.03:650][419]LogMemory: Process Virtual Memory: 3933.11 MB used, 4061.95 MB peak
+[2017.10.11-08.19.03:650][419]LogMemory: Physical Memory: 10730.14 MB used,  5534.16 MB free, 16264.30 MB total
+[2017.10.11-08.19.03:650][419]LogMemory: Virtual Memory: 5106.46 MB used,  5534.16 MB free, 8388608.00 MB total
+[2017.10.11-08.19.03:650][419]LogMemory: 
+[2017.10.11-08.19.03:650][419]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.19.03:651][419]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.19.03:652][419]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.19.03:653][419]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.19.03
+[2017.10.11-08.19.03:654][419]LogWorld: Bringing up level for play took: 0.000821
+[2017.10.11-08.19.03:654][419]LogLoad: Took 0.044606 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.19.03:663][420]LogNet: Client netspeed is 10000
+[2017.10.11-08.19.03:663][420]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.19.03:667][420]LogNet: Join succeeded: 323
+[2017.10.11-08.19.03:669][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:669][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:669][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:669][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:670][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:670][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:681][421]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.19.03:681][421]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.19.03:681][421]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.19.03:681][421]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:683][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:714][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:714][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:715][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:715][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:715][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:715][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:748][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:749][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:749][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:749][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:749][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:749][423]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:788][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:789][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:789][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:789][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:789][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:789][424]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:821][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:821][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:821][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:822][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:822][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.03:822][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.19.11:378][647]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61441, Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_66, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.19.11:378][647]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61441, Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_66, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.19.11
+[2017.10.11-08.19.11:378][647]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61441, Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_66, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.19.11:378][647]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_66, Driver: GameNetDriver IpNetDriver_67, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.19.11:378][647]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_66, Driver: GameNetDriver IpNetDriver_67, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.19.11
+[2017.10.11-08.19.11:378][647]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_66, Driver: GameNetDriver IpNetDriver_67, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.19.11:381][647]LogExit: GameNetDriver None shut down
+[2017.10.11-08.19.11:381][647]LogExit: GameNetDriver None shut down
+[2017.10.11-08.19.21:771][756]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.19.21:791][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-08.19.21:791][756]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:19:21 PM)
+[2017.10.11-08.19.21:792][756]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.10.11-08.19.21:793][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001410s)
+[2017.10.11-08.19.21:793][756]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.19.21:794][756]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.10.11-08.19.21:794][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002162s)
+[2017.10.11-08.19.21:813][756]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.19.21:822][756]LogInit: FAudioDevice initialized.
+[2017.10.11-08.19.21:873][756]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.19.21:875][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.19.21
+[2017.10.11-08.19.21:875][756]LogWorld: Bringing up level for play took: 0.001022
+[2017.10.11-08.19.21:876][756]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.19.21:876][756]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.19.21:876][756]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.19.21:879][756]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.19.21:884][756]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.649
+[2017.10.11-08.20.47:746][645]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.20.47:767][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-08.20.47:772][645]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:20:47 PM)
+[2017.10.11-08.20.47:773][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.20.47:774][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001321s)
+[2017.10.11-08.20.47:774][645]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.20.47:775][645]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.10.11-08.20.47:775][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002098s)
+[2017.10.11-08.20.47:794][645]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.20.47:804][645]LogInit: FAudioDevice initialized.
+[2017.10.11-08.20.47:857][645]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.20.47:859][645]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.20.47
+[2017.10.11-08.20.47:859][645]LogWorld: Bringing up level for play took: 0.000928
+[2017.10.11-08.20.47:859][645]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.20.47:859][645]LogTemp: Display: ParseSettings for IpNetDriver_68
+[2017.10.11-08.20.47:859][645]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.20.47:860][645]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.20.47:860][645]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.20.47:860][645]LogNet: GameNetDriver IpNetDriver_68 IpNetDriver listening on port 7777
+[2017.10.11-08.20.47:860][645]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.20.47:860][645]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.20.47:860][645]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.20.47:863][645]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.20.47:869][645]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.672
+[2017.10.11-08.20.47:874][645]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:20:47 PM)
+[2017.10.11-08.20.47:932][645]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.20.47:933][645]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.20.47:933][645]LogTemp: Display: ParseSettings for IpNetDriver_69
+[2017.10.11-08.20.47:933][645]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.20.47:933][645]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.20.47:934][645]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.20.47:934][645]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.20.47:940][645]PIE: Play in editor start time for /Engine/Maps/Entry -0.6
+[2017.10.11-08.20.47:958][645]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58266
+[2017.10.11-08.20.47:958][645]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 078177052230179237254025225214230177174094076041124082225059
+[2017.10.11-08.20.47:959][645]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 078177052230179237254025225214230177174094076041124082225059
+[2017.10.11-08.20.48:037][646]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58266
+[2017.10.11-08.20.48:038][646]LogHandshake: SendChallengeAck. InCookie: 078177052230179237254025225214230177174094076041124082225059
+[2017.10.11-08.20.48:038][646]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58266
+[2017.10.11-08.20.48:038][646]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.20.48:038][646]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:20:48, [UNetConnection] RemoteAddr: 127.0.0.1:58266, Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_68, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.20.48:038][646]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58266, Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_68, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.20.48:039][646]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_68, Driver: PendingNetDriver IpNetDriver_69, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.20.48:090][647]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.20.48:090][647]LogNet: Remote platform little endian=1
+[2017.10.11-08.20.48:090][647]LogNet: This platform little endian=1
+[2017.10.11-08.20.48:099][648]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.20.48:100][648]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.20.48:116][648]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.20.48:133][648]Cmd: MEM
+[2017.10.11-08.20.48:151][648]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.20.48:151][648]LogMemory: Process Physical Memory: 3363.86 MB used, 3462.46 MB peak
+[2017.10.11-08.20.48:151][648]LogMemory: Process Virtual Memory: 4004.79 MB used, 4061.95 MB peak
+[2017.10.11-08.20.48:151][648]LogMemory: Physical Memory: 10921.21 MB used,  5343.09 MB free, 16264.30 MB total
+[2017.10.11-08.20.48:151][648]LogMemory: Virtual Memory: 5173.15 MB used,  5343.09 MB free, 8388608.00 MB total
+[2017.10.11-08.20.48:151][648]LogMemory: 
+[2017.10.11-08.20.48:151][648]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.20.48:153][648]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.20.48:153][648]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.20.48:155][648]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.20.48
+[2017.10.11-08.20.48:156][648]LogWorld: Bringing up level for play took: 0.001212
+[2017.10.11-08.20.48:156][648]LogLoad: Took 0.039996 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.20.48:165][649]LogNet: Client netspeed is 10000
+[2017.10.11-08.20.48:165][649]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.20.48:168][649]LogNet: Join succeeded: 326
+[2017.10.11-08.20.48:170][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:170][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:170][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:171][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:171][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:171][649]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:181][650]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.20.48:181][650]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:183][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:212][651]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.20.48:212][651]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:214][651]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:239][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:239][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:240][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:240][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:240][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:240][652]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:271][653]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:304][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:304][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:304][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:304][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:305][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.48:305][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.20.52:306][770]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58266, Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_68, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.20.52:306][770]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58266, Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_68, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.20.52
+[2017.10.11-08.20.52:306][770]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58266, Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_68, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.20.52:306][770]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_68, Driver: GameNetDriver IpNetDriver_69, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.20.52:306][770]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_68, Driver: GameNetDriver IpNetDriver_69, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.20.52
+[2017.10.11-08.20.52:306][770]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_68, Driver: GameNetDriver IpNetDriver_69, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.20.52:310][770]LogExit: GameNetDriver None shut down
+[2017.10.11-08.20.52:310][770]LogExit: GameNetDriver None shut down
+[2017.10.11-08.20.57:426][359]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Engine/Transient.World_11:PersistentLevel.BP_Controller_C_3
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:05BD
+[2017.10.11-08.20.57:426][359]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Engine/Transient.World_11:PersistentLevel.BP_Controller_C_3
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:0631
+[2017.10.11-08.20.57:427][359]LogScript: Warning: Accessed None trying to read property myCharacter_Ref
+	BP_Controller_C /Engine/Transient.World_11:PersistentLevel.BP_Controller_C_3
+	Function /Game/Blueprints/Player/BP_Controller.BP_Controller_C:ExecuteUbergraph_BP_Controller:005A
+[2017.10.11-08.22.28:006][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.024
+[2017.10.11-08.22.28:007][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Controller] ([1] browsable assets)...
+[2017.10.11-08.22.28:007][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Controller]
+[2017.10.11-08.22.28:218][125]LogSavePackage: Save=139.28ms
+[2017.10.11-08.22.28:218][125]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller_Auto8E5FA09D744A974F9F0BF898FDB8B85CF.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/Player/BP_Controller_Auto8.uasset'
+[2017.10.11-08.22.28:219][125]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/Player/BP_Controller_Auto8.uasset
+[2017.10.11-08.22.28:219][125]LogFileHelpers: Auto-saving content packages took 0.212
+[2017.10.11-08.27.50:671][814]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.27.50:694][814]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.11-08.27.50:720][814]LogPlayLevel: [PlayLevel] Compiling BP_Controller before play...
+[2017.10.11-08.27.51:127][814]LogSavePackage: Save=133.16ms
+[2017.10.11-08.27.51:127][814]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller7F9279F9415726E7E673958919CD10D8.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset'
+[2017.10.11-08.27.51:131][814]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset
+[2017.10.11-08.27.51:153][814]LogPlayLevel: PlayLevel: Blueprint regeneration took 459 ms (1 blueprints)
+[2017.10.11-08.27.51:159][814]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:27:51 PM)
+[2017.10.11-08.27.51:159][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.27.51:161][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001774s)
+[2017.10.11-08.27.51:162][814]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.27.51:162][814]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.10.11-08.27.51:162][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002562s)
+[2017.10.11-08.27.51:181][814]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.27.51:195][814]LogInit: FAudioDevice initialized.
+[2017.10.11-08.27.51:244][814]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.27.51:245][814]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.27.51
+[2017.10.11-08.27.51:245][814]LogWorld: Bringing up level for play took: 0.000940
+[2017.10.11-08.27.51:246][814]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.27.51:246][814]LogTemp: Display: ParseSettings for IpNetDriver_70
+[2017.10.11-08.27.51:246][814]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.27.51:246][814]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.27.51:247][814]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.27.51:247][814]LogNet: GameNetDriver IpNetDriver_70 IpNetDriver listening on port 7777
+[2017.10.11-08.27.51:247][814]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.27.51:247][814]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.27.51:247][814]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.27.51:250][814]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.27.51:255][814]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap 0.637
+[2017.10.11-08.27.51:260][814]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:27:51 PM)
+[2017.10.11-08.27.51:319][814]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.27.51:319][814]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.27.51:319][814]LogTemp: Display: ParseSettings for IpNetDriver_71
+[2017.10.11-08.27.51:319][814]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.27.51:319][814]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.27.51:320][814]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.27.51:320][814]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.27.51:326][814]PIE: Play in editor start time for /Engine/Maps/Entry 0.707
+[2017.10.11-08.27.51:342][814]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58157
+[2017.10.11-08.27.51:342][814]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 202123104195128099053026048098023151023151091139100072217115
+[2017.10.11-08.27.51:343][814]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 202123104195128099053026048098023151023151091139100072217115
+[2017.10.11-08.27.51:433][815]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58157
+[2017.10.11-08.27.51:433][815]LogHandshake: SendChallengeAck. InCookie: 202123104195128099053026048098023151023151091139100072217115
+[2017.10.11-08.27.51:433][815]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58157
+[2017.10.11-08.27.51:433][815]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.27.51:433][815]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:27:51, [UNetConnection] RemoteAddr: 127.0.0.1:58157, Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_70, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.27.51:433][815]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58157, Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_70, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.27.51:434][815]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_70, Driver: PendingNetDriver IpNetDriver_71, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.27.51:499][816]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.27.51:499][816]LogNet: Remote platform little endian=1
+[2017.10.11-08.27.51:499][816]LogNet: This platform little endian=1
+[2017.10.11-08.27.51:515][817]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.27.51:516][817]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.27.51:532][817]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.27.51:550][817]Cmd: MEM
+[2017.10.11-08.27.51:566][817]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.27.51:566][817]LogMemory: Process Physical Memory: 3364.11 MB used, 3462.46 MB peak
+[2017.10.11-08.27.51:566][817]LogMemory: Process Virtual Memory: 4000.09 MB used, 4061.95 MB peak
+[2017.10.11-08.27.51:566][817]LogMemory: Physical Memory: 10854.04 MB used,  5410.26 MB free, 16264.30 MB total
+[2017.10.11-08.27.51:566][817]LogMemory: Virtual Memory: 5168.34 MB used,  5410.26 MB free, 8388608.00 MB total
+[2017.10.11-08.27.51:566][817]LogMemory: 
+[2017.10.11-08.27.51:566][817]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.27.51:568][817]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.27.51:568][817]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.27.51:570][817]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.27.51
+[2017.10.11-08.27.51:570][817]LogWorld: Bringing up level for play took: 0.000846
+[2017.10.11-08.27.51:570][817]LogLoad: Took 0.038808 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.27.51:578][818]LogNet: Client netspeed is 10000
+[2017.10.11-08.27.51:578][818]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.27.51:582][818]LogNet: Join succeeded: 328
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:584][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:593][819]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.27.51:593][819]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:595][819]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:629][820]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.27.51:629][820]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.27.51:630][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:631][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:631][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:631][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:631][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:631][820]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:660][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:695][822]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:728][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:729][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:729][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:729][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:729][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.51:729][823]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.27.57:733][999]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58157, Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_70, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.11-08.27.57:733][999]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58157, Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_70, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1, Channels: 2, Time: 2017.10.11-08.27.57
+[2017.10.11-08.27.57:733][999]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58157, Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_70, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.11-08.27.57:733][999]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_70, Driver: GameNetDriver IpNetDriver_71, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.27.57:733][999]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_70, Driver: GameNetDriver IpNetDriver_71, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.27.57
+[2017.10.11-08.27.57:734][999]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_70, Driver: GameNetDriver IpNetDriver_71, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.27.57:738][999]LogExit: GameNetDriver None shut down
+[2017.10.11-08.27.57:738][999]LogExit: GameNetDriver None shut down
+[2017.10.11-08.28.31:439][906]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.28.31:460][906]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.11-08.28.31:486][906]LogPlayLevel: [PlayLevel] Compiling BP_Controller before play...
+[2017.10.11-08.28.31:891][906]LogSavePackage: Save=132.44ms
+[2017.10.11-08.28.31:891][906]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller82B443624B7F2DADFA36A092C255EF91.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset'
+[2017.10.11-08.28.31:893][906]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset
+[2017.10.11-08.28.31:917][906]LogPlayLevel: PlayLevel: Blueprint regeneration took 457 ms (1 blueprints)
+[2017.10.11-08.28.31:923][906]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:28:31 PM)
+[2017.10.11-08.28.31:925][906]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.28.31:926][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001259s)
+[2017.10.11-08.28.31:927][906]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.28.31:927][906]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.10.11-08.28.31:927][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.001972s)
+[2017.10.11-08.28.31:947][906]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.28.31:958][906]LogInit: FAudioDevice initialized.
+[2017.10.11-08.28.32:007][906]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.28.32:008][906]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.28.32
+[2017.10.11-08.28.32:008][906]LogWorld: Bringing up level for play took: 0.000852
+[2017.10.11-08.28.32:009][906]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.28.32:009][906]LogTemp: Display: ParseSettings for IpNetDriver_72
+[2017.10.11-08.28.32:009][906]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.28.32:009][906]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.28.32:010][906]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.28.32:010][906]LogNet: GameNetDriver IpNetDriver_72 IpNetDriver listening on port 7777
+[2017.10.11-08.28.32:010][906]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.28.32:010][906]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.28.32:010][906]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.28.32:013][906]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.28.32:019][906]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.607
+[2017.10.11-08.28.32:024][906]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:28:32 PM)
+[2017.10.11-08.28.32:082][906]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.28.32:082][906]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.28.32:082][906]LogTemp: Display: ParseSettings for IpNetDriver_73
+[2017.10.11-08.28.32:082][906]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.28.32:082][906]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.28.32:083][906]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.28.32:083][906]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.28.32:089][906]PIE: Play in editor start time for /Engine/Maps/Entry -0.537
+[2017.10.11-08.28.32:105][906]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56959
+[2017.10.11-08.28.32:105][906]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 118069241084105074033205153215008150006135219037151093239199
+[2017.10.11-08.28.32:105][906]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 118069241084105074033205153215008150006135219037151093239199
+[2017.10.11-08.28.32:192][907]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56959
+[2017.10.11-08.28.32:192][907]LogHandshake: SendChallengeAck. InCookie: 118069241084105074033205153215008150006135219037151093239199
+[2017.10.11-08.28.32:193][907]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56959
+[2017.10.11-08.28.32:193][907]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.28.32:193][907]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:28:32, [UNetConnection] RemoteAddr: 127.0.0.1:56959, Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_72, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.28.32:193][907]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56959, Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_72, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.28.32:194][907]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_72, Driver: PendingNetDriver IpNetDriver_73, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.28.32:281][908]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.28.32:281][908]LogNet: Remote platform little endian=1
+[2017.10.11-08.28.32:281][908]LogNet: This platform little endian=1
+[2017.10.11-08.28.32:362][909]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.28.32:367][909]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.28.32:384][909]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.28.32:420][909]Cmd: MEM
+[2017.10.11-08.28.32:442][909]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.28.32:442][909]LogMemory: Process Physical Memory: 3381.30 MB used, 3462.46 MB peak
+[2017.10.11-08.28.32:442][909]LogMemory: Process Virtual Memory: 4016.19 MB used, 4061.95 MB peak
+[2017.10.11-08.28.32:442][909]LogMemory: Physical Memory: 10870.32 MB used,  5393.98 MB free, 16264.30 MB total
+[2017.10.11-08.28.32:442][909]LogMemory: Virtual Memory: 5184.34 MB used,  5393.98 MB free, 8388608.00 MB total
+[2017.10.11-08.28.32:442][909]LogMemory: 
+[2017.10.11-08.28.32:442][909]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.28.32:444][909]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.28.32:444][909]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.28.32:447][909]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.28.32
+[2017.10.11-08.28.32:447][909]LogWorld: Bringing up level for play took: 0.001370
+[2017.10.11-08.28.32:447][909]LogLoad: Took 0.062860 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.28.32:456][910]LogNet: Client netspeed is 10000
+[2017.10.11-08.28.32:456][910]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.28.32:459][910]LogNet: Join succeeded: 330
+[2017.10.11-08.28.32:461][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:462][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:462][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:462][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:462][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:462][910]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:471][911]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.28.32:471][911]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.28.32:472][911]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.28.32:472][911]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.28.32:474][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:474][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:474][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:474][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:475][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:475][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:503][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:529][913]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:560][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.28.32:591][915]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.30.02:467][612]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56959, Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_72, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.11-08.30.02:467][612]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56959, Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_72, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1, Channels: 2, Time: 2017.10.11-08.30.02
+[2017.10.11-08.30.02:467][612]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56959, Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_72, IsServer: YES, PC: BP_Controller_C_1, Owner: BP_Controller_C_1
+[2017.10.11-08.30.02:467][612]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_72, Driver: GameNetDriver IpNetDriver_73, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.30.02:467][612]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_72, Driver: GameNetDriver IpNetDriver_73, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.30.02
+[2017.10.11-08.30.02:467][612]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_72, Driver: GameNetDriver IpNetDriver_73, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.30.02:471][612]LogExit: GameNetDriver None shut down
+[2017.10.11-08.30.02:471][612]LogExit: GameNetDriver None shut down
+[2017.10.11-08.43.02:200][412]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.11-08.43.02:222][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-08.43.02:228][412]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:43:02 PM)
+[2017.10.11-08.43.02:231][412]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_NewMap
+[2017.10.11-08.43.02:232][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001378s)
+[2017.10.11-08.43.02:233][412]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.43.02:233][412]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.10.11-08.43.02:233][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_1_NewMap.NewMap (0.002157s)
+[2017.10.11-08.43.02:252][412]LogInit: XAudio2 using 'Kaiuttimet (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-08.43.02:258][412]LogInit: FAudioDevice initialized.
+[2017.10.11-08.43.02:309][412]LogLoad: Game class is 'My_Gamemode_C'
+[2017.10.11-08.43.02:310][412]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.43.02
+[2017.10.11-08.43.02:311][412]LogWorld: Bringing up level for play took: 0.001017
+[2017.10.11-08.43.02:311][412]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.43.02:311][412]LogTemp: Display: ParseSettings for IpNetDriver_74
+[2017.10.11-08.43.02:311][412]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.43.02:312][412]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.11-08.43.02:312][412]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.43.02:312][412]LogNet: GameNetDriver IpNetDriver_74 IpNetDriver listening on port 7777
+[2017.10.11-08.43.02:312][412]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.43.02:312][412]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.11-08.43.02:312][412]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.43.02:315][412]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.11-08.43.02:320][412]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_NewMap -0.471
+[2017.10.11-08.43.02:326][412]PIE: New page: PIE session: NewMap (Oct 11, 2017, 2:43:02 PM)
+[2017.10.11-08.43.02:383][412]LogNet: Browse: 127.0.0.1//Engine/Maps/Entry
+[2017.10.11-08.43.02:383][412]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.43.02:383][412]LogTemp: Display: ParseSettings for IpNetDriver_75
+[2017.10.11-08.43.02:383][412]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.10.11-08.43.02:383][412]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.11-08.43.02:384][412]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.43.02:384][412]LogNet: Game client on port 7777, rate 10000
+[2017.10.11-08.43.02:390][412]PIE: Play in editor start time for /Engine/Maps/Entry -0.402
+[2017.10.11-08.43.02:405][412]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53655
+[2017.10.11-08.43.02:405][412]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 053157063129233156119111062160224033226137140063215043069003
+[2017.10.11-08.43.02:406][412]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 053157063129233156119111062160224033226137140063215043069003
+[2017.10.11-08.43.02:481][413]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53655
+[2017.10.11-08.43.02:481][413]LogHandshake: SendChallengeAck. InCookie: 053157063129233156119111062160224033226137140063215043069003
+[2017.10.11-08.43.02:481][413]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53655
+[2017.10.11-08.43.02:482][413]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.11-08.43.02:482][413]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 10/11/17 11:43:02, [UNetConnection] RemoteAddr: 127.0.0.1:53655, Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_74, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.43.02:482][413]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53655, Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_74, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.11-08.43.02:483][413]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_74, Driver: PendingNetDriver IpNetDriver_75, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.11-08.43.02:535][414]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.10.11-08.43.02:535][414]LogNet: Remote platform little endian=1
+[2017.10.11-08.43.02:535][414]LogNet: This platform little endian=1
+[2017.10.11-08.43.02:551][415]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2017.10.11-08.43.02:552][415]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_NewMap, Game: /Game/My_Gamemode.My_Gamemode_C)
+[2017.10.11-08.43.02:560][415]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_NewMap?game=/Game/My_Gamemode.My_Gamemode_C
+[2017.10.11-08.43.02:578][415]Cmd: MEM
+[2017.10.11-08.43.02:596][415]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-08.43.02:596][415]LogMemory: Process Physical Memory: 3428.41 MB used, 3462.46 MB peak
+[2017.10.11-08.43.02:596][415]LogMemory: Process Virtual Memory: 4037.36 MB used, 4092.32 MB peak
+[2017.10.11-08.43.02:596][415]LogMemory: Physical Memory: 12981.91 MB used,  3282.39 MB free, 16264.30 MB total
+[2017.10.11-08.43.02:596][415]LogMemory: Virtual Memory: 5205.15 MB used,  3282.39 MB free, 8388608.00 MB total
+[2017.10.11-08.43.02:596][415]LogMemory: 
+[2017.10.11-08.43.02:596][415]Allocator Stats for TBB: (not implemented)
+[2017.10.11-08.43.02:598][415]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-08.43.02:598][415]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.10.11-08.43.02:600][415]LogWorld: Bringing World /Game/Maps/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.10.11-11.43.02
+[2017.10.11-08.43.02:600][415]LogWorld: Bringing up level for play took: 0.001110
+[2017.10.11-08.43.02:600][415]LogLoad: Took 0.040344 seconds to LoadMap(/Game/Maps/UEDPIE_1_NewMap)
+[2017.10.11-08.43.02:608][416]LogNet: Client netspeed is 10000
+[2017.10.11-08.43.02:608][416]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2017.10.11-08.43.02:611][416]LogNet: Join succeeded: 332
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:614][416]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:623][417]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.10.11-08.43.02:623][417]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:625][417]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:659][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:659][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:659][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:659][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:659][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:660][418]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:691][419]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.10.11-08.43.02:691][419]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Character_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:693][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:725][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:725][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:725][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:725][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:726][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:726][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Turn in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Look Up in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Right Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Forward Movement in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.02:759][421]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property myCharacter_Ref from function: 'ExecuteUbergraph_BP_Controller' from node: Branch in graph: EventGraph in object: BP_Controller with description: Accessed None trying to read property myCharacter_Ref
+[2017.10.11-08.43.11:370][662]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53655, Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_74, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.43.11:370][662]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53655, Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_74, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.43.11
+[2017.10.11-08.43.11:370][662]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53655, Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_74, IsServer: YES, PC: None, Owner: None
+[2017.10.11-08.43.11:370][662]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_74, Driver: GameNetDriver IpNetDriver_75, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.43.11:370][662]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_74, Driver: GameNetDriver IpNetDriver_75, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.11-08.43.11
+[2017.10.11-08.43.11:370][662]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_74, Driver: GameNetDriver IpNetDriver_75, IsServer: NO, PC: None, Owner: None
+[2017.10.11-08.43.11:373][662]LogExit: GameNetDriver None shut down
+[2017.10.11-08.43.11:373][662]LogExit: GameNetDriver None shut down
+[2017.10.11-08.44.12:309][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.018
+[2017.10.11-08.44.12:310][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Controller] ([1] browsable assets)...
+[2017.10.11-08.44.12:310][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Controller]
+[2017.10.11-08.44.12:515][870]LogSavePackage: Save=139.22ms
+[2017.10.11-08.44.12:515][870]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller_Auto963761C4745144A6E2E32BE8BA5D7F4B2.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/Player/BP_Controller_Auto9.uasset'
+[2017.10.11-08.44.12:516][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Autosaves/Game/Blueprints/Player/BP_Controller_Auto9.uasset
+[2017.10.11-08.44.12:516][870]LogFileHelpers: Auto-saving content packages took 0.207
+[2017.10.11-08.48.32:433][834]LogSavePackage: Save=137.31ms
+[2017.10.11-08.48.32:433][834]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/BP_Controller2D68338A47BD281A878E738B5B800748.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset'
+[2017.10.11-08.48.32:435][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Blueprints/Player/BP_Controller.uasset
+[2017.10.11-08.48.36:268][264]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.10.11-08.48.38:013][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Gamemode" FILE="../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/My_Gamemode.uasset" SILENT=true
+[2017.10.11-08.48.38:123][264]LogSavePackage: Save=9.18ms
+[2017.10.11-08.48.38:123][264]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/My_GamemodeB139F07A44D76935F504E5BE2EFA31E7.tmp' to '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/My_Gamemode.uasset'
+[2017.10.11-08.48.38:126][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/My_Gamemode.uasset
+[2017.10.11-08.48.38:375][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-08.48.38:429][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-08.48.38:649][265]Cmd: QUIT_EDITOR
+[2017.10.11-08.48.39:442][265]LogExit: Preparing to exit.
+[2017.10.11-08.48.39:835][265]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/' was aborted.
+[2017.10.11-08.48.39:870][265]LogExit: Editor shut down
+[2017.10.11-08.48.39:873][265]LogExit: Transaction tracking system shut down
+[2017.10.11-08.48.40:047][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.11-08.48.40:047][265]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/' was aborted.
+[2017.10.11-08.48.40:047][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.11-08.48.40:047][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.11-08.48.40:047][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.11-08.48.40:119][265]LogExit: Object subsystem successfully closed.
+[2017.10.11-08.48.40:132][265]LogD3D11RHI: Shutdown
+[2017.10.11-08.48.40:132][265]LogD3D11RHI: CleanupD3DDevice
+[2017.10.11-08.48.40:251][265]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.11-08.48.40:263][265]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (542)
+[2017.10.11-08.48.40:263][265]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
+[2017.10.11-08.48.40:263][265]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.10.11-08.48.40:263][265]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.10.11-08.48.40:263][265]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.11-08.48.40:264][265]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.11-08.48.40:264][265]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.11-08.48.40:264][265]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Collections/' was aborted.
+[2017.10.11-08.48.40:265][265]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Content/Developers/MitjaSal/Collections/' was aborted.
+[2017.10.11-08.48.40:265][265]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/Unreal Projects/SpaghettiArms/SpaghettiArms/HatShot/Saved/Collections/' was aborted.
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.11-08.48.40:265][265]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.11-08.48.40:266][265]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.11-08.48.40:266][265]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.11-08.48.40:266][265]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.11-08.48.40:266][265]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.11-08.48.40:266][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.11-08.48.41:119][265]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.11-08.48.41:120][265]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.11-08.48.41:170][265]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.11-08.48.41:171][265]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.11-08.48.41:171][265]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.11-08.48.41:171][265]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.11-08.48.41:188][265]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.11-08.48.41:191][265]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.11-08.48.41:192][265]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.11-08.48.41:417][265]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.11-08.48.41:418][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.11-08.48.41:419][265]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.11-08.48.41:419][265]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.11-08.48.41:419][265]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.11-08.48.41:419][265]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.11-08.48.41:419][265]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.11-08.48.41:421][265]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.11-08.48.41:421][265]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.11-08.48.41:421][265]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.11-08.48.41:422][265]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.11-08.48.41:422][265]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.11-08.48.41:423][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.11-08.48.41:523][265]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.11-08.48.41:623][265]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.11-08.48.41:625][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.11-08.48.41:625][265]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.11-08.48.41:625][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.11-08.48.41:625][265]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.11-08.48.41:626][265]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.11-08.48.41:627][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.11-08.48.41:628][265]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.10.11-08.48.41:633][265]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.10.11-08.48.41:634][265]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.10.11-08.48.41:634][265]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.10.11-08.48.41:634][265]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.10.11-08.48.41:634][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.11-08.48.41:634][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.11-08.48.41:697][265]LogDerivedDataCache: Shutdown
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.11-08.48.41:698][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.11-08.48.41:699][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.11-08.48.41:700][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.11-08.48.41:700][265]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.11-08.48.41:700][265]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.11-08.48.41:700][265]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.11-08.48.41:700][265]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.10.11-08.48.41:700][265]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD6C54F27-4060-718A-95B4-50BA8BCD2F50%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=40705d454db2175080bd2da4e5ff8a02%7Ccf72d170c93c4791a870aa1338233e13%7Cf0d21c00-2126-4b70-a6f3-e4ce51a9a3d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.11-08.48.41:700][265]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD6C54F27-4060-718A-95B4-50BA8BCD2F50%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=40705d454db2175080bd2da4e5ff8a02%7Ccf72d170c93c4791a870aa1338233e13%7Cf0d21c00-2126-4b70-a6f3-e4ce51a9a3d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.11-08.48.41:705][265]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.11-08.48.41:707][265]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.11-08.48.41:707][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.11-08.48.41:707][265]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.11-08.48.41:707][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.11-08.48.41:708][265]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.11-08.48.41:708][265]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.11-08.48.41:708][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.11-08.48.41:710][265]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.11-08.48.41:711][265]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.11-08.48.41:711][265]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.11-08.48.41:711][265]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.11-08.48.41:711][265]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.11-08.48.41:716][265]LogExit: Exiting.
+[2017.10.11-08.48.41:758][265]Log file closed, 10/11/17 11:48:41
