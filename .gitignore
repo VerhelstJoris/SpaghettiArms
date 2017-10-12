@@ -73,3 +73,5 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+HatShot/Saved/Logs/HatShot.log
+HatShot/Saved/AutoScreenshot.png
