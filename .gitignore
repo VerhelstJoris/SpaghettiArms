@@ -43,6 +43,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.log
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -75,3 +76,4 @@ Intermediate/*
 DerivedDataCache/*
 HatShot/Saved/Logs/HatShot.log
 HatShot/Saved/AutoScreenshot.png
+HatTrick/Saved/Backup/*
