@@ -1305,3 +1305,1546 @@ LogInit: Object subsystem initialized
 [2017.11.15-12.40.26:558][484]LogSavePackage: Save=2.80ms
 [2017.11.15-12.40.26:558][484]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Jail_RescaleC8C28B5247ADCC595B4845A00AF1426C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Jail_Rescale.uasset'
 [2017.11.15-12.40.26:559][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Jail_Rescale.uasset
+[2017.11.15-12.59.09:106][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-12.59.52:083][904]LogSavePackage: Save=26.91ms
+[2017.11.15-12.59.52:083][904]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Rescale53495DD049C5AEB4F28DE2B9674C60B0.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset'
+[2017.11.15-12.59.52:086][904]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset
+[2017.11.15-12.59.57:408][935]LogStaticMesh: Building static mesh Saloon_Rescale...
+[2017.11.15-13.00.00:460][935]LogStaticMesh: Built static mesh [3.05s] /Game/Meshes/Buildings/Saloon_Rescale.Saloon_Rescale
+[2017.11.15-13.00.00:720][935]LogStaticMesh: Warning: Saloon_Rescale has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.00.03:370][ 16]Cmd: SELECT NONE
+[2017.11.15-13.00.13:161][308]LogStaticMesh: Building static mesh Resident_House_Rescale...
+[2017.11.15-13.00.13:174][308]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Buildings/Resident_House_Rescale.Resident_House_Rescale
+[2017.11.15-13.00.13:178][308]LogStaticMesh: Warning: Resident_House_Rescale has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.00.20:046][441]MapCheck: New page: Map Check
+[2017.11.15-13.00.20:109][441]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-13.00.20:110][441]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-13.00.20:139][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.15-13.00.20:143][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_43, compiling. 
+[2017.11.15-13.00.20:148][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6198, compiling. 
+[2017.11.15-13.00.20:155][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6210, compiling. 
+[2017.11.15-13.00.20:162][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6212, compiling. 
+[2017.11.15-13.00.20:170][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6199, compiling. 
+[2017.11.15-13.00.20:177][441]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6211, compiling. 
+[2017.11.15-13.00.20:592][441]TextureStreamingBuild: Display: Compiling optional shaders took 0.454 seconds.
+[2017.11.15-13.00.20:595][441]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.11.15-13.00.20:610][441]TextureStreamingBuild: Display: Build Texture Streaming took 0.015 seconds.
+[2017.11.15-13.00.20:628][441]LightingResults: New page: Lighting Build - Nov 15, 2017, 5:00:20 PM
+[2017.11.15-13.00.20:641][441]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-13.00.20:643][441]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-13.00.20:644][441]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-13.00.20:645][441]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-13.00.20:645][441]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9252
+[2017.11.15-13.00.25:161][441]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-13.00.25:162][441]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-13.00.25:162][441]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-13.00.25:162][441]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-13.00.25:163][441]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-13.00.25:163][441]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-13.00.25:567][441]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-13.00.25:567][441]MapCheck: New page: Saloon - Nov 15, 2017, 5:00:25 PM
+[2017.11.15-13.00.25:567][441]MapCheck: Error: Resident_House_Rescale25 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:567][441]MapCheck: Error: Resident_House_Rescale24_37 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:567][441]MapCheck: Error: Resident_House_Rescale23_36 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale22 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale_2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale16_32 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale17 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale18 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale20 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:568][441]MapCheck: Error: Resident_House_Rescale21 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.25:625][441]MapCheck: Map check complete: 20 Error(s), 0 Warning(s), took 57.745ms to complete.
+[2017.11.15-13.00.25:648][441]LogEditorBuildUtils: Build time 0:05
+[2017.11.15-13.00.27:332][482]LightingResults: Warning: Jail_Rescale Object has overlapping UVs.
+[2017.11.15-13.00.27:332][482]LightingResults: Jail_Rescale Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.00.34:816][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail_Rescale)
+[2017.11.15-13.00.35:267][628]Cmd: DELETE
+[2017.11.15-13.00.35:267][628]Cmd: ACTOR DELETE
+[2017.11.15-13.00.35:267][628]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.00.35:275][628]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.00.35:841][638]Job is a success!
+[2017.11.15-13.00.35:905][638]LightingResults: Warning: Saloon_Rescale Object has overlapping UVs.
+[2017.11.15-13.00.35:905][638]LightingResults: Saloon_Rescale Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.15-13.00.36:161][639]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.15-13.00.36:182][639]Lightmass on AOTA1-1L141-11D: 9.85 sec total, 388 ms importing, 86 ms setup, 408 ms photons, 8.93 sec processing, 0 ms extra exporting [157/157 mappings]. Threads: 1:02 min total, 11.0 sec processing.
+[2017.11.15-13.00.36:201][639]LogStaticLightingSystem: Illumination: 15.5 sec (78 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.15-13.00.36:201][639]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-13.00.36:201][639]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.15-13.00.37:168][639]DumpUnbuiltLightIteractions
+[2017.11.15-13.00.37:168][639]Lights with unbuilt interactions: 0
+[2017.11.15-13.00.37:168][639]
+[2017.11.15-13.00.37:168][639]Primitives with unbuilt interactions: 0
+[2017.11.15-13.00.37:226][640]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-13.00.37:226][640]MapCheck: New page: Saloon - Nov 15, 2017, 5:00:37 PM
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale25 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale24_37 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale23_36 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale22 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale_2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale16_32 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:236][640]MapCheck: Error: Resident_House_Rescale6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale17 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale18 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale20 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:237][640]MapCheck: Error: Resident_House_Rescale21 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2017.11.15-13.00.37:290][640]MapCheck: Map check complete: 20 Error(s), 0 Warning(s), took 63.124ms to complete.
+[2017.11.15-13.00.54:481][258]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.15-13.01.36:356][545]LogSavePackage: Save=319.55ms
+[2017.11.15-13.01.36:357][545]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Auto6EF53F84C4279922889562D8AF7C1B8A4.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto6.umap'
+[2017.11.15-13.01.36:358][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto6.umap
+[2017.11.15-13.01.36:360][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Saloon' took 0.337
+[2017.11.15-13.01.36:360][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2017.11.15-13.01.36:362][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Resident_House_Rescale] ([1] browsable assets)...
+[2017.11.15-13.01.36:390][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Buildings/Resident_House_Rescale.Resident_House_Rescale]
+[2017.11.15-13.01.36:390][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Resident_House_Rescale]
+[2017.11.15-13.01.36:404][545]LogSavePackage: Save=10.21ms
+[2017.11.15-13.01.36:404][545]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_Rescale_Auto6D42C3AA24A1F7971CD42E0BED8C68993.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_Rescale_Auto6.uasset'
+[2017.11.15-13.01.36:406][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_Rescale_Auto6.uasset
+[2017.11.15-13.01.36:406][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Saloon_Rescale] ([1] browsable assets)...
+[2017.11.15-13.01.36:435][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Buildings/Saloon_Rescale.Saloon_Rescale]
+[2017.11.15-13.01.36:435][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Saloon_Rescale]
+[2017.11.15-13.01.36:452][545]LogSavePackage: Save=13.79ms
+[2017.11.15-13.01.36:452][545]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Rescale_Auto6DAEA7A0343FFBD8571DC11898BF22DB2.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Saloon_Rescale_Auto6.uasset'
+[2017.11.15-13.01.36:454][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Saloon_Rescale_Auto6.uasset
+[2017.11.15-13.01.36:455][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Saloon_BuiltData] ([1] browsable assets)...
+[2017.11.15-13.01.36:455][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Saloon_BuiltData]
+[2017.11.15-13.01.36:482][545]LogSavePackage: Save=26.68ms
+[2017.11.15-13.01.36:482][545]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData_Auto606373A144EFB096EFFED179272DCD8A6.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto6.uasset'
+[2017.11.15-13.01.36:484][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto6.uasset
+[2017.11.15-13.01.36:484][545]LogFileHelpers: Auto-saving content packages took 0.123
+[2017.11.15-13.01.39:917][556]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\JesseWih\Downloads\Resident_House_01.FBX)
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: Material, ItemCount : 13
+[2017.11.15-13.01.39:922][556]LogFbx: ItemName: Texture, ItemCount : 6
+[2017.11.15-13.01.39:923][556]LogFbx: ItemName: CollectionExclusive, ItemCount : 28
+[2017.11.15-13.01.39:923][556]LogFbx: ItemName: Video, ItemCount : 6
+[2017.11.15-13.01.39:927][556]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Resident_House_01.FBX
+[2017.11.15-13.01.39:940][556]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.01.39:943][556]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_1' 
+[2017.11.15-13.02.00:447][556]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Resident_House_01.FBX
+[2017.11.15-13.02.00:460][556]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.02.00:461][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.15-13.02.00:461][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.15-13.02.00:463][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031metal'
+[2017.11.15-13.02.00:463][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031metal'
+[2017.11.15-13.02.00:463][556]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\1031metal.bmp
+[2017.11.15-13.02.00:465][556]LogMaterial: Missing cached shader map for material Material__6235, compiling. 
+[2017.11.15-13.02.00:480][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.15-13.02.00:480][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.15-13.02.00:481][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031copper'
+[2017.11.15-13.02.00:481][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031copper'
+[2017.11.15-13.02.00:481][556]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\1031copper.bmp
+[2017.11.15-13.02.00:487][556]LogMaterial: Missing cached shader map for material Material__6237, compiling. 
+[2017.11.15-13.02.00:501][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.15-13.02.00:501][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.15-13.02.00:502][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Lights'
+[2017.11.15-13.02.00:503][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Lights'
+[2017.11.15-13.02.00:503][556]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\Lights.jpg
+[2017.11.15-13.02.00:511][556]LogMaterial: Missing cached shader map for material Material__6238, compiling. 
+[2017.11.15-13.02.00:529][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.15-13.02.00:529][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.15-13.02.00:531][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031concrete__3_'
+[2017.11.15-13.02.00:531][556]LogLinker: Can't find file '/Game/Meshes/Buildings/1031concrete__3_'
+[2017.11.15-13.02.00:531][556]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\1031concrete (3).bmp
+[2017.11.15-13.02.00:539][556]LogMaterial: Missing cached shader map for material Material__6239, compiling. 
+[2017.11.15-13.02.00:557][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.15-13.02.00:557][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.15-13.02.00:558][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Base_Uniques'
+[2017.11.15-13.02.00:559][556]LogLinker: Can't find file '/Game/Meshes/Buildings/Base_Uniques'
+[2017.11.15-13.02.00:559][556]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\Base_Uniques.bmp
+[2017.11.15-13.02.00:564][556]LogMaterial: Missing cached shader map for material Material__6242, compiling. 
+[2017.11.15-13.02.00:577][556]LogFbx: Warning: Triangulating static mesh Resident_House2
+[2017.11.15-13.02.01:023][556]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.02.01:226][556]LogStaticMesh: Built static mesh [0.20s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.02.01:245][556]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.02.01:255][556]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_1' 
+[2017.11.15-13.02.01:255][556]FBXImport: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-13.02.14:619][702]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.11.15-13.02.14:622][702]LogMaterial: Missing cached shader map for material Material__6239, compiling. 
+[2017.11.15-13.02.14:697][702]LogMaterial: Missing cached shader map for material Material__6239, compiling. 
+[2017.11.15-13.02.14:733][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.15-13.02.14:939][703]LogSlate: Took 0.001205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-13.02.15:441][709]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.11.15-13.02.15:441][709]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.15-13.02.15:441][709]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.15-13.02.31:021][ 77]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.15-13.02.32:553][139]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.15-13.02.34:201][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale23)
+[2017.11.15-13.02.34:759][209]Cmd: DELETE
+[2017.11.15-13.02.34:760][209]Cmd: ACTOR DELETE
+[2017.11.15-13.02.34:760][209]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.34:775][209]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.15-13.02.34:976][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale24)
+[2017.11.15-13.02.35:025][217]Cmd: DELETE
+[2017.11.15-13.02.35:025][217]Cmd: ACTOR DELETE
+[2017.11.15-13.02.35:026][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.35:034][217]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.35:679][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale25)
+[2017.11.15-13.02.35:769][242]Cmd: DELETE
+[2017.11.15-13.02.35:769][242]Cmd: ACTOR DELETE
+[2017.11.15-13.02.35:770][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.35:778][242]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.37:029][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale21)
+[2017.11.15-13.02.37:152][293]Cmd: DELETE
+[2017.11.15-13.02.37:152][293]Cmd: ACTOR DELETE
+[2017.11.15-13.02.37:152][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.37:160][293]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.37:561][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale22)
+[2017.11.15-13.02.37:752][314]Cmd: DELETE
+[2017.11.15-13.02.37:752][314]Cmd: ACTOR DELETE
+[2017.11.15-13.02.37:753][314]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.37:761][314]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.38:141][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale20)
+[2017.11.15-13.02.38:224][328]Cmd: DELETE
+[2017.11.15-13.02.38:224][328]Cmd: ACTOR DELETE
+[2017.11.15-13.02.38:225][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.38:233][328]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.38:824][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale16)
+[2017.11.15-13.02.38:961][356]Cmd: DELETE
+[2017.11.15-13.02.38:961][356]Cmd: ACTOR DELETE
+[2017.11.15-13.02.38:961][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.38:970][356]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.39:221][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale18)
+[2017.11.15-13.02.39:510][375]Cmd: DELETE
+[2017.11.15-13.02.39:510][375]Cmd: ACTOR DELETE
+[2017.11.15-13.02.39:510][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.39:520][375]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.11.15-13.02.39:820][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale17)
+[2017.11.15-13.02.39:938][388]Cmd: DELETE
+[2017.11.15-13.02.39:938][388]Cmd: ACTOR DELETE
+[2017.11.15-13.02.39:938][388]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.39:947][388]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.41:102][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.02.41:547][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale)
+[2017.11.15-13.02.41:720][450]Cmd: DELETE
+[2017.11.15-13.02.41:720][450]Cmd: ACTOR DELETE
+[2017.11.15-13.02.41:721][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.41:729][450]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.42:088][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale8)
+[2017.11.15-13.02.42:204][466]Cmd: DELETE
+[2017.11.15-13.02.42:204][466]Cmd: ACTOR DELETE
+[2017.11.15-13.02.42:205][466]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.42:213][466]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.42:485][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale7)
+[2017.11.15-13.02.42:591][477]Cmd: DELETE
+[2017.11.15-13.02.42:591][477]Cmd: ACTOR DELETE
+[2017.11.15-13.02.42:592][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.42:600][477]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.43:020][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale6)
+[2017.11.15-13.02.43:059][493]Cmd: DELETE
+[2017.11.15-13.02.43:059][493]Cmd: ACTOR DELETE
+[2017.11.15-13.02.43:060][493]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.43:068][493]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.43:331][504]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Resident_House_Rescale5)
+[2017.11.15-13.02.43:346][504]Cmd: DELETE
+[2017.11.15-13.02.43:346][504]Cmd: ACTOR DELETE
+[2017.11.15-13.02.43:347][504]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.43:355][504]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.43:980][528]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.15-13.02.44:015][528]Cmd: DELETE
+[2017.11.15-13.02.44:015][528]Cmd: ACTOR DELETE
+[2017.11.15-13.02.44:015][528]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.11.15-13.02.44:024][528]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.45:352][585]Cmd: TRANSACTION UNDO
+[2017.11.15-13.02.45:352][585]LogEditorTransaction: Undo Delete Actors
+[2017.11.15-13.02.45:967][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale2)
+[2017.11.15-13.02.46:309][613]Cmd: DELETE
+[2017.11.15-13.02.46:309][613]Cmd: ACTOR DELETE
+[2017.11.15-13.02.46:309][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.46:336][613]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.11.15-13.02.47:188][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale3)
+[2017.11.15-13.02.47:271][644]Cmd: DELETE
+[2017.11.15-13.02.47:271][644]Cmd: ACTOR DELETE
+[2017.11.15-13.02.47:271][644]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.47:280][644]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.02.48:325][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale4)
+[2017.11.15-13.02.48:701][696]Cmd: DELETE
+[2017.11.15-13.02.48:701][696]Cmd: ACTOR DELETE
+[2017.11.15-13.02.48:701][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.02.48:709][696]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.02.50:338][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.04.01:331][ 16]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.15-13.04.02:192][ 30]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.15-13.04.02:604][ 37]Cmd: SELECT NONE
+[2017.11.15-13.04.19:600][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale12)
+[2017.11.15-13.04.19:909][259]Cmd: DELETE
+[2017.11.15-13.04.19:910][259]Cmd: ACTOR DELETE
+[2017.11.15-13.04.19:910][259]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.04.19:919][259]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.04.20:368][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale11)
+[2017.11.15-13.04.20:411][266]Cmd: DELETE
+[2017.11.15-13.04.20:411][266]Cmd: ACTOR DELETE
+[2017.11.15-13.04.20:412][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.04.20:421][266]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.04.20:900][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_Rescale9)
+[2017.11.15-13.04.21:108][280]Cmd: DELETE
+[2017.11.15-13.04.21:108][280]Cmd: ACTOR DELETE
+[2017.11.15-13.04.21:108][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.04.21:117][280]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.15-13.04.22:951][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.04.23:881][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.04.44:113][420]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.15-13.04.44:494][426]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.15-13.04.44:983][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.04.48:754][483]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.15-13.04.50:061][523]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.15-13.05.13:981][352]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.05.14:032][352]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.05.14:045][352]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.05.19:215][439]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.05.19:367][439]LogStaticMesh: Built static mesh [0.15s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.05.19:380][439]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.05.23:267][511]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.05.23:316][511]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.05.23:329][511]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.05.26:244][563]MapCheck: New page: Map Check
+[2017.11.15-13.05.26:266][563]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-13.05.26:266][563]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-13.05.26:294][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.15-13.05.26:298][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_45, compiling. 
+[2017.11.15-13.05.26:304][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6198, compiling. 
+[2017.11.15-13.05.26:311][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6210, compiling. 
+[2017.11.15-13.05.26:318][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6212, compiling. 
+[2017.11.15-13.05.26:326][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6199, compiling. 
+[2017.11.15-13.05.26:333][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6211, compiling. 
+[2017.11.15-13.05.26:339][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6237, compiling. 
+[2017.11.15-13.05.26:344][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6235, compiling. 
+[2017.11.15-13.05.26:351][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6239, compiling. 
+[2017.11.15-13.05.26:358][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6238, compiling. 
+[2017.11.15-13.05.26:364][563]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6242, compiling. 
+[2017.11.15-13.05.26:894][563]TextureStreamingBuild: Display: Compiling optional shaders took 0.602 seconds.
+[2017.11.15-13.05.26:896][563]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.11.15-13.05.26:903][563]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2017.11.15-13.05.26:912][563]LightingResults: New page: Lighting Build - Nov 15, 2017, 5:05:26 PM
+[2017.11.15-13.05.26:919][563]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-13.05.26:922][563]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-13.05.26:922][563]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-13.05.26:923][563]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-13.05.26:923][563]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9252
+[2017.11.15-13.05.31:435][563]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-13.05.31:436][563]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-13.05.31:436][563]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-13.05.31:436][563]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-13.05.31:436][563]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-13.05.31:436][563]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-13.05.31:562][563]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-13.05.31:562][563]MapCheck: New page: Saloon - Nov 15, 2017, 5:05:31 PM
+[2017.11.15-13.05.31:617][563]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.029ms to complete.
+[2017.11.15-13.05.31:639][563]LogEditorBuildUtils: Build time 0:05
+[2017.11.15-13.05.31:683][564]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6237, compiling. 
+[2017.11.15-13.05.31:687][564]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6237, compiling. 
+[2017.11.15-13.05.31:693][564]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6235, compiling. 
+[2017.11.15-13.05.31:698][564]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6235, compiling. 
+[2017.11.15-13.05.31:875][565]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6239, compiling. 
+[2017.11.15-13.05.31:882][565]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6239, compiling. 
+[2017.11.15-13.05.31:906][566]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6238, compiling. 
+[2017.11.15-13.05.31:913][566]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6238, compiling. 
+[2017.11.15-13.05.31:935][567]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6242, compiling. 
+[2017.11.15-13.05.31:942][567]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6242, compiling. 
+[2017.11.15-13.05.33:154][570]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.11.15-13.05.36:803][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.05.41:821][718]Cmd: SELECT NONE
+[2017.11.15-13.05.43:425][749]Job is a success!
+[2017.11.15-13.05.43:425][749]LightingResults: Warning: Saloon_Rescale Object has overlapping UVs.
+[2017.11.15-13.05.43:425][749]LightingResults: Saloon_Rescale Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.05.43:728][751]LogMaterial: Warning: Material /Game/Meshes/Buildings/Material__6237.Material__6237 needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.05.43:730][751]LogMaterial: Missing cached shader map for material Material__6237, compiling. 
+[2017.11.15-13.05.43:746][751]LogMaterial: Warning: Material /Game/Meshes/Buildings/Material__6235.Material__6235 needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.05.43:748][751]LogMaterial: Missing cached shader map for material Material__6235, compiling. 
+[2017.11.15-13.05.43:765][751]LogMaterial: Warning: Material /Game/Meshes/Buildings/Material__6239.Material__6239 needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.05.43:768][751]LogMaterial: Missing cached shader map for material Material__6239, compiling. 
+[2017.11.15-13.05.43:792][751]LogMaterial: Warning: Material /Game/Meshes/Buildings/Material__6238.Material__6238 needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.05.43:794][751]LogMaterial: Missing cached shader map for material Material__6238, compiling. 
+[2017.11.15-13.05.43:817][751]LogMaterial: Warning: Material /Game/Meshes/Buildings/Material__6242.Material__6242 needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.05.43:819][751]LogMaterial: Missing cached shader map for material Material__6242, compiling. 
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.15-13.05.43:994][751]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.15-13.05.44:015][751]Lightmass on AOTA1-1L141-11D: 10.1 sec total, 376 ms importing, 104 ms setup, 425 ms photons, 9.17 sec processing, 0 ms extra exporting [158/158 mappings]. Threads: 1:04 min total, 11.5 sec processing.
+[2017.11.15-13.05.44:018][751]LogStaticLightingSystem: Illumination: 16.9 sec (138 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.15-13.05.44:018][751]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-13.05.44:018][751]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.15-13.05.44:442][751]DumpUnbuiltLightIteractions
+[2017.11.15-13.05.44:442][751]Lights with unbuilt interactions: 0
+[2017.11.15-13.05.44:442][751]
+[2017.11.15-13.05.44:442][751]Primitives with unbuilt interactions: 0
+[2017.11.15-13.05.44:450][752]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-13.05.44:451][752]MapCheck: New page: Saloon - Nov 15, 2017, 5:05:44 PM
+[2017.11.15-13.05.44:524][752]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.42ms to complete.
+[2017.11.15-13.06.22:731][984]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.06.22:781][984]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.06.22:794][984]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.06.43:516][329]LogMaterial: Missing cached shader map for material Material__6242, compiling. 
+[2017.11.15-13.06.43:656][329]LogMaterial: Missing cached shader map for material Material__6242, compiling. 
+[2017.11.15-13.06.43:669][329]LogMaterial: Missing cached shader map for material Material__6242, compiling. 
+[2017.11.15-13.06.43:706][329]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.15-13.06.44:752][340]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.11.15-13.06.44:752][340]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.15-13.06.44:752][340]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.15-13.08.05:461][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.08.05:971][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.15-13.08.27:791][308]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.15-13.11.38:853][789]LogSavePackage: Save=291.70ms
+[2017.11.15-13.11.38:853][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Auto7A99F6DE5484BD9D9C9B9FCBE1919535A.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto7.umap'
+[2017.11.15-13.11.38:856][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto7.umap
+[2017.11.15-13.11.38:858][789]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Saloon' took 0.311
+[2017.11.15-13.11.38:858][789]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2017.11.15-13.11.38:860][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Saloon_BuiltData] ([1] browsable assets)...
+[2017.11.15-13.11.38:860][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Saloon_BuiltData]
+[2017.11.15-13.11.38:886][789]LogSavePackage: Save=25.50ms
+[2017.11.15-13.11.38:886][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData_Auto7126D611A4481070415461C8E51D1695C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto7.uasset'
+[2017.11.15-13.11.38:888][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto7.uasset
+[2017.11.15-13.11.38:888][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Resident_House_01] ([1] browsable assets)...
+[2017.11.15-13.11.38:914][789]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Buildings/Resident_House_01.Resident_House_01]
+[2017.11.15-13.11.38:914][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Resident_House_01]
+[2017.11.15-13.11.38:926][789]LogSavePackage: Save=10.11ms
+[2017.11.15-13.11.38:926][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_01_Auto7B911E51A4D41024CAC70FEA059845EE7.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto7.uasset'
+[2017.11.15-13.11.38:927][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto7.uasset
+[2017.11.15-13.11.38:928][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Material__6235] ([1] browsable assets)...
+[2017.11.15-13.11.38:955][789]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Buildings/Material__6235.Material__6235]
+[2017.11.15-13.11.38:955][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Material__6235]
+[2017.11.15-13.11.38:967][789]LogSavePackage: Save=10.29ms
+[2017.11.15-13.11.38:967][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6235_Auto7D68DAC544F3E8B9AA5276EA358B13A0D.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6235_Auto7.uasset'
+[2017.11.15-13.11.38:968][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6235_Auto7.uasset
+[2017.11.15-13.11.38:968][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Material__6237] ([1] browsable assets)...
+[2017.11.15-13.11.38:995][789]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Buildings/Material__6237.Material__6237]
+[2017.11.15-13.11.38:995][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Material__6237]
+[2017.11.15-13.11.39:005][789]LogSavePackage: Save=9.09ms
+[2017.11.15-13.11.39:005][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6237_Auto7AEC440C84A741D59B8CE3E968A1A7A11.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6237_Auto7.uasset'
+[2017.11.15-13.11.39:006][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6237_Auto7.uasset
+[2017.11.15-13.11.39:007][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Material__6238] ([1] browsable assets)...
+[2017.11.15-13.11.39:035][789]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Buildings/Material__6238.Material__6238]
+[2017.11.15-13.11.39:035][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Material__6238]
+[2017.11.15-13.11.39:045][789]LogSavePackage: Save=8.96ms
+[2017.11.15-13.11.39:045][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6238_Auto704C628FD4B89F885070ADE86D966FB61.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6238_Auto7.uasset'
+[2017.11.15-13.11.39:047][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6238_Auto7.uasset
+[2017.11.15-13.11.39:047][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Material__6239] ([1] browsable assets)...
+[2017.11.15-13.11.39:074][789]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Buildings/Material__6239.Material__6239]
+[2017.11.15-13.11.39:074][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Material__6239]
+[2017.11.15-13.11.39:086][789]LogSavePackage: Save=9.57ms
+[2017.11.15-13.11.39:086][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6239_Auto78C52BFA641A0B70D6D8CEABEDC977E31.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6239_Auto7.uasset'
+[2017.11.15-13.11.39:087][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6239_Auto7.uasset
+[2017.11.15-13.11.39:088][789]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Material__6242] ([1] browsable assets)...
+[2017.11.15-13.11.39:114][789]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/Buildings/Material__6242.Material__6242]
+[2017.11.15-13.11.39:114][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Material__6242]
+[2017.11.15-13.11.39:124][789]LogSavePackage: Save=9.05ms
+[2017.11.15-13.11.39:124][789]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6242_Auto776815D594E52412EDF27DAA19E13263F.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6242_Auto7.uasset'
+[2017.11.15-13.11.39:126][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Material__6242_Auto7.uasset
+[2017.11.15-13.11.39:126][789]LogFileHelpers: Auto-saving content packages took 0.267
+[2017.11.15-13.15.01:030][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.15.34:717][435]LogSavePackage: Save=8.88ms
+[2017.11.15-13.15.34:717][435]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Rescale0CDA51144B09E1FEAF87A582246BDC3F.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset'
+[2017.11.15-13.15.34:721][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset
+[2017.11.15-13.15.36:472][453]LogSavePackage: Save=9.97ms
+[2017.11.15-13.15.36:472][453]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_011D20279A4A85C1E863B7AE922ADBF342.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset'
+[2017.11.15-13.15.36:475][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset
+[2017.11.15-13.15.39:695][484]LogSavePackage: Save=3.63ms
+[2017.11.15-13.15.39:695][484]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_RescaleD9DB20E542ED1A2F436A7197618A61F6.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_Rescale.uasset'
+[2017.11.15-13.15.39:697][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_Rescale.uasset
+[2017.11.15-13.16.21:384][522]LogStaticMesh: Building static mesh Saloon_Rescale...
+[2017.11.15-13.16.24:488][522]LogStaticMesh: Built static mesh [3.10s] /Game/Meshes/Buildings/Saloon_Rescale.Saloon_Rescale
+[2017.11.15-13.16.24:750][522]LogStaticMesh: Warning: Saloon_Rescale has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.16.26:858][581]MapCheck: New page: Map Check
+[2017.11.15-13.16.26:875][581]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-13.16.26:875][581]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-13.16.26:947][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.15-13.16.26:951][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_46, compiling. 
+[2017.11.15-13.16.26:958][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6198, compiling. 
+[2017.11.15-13.16.26:965][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6210, compiling. 
+[2017.11.15-13.16.26:971][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6212, compiling. 
+[2017.11.15-13.16.26:978][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6199, compiling. 
+[2017.11.15-13.16.26:984][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6211, compiling. 
+[2017.11.15-13.16.26:990][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6237, compiling. 
+[2017.11.15-13.16.26:998][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6235, compiling. 
+[2017.11.15-13.16.27:005][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6239, compiling. 
+[2017.11.15-13.16.27:011][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6238, compiling. 
+[2017.11.15-13.16.27:017][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6242, compiling. 
+[2017.11.15-13.16.27:527][581]TextureStreamingBuild: Display: Compiling optional shaders took 0.582 seconds.
+[2017.11.15-13.16.27:529][581]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.11.15-13.16.27:537][581]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2017.11.15-13.16.27:545][581]LightingResults: New page: Lighting Build - Nov 15, 2017, 5:16:27 PM
+[2017.11.15-13.16.27:552][581]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-13.16.27:553][581]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-13.16.27:553][581]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-13.16.27:555][581]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-13.16.27:555][581]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9252
+[2017.11.15-13.16.32:073][581]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-13.16.32:074][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-13.16.32:074][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-13.16.32:074][581]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-13.16.32:074][581]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-13.16.32:075][581]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-13.16.32:492][581]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-13.16.32:493][581]MapCheck: New page: Saloon - Nov 15, 2017, 5:16:32 PM
+[2017.11.15-13.16.32:552][581]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.855ms to complete.
+[2017.11.15-13.16.32:575][581]LogEditorBuildUtils: Build time 0:05
+[2017.11.15-13.16.32:633][582]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6237, compiling. 
+[2017.11.15-13.16.32:639][582]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6237, compiling. 
+[2017.11.15-13.16.32:678][583]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6235, compiling. 
+[2017.11.15-13.16.32:684][583]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6235, compiling. 
+[2017.11.15-13.16.32:702][584]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6239, compiling. 
+[2017.11.15-13.16.32:708][584]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6239, compiling. 
+[2017.11.15-13.16.32:727][585]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6238, compiling. 
+[2017.11.15-13.16.32:734][585]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6238, compiling. 
+[2017.11.15-13.16.32:753][586]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6242, compiling. 
+[2017.11.15-13.16.32:760][586]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__6242, compiling. 
+[2017.11.15-13.16.44:436][916]LightingResults: Warning: Saloon_Rescale Object has overlapping UVs.
+[2017.11.15-13.16.44:436][916]LightingResults: Saloon_Rescale Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.16.44:472][918]Job is a success!
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.15-13.16.44:762][919]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.15-13.16.44:784][919]Lightmass on AOTA1-1L141-11D: 9.96 sec total, 388 ms importing, 90 ms setup, 424 ms photons, 9.02 sec processing, 0 ms extra exporting [158/158 mappings]. Threads: 1:03 min total, 12.0 sec processing.
+[2017.11.15-13.16.44:791][919]LogStaticLightingSystem: Illumination: 17.1 sec (115 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.15-13.16.44:791][919]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-13.16.44:791][919]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.15-13.16.45:082][919]DumpUnbuiltLightIteractions
+[2017.11.15-13.16.45:083][919]Lights with unbuilt interactions: 0
+[2017.11.15-13.16.45:083][919]
+[2017.11.15-13.16.45:083][919]Primitives with unbuilt interactions: 0
+[2017.11.15-13.16.45:151][920]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-13.16.45:151][920]MapCheck: New page: Saloon - Nov 15, 2017, 5:16:45 PM
+[2017.11.15-13.16.45:205][920]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.52ms to complete.
+[2017.11.15-13.17.07:070][483]LogStaticMesh: Building static mesh Resident_House_01...
+[2017.11.15-13.17.07:120][483]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Buildings/Resident_House_01.Resident_House_01
+[2017.11.15-13.17.07:133][483]LogStaticMesh: Warning: Resident_House_01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.17.08:482][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.17.36:355][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.17.48:261][985]LogSavePackage: Save=13.94ms
+[2017.11.15-13.17.48:262][985]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Rescale34A4960541CE5C012F00ACB19029B4F5.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset'
+[2017.11.15-13.17.48:265][985]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset
+[2017.11.15-13.17.49:725][  5]LogStaticMesh: Building static mesh Saloon_Rescale...
+[2017.11.15-13.17.52:794][  5]LogStaticMesh: Built static mesh [3.07s] /Game/Meshes/Buildings/Saloon_Rescale.Saloon_Rescale
+[2017.11.15-13.17.53:052][  5]LogStaticMesh: Warning: Saloon_Rescale has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.17.56:489][ 43]Cmd: SELECT NONE
+[2017.11.15-13.18.05:807][163]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.15-13.18.05:818][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-13.18.05:818][163]PIE: New page: PIE session: Saloon (Nov 15, 2017, 5:18:05 PM)
+[2017.11.15-13.18.05:818][163]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.15-13.18.05:830][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011478s)
+[2017.11.15-13.18.05:830][163]LogAIModule: Creating AISystem for world Saloon
+[2017.11.15-13.18.05:830][163]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2017.11.15-13.18.05:831][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.012424s)
+[2017.11.15-13.18.05:885][163]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-13.18.05:898][163]LogInit: FAudioDevice initialized.
+[2017.11.15-13.18.05:949][163]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.15-13.18.05:954][163]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.15-15.18.05
+[2017.11.15-13.18.05:954][163]LogWorld: Bringing up level for play took: 0.004441
+[2017.11.15-13.18.05:955][163]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.15-13.18.05:963][163]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon -0.551
+[2017.11.15-13.18.33:527][902]LogSavePackage: Save=10.93ms
+[2017.11.15-13.18.33:527][902]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_01DA72492140F8D0B48B8FB7982BF9B5CF.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset'
+[2017.11.15-13.18.33:530][902]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset
+[2017.11.15-13.18.34:838][921]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.15-13.18.34:849][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-13.18.34:849][921]PIE: New page: PIE session: Saloon (Nov 15, 2017, 5:18:34 PM)
+[2017.11.15-13.18.34:849][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.15-13.18.34:860][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011162s)
+[2017.11.15-13.18.34:861][921]LogAIModule: Creating AISystem for world Saloon
+[2017.11.15-13.18.34:861][921]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.11.15-13.18.34:861][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.011988s)
+[2017.11.15-13.18.34:870][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-13.18.34:883][921]LogInit: FAudioDevice initialized.
+[2017.11.15-13.18.34:961][921]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.15-13.18.34:966][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.15-15.18.34
+[2017.11.15-13.18.34:966][921]LogWorld: Bringing up level for play took: 0.004212
+[2017.11.15-13.18.34:967][921]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.15-13.18.34:974][921]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon 0.459
+[2017.11.15-13.18.44:050][165]LogBlueprintUserMessages: [Bullet_02_C_0] Hit some shit
+[2017.11.15-13.18.44:801][186]LogBlueprintUserMessages: [Bullet_02_C_1] Hit some shit
+[2017.11.15-13.18.46:650][235]LogBlueprintUserMessages: [Bullet_02_C_2] Hit some shit
+[2017.11.15-13.18.47:694][263]LogBlueprintUserMessages: [Bullet_02_C_3] Hit some shit
+[2017.11.15-13.18.48:188][277]LogBlueprintUserMessages: [Bullet_02_C_4] Hit some shit
+[2017.11.15-13.18.48:604][289]LogBlueprintUserMessages: [Bullet_02_C_5] Hit some shit
+[2017.11.15-13.18.51:667][375]LogBlueprintUserMessages: [Bullet_02_C_6] Hit some shit
+[2017.11.15-13.18.53:122][413]LogBlueprintUserMessages: [Bullet_02_C_7] Hit some shit
+[2017.11.15-13.18.53:549][424]LogBlueprintUserMessages: [Bullet_02_C_8] Hit some shit
+[2017.11.15-13.18.53:549][424]LogBlueprintUserMessages: [Bullet_02_C_9] Hit some shit
+[2017.11.15-13.18.54:239][442]LogBlueprintUserMessages: [Bullet_02_C_10] Hit some shit
+[2017.11.15-13.18.54:734][456]LogBlueprintUserMessages: [Bullet_02_C_11] Hit some shit
+[2017.11.15-13.19.14:876][914]LogSavePackage: Save=14.02ms
+[2017.11.15-13.19.14:876][914]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_RescaleC18B3DB04A14D4717B44A6A71A820E85.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset'
+[2017.11.15-13.19.14:880][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Saloon_Rescale.uasset
+[2017.11.15-13.19.24:317][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.21.54:840][570]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\floor2.bmp)
+[2017.11.15-13.21.54:928][570]LogTexture: Display: Building textures: floor2 (AutoDXT, 2048X2048)
+[2017.11.15-13.21.56:045][570]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\Base_roof texture.bmp)
+[2017.11.15-13.21.56:128][570]LogTexture: Display: Building textures: Base_roof_texture (AutoDXT, 2048X2048)
+[2017.11.15-13.21.57:487][570]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\copper2bmp.bmp)
+[2017.11.15-13.21.57:795][570]LogTexture: Display: Building textures: copper2bmp (BGRA8, 4007X4038)
+[2017.11.15-13.22.52:627][304]LogSavePackage: Save=292.36ms
+[2017.11.15-13.22.52:627][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Auto82A7A672142158AEE87FD69B9ED5EC21B.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto8.umap'
+[2017.11.15-13.22.52:628][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto8.umap
+[2017.11.15-13.22.52:631][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Saloon' took 0.311
+[2017.11.15-13.22.52:631][304]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2017.11.15-13.22.52:632][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Saloon_BuiltData] ([1] browsable assets)...
+[2017.11.15-13.22.52:632][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Saloon_BuiltData]
+[2017.11.15-13.22.52:659][304]LogSavePackage: Save=25.82ms
+[2017.11.15-13.22.52:659][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData_Auto84D9C162342637B96813E62A556BF803C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto8.uasset'
+[2017.11.15-13.22.52:661][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto8.uasset
+[2017.11.15-13.22.52:661][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Resident_House_01] ([1] browsable assets)...
+[2017.11.15-13.22.52:686][304]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Buildings/Resident_House_01.Resident_House_01]
+[2017.11.15-13.22.52:686][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Resident_House_01]
+[2017.11.15-13.22.52:700][304]LogSavePackage: Save=10.33ms
+[2017.11.15-13.22.52:700][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_01_Auto88F0E44A344E762F8912994AB94D72EAA.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto8.uasset'
+[2017.11.15-13.22.52:702][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto8.uasset
+[2017.11.15-13.22.52:703][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/floor2] ([1] browsable assets)...
+[2017.11.15-13.22.52:710][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/floor2.floor2]
+[2017.11.15-13.22.52:710][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/floor2]
+[2017.11.15-13.22.52:723][304]LogSavePackage: Save=11.84ms
+[2017.11.15-13.22.52:723][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/floor2_Auto80E68A1DC47B46658032497B3409D7CD5.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/floor2_Auto8.uasset'
+[2017.11.15-13.22.52:725][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/floor2_Auto8.uasset
+[2017.11.15-13.22.52:725][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/Base_roof_texture] ([1] browsable assets)...
+[2017.11.15-13.22.52:732][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/Base_roof_texture.Base_roof_texture]
+[2017.11.15-13.22.52:732][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/Base_roof_texture]
+[2017.11.15-13.22.52:746][304]LogSavePackage: Save=12.50ms
+[2017.11.15-13.22.52:746][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Base_roof_texture_Auto87CBD3E1A4E1649AC1C1139A370C19416.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Base_roof_texture_Auto8.uasset'
+[2017.11.15-13.22.52:747][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Base_roof_texture_Auto8.uasset
+[2017.11.15-13.22.52:748][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/copper2bmp] ([1] browsable assets)...
+[2017.11.15-13.22.52:775][304]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Building/copper2bmp.copper2bmp]
+[2017.11.15-13.22.52:775][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/copper2bmp]
+[2017.11.15-13.22.52:786][304]LogSavePackage: Save=10.01ms
+[2017.11.15-13.22.52:786][304]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/copper2bmp_Auto8C588944E4B5F4E07A57EBF87FCE92E48.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/copper2bmp_Auto8.uasset'
+[2017.11.15-13.22.52:788][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/copper2bmp_Auto8.uasset
+[2017.11.15-13.22.52:788][304]LogFileHelpers: Auto-saving content packages took 0.157
+[2017.11.15-13.22.58:017][364]Cmd: TRANSACTION UNDO
+[2017.11.15-13.22.58:017][364]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2017.11.15-13.23.02:525][471]LogMaterial: Missing cached shader map for material copper2bmp, compiling. 
+[2017.11.15-13.23.02:640][471]LogMaterial: Missing cached shader map for material copper2bmp, compiling. 
+[2017.11.15-13.23.02:650][471]LogMaterial: Missing cached shader map for material copper2bmp, compiling. 
+[2017.11.15-13.23.03:596][484]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.11.15-13.23.03:596][484]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.15-13.23.03:596][484]MaterialEditorStats: Texture samplers: 1/16
+[2017.11.15-13.23.18:007][651]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\copper2bmp.bmp)
+[2017.11.15-13.23.18:319][651]LogTexture: Display: Building textures: copper2bmp (BGRA8, 4007X4038)
+[2017.11.15-13.23.22:284][709]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.15-13.24.30:823][437]LogEditorFactories: Performing atomic reimport of [C:/Users/JesseWih/Downloads/Base_roof texture.bmp]
+[2017.11.15-13.24.30:869][437]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/JesseWih/Downloads/Base_roof texture.bmp)
+[2017.11.15-13.24.30:948][437]LogTexture: Display: Building textures: Base_roof_texture (AutoDXT, 2048X2048)
+[2017.11.15-13.24.32:145][437]LogEditorFactories: -- imported successfully
+[2017.11.15-13.24.32:291][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\1031concrete.bmp)
+[2017.11.15-13.24.32:362][437]LogTexture: Display: Building textures: 1031concrete (AutoDXT, 2048X2048)
+[2017.11.15-13.24.34:368][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\1031metal.bmp)
+[2017.11.15-13.24.34:488][437]LogTexture: Display: Building textures: 1031metal (AutoDXT, 2480X2480)
+[2017.11.15-13.24.37:722][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\roof texture.bmp)
+[2017.11.15-13.24.37:796][437]LogTexture: Display: Building textures: roof_texture (AutoDXT, 2048X2048)
+[2017.11.15-13.24.39:206][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\window.bmp)
+[2017.11.15-13.24.39:276][437]LogTexture: Display: Building textures: window (AutoDXT, 2048X2048)
+[2017.11.15-13.24.40:099][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\metal wood.bmp)
+[2017.11.15-13.24.40:166][437]LogTexture: Display: Building textures: metal_wood (AutoDXT, 2048X2048)
+[2017.11.15-13.24.41:142][437]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JesseWih\Downloads\metal texture.bmp)
+[2017.11.15-13.24.41:211][437]LogTexture: Display: Building textures: metal_texture (AutoDXT, 2048X2048)
+[2017.11.15-13.26.51:068][275]LogEditorFactories: Performing atomic reimport of [C:/Users/JesseWih/Downloads/window.bmp]
+[2017.11.15-13.26.51:096][275]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/JesseWih/Downloads/window.bmp)
+[2017.11.15-13.26.51:172][275]LogTexture: Display: Building textures: window (AutoDXT, 2048X2048)
+[2017.11.15-13.26.51:897][275]LogEditorFactories: -- imported successfully
+[2017.11.15-13.27.17:839][827]LogMaterial: Missing cached shader map for material MetalWood, compiling. 
+[2017.11.15-13.27.19:320][872]LogMaterial: Missing cached shader map for material MetalWood, compiling. 
+[2017.11.15-13.27.19:407][872]LogMaterial: Missing cached shader map for material MetalWood, compiling. 
+[2017.11.15-13.27.19:419][872]LogMaterial: Missing cached shader map for material MetalWood, compiling. 
+[2017.11.15-13.27.19:457][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.15-13.27.20:293][888]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.11.15-13.27.20:293][888]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.15-13.27.20:293][888]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.15-13.27.20:293][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.15-13.27.40:820][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.27.42:029][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.27.42:649][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.28.04:599][704]LogMaterial: Missing cached shader map for material MetalBasic, compiling. 
+[2017.11.15-13.28.43:742][383]Cmd: SELECT NONE
+[2017.11.15-13.28.49:239][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.29.06:426][691]Cmd: SELECT NONE
+[2017.11.15-13.29.35:356][ 47]LogMaterial: Missing cached shader map for material BaseRoof, compiling. 
+[2017.11.15-13.29.37:561][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.15-13.30.11:483][646]Cmd: DELETE
+[2017.11.15-13.30.11:483][646]Cmd: ACTOR DELETE
+[2017.11.15-13.30.11:483][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.30.11:513][646]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.11.15-13.30.19:562][951]MapCheck: New page: Map Check
+[2017.11.15-13.30.19:574][951]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-13.30.19:574][951]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-13.30.19:643][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.15-13.30.19:647][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_47, compiling. 
+[2017.11.15-13.30.19:654][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6198, compiling. 
+[2017.11.15-13.30.19:660][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6210, compiling. 
+[2017.11.15-13.30.19:667][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6212, compiling. 
+[2017.11.15-13.30.19:674][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6199, compiling. 
+[2017.11.15-13.30.19:681][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6211, compiling. 
+[2017.11.15-13.30.19:687][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6237, compiling. 
+[2017.11.15-13.30.19:694][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6235, compiling. 
+[2017.11.15-13.30.19:701][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6239, compiling. 
+[2017.11.15-13.30.19:708][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6238, compiling. 
+[2017.11.15-13.30.19:713][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.11.15-13.30.19:719][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6242, compiling. 
+[2017.11.15-13.30.20:322][951]TextureStreamingBuild: Display: Compiling optional shaders took 0.680 seconds.
+[2017.11.15-13.30.20:330][951]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2017.11.15-13.30.20:338][951]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2017.11.15-13.30.20:346][951]LightingResults: New page: Lighting Build - Nov 15, 2017, 5:30:20 PM
+[2017.11.15-13.30.20:355][951]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-13.30.20:356][951]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-13.30.20:356][951]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-13.30.20:357][951]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-13.30.20:357][951]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9252
+[2017.11.15-13.30.24:875][951]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-13.30.24:877][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-13.30.24:877][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-13.30.24:877][951]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-13.30.24:877][951]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-13.30.24:877][951]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-13.30.25:290][951]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-13.30.25:290][951]MapCheck: New page: Saloon - Nov 15, 2017, 5:30:25 PM
+[2017.11.15-13.30.25:348][951]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.924ms to complete.
+[2017.11.15-13.30.25:371][951]LogEditorBuildUtils: Build time 0:05
+[2017.11.15-13.30.25:418][952]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.11.15-13.30.25:423][952]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.11.15-13.30.35:892][312]Job is a success!
+[2017.11.15-13.30.35:911][312]LightingResults: Warning: Saloon_Rescale Object has overlapping UVs.
+[2017.11.15-13.30.35:911][312]LightingResults: Saloon_Rescale Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.15-13.30.36:103][313]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.15-13.30.36:112][313]Lightmass on AOTA1-1L141-11D: 9.74 sec total, 392 ms importing, 88 ms setup, 421 ms photons, 8.82 sec processing, 0 ms extra exporting [157/157 mappings]. Threads: 1:01 min total, 11.3 sec processing.
+[2017.11.15-13.30.36:129][313]LogStaticLightingSystem: Illumination: 15.7 sec (94 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.15-13.30.36:129][313]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-13.30.36:129][313]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.15-13.30.36:884][313]DumpUnbuiltLightIteractions
+[2017.11.15-13.30.36:884][313]Lights with unbuilt interactions: 0
+[2017.11.15-13.30.36:884][313]
+[2017.11.15-13.30.36:884][313]Primitives with unbuilt interactions: 0
+[2017.11.15-13.30.36:941][314]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-13.30.36:942][314]MapCheck: New page: Saloon - Nov 15, 2017, 5:30:36 PM
+[2017.11.15-13.30.36:995][314]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.106ms to complete.
+[2017.11.15-13.31.35:122][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.31.46:380][819]LogMaterial: Warning: Material /Game/Textures/Building/BaseRoof.BaseRoof needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.31.46:382][819]LogMaterial: Missing cached shader map for material BaseRoof, compiling. 
+[2017.11.15-13.32.02:606][244]Cmd: TRANSACTION UNDO
+[2017.11.15-13.32.02:606][244]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.32.38:879][360]LogMaterial: Missing cached shader map for material Windows, compiling. 
+[2017.11.15-13.32.43:347][461]LogMaterial: Warning: Material /Game/Textures/Building/Windows.Windows needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.32.43:349][461]LogMaterial: Missing cached shader map for material Windows, compiling. 
+[2017.11.15-13.32.46:566][499]Cmd: TRANSACTION UNDO
+[2017.11.15-13.32.46:566][499]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.32.49:383][607]Cmd: TRANSACTION UNDO
+[2017.11.15-13.32.49:383][607]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.32.54:357][715]Cmd: TRANSACTION UNDO
+[2017.11.15-13.32.54:357][715]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.32.57:497][839]LogMaterial: Warning: Material /Game/Textures/Building/MetalBasic.MetalBasic needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.32.57:499][839]LogMaterial: Missing cached shader map for material MetalBasic, compiling. 
+[2017.11.15-13.33.04:414][ 20]LogMaterial: Warning: Material /Game/Textures/Building/MetalWood.MetalWood needed to have new flag set bUsedWithStaticLighting !
+[2017.11.15-13.33.04:416][ 20]LogMaterial: Missing cached shader map for material MetalWood, compiling. 
+[2017.11.15-13.33.53:175][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.33.53:690][973]Cmd: DELETE
+[2017.11.15-13.33.53:690][973]Cmd: ACTOR DELETE
+[2017.11.15-13.33.53:690][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.33.53:749][973]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2017.11.15-13.33.56:921][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.15-13.34.06:223][189]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.06:224][189]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.15-13.34.06:411][190]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.06:411][190]LogEditorTransaction: Undo Move Actors
+[2017.11.15-13.34.06:619][193]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.06:619][193]LogEditorTransaction: Undo Delete Actors
+[2017.11.15-13.34.06:822][194]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.06:822][194]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.15-13.34.07:115][195]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.07:115][195]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.07:205][195]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.07:205][195]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.07:411][197]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.07:411][197]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.07:613][199]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.07:613][199]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.07:866][203]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.07:866][203]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.08:011][203]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.08:011][203]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.08:255][207]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.08:255][207]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.08:407][207]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.08:407][207]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.09:044][215]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.09:045][215]LogEditorTransaction: Undo Move Actors
+[2017.11.15-13.34.09:272][217]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.09:272][217]LogEditorTransaction: Undo Replace component used material
+[2017.11.15-13.34.09:456][218]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.09:456][218]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.15-13.34.09:652][219]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.09:652][219]LogEditorTransaction: Undo Move Actors
+[2017.11.15-13.34.09:823][220]Cmd: TRANSACTION UNDO
+[2017.11.15-13.34.09:823][220]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.15-13.34.19:787][400]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.15-13.34.20:562][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.34.35:138][671]Cmd: EDIT COPY
+[2017.11.15-13.34.35:510][675]Cmd: EDIT PASTE
+[2017.11.15-13.34.43:783][877]Cmd: EDIT PASTE
+[2017.11.15-13.34.50:459][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_3)
+[2017.11.15-13.34.53:165][ 41]Cmd: DELETE
+[2017.11.15-13.34.53:165][ 41]Cmd: ACTOR DELETE
+[2017.11.15-13.34.53:166][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.34.53:174][ 41]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.11.15-13.34.53:945][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.34.54:720][ 68]Cmd: EDIT COPY
+[2017.11.15-13.34.55:050][ 74]Cmd: EDIT PASTE
+[2017.11.15-13.34.58:301][131]Cmd: SELECT NONE
+[2017.11.15-13.35.00:761][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_4)
+[2017.11.15-13.35.04:717][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_3)
+[2017.11.15-13.35.05:199][250]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.35.05:873][261]Cmd: EDIT COPY
+[2017.11.15-13.35.06:317][269]Cmd: EDIT PASTE
+[2017.11.15-13.35.38:177][830]Cmd: EDIT COPY
+[2017.11.15-13.35.38:551][837]Cmd: EDIT PASTE
+[2017.11.15-13.35.48:299][ 16]Cmd: EDIT COPY
+[2017.11.15-13.35.48:623][ 22]Cmd: EDIT PASTE
+[2017.11.15-13.35.54:314][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_12)
+[2017.11.15-13.35.54:771][128]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.15-13.35.55:689][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_13)
+[2017.11.15-13.35.56:081][151]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_11)
+[2017.11.15-13.35.58:658][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_12)
+[2017.11.15-13.36.00:631][233]Cmd: SELECT NONE
+[2017.11.15-13.36.18:303][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_12)
+[2017.11.15-13.36.19:004][608]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_13)
+[2017.11.15-13.36.19:640][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_11)
+[2017.11.15-13.36.23:122][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_13)
+[2017.11.15-13.36.23:806][691]Cmd: DELETE
+[2017.11.15-13.36.23:806][691]Cmd: ACTOR DELETE
+[2017.11.15-13.36.23:806][691]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.36.23:819][691]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.15-13.36.25:207][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_6)
+[2017.11.15-13.36.26:009][729]Cmd: DELETE
+[2017.11.15-13.36.26:009][729]Cmd: ACTOR DELETE
+[2017.11.15-13.36.26:010][729]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.36.26:020][729]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.15-13.36.29:961][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_11)
+[2017.11.15-13.36.30:742][812]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_9)
+[2017.11.15-13.36.31:468][824]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_10)
+[2017.11.15-13.36.31:806][829]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_8)
+[2017.11.15-13.36.32:369][839]Cmd: EDIT COPY
+[2017.11.15-13.36.32:790][846]Cmd: EDIT PASTE
+[2017.11.15-13.37.05:524][457]Cmd: EDIT COPY
+[2017.11.15-13.37.05:894][465]Cmd: EDIT PASTE
+[2017.11.15-13.37.12:309][576]Cmd: SELECT NONE
+[2017.11.15-13.37.31:201][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_20)
+[2017.11.15-13.37.31:793][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_18)
+[2017.11.15-13.37.32:148][944]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_19)
+[2017.11.15-13.37.32:481][949]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_17)
+[2017.11.15-13.37.32:930][957]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_14)
+[2017.11.15-13.37.35:176][996]Cmd: EDIT COPY
+[2017.11.15-13.37.35:573][  3]Cmd: EDIT PASTE
+[2017.11.15-13.37.49:563][246]Cmd: SELECT NONE
+[2017.11.15-13.37.56:794][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_18)
+[2017.11.15-13.37.57:746][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_19)
+[2017.11.15-13.37.58:395][403]Cmd: DELETE
+[2017.11.15-13.37.58:395][403]Cmd: ACTOR DELETE
+[2017.11.15-13.37.58:396][403]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.37.58:409][403]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.15-13.38.01:915][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_24)
+[2017.11.15-13.38.02:810][478]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_22)
+[2017.11.15-13.38.03:484][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_23)
+[2017.11.15-13.38.03:996][498]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_21)
+[2017.11.15-13.38.04:714][510]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_20)
+[2017.11.15-13.38.05:103][516]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_18)
+[2017.11.15-13.38.05:653][526]Cmd: EDIT COPY
+[2017.11.15-13.38.06:040][531]Cmd: EDIT PASTE
+[2017.11.15-13.38.41:182][173]Cmd: SELECT NONE
+[2017.11.15-13.38.50:523][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_24)
+[2017.11.15-13.38.50:993][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_22)
+[2017.11.15-13.38.51:309][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_23)
+[2017.11.15-13.38.51:722][414]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_21)
+[2017.11.15-13.38.52:162][420]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_20)
+[2017.11.15-13.38.52:556][426]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_18)
+[2017.11.15-13.38.53:008][433]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_17)
+[2017.11.15-13.38.53:404][439]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_16)
+[2017.11.15-13.38.53:760][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_14)
+[2017.11.15-13.38.54:502][456]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_15)
+[2017.11.15-13.38.55:241][468]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_13)
+[2017.11.15-13.39.02:743][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_12)
+[2017.11.15-13.39.03:615][616]Cmd: DELETE
+[2017.11.15-13.39.03:615][616]Cmd: ACTOR DELETE
+[2017.11.15-13.39.03:616][616]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.39.03:632][616]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.11.15-13.39.16:087][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_2)
+[2017.11.15-13.39.16:424][851]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_3)
+[2017.11.15-13.39.16:954][858]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_4)
+[2017.11.15-13.39.31:985][123]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_29)
+[2017.11.15-13.39.32:359][129]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_27)
+[2017.11.15-13.39.32:763][135]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_28)
+[2017.11.15-13.39.33:166][141]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_26)
+[2017.11.15-13.39.33:562][147]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_25)
+[2017.11.15-13.39.34:542][162]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_19)
+[2017.11.15-13.39.35:003][168]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_25)
+[2017.11.15-13.39.49:942][424]Cmd: SELECT NONE
+[2017.11.15-13.40.54:171][141]LogSavePackage: Save=308.12ms
+[2017.11.15-13.40.54:171][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Auto952092E8549887315FC03958CCFD2DB93.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto9.umap'
+[2017.11.15-13.40.54:173][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto9.umap
+[2017.11.15-13.40.54:175][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Saloon' took 0.327
+[2017.11.15-13.40.54:175][141]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.327
+[2017.11.15-13.40.54:177][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Saloon_BuiltData] ([1] browsable assets)...
+[2017.11.15-13.40.54:177][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Saloon_BuiltData]
+[2017.11.15-13.40.54:205][141]LogSavePackage: Save=27.01ms
+[2017.11.15-13.40.54:205][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData_Auto90F4CAB1D467C7B634114DA8B923E3501.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto9.uasset'
+[2017.11.15-13.40.54:207][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto9.uasset
+[2017.11.15-13.40.54:207][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Buildings/Resident_House_01] ([1] browsable assets)...
+[2017.11.15-13.40.54:232][141]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Buildings/Resident_House_01.Resident_House_01]
+[2017.11.15-13.40.54:232][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Buildings/Resident_House_01]
+[2017.11.15-13.40.54:247][141]LogSavePackage: Save=10.31ms
+[2017.11.15-13.40.54:247][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_01_Auto9E443751A4C58018562EE5D838643654D.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto9.uasset'
+[2017.11.15-13.40.54:248][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Meshes/Buildings/Resident_House_01_Auto9.uasset
+[2017.11.15-13.40.54:249][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/Base_roof_texture] ([1] browsable assets)...
+[2017.11.15-13.40.54:256][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/Base_roof_texture.Base_roof_texture]
+[2017.11.15-13.40.54:256][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/Base_roof_texture]
+[2017.11.15-13.40.54:269][141]LogSavePackage: Save=11.82ms
+[2017.11.15-13.40.54:269][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Base_roof_texture_Auto985D1917A44FAF24DBA051695AC0DE0D6.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Base_roof_texture_Auto9.uasset'
+[2017.11.15-13.40.54:271][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Base_roof_texture_Auto9.uasset
+[2017.11.15-13.40.54:272][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/copper2bmp] ([1] browsable assets)...
+[2017.11.15-13.40.54:279][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/copper2bmp.copper2bmp]
+[2017.11.15-13.40.54:279][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/copper2bmp]
+[2017.11.15-13.40.54:475][141]LogSavePackage: Save=194.73ms
+[2017.11.15-13.40.54:475][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/copper2bmp_Auto9B8EFAEA7429E502C4EAA49B55BA6FB93.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/copper2bmp_Auto9.uasset'
+[2017.11.15-13.40.54:477][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/copper2bmp_Auto9.uasset
+[2017.11.15-13.40.54:478][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/1031concrete] ([1] browsable assets)...
+[2017.11.15-13.40.54:487][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/1031concrete.1031concrete]
+[2017.11.15-13.40.54:487][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/1031concrete]
+[2017.11.15-13.40.54:504][141]LogSavePackage: Save=15.19ms
+[2017.11.15-13.40.54:504][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/1031concrete_Auto9A5009F4F4A945F4CC9CA5D960F9CE9FF.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/1031concrete_Auto9.uasset'
+[2017.11.15-13.40.54:506][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/1031concrete_Auto9.uasset
+[2017.11.15-13.40.54:507][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/1031metal] ([1] browsable assets)...
+[2017.11.15-13.40.54:514][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/1031metal.1031metal]
+[2017.11.15-13.40.54:514][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/1031metal]
+[2017.11.15-13.40.54:558][141]LogSavePackage: Save=43.21ms
+[2017.11.15-13.40.54:558][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/1031metal_Auto9C9DE965A4576EA9A5CB11A929B295ABE.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/1031metal_Auto9.uasset'
+[2017.11.15-13.40.54:559][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/1031metal_Auto9.uasset
+[2017.11.15-13.40.54:560][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/roof_texture] ([1] browsable assets)...
+[2017.11.15-13.40.54:566][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/roof_texture.roof_texture]
+[2017.11.15-13.40.54:567][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/roof_texture]
+[2017.11.15-13.40.54:582][141]LogSavePackage: Save=14.20ms
+[2017.11.15-13.40.54:582][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/roof_texture_Auto9F1461025462826FA73BB05A50CA3C9D8.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/roof_texture_Auto9.uasset'
+[2017.11.15-13.40.54:583][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/roof_texture_Auto9.uasset
+[2017.11.15-13.40.54:584][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/window] ([1] browsable assets)...
+[2017.11.15-13.40.54:591][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/window.window]
+[2017.11.15-13.40.54:591][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/window]
+[2017.11.15-13.40.54:606][141]LogSavePackage: Save=13.23ms
+[2017.11.15-13.40.54:606][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/window_Auto980A8A8C24B424A1697AE17A521DC01B2.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/window_Auto9.uasset'
+[2017.11.15-13.40.54:608][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/window_Auto9.uasset
+[2017.11.15-13.40.54:609][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/metal_wood] ([1] browsable assets)...
+[2017.11.15-13.40.54:615][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/metal_wood.metal_wood]
+[2017.11.15-13.40.54:615][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/metal_wood]
+[2017.11.15-13.40.54:631][141]LogSavePackage: Save=14.40ms
+[2017.11.15-13.40.54:631][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/metal_wood_Auto938644B284A5C451EA06F9EA4FF72B9A1.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/metal_wood_Auto9.uasset'
+[2017.11.15-13.40.54:632][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/metal_wood_Auto9.uasset
+[2017.11.15-13.40.54:632][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/metal_texture] ([1] browsable assets)...
+[2017.11.15-13.40.54:639][141]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Building/metal_texture.metal_texture]
+[2017.11.15-13.40.54:639][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/metal_texture]
+[2017.11.15-13.40.54:657][141]LogSavePackage: Save=17.00ms
+[2017.11.15-13.40.54:657][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/metal_texture_Auto9D1F4648F45361133ED0FE89F0A216651.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/metal_texture_Auto9.uasset'
+[2017.11.15-13.40.54:658][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/metal_texture_Auto9.uasset
+[2017.11.15-13.40.54:659][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/MetalWood] ([1] browsable assets)...
+[2017.11.15-13.40.54:685][141]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Building/MetalWood.MetalWood]
+[2017.11.15-13.40.54:685][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/MetalWood]
+[2017.11.15-13.40.54:699][141]LogSavePackage: Save=11.23ms
+[2017.11.15-13.40.54:699][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/MetalWood_Auto91FEFD0CF485891647A3A39B3A683B733.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/MetalWood_Auto9.uasset'
+[2017.11.15-13.40.54:701][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/MetalWood_Auto9.uasset
+[2017.11.15-13.40.54:702][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/MetalBasic] ([1] browsable assets)...
+[2017.11.15-13.40.54:728][141]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Building/MetalBasic.MetalBasic]
+[2017.11.15-13.40.54:729][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/MetalBasic]
+[2017.11.15-13.40.54:741][141]LogSavePackage: Save=11.52ms
+[2017.11.15-13.40.54:741][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/MetalBasic_Auto95FA872324F59E39C0D3C90A09A0EF180.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/MetalBasic_Auto9.uasset'
+[2017.11.15-13.40.54:743][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/MetalBasic_Auto9.uasset
+[2017.11.15-13.40.54:744][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/BaseRoof] ([1] browsable assets)...
+[2017.11.15-13.40.54:770][141]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Building/BaseRoof.BaseRoof]
+[2017.11.15-13.40.54:770][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/BaseRoof]
+[2017.11.15-13.40.54:782][141]LogSavePackage: Save=10.33ms
+[2017.11.15-13.40.54:782][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/BaseRoof_Auto9997482664562FA73218F7BBA0C97B0B0.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/BaseRoof_Auto9.uasset'
+[2017.11.15-13.40.54:783][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/BaseRoof_Auto9.uasset
+[2017.11.15-13.40.54:783][141]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Building/Windows] ([1] browsable assets)...
+[2017.11.15-13.40.54:809][141]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Building/Windows.Windows]
+[2017.11.15-13.40.54:810][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Building/Windows]
+[2017.11.15-13.40.54:822][141]LogSavePackage: Save=11.47ms
+[2017.11.15-13.40.54:822][141]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Windows_Auto9387D3A5948D029FC49C86BB5A97CEF29.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Windows_Auto9.uasset'
+[2017.11.15-13.40.54:824][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Textures/Building/Windows_Auto9.uasset
+[2017.11.15-13.40.54:824][141]LogFileHelpers: Auto-saving content packages took 0.648
+[2017.11.15-13.51.45:001][431]MapCheck: New page: Map Check
+[2017.11.15-13.51.45:019][431]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-13.51.45:019][431]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-13.51.45:107][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.15-13.51.45:112][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_48, compiling. 
+[2017.11.15-13.51.45:119][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6198, compiling. 
+[2017.11.15-13.51.45:127][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6210, compiling. 
+[2017.11.15-13.51.45:134][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6212, compiling. 
+[2017.11.15-13.51.45:140][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6199, compiling. 
+[2017.11.15-13.51.45:147][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6211, compiling. 
+[2017.11.15-13.51.45:154][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6237, compiling. 
+[2017.11.15-13.51.45:161][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6235, compiling. 
+[2017.11.15-13.51.45:166][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6239, compiling. 
+[2017.11.15-13.51.45:172][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6238, compiling. 
+[2017.11.15-13.51.45:178][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.11.15-13.51.45:185][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__6242, compiling. 
+[2017.11.15-13.51.45:798][431]TextureStreamingBuild: Display: Compiling optional shaders took 0.693 seconds.
+[2017.11.15-13.51.45:801][431]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.11.15-13.51.45:814][431]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2017.11.15-13.51.45:823][431]LightingResults: New page: Lighting Build - Nov 15, 2017, 5:51:45 PM
+[2017.11.15-13.51.45:832][431]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-13.51.45:833][431]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-13.51.45:833][431]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-13.51.45:834][431]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-13.51.45:834][431]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9252
+[2017.11.15-13.51.50:351][431]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-13.51.50:353][431]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-13.51.50:353][431]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-13.51.50:353][431]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-13.51.50:353][431]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-13.51.50:353][431]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-13.51.50:460][431]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-13.51.50:460][431]MapCheck: New page: Saloon - Nov 15, 2017, 5:51:50 PM
+[2017.11.15-13.51.50:517][431]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.586ms to complete.
+[2017.11.15-13.51.50:539][431]LogEditorBuildUtils: Build time 0:05
+[2017.11.15-13.52.01:059][794]LightingResults: Warning: Saloon_Rescale Object has overlapping UVs.
+[2017.11.15-13.52.01:059][794]LightingResults: Saloon_Rescale Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.15-13.52.01:095][795]Job is a success!
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.15-13.52.01:662][797]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.15-13.52.01:682][797]Lightmass on AOTA1-1L141-11D: 10.5 sec total, 390 ms importing, 184 ms setup, 514 ms photons, 9.40 sec processing, 0 ms extra exporting [182/182 mappings]. Threads: 1:05 min total, 18.8 sec processing.
+[2017.11.15-13.52.01:687][797]LogStaticLightingSystem: Illumination: 15.8 sec (385 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.15-13.52.01:687][797]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-13.52.01:687][797]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.15-13.52.02:365][797]DumpUnbuiltLightIteractions
+[2017.11.15-13.52.02:365][797]Lights with unbuilt interactions: 0
+[2017.11.15-13.52.02:365][797]
+[2017.11.15-13.52.02:365][797]Primitives with unbuilt interactions: 0
+[2017.11.15-13.52.02:374][798]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-13.52.02:374][798]MapCheck: New page: Saloon - Nov 15, 2017, 5:52:02 PM
+[2017.11.15-13.52.02:477][798]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 103.815ms to complete.
+[2017.11.15-13.52.52:967][772]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 8X8)
+[2017.11.15-13.52.53:126][778]LogTexture: Display: Building textures: Texture2D_118 (BGRA8, 8X8)
+[2017.11.15-13.52.53:231][782]LogTexture: Display: Building textures: Texture2D_119 (BGRA8, 8X8)
+[2017.11.15-13.52.53:366][787]LogTexture: Display: Building textures: Texture2D_120 (BGRA8, 8X8)
+[2017.11.15-13.52.53:500][792]LogTexture: Display: Building textures: Texture2D_121 (BGRA8, 8X8)
+[2017.11.15-13.52.53:663][798]LogTexture: Display: Building textures: Texture2D_122 (BGRA8, 8X8)
+[2017.11.15-13.52.53:689][799]LogTexture: Display: Building textures: Texture2D_123 (BGRA8, 8X8)
+[2017.11.15-13.52.53:795][803]LogTexture: Display: Building textures: Texture2D_124 (BGRA8, 8X8)
+[2017.11.15-13.52.54:064][813]LogTexture: Display: Building textures: Texture2D_125 (BGRA8, 8X8)
+[2017.11.15-13.52.54:818][841]LogTexture: Display: Building textures: Texture2D_126 (BGRA8, 8X8)
+[2017.11.15-13.52.55:169][854]LogTexture: Display: Building textures: Texture2D_127 (BGRA8, 8X8)
+[2017.11.15-13.52.59:407][151]LogTexture: Display: Building textures: Texture2D_128 (BGRA8, 8X8)
+[2017.11.15-13.52.59:417][151]LogTexture: Display: Building textures: Texture2D_128 (BGRA8, 8X8)
+[2017.11.15-13.52.59:566][157]LogTexture: Display: Building textures: Texture2D_129 (BGRA8, 8X8)
+[2017.11.15-13.52.59:575][157]LogTexture: Display: Building textures: Texture2D_129 (BGRA8, 8X8)
+[2017.11.15-13.52.59:621][159]LogTexture: Display: Building textures: Texture2D_130 (BGRA8, 8X8)
+[2017.11.15-13.52.59:629][159]LogTexture: Display: Building textures: Texture2D_130 (BGRA8, 8X8)
+[2017.11.15-13.53.04:477][337]Cmd: SELECT NONE
+[2017.11.15-13.54.34:023][471]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 8X8)
+[2017.11.15-13.54.34:023][471]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 8X8)
+[2017.11.15-13.54.34:024][471]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 8X8)
+[2017.11.15-13.54.34:024][471]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 8X8)
+[2017.11.15-13.54.34:024][471]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 8X8)
+[2017.11.15-13.54.34:024][471]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 8X8)
+[2017.11.15-13.54.34:025][471]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 8X8)
+[2017.11.15-13.54.34:025][471]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 8X8)
+[2017.11.15-13.54.34:025][471]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 8X8)
+[2017.11.15-13.54.34:026][471]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 8X8)
+[2017.11.15-13.54.34:026][471]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 8X8)
+[2017.11.15-13.54.34:026][471]LogTexture: Display: Building textures: Texture2D_118 (BGRA8, 8X8)
+[2017.11.15-13.54.34:027][471]LogTexture: Display: Building textures: Texture2D_119 (BGRA8, 8X8)
+[2017.11.15-13.54.34:027][471]LogTexture: Display: Building textures: Texture2D_120 (BGRA8, 8X8)
+[2017.11.15-13.54.34:027][471]LogTexture: Display: Building textures: Texture2D_121 (BGRA8, 8X8)
+[2017.11.15-13.54.34:028][471]LogTexture: Display: Building textures: Texture2D_122 (BGRA8, 8X8)
+[2017.11.15-13.54.34:028][471]LogTexture: Display: Building textures: Texture2D_126 (BGRA8, 8X8)
+[2017.11.15-13.54.34:028][471]LogTexture: Display: Building textures: Texture2D_127 (BGRA8, 8X8)
+[2017.11.15-13.54.34:305][471]LogSavePackage: Save=333.52ms
+[2017.11.15-13.54.34:305][471]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_Auto0FFBB789D4D75011729AD0ABC0B35E44C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto0.umap'
+[2017.11.15-13.54.34:307][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_Auto0.umap
+[2017.11.15-13.54.34:310][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Saloon' took 0.353
+[2017.11.15-13.54.34:310][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.353
+[2017.11.15-13.54.34:311][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Saloon_BuiltData] ([1] browsable assets)...
+[2017.11.15-13.54.34:311][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Saloon_BuiltData]
+[2017.11.15-13.54.34:345][471]LogSavePackage: Save=32.22ms
+[2017.11.15-13.54.34:345][471]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData_Auto0782E21D44B5B8EB2478754B1127F4242.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto0.uasset'
+[2017.11.15-13.54.34:347][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Saloon_BuiltData_Auto0.uasset
+[2017.11.15-13.54.34:347][471]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.11.15-13.54.47:447][511]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\JesseWih\Downloads\Jail_Rescale.FBX)
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.15-13.54.47:456][511]LogFbx: ItemName: CollectionExclusive, ItemCount : 28
+[2017.11.15-13.54.47:461][511]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Jail_Rescale.FBX
+[2017.11.15-13.54.47:468][511]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.54.50:406][511]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Jail_Rescale.FBX
+[2017.11.15-13.54.50:414][511]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.54.50:415][511]LogLinker: Can't find file '/Game/Meshes/Material__6198'
+[2017.11.15-13.54.50:415][511]LogLinker: Can't find file '/Game/Meshes/Material__6198'
+[2017.11.15-13.54.50:418][511]LogMaterial: Missing cached shader map for material Material__6198, compiling. 
+[2017.11.15-13.54.50:431][511]LogFbx: Warning: Triangulating static mesh Box311
+[2017.11.15-13.54.50:616][511]LogStaticMesh: Building static mesh Jail_Rescale...
+[2017.11.15-13.54.50:730][511]LogStaticMesh: Built static mesh [0.11s] /Game/Meshes/Jail_Rescale.Jail_Rescale
+[2017.11.15-13.54.52:557][544]LogActorFactory: Actor Factory created Jail_Rescale
+[2017.11.15-13.54.57:927][745]LogActorFactory: Actor Factory created Jail_Rescale
+[2017.11.15-13.55.10:250][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail_Rescale)
+[2017.11.15-13.55.11:103][177]Cmd: DELETE
+[2017.11.15-13.55.11:103][177]Cmd: ACTOR DELETE
+[2017.11.15-13.55.11:103][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.55.11:132][177]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.11.15-13.55.53:292][434]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\JesseWih\Downloads\Jail_Rescale (1).FBX)
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: CollectionExclusive, ItemCount : 28
+[2017.11.15-13.55.53:297][434]LogFbx: ItemName: Video, ItemCount : 1
+[2017.11.15-13.55.53:301][434]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Jail_Rescale (1).FBX
+[2017.11.15-13.55.53:309][434]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.55.54:674][434]LogFbx: Loading FBX Scene from C:\Users\JesseWih\Downloads\Jail_Rescale (1).FBX
+[2017.11.15-13.55.54:681][434]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-13.55.54:682][434]LogLinker: Can't find file '/Game/Meshes/Base_metal_texture__1_'
+[2017.11.15-13.55.54:682][434]LogLinker: Can't find file '/Game/Meshes/Base_metal_texture__1_'
+[2017.11.15-13.55.54:682][434]LogFbxMaterialImport: Warning: Unable to find Texture file G:\DAE\DAE_2017_2018\Groupproject\textures\Base_metal texture (1).bmp
+[2017.11.15-13.55.54:685][434]LogMaterial: Missing cached shader map for material Material__6198, compiling. 
+[2017.11.15-13.55.54:697][434]LogFbx: Warning: Triangulating static mesh Box311
+[2017.11.15-13.55.54:861][434]LogStaticMesh: Building static mesh Jail_Rescale__1_...
+[2017.11.15-13.55.54:987][434]LogStaticMesh: Built static mesh [0.13s] /Game/Meshes/Jail_Rescale__1_.Jail_Rescale__1_
+[2017.11.15-13.55.54:993][434]LogStaticMesh: Warning: Jail_Rescale__1_ has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-13.55.55:003][434]FBXImport: Warning: Jail_Rescale__1_ has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-13.55.58:333][529]LogActorFactory: Actor Factory created Jail_Rescale__1_
+[2017.11.15-13.55.59:584][576]LogActorFactory: Actor Factory created Jail_Rescale__1_
+[2017.11.15-13.56.06:026][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_13)
+[2017.11.15-13.56.06:274][811]Cmd: DELETE
+[2017.11.15-13.56.06:274][811]Cmd: ACTOR DELETE
+[2017.11.15-13.56.06:274][811]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.15-13.56.06:301][811]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.11.15-13.56.06:738][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail_Rescale__1_)
+[2017.11.15-13.56.32:886][757]Cmd: SELECT NONE
+[2017.11.15-13.56.56:126][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_11)
+[2017.11.15-13.57.18:860][411]Cmd: SELECT NONE
+[2017.11.15-13.57.56:569][832]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.15-13.57.56:581][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-13.57.56:581][832]PIE: New page: PIE session: Saloon (Nov 15, 2017, 5:57:56 PM)
+[2017.11.15-13.57.56:581][832]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.15-13.57.56:595][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013908s)
+[2017.11.15-13.57.56:595][832]LogAIModule: Creating AISystem for world Saloon
+[2017.11.15-13.57.56:596][832]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.11.15-13.57.56:596][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.014967s)
+[2017.11.15-13.57.56:605][832]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-13.57.56:619][832]LogInit: FAudioDevice initialized.
+[2017.11.15-13.57.56:688][832]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.15-13.57.56:695][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.15-15.57.56
+[2017.11.15-13.57.56:695][832]LogWorld: Bringing up level for play took: 0.006137
+[2017.11.15-13.57.56:696][832]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.15-13.57.56:703][832]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon 0.191
+[2017.11.15-13.58.03:372][ 19]LogBlueprintUserMessages: [Bullet_02_C_0] Hit some shit
+[2017.11.15-13.59.29:228][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Saloon" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.15-13.59.29:570][635]LogSavePackage: Save=329.63ms
+[2017.11.15-13.59.29:570][635]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon7CB842A34D0C9BAC1F7F09A2669B05D4.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon.umap'
+[2017.11.15-13.59.29:573][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon.umap
+[2017.11.15-13.59.29:658][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Saloon_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon_BuiltData.uasset" SILENT=true
+[2017.11.15-13.59.29:763][635]LogSavePackage: Save=104.54ms
+[2017.11.15-13.59.29:763][635]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Saloon_BuiltData43DA4FC241747622D0B9A78EBD5950D8.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon_BuiltData.uasset'
+[2017.11.15-13.59.29:766][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon_BuiltData.uasset
+[2017.11.15-13.59.29:884][635]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2017.11.15-13.59.29:884][635]SourceControl: Error: HatTrick/Content/Maps/Saloon_BuiltData.uasset
+[2017.11.15-13.59.29:884][635]SourceControl: Error: Use -f if you really want to add them.
+[2017.11.15-13.59.34:656][687]LogSavePackage: Save=14.56ms
+[2017.11.15-13.59.34:656][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__62350B1A0DD449FE3FE300AA789F0EEEE0FA.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6235.uasset'
+[2017.11.15-13.59.34:659][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6235.uasset
+[2017.11.15-13.59.34:841][687]LogSavePackage: Save=9.25ms
+[2017.11.15-13.59.34:841][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6237174CD6814EC77E85A77CF7A2EB098FCD.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6237.uasset'
+[2017.11.15-13.59.34:843][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6237.uasset
+[2017.11.15-13.59.35:029][687]LogSavePackage: Save=9.72ms
+[2017.11.15-13.59.35:029][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__62388EB399164963A18289F10B957E8C5636.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6238.uasset'
+[2017.11.15-13.59.35:031][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6238.uasset
+[2017.11.15-13.59.35:213][687]LogSavePackage: Save=8.89ms
+[2017.11.15-13.59.35:213][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6239C2DFB6DC4B7332D1925A33B1CD930C08.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6239.uasset'
+[2017.11.15-13.59.35:216][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6239.uasset
+[2017.11.15-13.59.35:400][687]LogSavePackage: Save=9.40ms
+[2017.11.15-13.59.35:400][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__6242021441A5478C69B057C72DAFE7BE63D4.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6242.uasset'
+[2017.11.15-13.59.35:403][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Material__6242.uasset
+[2017.11.15-13.59.35:558][687]LogSavePackage: Save=3.55ms
+[2017.11.15-13.59.35:558][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Resident_House_017567830641D620579DD943BB27A21CE7.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset'
+[2017.11.15-13.59.35:561][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset
+[2017.11.15-13.59.35:590][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Jail_Rescale__1_" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Jail_Rescale__1_.uasset" SILENT=true
+[2017.11.15-13.59.35:600][687]LogSavePackage: Save=9.55ms
+[2017.11.15-13.59.35:600][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Jail_Rescale__1_1B6515614D23D98DC7C1D48FE6D75E51.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Jail_Rescale__1_.uasset'
+[2017.11.15-13.59.35:603][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Jail_Rescale__1_.uasset
+[2017.11.15-13.59.35:789][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Material__6198" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Material__6198.uasset" SILENT=true
+[2017.11.15-13.59.35:800][687]LogSavePackage: Save=9.12ms
+[2017.11.15-13.59.35:800][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Material__61988B8E2ACB4EA1B97CA413629383FB13BD.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Material__6198.uasset'
+[2017.11.15-13.59.35:802][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Material__6198.uasset
+[2017.11.15-13.59.36:530][687]LogSavePackage: Save=563.83ms
+[2017.11.15-13.59.36:531][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/1031concrete891ABDA747F4467F6FB65CAF4C0FACAE.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/1031concrete.uasset'
+[2017.11.15-13.59.36:533][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/1031concrete.uasset
+[2017.11.15-13.59.37:102][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/1031metal" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/1031metal.uasset" SILENT=true
+[2017.11.15-13.59.37:825][687]LogSavePackage: Save=722.10ms
+[2017.11.15-13.59.37:825][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/1031metal41D48B2746BEEB23CD2CFFABFCEAE68B.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/1031metal.uasset'
+[2017.11.15-13.59.37:828][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/1031metal.uasset
+[2017.11.15-13.59.38:809][687]LogSavePackage: Save=511.77ms
+[2017.11.15-13.59.38:809][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Base_roof_texture2CEC28EF488FDCBD401E55967CB19CA0.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/Base_roof_texture.uasset'
+[2017.11.15-13.59.38:811][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/Base_roof_texture.uasset
+[2017.11.15-13.59.39:172][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/BaseRoof" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/BaseRoof.uasset" SILENT=true
+[2017.11.15-13.59.39:183][687]LogSavePackage: Save=10.62ms
+[2017.11.15-13.59.39:184][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/BaseRoofE60CE35A490F6944D457F28D81625CAF.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/BaseRoof.uasset'
+[2017.11.15-13.59.39:185][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/BaseRoof.uasset
+[2017.11.15-13.59.39:348][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/copper2bmp" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/copper2bmp.uasset" SILENT=true
+[2017.11.15-13.59.41:328][687]LogSavePackage: Save=1978.58ms
+[2017.11.15-13.59.41:328][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/copper2bmp9D2377F344525E100AC5A4AE4D464C64.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/copper2bmp.uasset'
+[2017.11.15-13.59.41:330][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/copper2bmp.uasset
+[2017.11.15-13.59.42:285][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/floor2" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/floor2.uasset" SILENT=true
+[2017.11.15-13.59.42:793][687]LogSavePackage: Save=506.79ms
+[2017.11.15-13.59.42:793][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/floor25B4B7DFC49DD5324CFB228AF47AF0398.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/floor2.uasset'
+[2017.11.15-13.59.42:795][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/floor2.uasset
+[2017.11.15-13.59.43:732][687]LogSavePackage: Save=570.51ms
+[2017.11.15-13.59.43:732][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/metal_texture9EC0DA7846930CEE15BB8683292C1A8C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/metal_texture.uasset'
+[2017.11.15-13.59.43:734][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/metal_texture.uasset
+[2017.11.15-13.59.44:156][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/metal_wood" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/metal_wood.uasset" SILENT=true
+[2017.11.15-13.59.44:547][687]LogSavePackage: Save=389.71ms
+[2017.11.15-13.59.44:547][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/metal_woodE32E7E614347F25CDA5E789F16DB0578.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/metal_wood.uasset'
+[2017.11.15-13.59.44:549][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/metal_wood.uasset
+[2017.11.15-13.59.44:975][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/MetalBasic" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalBasic.uasset" SILENT=true
+[2017.11.15-13.59.44:991][687]LogSavePackage: Save=14.21ms
+[2017.11.15-13.59.44:991][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/MetalBasicF93FC8D44BFFA9FAFA05B3BAAD492F15.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalBasic.uasset'
+[2017.11.15-13.59.44:993][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalBasic.uasset
+[2017.11.15-13.59.45:194][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/MetalWood" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalWood.uasset" SILENT=true
+[2017.11.15-13.59.45:207][687]LogSavePackage: Save=11.91ms
+[2017.11.15-13.59.45:207][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/MetalWoodBAB3E5A54EDD42C10A79408398BAF728.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalWood.uasset'
+[2017.11.15-13.59.45:209][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/MetalWood.uasset
+[2017.11.15-13.59.45:923][687]LogSavePackage: Save=563.06ms
+[2017.11.15-13.59.45:923][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/roof_texture034734E7432BB3A4667A7EB584E1D906.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/roof_texture.uasset'
+[2017.11.15-13.59.45:925][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/roof_texture.uasset
+[2017.11.15-13.59.46:345][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/window" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/window.uasset" SILENT=true
+[2017.11.15-13.59.46:686][687]LogSavePackage: Save=340.10ms
+[2017.11.15-13.59.46:687][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/window103B980F475FC449E4B721914EACA689.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/window.uasset'
+[2017.11.15-13.59.46:689][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/window.uasset
+[2017.11.15-13.59.46:997][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Building/Windows" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/Windows.uasset" SILENT=true
+[2017.11.15-13.59.47:010][687]LogSavePackage: Save=12.20ms
+[2017.11.15-13.59.47:010][687]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Windows4F99BB2E41F59081146FB09E4F029F7E.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/Windows.uasset'
+[2017.11.15-13.59.47:013][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Textures/Building/Windows.uasset
+[2017.11.15-13.59.47:219][687]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.15-13.59.47:414][688]Cmd: QUIT_EDITOR
+[2017.11.15-13.59.47:947][688]LogExit: Preparing to exit.
+[2017.11.15-13.59.49:022][688]LogDirectoryWatcher: A directory notification failed for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/', and we were unable to create a new request.
+[2017.11.15-13.59.49:042][688]LogExit: Editor shut down
+[2017.11.15-13.59.49:048][688]LogExit: Transaction tracking system shut down
+[2017.11.15-13.59.49:216][688]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.15-13.59.49:216][688]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.15-13.59.49:216][688]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.15-13.59.49:216][688]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.15-13.59.49:216][688]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.15-13.59.49:270][688]LogExit: Object subsystem successfully closed.
+[2017.11.15-13.59.49:292][688]LogD3D11RHI: Shutdown
+[2017.11.15-13.59.49:292][688]LogD3D11RHI: CleanupD3DDevice
+[2017.11.15-13.59.49:311][688]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module TextureEditor (540)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (536)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.15-13.59.49:332][688]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.15-13.59.49:333][688]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.15-13.59.49:333][688]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.15-13.59.49:334][688]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.11.15-13.59.49:334][688]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/JesseWih/Collections/' was aborted.
+[2017.11.15-13.59.49:334][688]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.15-13.59.49:334][688]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.15-13.59.49:335][688]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.15-13.59.50:022][688]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.15-13.59.50:023][688]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.15-13.59.50:024][688]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.15-13.59.50:077][688]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.15-13.59.50:079][688]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.15-13.59.50:079][688]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.15-13.59.50:079][688]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.15-13.59.50:080][688]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.15-13.59.50:081][688]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.15-13.59.50:225][688]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.15-13.59.50:226][688]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.15-13.59.50:227][688]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.15-13.59.50:229][688]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.15-13.59.50:229][688]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.15-13.59.50:229][688]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.15-13.59.50:230][688]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.15-13.59.50:231][688]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.15-13.59.50:332][688]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.15-13.59.50:432][688]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.15-13.59.50:435][688]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.15-13.59.50:436][688]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.15-13.59.50:437][688]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.15-13.59.50:437][688]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.15-13.59.50:437][688]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.15-13.59.50:437][688]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.15-13.59.50:444][688]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.15-13.59.50:445][688]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.15-13.59.50:445][688]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.15-13.59.50:447][688]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.15-13.59.50:466][688]LogDerivedDataCache: Shutdown
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.15-13.59.50:467][688]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.15-13.59.50:468][688]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.15-13.59.50:469][688]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.15-13.59.50:469][688]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.15-13.59.50:469][688]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.15-13.59.50:469][688]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.15-13.59.50:469][688]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.15-13.59.50:469][688]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.15-13.59.50:469][688]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.15-13.59.50:469][688]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00B8DE62-48BB-B478-4C2A-2D98BCE442A8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d7ae3af140edfbd82237c685d8b4a1d5%7C8486c7e2423b49b0b0401785d16f836b%7Ca8b05006-4976-4dd1-9ab2-11f0dd6b60f5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.15-13.59.50:475][688]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.15-13.59.50:477][688]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.15-13.59.50:479][688]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.15-13.59.50:479][688]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.15-13.59.50:479][688]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.15-13.59.50:479][688]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.15-13.59.50:479][688]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.15-13.59.50:480][688]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.15-13.59.50:482][688]LogExit: Exiting.
+[2017.11.15-13.59.50:489][688]Log file closed, 11/15/17 15:59:50
