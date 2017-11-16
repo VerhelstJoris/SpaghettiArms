@@ -45,7 +45,7 @@ Windows.Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:TwoPlayerSplitscreenLayout:0=Horizontal
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ThreePlayerSplitscreenLayout:0=FavorTop
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
 Windows.Engine:URL:SaveExt:0=usa
@@ -1292,199 +1292,6 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardw
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
-Windows.Lightmass:DevOptions.StaticLighting:bAllowMultiThreadedStaticLighting:0=True
-Windows.Lightmass:DevOptions.StaticLighting:ViewSingleBounceNumber:0=-1
-Windows.Lightmass:DevOptions.StaticLighting:bUseBilinearFilterLightmaps:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bCompressLightmaps:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bUseConservativeTexelRasterization:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bAccountForTexelSize:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bUseMaxWeight:0=True
-Windows.Lightmass:DevOptions.StaticLighting:MaxTriangleLightingSamples:0=8
-Windows.Lightmass:DevOptions.StaticLighting:MaxTriangleIrradiancePhotonCacheSamples:0=4
-Windows.Lightmass:DevOptions.StaticLighting:bAllow64bitProcess:0=True
-Windows.Lightmass:DevOptions.StaticLighting:DefaultStaticMeshLightingRes:0=32
-Windows.Lightmass:DevOptions.StaticLighting:bAllowCropping:0=False
-Windows.Lightmass:DevOptions.StaticLighting:bGarbageCollectAfterExport:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bRebuildDirtyGeometryForLighting:0=True
-Windows.Lightmass:DevOptions.StaticLighting:bUseEmbree:0=true
-Windows.Lightmass:DevOptions.StaticLighting:bVerifyEmbree:0=false
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:StaticLightingLevelScale:0=1
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityRayOffsetDistance:0=.1
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetDistance:0=3
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetSampleRadiusScale:0=.5
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityTangentOffsetSampleRadiusScale:0=.8
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:SmallestTexelRadius:0=.1
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:LightGridSize:0=100
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:AutomaticImportanceVolumeExpandBy:0=500
-Windows.Lightmass:DevOptions.StaticLightingSceneConstants:MinimumImportanceVolumeExtentWithoutWarning:0=10000.0
-Windows.Lightmass:DevOptions.StaticLightingMaterial:bUseDebugMaterial:0=False
-Windows.Lightmass:DevOptions.StaticLightingMaterial:ShowMaterialAttribute:0=None
-Windows.Lightmass:DevOptions.StaticLightingMaterial:EmissiveSampleSize:0=128
-Windows.Lightmass:DevOptions.StaticLightingMaterial:DiffuseSampleSize:0=128
-Windows.Lightmass:DevOptions.StaticLightingMaterial:SpecularSampleSize:0=128
-Windows.Lightmass:DevOptions.StaticLightingMaterial:TransmissionSampleSize:0=256
-Windows.Lightmass:DevOptions.StaticLightingMaterial:NormalSampleSize:0=256
-Windows.Lightmass:DevOptions.StaticLightingMaterial:TerrainSampleScalar:0=4
-Windows.Lightmass:DevOptions.StaticLightingMaterial:DebugDiffuse:0=(R=0.500000,G=0.500000,B=0.500000)
-Windows.Lightmass:DevOptions.StaticLightingMaterial:EnvironmentColor:0=(R=0.00000,G=0.00000,B=0.00000)
-Windows.Lightmass:DevOptions.MeshAreaLights:bVisualizeMeshAreaLightPrimitives:0=False
-Windows.Lightmass:DevOptions.MeshAreaLights:EmissiveIntensityThreshold:0=.01
-Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGridSize:0=100
-Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyNormalAngleThreshold:0=25
-Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyCornerDistanceThreshold:0=.5
-Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyMeshBoundingRadiusFractionThreshold:0=.1
-Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGeneratedDynamicLightSurfaceOffset:0=30
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightSamples:0=False
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightInterpolation:0=False
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumHemisphereSamplesScale:0=2
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceLightSampleSpacing:0=300
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:FirstSurfaceSampleLayerHeight:0=50
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceSampleLayerHeightSpacing:0=250
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumSurfaceSampleLayers:0=2
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:DetailVolumeSampleSpacing:0=300
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:VolumeLightSampleSpacing:0=3000
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxVolumeSamples:0=250000
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bUseMaxSurfaceSampleNum:0=True
-Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxSurfaceLightSamples:0=500000
-Windows.Lightmass:DevOptions.PrecomputedVisibility:bVisualizePrecomputedVisibility:0=False
-Windows.Lightmass:DevOptions.PrecomputedVisibility:bCompressVisibilityData:0=True
-Windows.Lightmass:DevOptions.PrecomputedVisibility:bPlaceCellsOnOpaqueOnly:0=True
-Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellDistributionBuckets:0=800
-Windows.Lightmass:DevOptions.PrecomputedVisibility:CellRenderingBucketSize:0=5
-Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellRenderingBuckets:0=5
-Windows.Lightmass:DevOptions.PrecomputedVisibility:PlayAreaHeight:0=220
-Windows.Lightmass:DevOptions.PrecomputedVisibility:MeshBoundsScale:0=1.2
-Windows.Lightmass:DevOptions.PrecomputedVisibility:VisibilitySpreadingIterations:0=1
-Windows.Lightmass:DevOptions.PrecomputedVisibility:MinMeshSamples:0=14
-Windows.Lightmass:DevOptions.PrecomputedVisibility:MaxMeshSamples:0=40
-Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellSamples:0=24
-Windows.Lightmass:DevOptions.PrecomputedVisibility:NumImportanceSamples:0=40
-Windows.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:MeshBoundsScale:0=1
-Windows.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:VisibilitySpreadingIterations:0=1
-Windows.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:MeshBoundsScale:0=1
-Windows.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:VisibilitySpreadingIterations:0=0
-Windows.Lightmass:DevOptions.VolumeDistanceField:VoxelSize:0=75
-Windows.Lightmass:DevOptions.VolumeDistanceField:VolumeMaxDistance:0=900
-Windows.Lightmass:DevOptions.VolumeDistanceField:NumVoxelDistanceSamples:0=800
-Windows.Lightmass:DevOptions.VolumeDistanceField:MaxVoxels:0=3992160
-Windows.Lightmass:DevOptions.StaticShadows:bUseZeroAreaLightmapSpaceFilteredLights:0=False
-Windows.Lightmass:DevOptions.StaticShadows:NumShadowRays:0=8
-Windows.Lightmass:DevOptions.StaticShadows:NumPenumbraShadowRays:0=8
-Windows.Lightmass:DevOptions.StaticShadows:NumBounceShadowRays:0=1
-Windows.Lightmass:DevOptions.StaticShadows:bFilterShadowFactor:0=True
-Windows.Lightmass:DevOptions.StaticShadows:ShadowFactorGradientTolerance:0=0.5
-Windows.Lightmass:DevOptions.StaticShadows:bAllowSignedDistanceFieldShadows:0=True
-Windows.Lightmass:DevOptions.StaticShadows:MaxTransitionDistanceWorldSpace:0=50
-Windows.Lightmass:DevOptions.StaticShadows:ApproximateHighResTexelsPerMaxTransitionDistance:0=50
-Windows.Lightmass:DevOptions.StaticShadows:MinDistanceFieldUpsampleFactor:0=3
-Windows.Lightmass:DevOptions.StaticShadows:MinUnoccludedFraction:0=.0005
-Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceX:0=100
-Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceY:0=100
-Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapSuperSampleFactor:0=2
-Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapMaxSamples:0=4194304
-Windows.Lightmass:DevOptions.ImportanceTracing:bUseCosinePDF:0=False
-Windows.Lightmass:DevOptions.ImportanceTracing:bUseStratifiedSampling:0=True
-Windows.Lightmass:DevOptions.ImportanceTracing:NumHemisphereSamples:0=16
-Windows.Lightmass:DevOptions.ImportanceTracing:MaxHemisphereRayAngle:0=89
-Windows.Lightmass:DevOptions.ImportanceTracing:bUseAdaptiveSolver:0=true
-Windows.Lightmass:DevOptions.ImportanceTracing:NumAdaptiveRefinementLevels:0=2
-Windows.Lightmass:DevOptions.ImportanceTracing:AdaptiveBrightnessThreshold:0=1
-Windows.Lightmass:DevOptions.ImportanceTracing:AdaptiveFirstBouncePhotonConeAngle:0=4
-Windows.Lightmass:DevOptions.PhotonMapping:bUsePhotonMapping:0=True
-Windows.Lightmass:DevOptions.PhotonMapping:bUseFinalGathering:0=True
-Windows.Lightmass:DevOptions.PhotonMapping:bUsePhotonDirectLightingInFinalGather:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:bVisualizeCachedApproximateDirectLighting:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:bUseIrradiancePhotons:0=True
-Windows.Lightmass:DevOptions.PhotonMapping:bCacheIrradiancePhotonsOnSurfaces:0=True
-Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonPaths:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonGathers:0=True
-Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonImportanceSamples:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:bVisualizeIrradiancePhotonCalculation:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:bEmitPhotonsOutsideImportanceVolume:0=False
-Windows.Lightmass:DevOptions.PhotonMapping:ConeFilterConstant:0=1
-Windows.Lightmass:DevOptions.PhotonMapping:NumIrradianceCalculationPhotons:0=400
-Windows.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleFraction:0=.6
-Windows.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleConeAngle:0=10
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitDiskRadius:0=200
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitConeAngle:0=30
-Windows.Lightmass:DevOptions.PhotonMapping:MaxImportancePhotonSearchDistance:0=2000
-Windows.Lightmass:DevOptions.PhotonMapping:MinImportancePhotonSearchDistance:0=20
-Windows.Lightmass:DevOptions.PhotonMapping:NumImportanceSearchPhotons:0=10
-Windows.Lightmass:DevOptions.PhotonMapping:OutsideImportanceVolumeDensityScale:0=.0005
-Windows.Lightmass:DevOptions.PhotonMapping:DirectPhotonDensity:0=350
-Windows.Lightmass:DevOptions.PhotonMapping:DirectIrradiancePhotonDensity:0=350
-Windows.Lightmass:DevOptions.PhotonMapping:DirectPhotonSearchDistance:0=200
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonPathDensity:0=5
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonDensity:0=600
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectIrradiancePhotonDensity:0=300
-Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonSearchDistance:0=200
-Windows.Lightmass:DevOptions.PhotonMapping:PhotonSearchAngleThreshold:0=.5
-Windows.Lightmass:DevOptions.PhotonMapping:IrradiancePhotonSearchConeAngle:0=10
-Windows.Lightmass:DevOptions.PhotonMapping:CachedIrradiancePhotonDownsampleFactor:0=2
-Windows.Lightmass:DevOptions.IrradianceCache:bAllowIrradianceCaching:0=True
-Windows.Lightmass:DevOptions.IrradianceCache:bUseIrradianceGradients:0=False
-Windows.Lightmass:DevOptions.IrradianceCache:bShowGradientsOnly:0=False
-Windows.Lightmass:DevOptions.IrradianceCache:bVisualizeIrradianceSamples:0=True
-Windows.Lightmass:DevOptions.IrradianceCache:RecordRadiusScale:0=.8
-Windows.Lightmass:DevOptions.IrradianceCache:InterpolationMaxAngle:0=20
-Windows.Lightmass:DevOptions.IrradianceCache:PointBehindRecordMaxAngle:0=10
-Windows.Lightmass:DevOptions.IrradianceCache:DistanceSmoothFactor:0=4
-Windows.Lightmass:DevOptions.IrradianceCache:AngleSmoothFactor:0=4
-Windows.Lightmass:DevOptions.IrradianceCache:SkyOcclusionSmoothnessReduction:0=.5
-Windows.Lightmass:DevOptions.IrradianceCache:MaxRecordRadius:0=1024
-Windows.Lightmass:DevOptions.IrradianceCache:CacheTaskSize:0=64
-Windows.Lightmass:DevOptions.IrradianceCache:InterpolateTaskSize:0=64
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumShadowRaysScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumPenumbraShadowRaysScale:0=4
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=3
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:MinDistanceFieldUpsampleFactor:0=3
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumHemisphereSamplesScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumImportanceSearchPhotonsScale:0=1
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumDirectPhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:DirectPhotonSearchDistanceScale:0=.5
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonPathsScale:0=1
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectIrradiancePhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:RecordRadiusScaleScale:0=.75
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:InterpolationMaxAngleScale:0=1
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:IrradianceCacheSmoothFactor:0=.75
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumAdaptiveRefinementLevels:0=3
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveBrightnessThresholdScale:0=.5
-Windows.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=1
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumShadowRaysScale:0=4
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumPenumbraShadowRaysScale:0=8
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:MinDistanceFieldUpsampleFactor:0=5
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumHemisphereSamplesScale:0=4
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumImportanceSearchPhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumDirectPhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:DirectPhotonSearchDistanceScale:0=.5
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonPathsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonsScale:0=4
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectIrradiancePhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:RecordRadiusScaleScale:0=.75
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:InterpolationMaxAngleScale:0=.75
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:IrradianceCacheSmoothFactor:0=.75
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumAdaptiveRefinementLevels:0=3
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveBrightnessThresholdScale:0=.25
-Windows.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumShadowRaysScale:0=8
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumPenumbraShadowRaysScale:0=32
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:MinDistanceFieldUpsampleFactor:0=5
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumHemisphereSamplesScale:0=8
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumImportanceSearchPhotonsScale:0=3
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumDirectPhotonsScale:0=4
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:DirectPhotonSearchDistanceScale:0=.5
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonPathsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonsScale:0=8
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectIrradiancePhotonsScale:0=2
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:RecordRadiusScaleScale:0=.5625
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:InterpolationMaxAngleScale:0=.75
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:IrradianceCacheSmoothFactor:0=.75
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumAdaptiveRefinementLevels:0=3
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveBrightnessThresholdScale:0=.25
-Windows.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2.5
 Mac.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
 Mac.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
 Mac.Engine:AssetRegistry:bSerializeDependencies:0=false
@@ -1611,7 +1418,7 @@ Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/Mobil
 Windows.Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:0=False
 Windows.Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:0=True
 Windows.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
-Windows.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=true
+Windows.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=True
 Windows.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:0=(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:1=(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
@@ -1636,32 +1443,29 @@ Windows.Input:/Script/Engine.InputSettings:AxisConfig:19=(AxisKeyName="Gamepad_S
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:20=(AxisKeyName="Gamepad_Special_Left_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
 Windows.Input:/Script/Engine.InputSettings:bUseMouseForTouch:0=False
 Windows.Input:/Script/Engine.InputSettings:bCaptureMouseOnLaunch:0=True
-Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently_IncludingInitialMouseDown
+Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently
 Windows.Input:/Script/Engine.InputSettings:bDefaultViewportMouseLock:0=True
+Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockAlways
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:0=(ActionName="Jump",Key=SpaceBar,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:1=(ActionName="Jump",Key=Gamepad_FaceButton_Bottom,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:2=(ActionName="Fire",Key=LeftMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:3=(ActionName="Fire",Key=Gamepad_RightTrigger,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:4=(ActionName="Fire",Key=MotionController_Right_Trigger,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:5=(ActionName="Jump",Key=MotionController_Left_Trigger,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:6=(ActionName="ResetVR",Key=R,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
-Windows.Input:/Script/Engine.InputSettings:ActionMappings:7=(ActionName="ResetVR",Key=MotionController_Left_Grip1,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:1=(ActionName="Fire",Key=LeftMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:2=(ActionName="Reload",Key=R,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:3=(ActionName="Mouse2",Key=RightMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:4=(ActionName="MouseMiddle",Key=MiddleMouseButton,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:5=(ActionName="Sprint",Key=LeftShift,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:6=(ActionName="Crouch_Toggle",Key=C,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:7=(ActionName="Crouch",Key=LeftControl,bShift=False,bCtrl=False,bAlt=False,bCmd=False)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="MoveForward",Key=W,Scale=1.000000)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="MoveForward",Key=S,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="MoveForward",Key=Up,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="MoveForward",Key=Down,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="MoveForward",Key=Gamepad_LeftY,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="MoveRight",Key=A,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:6=(AxisName="MoveRight",Key=D,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:7=(AxisName="MoveRight",Key=Gamepad_LeftX,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:8=(AxisName="TurnRate",Key=Gamepad_RightX,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:9=(AxisName="TurnRate",Key=Left,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:10=(AxisName="TurnRate",Key=Right,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:11=(AxisName="Turn",Key=MouseX,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:12=(AxisName="LookUpRate",Key=Gamepad_RightY,Scale=1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:13=(AxisName="LookUp",Key=MouseY,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:14=(AxisName="MoveForward",Key=MotionController_Left_Thumbstick_Y,Scale=-1.000000)
-Windows.Input:/Script/Engine.InputSettings:AxisMappings:15=(AxisName="MoveRight",Key=MotionController_Left_Thumbstick_X,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="MoveForward",Key=Gamepad_LeftY,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="MoveRight",Key=A,Scale=-1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="MoveRight",Key=D,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="MoveRight",Key=Gamepad_LeftX,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:6=(AxisName="TurnRate",Key=Gamepad_RightX,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:7=(AxisName="Turn",Key=MouseX,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:8=(AxisName="LookUpRate",Key=Gamepad_RightY,Scale=1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:9=(AxisName="LookUp",Key=MouseY,Scale=-1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:10=(AxisName="MoveForward",Key=MotionController_Left_Thumbstick_Y,Scale=-1.000000)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:11=(AxisName="MoveRight",Key=MotionController_Left_Thumbstick_X,Scale=1.000000)
 Windows.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
 Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive")
@@ -1818,145 +1622,9 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
-Windows.Editor:EditorLayouts:NullLayout:0=(\
-	"Type" "Layout",\
-	"Name" "NullLayout",\
-	"PrimaryAreaIndex" 0,\
-	"Areas" [\
-		(\
-			"SizeCoefficient" 1,\
-			"Type" "Area",\
-			"Orientation" "Orient_Horizontal",\
-			"WindowPlacement" "Placement_NoWindow",\
-			"Nodes" []\
-		)\
-	]\
-)
-Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
-	"Type" "Layout",\
-	"Name" "WidgetBlueprintEditor_Designer_Layout_v4_1",\
-	"PrimaryAreaIndex" 0,\
-	"Areas" [\
-		(\
-			"SizeCoefficient" 1,\
-			"Type" "Area",\
-			"Orientation" "Orient_Vertical",\
-			"WindowPlacement" "Placement_NoWindow",\
-			"Nodes" [\
-				(\
-					"SizeCoefficient" 0.20000000298023224,\
-					"Type" "Stack",\
-					"HideTabWell" true,\
-					"ForegroundTab" "AssetEditorToolkit_Toolbar",\
-					"Tabs" [\
-						(\
-							"TabId" "AssetEditorToolkit_Toolbar",\
-							"TabState" "OpenedTab"\
-						)\
-					]\
-				),\
-				(\
-					"SizeCoefficient" 0.69999998807907104,\
-					"Type" "Splitter",\
-					"Orientation" "Orient_Horizontal",\
-					"Nodes" [\
-						(\
-							"SizeCoefficient" 0.15000000596046448,\
-							"Type" "Splitter",\
-							"Orientation" "Orient_Vertical",\
-							"Nodes" [\
-								(\
-									"SizeCoefficient" 0.5,\
-									"Type" "Stack",\
-									"HideTabWell" false,\
-									"ForegroundTab" "WidgetTemplates",\
-									"Tabs" [\
-										(\
-											"TabId" "WidgetTemplates",\
-											"TabState" "OpenedTab"\
-										)\
-									]\
-								),\
-								(\
-									"SizeCoefficient" 0.5,\
-									"Type" "Stack",\
-									"HideTabWell" false,\
-									"ForegroundTab" "SlateHierarchy",\
-									"Tabs" [\
-										(\
-											"TabId" "SlateHierarchy",\
-											"TabState" "OpenedTab"\
-										)\
-									]\
-								)\
-							]\
-						),\
-						(\
-							"SizeCoefficient" 0.62962961196899414,\
-							"Type" "Stack",\
-							"HideTabWell" true,\
-							"ForegroundTab" "SlatePreview",\
-							"Tabs" [\
-								(\
-									"TabId" "SlatePreview",\
-									"TabState" "OpenedTab"\
-								)\
-							]\
-						),\
-						(\
-							"SizeCoefficient" 0.22037036716938019,\
-							"Type" "Stack",\
-							"HideTabWell" false,\
-							"ForegroundTab" "WidgetDetails",\
-							"Tabs" [\
-								(\
-									"TabId" "WidgetDetails",\
-									"TabState" "OpenedTab"\
-								)\
-							]\
-						)\
-					]\
-				),\
-				(\
-					"SizeCoefficient" 0.30000001192092896,\
-					"Type" "Splitter",\
-					"Orientation" "Orient_Horizontal",\
-					"Nodes" [\
-						(\
-							"SizeCoefficient" 0.15000000596046448,\
-							"Type" "Stack",\
-							"HideTabWell" false,\
-							"ForegroundTab" "Animations",\
-							"Tabs" [\
-								(\
-									"TabId" "Animations",\
-									"TabState" "OpenedTab"\
-								)\
-							]\
-						),\
-						(\
-							"SizeCoefficient" 0.85000002384185791,\
-							"Type" "Stack",\
-							"HideTabWell" false,\
-							"ForegroundTab" "CompilerResults",\
-							"Tabs" [\
-								(\
-									"TabId" "Sequencer",\
-									"TabState" "OpenedTab"\
-								),\
-								(\
-									"TabId" "CompilerResults",\
-									"TabState" "OpenedTab"\
-								)\
-							]\
-						)\
-					]\
-				)\
-			]\
-		)\
-	]\
-)
-Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=( 	"Type" "Layout", 	"Name" "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex" 0, 	"Areas" [ 		( 			"SizeCoefficient" 1, 			"Type" "Area", 			"Orientation" "Orient_Vertical", 			"WindowPlacement" "Placement_NoWindow", 			"Nodes" [ 				( 					"SizeCoefficient" 0.18672099709510803, 					"Type" "Stack", 					"HideTabWell" true, 					"ForegroundTab" "AssetEditorToolkit_Toolbar", 					"Tabs" [ 						( 							"TabId" "AssetEditorToolkit_Toolbar", 							"TabState" "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient" 1, 					"Type" "Splitter", 					"Orientation" "Orient_Horizontal", 					"Nodes" [ 						( 							"SizeCoefficient" 0.15000000596046448, 							"Type" "Splitter", 							"Orientation" "Orient_Vertical", 							"Nodes" [ 								( 									"SizeCoefficient" 0.15000000596046448, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "MyBlueprint", 									"Tabs" [ 										( 											"TabId" "MyBlueprint", 											"TabState" "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient" 0.15000000596046448, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "Inspector", 									"Tabs" [ 										( 											"TabId" "Inspector", 											"TabState" "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient" 0.69999998807907104, 							"Type" "Splitter", 							"Orientation" "Orient_Vertical", 							"Nodes" [ 								( 									"SizeCoefficient" 0.80000001192092896, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "Document  0", 									"Tabs" [ 										( 											"TabId" "Document", 											"TabState" "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient" 0.20000000298023224, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "FindResults", 									"Tabs" [ 										( 											"TabId" "CompilerResults", 											"TabState" "OpenedTab" 										), 										( 											"TabId" "FindResults", 											"TabState" "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient" 0.15000000596046448, 							"Type" "Stack", 							"HideTabWell" false, 							"ForegroundTab" "None", 							"Tabs" [ 								( 									"TabId" "PaletteList", 									"TabState" "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+Windows.Editor:EditorLayouts:NullLayout:0=( 	"Type" "Layout", 	"Name" "NullLayout", 	"PrimaryAreaIndex" 0, 	"Areas" [ 		( 			"SizeCoefficient" 1, 			"Type" "Area", 			"Orientation" "Orient_Horizontal", 			"WindowPlacement" "Placement_NoWindow", 			"Nodes" [] 		) 	] )
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=( 	"Type" "Layout", 	"Name" "WidgetBlueprintEditor_Designer_Layout_v4_1", 	"PrimaryAreaIndex" 0, 	"Areas" [ 		( 			"SizeCoefficient" 1, 			"Type" "Area", 			"Orientation" "Orient_Vertical", 			"WindowPlacement" "Placement_NoWindow", 			"Nodes" [ 				( 					"SizeCoefficient" 0.20000000298023224, 					"Type" "Stack", 					"HideTabWell" true, 					"ForegroundTab" "AssetEditorToolkit_Toolbar", 					"Tabs" [ 						( 							"TabId" "AssetEditorToolkit_Toolbar", 							"TabState" "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient" 0.69999998807907104, 					"Type" "Splitter", 					"Orientation" "Orient_Horizontal", 					"Nodes" [ 						( 							"SizeCoefficient" 0.15000000596046448, 							"Type" "Splitter", 							"Orientation" "Orient_Vertical", 							"Nodes" [ 								( 									"SizeCoefficient" 0.5, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "WidgetTemplates", 									"Tabs" [ 										( 											"TabId" "WidgetTemplates", 											"TabState" "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient" 0.5, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "SlateHierarchy", 									"Tabs" [ 										( 											"TabId" "SlateHierarchy", 											"TabState" "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient" 0.62962961196899414, 							"Type" "Stack", 							"HideTabWell" true, 							"ForegroundTab" "SlatePreview", 							"Tabs" [ 								( 									"TabId" "SlatePreview", 									"TabState" "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient" 0.22037036716938019, 							"Type" "Stack", 							"HideTabWell" false, 							"ForegroundTab" "WidgetDetails", 							"Tabs" [ 								( 									"TabId" "WidgetDetails", 									"TabState" "OpenedTab" 								) 							] 						) 					] 				), 				( 					"SizeCoefficient" 0.30000001192092896, 					"Type" "Splitter", 					"Orientation" "Orient_Horizontal", 					"Nodes" [ 						( 							"SizeCoefficient" 0.15000000596046448, 							"Type" "Stack", 							"HideTabWell" false, 							"ForegroundTab" "Animations", 							"Tabs" [ 								( 									"TabId" "Animations", 									"TabState" "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient" 0.85000002384185791, 							"Type" "Stack", 							"HideTabWell" false, 							"ForegroundTab" "Sequencer", 							"Tabs" [ 								( 									"TabId" "Sequencer", 									"TabState" "OpenedTab" 								), 								( 									"TabId" "CompilerResults", 									"TabState" "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=( 	"Type" "Layout", 	"Name" "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex" 0, 	"Areas" [ 		( 			"SizeCoefficient" 1, 			"Type" "Area", 			"Orientation" "Orient_Vertical", 			"WindowPlacement" "Placement_NoWindow", 			"Nodes" [ 				( 					"SizeCoefficient" 0.18672099709510803, 					"Type" "Stack", 					"HideTabWell" true, 					"ForegroundTab" "AssetEditorToolkit_Toolbar", 					"Tabs" [ 						( 							"TabId" "AssetEditorToolkit_Toolbar", 							"TabState" "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient" 1, 					"Type" "Splitter", 					"Orientation" "Orient_Horizontal", 					"Nodes" [ 						( 							"SizeCoefficient" 0.19187745451927185, 							"Type" "Splitter", 							"Orientation" "Orient_Vertical", 							"Nodes" [ 								( 									"SizeCoefficient" 0.72712695598602295, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "MyBlueprint", 									"Tabs" [ 										( 											"TabId" "MyBlueprint", 											"TabState" "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient" 0.27287301421165466, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "Inspector", 									"Tabs" [ 										( 											"TabId" "Inspector", 											"TabState" "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient" 0.65812242031097412, 							"Type" "Splitter", 							"Orientation" "Orient_Vertical", 							"Nodes" [ 								( 									"SizeCoefficient" 0.80000001192092896, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "Document  0", 									"Tabs" [ 										( 											"TabId" "Document", 											"TabState" "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient" 0.20000000298023224, 									"Type" "Stack", 									"HideTabWell" false, 									"ForegroundTab" "CompilerResults", 									"Tabs" [ 										( 											"TabId" "CompilerResults", 											"TabState" "OpenedTab" 										), 										( 											"TabId" "FindResults", 											"TabState" "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient" 0.15000000596046448, 							"Type" "Stack", 							"HideTabWell" false, 							"ForegroundTab" "None", 							"Tabs" [ 								( 									"TabId" "PaletteList", 									"TabState" "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
 Windows.Editor:Internationalization:LocalizationPaths:0=../../../Engine/Content/Localization/Editor
 Windows.Editor:Internationalization:LocalizationPaths:1=../../../Engine/Content/Localization/EditorTutorials
 Windows.Editor:Internationalization:LocalizationPaths:2=../../../Engine/Content/Localization/Keywords
@@ -2782,6 +2450,199 @@ Windows.Compat:AppCompatGPU-0x1002:0x4A6B:0=3,Radeon X800 XT Secondary
 Windows.Compat:AppCompatGPU-0x1002:0x5D77:0=3,Radeon X800 XT Secondary
 Windows.Compat:AppCompatGPU-0x1002:0x5D4D:0=3,Radeon X850 XT Platinum Edition
 Windows.Compat:AppCompatGPU-0x1002:0x5D6D:0=3,Radeon X850 XT Platinum Edition Secondary
+Windows.Lightmass:DevOptions.StaticLighting:bAllowMultiThreadedStaticLighting:0=True
+Windows.Lightmass:DevOptions.StaticLighting:ViewSingleBounceNumber:0=-1
+Windows.Lightmass:DevOptions.StaticLighting:bUseBilinearFilterLightmaps:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bCompressLightmaps:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bUseConservativeTexelRasterization:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bAccountForTexelSize:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bUseMaxWeight:0=True
+Windows.Lightmass:DevOptions.StaticLighting:MaxTriangleLightingSamples:0=8
+Windows.Lightmass:DevOptions.StaticLighting:MaxTriangleIrradiancePhotonCacheSamples:0=4
+Windows.Lightmass:DevOptions.StaticLighting:bAllow64bitProcess:0=True
+Windows.Lightmass:DevOptions.StaticLighting:DefaultStaticMeshLightingRes:0=32
+Windows.Lightmass:DevOptions.StaticLighting:bAllowCropping:0=False
+Windows.Lightmass:DevOptions.StaticLighting:bGarbageCollectAfterExport:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bRebuildDirtyGeometryForLighting:0=True
+Windows.Lightmass:DevOptions.StaticLighting:bUseEmbree:0=true
+Windows.Lightmass:DevOptions.StaticLighting:bVerifyEmbree:0=false
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:StaticLightingLevelScale:0=1
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityRayOffsetDistance:0=.1
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetDistance:0=3
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetSampleRadiusScale:0=.5
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityTangentOffsetSampleRadiusScale:0=.8
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:SmallestTexelRadius:0=.1
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:LightGridSize:0=100
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:AutomaticImportanceVolumeExpandBy:0=500
+Windows.Lightmass:DevOptions.StaticLightingSceneConstants:MinimumImportanceVolumeExtentWithoutWarning:0=10000.0
+Windows.Lightmass:DevOptions.StaticLightingMaterial:bUseDebugMaterial:0=False
+Windows.Lightmass:DevOptions.StaticLightingMaterial:ShowMaterialAttribute:0=None
+Windows.Lightmass:DevOptions.StaticLightingMaterial:EmissiveSampleSize:0=128
+Windows.Lightmass:DevOptions.StaticLightingMaterial:DiffuseSampleSize:0=128
+Windows.Lightmass:DevOptions.StaticLightingMaterial:SpecularSampleSize:0=128
+Windows.Lightmass:DevOptions.StaticLightingMaterial:TransmissionSampleSize:0=256
+Windows.Lightmass:DevOptions.StaticLightingMaterial:NormalSampleSize:0=256
+Windows.Lightmass:DevOptions.StaticLightingMaterial:TerrainSampleScalar:0=4
+Windows.Lightmass:DevOptions.StaticLightingMaterial:DebugDiffuse:0=(R=0.500000,G=0.500000,B=0.500000)
+Windows.Lightmass:DevOptions.StaticLightingMaterial:EnvironmentColor:0=(R=0.00000,G=0.00000,B=0.00000)
+Windows.Lightmass:DevOptions.MeshAreaLights:bVisualizeMeshAreaLightPrimitives:0=False
+Windows.Lightmass:DevOptions.MeshAreaLights:EmissiveIntensityThreshold:0=.01
+Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGridSize:0=100
+Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyNormalAngleThreshold:0=25
+Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyCornerDistanceThreshold:0=.5
+Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyMeshBoundingRadiusFractionThreshold:0=.1
+Windows.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGeneratedDynamicLightSurfaceOffset:0=30
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightSamples:0=False
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightInterpolation:0=False
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumHemisphereSamplesScale:0=2
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceLightSampleSpacing:0=300
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:FirstSurfaceSampleLayerHeight:0=50
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceSampleLayerHeightSpacing:0=250
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumSurfaceSampleLayers:0=2
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:DetailVolumeSampleSpacing:0=300
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:VolumeLightSampleSpacing:0=3000
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxVolumeSamples:0=250000
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bUseMaxSurfaceSampleNum:0=True
+Windows.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxSurfaceLightSamples:0=500000
+Windows.Lightmass:DevOptions.PrecomputedVisibility:bVisualizePrecomputedVisibility:0=False
+Windows.Lightmass:DevOptions.PrecomputedVisibility:bCompressVisibilityData:0=True
+Windows.Lightmass:DevOptions.PrecomputedVisibility:bPlaceCellsOnOpaqueOnly:0=True
+Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellDistributionBuckets:0=800
+Windows.Lightmass:DevOptions.PrecomputedVisibility:CellRenderingBucketSize:0=5
+Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellRenderingBuckets:0=5
+Windows.Lightmass:DevOptions.PrecomputedVisibility:PlayAreaHeight:0=220
+Windows.Lightmass:DevOptions.PrecomputedVisibility:MeshBoundsScale:0=1.2
+Windows.Lightmass:DevOptions.PrecomputedVisibility:VisibilitySpreadingIterations:0=1
+Windows.Lightmass:DevOptions.PrecomputedVisibility:MinMeshSamples:0=14
+Windows.Lightmass:DevOptions.PrecomputedVisibility:MaxMeshSamples:0=40
+Windows.Lightmass:DevOptions.PrecomputedVisibility:NumCellSamples:0=24
+Windows.Lightmass:DevOptions.PrecomputedVisibility:NumImportanceSamples:0=40
+Windows.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:MeshBoundsScale:0=1
+Windows.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:VisibilitySpreadingIterations:0=1
+Windows.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:MeshBoundsScale:0=1
+Windows.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:VisibilitySpreadingIterations:0=0
+Windows.Lightmass:DevOptions.VolumeDistanceField:VoxelSize:0=75
+Windows.Lightmass:DevOptions.VolumeDistanceField:VolumeMaxDistance:0=900
+Windows.Lightmass:DevOptions.VolumeDistanceField:NumVoxelDistanceSamples:0=800
+Windows.Lightmass:DevOptions.VolumeDistanceField:MaxVoxels:0=3992160
+Windows.Lightmass:DevOptions.StaticShadows:bUseZeroAreaLightmapSpaceFilteredLights:0=False
+Windows.Lightmass:DevOptions.StaticShadows:NumShadowRays:0=8
+Windows.Lightmass:DevOptions.StaticShadows:NumPenumbraShadowRays:0=8
+Windows.Lightmass:DevOptions.StaticShadows:NumBounceShadowRays:0=1
+Windows.Lightmass:DevOptions.StaticShadows:bFilterShadowFactor:0=True
+Windows.Lightmass:DevOptions.StaticShadows:ShadowFactorGradientTolerance:0=0.5
+Windows.Lightmass:DevOptions.StaticShadows:bAllowSignedDistanceFieldShadows:0=True
+Windows.Lightmass:DevOptions.StaticShadows:MaxTransitionDistanceWorldSpace:0=50
+Windows.Lightmass:DevOptions.StaticShadows:ApproximateHighResTexelsPerMaxTransitionDistance:0=50
+Windows.Lightmass:DevOptions.StaticShadows:MinDistanceFieldUpsampleFactor:0=3
+Windows.Lightmass:DevOptions.StaticShadows:MinUnoccludedFraction:0=.0005
+Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceX:0=100
+Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceY:0=100
+Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapSuperSampleFactor:0=2
+Windows.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapMaxSamples:0=4194304
+Windows.Lightmass:DevOptions.ImportanceTracing:bUseCosinePDF:0=False
+Windows.Lightmass:DevOptions.ImportanceTracing:bUseStratifiedSampling:0=True
+Windows.Lightmass:DevOptions.ImportanceTracing:NumHemisphereSamples:0=16
+Windows.Lightmass:DevOptions.ImportanceTracing:MaxHemisphereRayAngle:0=89
+Windows.Lightmass:DevOptions.ImportanceTracing:bUseAdaptiveSolver:0=true
+Windows.Lightmass:DevOptions.ImportanceTracing:NumAdaptiveRefinementLevels:0=2
+Windows.Lightmass:DevOptions.ImportanceTracing:AdaptiveBrightnessThreshold:0=1
+Windows.Lightmass:DevOptions.ImportanceTracing:AdaptiveFirstBouncePhotonConeAngle:0=4
+Windows.Lightmass:DevOptions.PhotonMapping:bUsePhotonMapping:0=True
+Windows.Lightmass:DevOptions.PhotonMapping:bUseFinalGathering:0=True
+Windows.Lightmass:DevOptions.PhotonMapping:bUsePhotonDirectLightingInFinalGather:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:bVisualizeCachedApproximateDirectLighting:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:bUseIrradiancePhotons:0=True
+Windows.Lightmass:DevOptions.PhotonMapping:bCacheIrradiancePhotonsOnSurfaces:0=True
+Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonPaths:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonGathers:0=True
+Windows.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonImportanceSamples:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:bVisualizeIrradiancePhotonCalculation:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:bEmitPhotonsOutsideImportanceVolume:0=False
+Windows.Lightmass:DevOptions.PhotonMapping:ConeFilterConstant:0=1
+Windows.Lightmass:DevOptions.PhotonMapping:NumIrradianceCalculationPhotons:0=400
+Windows.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleFraction:0=.6
+Windows.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleConeAngle:0=10
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitDiskRadius:0=200
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitConeAngle:0=30
+Windows.Lightmass:DevOptions.PhotonMapping:MaxImportancePhotonSearchDistance:0=2000
+Windows.Lightmass:DevOptions.PhotonMapping:MinImportancePhotonSearchDistance:0=20
+Windows.Lightmass:DevOptions.PhotonMapping:NumImportanceSearchPhotons:0=10
+Windows.Lightmass:DevOptions.PhotonMapping:OutsideImportanceVolumeDensityScale:0=.0005
+Windows.Lightmass:DevOptions.PhotonMapping:DirectPhotonDensity:0=350
+Windows.Lightmass:DevOptions.PhotonMapping:DirectIrradiancePhotonDensity:0=350
+Windows.Lightmass:DevOptions.PhotonMapping:DirectPhotonSearchDistance:0=200
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonPathDensity:0=5
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonDensity:0=600
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectIrradiancePhotonDensity:0=300
+Windows.Lightmass:DevOptions.PhotonMapping:IndirectPhotonSearchDistance:0=200
+Windows.Lightmass:DevOptions.PhotonMapping:PhotonSearchAngleThreshold:0=.5
+Windows.Lightmass:DevOptions.PhotonMapping:IrradiancePhotonSearchConeAngle:0=10
+Windows.Lightmass:DevOptions.PhotonMapping:CachedIrradiancePhotonDownsampleFactor:0=2
+Windows.Lightmass:DevOptions.IrradianceCache:bAllowIrradianceCaching:0=True
+Windows.Lightmass:DevOptions.IrradianceCache:bUseIrradianceGradients:0=False
+Windows.Lightmass:DevOptions.IrradianceCache:bShowGradientsOnly:0=False
+Windows.Lightmass:DevOptions.IrradianceCache:bVisualizeIrradianceSamples:0=True
+Windows.Lightmass:DevOptions.IrradianceCache:RecordRadiusScale:0=.8
+Windows.Lightmass:DevOptions.IrradianceCache:InterpolationMaxAngle:0=20
+Windows.Lightmass:DevOptions.IrradianceCache:PointBehindRecordMaxAngle:0=10
+Windows.Lightmass:DevOptions.IrradianceCache:DistanceSmoothFactor:0=4
+Windows.Lightmass:DevOptions.IrradianceCache:AngleSmoothFactor:0=4
+Windows.Lightmass:DevOptions.IrradianceCache:SkyOcclusionSmoothnessReduction:0=.5
+Windows.Lightmass:DevOptions.IrradianceCache:MaxRecordRadius:0=1024
+Windows.Lightmass:DevOptions.IrradianceCache:CacheTaskSize:0=64
+Windows.Lightmass:DevOptions.IrradianceCache:InterpolateTaskSize:0=64
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumShadowRaysScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumPenumbraShadowRaysScale:0=4
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=3
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:MinDistanceFieldUpsampleFactor:0=3
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumHemisphereSamplesScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumImportanceSearchPhotonsScale:0=1
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumDirectPhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:DirectPhotonSearchDistanceScale:0=.5
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonPathsScale:0=1
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectIrradiancePhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:RecordRadiusScaleScale:0=.75
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:InterpolationMaxAngleScale:0=1
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:IrradianceCacheSmoothFactor:0=.75
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:NumAdaptiveRefinementLevels:0=3
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveBrightnessThresholdScale:0=.5
+Windows.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=1
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumShadowRaysScale:0=4
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumPenumbraShadowRaysScale:0=8
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:MinDistanceFieldUpsampleFactor:0=5
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumHemisphereSamplesScale:0=4
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumImportanceSearchPhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumDirectPhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:DirectPhotonSearchDistanceScale:0=.5
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonPathsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonsScale:0=4
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectIrradiancePhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:RecordRadiusScaleScale:0=.75
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:InterpolationMaxAngleScale:0=.75
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:IrradianceCacheSmoothFactor:0=.75
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:NumAdaptiveRefinementLevels:0=3
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveBrightnessThresholdScale:0=.25
+Windows.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumShadowRaysScale:0=8
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumPenumbraShadowRaysScale:0=32
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:MinDistanceFieldUpsampleFactor:0=5
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumHemisphereSamplesScale:0=8
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumImportanceSearchPhotonsScale:0=3
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumDirectPhotonsScale:0=4
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:DirectPhotonSearchDistanceScale:0=.5
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonPathsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonsScale:0=8
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectIrradiancePhotonsScale:0=2
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:RecordRadiusScaleScale:0=.5625
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:InterpolationMaxAngleScale:0=.75
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:IrradianceCacheSmoothFactor:0=.75
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:NumAdaptiveRefinementLevels:0=3
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveBrightnessThresholdScale:0=.25
+Windows.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2.5
 Windows.Scalability:ScalabilitySettings:PerfIndexThresholds_ResolutionQuality:0=GPU 18 42 115
 Windows.Scalability:ScalabilitySettings:PerfIndexThresholds_ViewDistanceQuality:0=Min 18 42 105
 Windows.Scalability:ScalabilitySettings:PerfIndexThresholds_AntiAliasingQuality:0=GPU 18 42 115
@@ -3479,14 +3340,14 @@ Private-Geometry:6EACA3D440EC4CC1B7868BED09428FC5=1
 Dev-AnimPhys:29E575DDE0A346279D10D276232CDCEA=7
 ShaderCacheVersion:B954F018C9624DD6A74E79B18EA113C2=14
 ShaderCacheGameVersion:03D4EB48B50B4CC3A598DE415C6CC993=0
-FoliageVer:430C4D197154497087699B69DF90B0E5=11
-ProceduralFoliageVer:AAFE32BD53954C14B66A5E251032D1DD=1
 AssetRegistry:717F9EE7E9B0493A88B391321B388107=4
-MovieSceneEvaluation:A462B7EAF4994E3A99C1EC1F8224E1B2=2
+FileCacheVersion:8E7DDCB380DA47BB9FD346A293984DF6=1
+PoseDriverVer:AFE086913A0D4952B673673B7CF22D1E=2
 AnimGraphVer:2EB5FDBD01AC4D108136F38F3393A5DA=4
 EventParameter:509D354FF6E6492FA74985B2073C631C=0
-PoseDriverVer:AFE086913A0D4952B673673B7CF22D1E=2
-FileCacheVersion:8E7DDCB380DA47BB9FD346A293984DF6=1
+MovieSceneEvaluation:A462B7EAF4994E3A99C1EC1F8224E1B2=2
+FoliageVer:430C4D197154497087699B69DF90B0E5=11
+ProceduralFoliageVer:AAFE32BD53954C14B66A5E251032D1DD=1
 Landscape:23AFE18E4CE14E588D61C252B953BEB7=6
 SkeletalMeshVer:D78A4A00E8584697BAA819B5487D46B4=9
 RecomputeTangentCustomVer:5579F886933A4C1F83BA087B6361B92F=1
