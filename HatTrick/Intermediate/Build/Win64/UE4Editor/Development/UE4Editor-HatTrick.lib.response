@@ -7,10 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"C:\Users\megaj_000\Desktop\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\CharacterMovementSprint.cpp.obj"
-"C:\Users\megaj_000\Desktop\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\HatTrick.cpp.obj"
-"C:\Users\megaj_000\Desktop\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\CharacterMovementSprint.gen.cpp.obj"
-"C:\Users\megaj_000\Desktop\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\HatTrick.init.gen.cpp.obj"
+"C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\CharacterMovementSprint.cpp.obj"
+"C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\HatTrick.cpp.obj"
+"C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\CharacterMovementSprint.gen.cpp.obj"
+"C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\HatTrick.init.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\HatTrick\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"C:\Users\megaj_000\Desktop\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HatTrick.lib"
+/OUT:"C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HatTrick.lib"
