@@ -1,4 +1,4 @@
-﻿Log file open, 11/22/17 14:47:31
+﻿Log file open, 11/22/17 14:51:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HatTrick
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1229094239) SRandInit(1229094239).
+LogInit: Display: RandInit(1928549637) SRandInit(1928549637).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.158330
+LogStats: Stats thread started at 0.159700
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -116,472 +116,1016 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.22-12.47.32:163][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.22-12.47.32:163][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.22-12.47.32:173][  0]LogInit: Computer: AOTA1-1L141-14D
-[2017.11.22-12.47.32:173][  0]LogInit: User: MitjaSal
-[2017.11.22-12.47.32:173][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.22-12.47.32:173][  0]LogInit: High frequency timer resolution =3.328124 MHz
-[2017.11.22-12.47.32:173][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.22-12.47.32:173][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.22-12.47.32:173][  0]LogMemory: Process Physical Memory: 280.22 MB used, 280.22 MB peak
-[2017.11.22-12.47.32:173][  0]LogMemory: Process Virtual Memory: 282.98 MB used, 282.98 MB peak
-[2017.11.22-12.47.32:173][  0]LogMemory: Physical Memory: 5329.00 MB used,  10935.30 MB free, 16264.30 MB total
-[2017.11.22-12.47.32:173][  0]LogMemory: Virtual Memory: 666.25 MB used,  10935.30 MB free, 134217728.00 MB total
-[2017.11.22-12.47.32:305][  0]LogInit: Using OS detected language (en-US).
-[2017.11.22-12.47.32:305][  0]LogInit: Using OS detected locale (fi-FI).
-[2017.11.22-12.47.32:307][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.22-12.47.32:307][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
-[2017.11.22-12.47.32:888][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.22-12.47.32:922][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
-[2017.11.22-12.47.32:922][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.22-12.47.32:928][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.11.22-12.47.32:928][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.11.22-12.47.32:929][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.22-12.47.32:929][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.22-12.47.32:929][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.22-12.47.32:933][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.22-12.47.32:934][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.22-12.47.32:934][  0]LogWindows: EnumDisplayDevices:
-[2017.11.22-12.47.32:934][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
-[2017.11.22-12.47.32:934][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
-[2017.11.22-12.47.32:934][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.11.22-12.47.32:934][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.11.22-12.47.32:934][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.22-12.47.32:934][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.22-12.47.32:934][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.22-12.47.32:934][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.22-12.47.32:934][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
-[2017.11.22-12.47.32:934][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
-[2017.11.22-12.47.32:934][  0]LogD3D11RHI:      Driver Date: 8-17-2017
-[2017.11.22-12.47.32:934][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.22-12.47.32:964][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.22-12.47.32:981][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.22-12.47.33:024][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/17396/).
-[2017.11.22-12.47.33:024][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MitjaSal/AppData/Local/Temp/UnrealShaderWorkingDir/3A9956F84BBAEEDAFA9D6DA176CCE349/'.
-[2017.11.22-12.47.33:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.22-12.47.33:778][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.22-12.47.33:821][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.22-12.47.33:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.22-12.47.33:906][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.22-12.47.33:950][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.22-12.47.33:993][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.22-12.47.34:035][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.22-12.47.34:078][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.22-12.47.34:116][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.22-12.47.34:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.22-12.47.34:199][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.22-12.47.34:243][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.22-12.47.34:284][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.22-12.47.34:325][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.22-12.47.34:370][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.22-12.47.34:453][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.22-12.47.34:453][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.22-12.47.34:487][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.22-12.47.34:569][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.22-12.47.34:594][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.22-12.47.34:636][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.22-12.47.34:679][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.22-12.47.34:720][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.22-12.47.34:761][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.22-12.47.34:761][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.22-12.47.35:166][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.22-12.47.35:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.22-12.47.35:259][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.22-12.47.35:271][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MitjaSal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.22-12.47.35:279][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.22-12.47.35:279][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.22-12.47.35:280][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.22-12.47.35:280][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.22-12.47.35:497][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2017.11.22-12.47.35:594][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.22-12.47.35:734][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.22-12.47.35:978][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.22-12.47.36:012][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.22-12.47.36:012][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.22-12.47.36:012][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.22-12.47.36:012][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.22-12.47.36:012][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.22-12.47.36:309][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
-[2017.11.22-12.47.36:485][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.036981 seconds
-[2017.11.22-12.47.36:490][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.22-12.47.36:490][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.22-12.47.36:490][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.22-12.47.38:730][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.22-12.47.38:776][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.22-12.47.39:363][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.22-12.47.39:703][  0]SourceControl: Source control is disabled
-[2017.11.22-12.47.40:655][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.22-12.47.40:855][  0]LogOcInput: OculusInput pre-init called
-[2017.11.22-12.47.41:086][  0]LogEngine: Initializing Engine...
-[2017.11.22-12.47.41:087][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.22-12.47.41:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.22-12.47.41:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.22-12.47.41:381][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.22-12.47.41:389][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.22-12.47.41:419][  0]LogInit: FAudioDevice initialized.
-[2017.11.22-12.47.41:505][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.22-12.47.41:515][  0]LogInit: Texture streaming: Enabled
-[2017.11.22-12.47.41:615][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.22-12.47.41:801][  0]LogInit: Transaction tracking system initialized
-[2017.11.22-12.47.42:069][  0]BlueprintLog: New page: Editor Load
-[2017.11.22-12.47.42:840][  0]LocalizationService: Localization service is disabled
-[2017.11.22-12.47.43:441][  0]LogConsoleResponse: Display: 
-[2017.11.22-12.47.43:606][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.22-12.47.43:606][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.22-12.47.43:606][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.22-12.47.44:486][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.02s
-[2017.11.22-12.47.44:486][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.22-12.47.44:487][  0]LightingResults: New page: Lighting Build
-[2017.11.22-12.47.44:522][  0]MapCheck: New page: Map Check
-[2017.11.22-12.47.44:522][  0]LightingResults: New page: Lighting Build
-[2017.11.22-12.47.45:119][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2017.11.22-12.47.45:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.22-12.47.45:132][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.22-12.47.45:176][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.674ms to complete.
-[2017.11.22-12.47.45:177][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.691
-[2017.11.22-12.47.45:343][  0]LogCollectionManager: Loaded 0 collections in 0.001477 seconds
-[2017.11.22-12.47.45:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
-[2017.11.22-12.47.45:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/MitjaSal/Collections/' took 0.01s
-[2017.11.22-12.47.45:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
-[2017.11.22-12.47.45:426][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.22-12.47.45:434][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2387 classes and 502 folders.
-[2017.11.22-12.47.45:492][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.11.22-12.47.45:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.11.22-12.47.45:562][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.11.22-12.47.45:580][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.22-12.47.45:582][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.22-12.47.45:587][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.22-12.47.45:682][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.22-12.47.45:846][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.11.22-12.47.45:846][  0]LogLoad: (Engine Initialization) Total time: 15.41 seconds
-[2017.11.22-12.47.45:847][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.22-12.47.45:847][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.22-12.47.45:859][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.22-12.47.45:898][  0]LogAssetRegistry: Asset discovery search completed in 10.4236 seconds
-[2017.11.22-12.47.45:900][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.22-12.47.45:900][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2017.11.22-12.47.45:902][  0]SourceControl: On branch Ketheres
-[2017.11.22-12.47.45:902][  0]SourceControl: Your branch is up to date with 'origin/Ketheres'.
-[2017.11.22-12.47.45:902][  0]SourceControl: Changes not staged for commit:
-[2017.11.22-12.47.45:902][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.22-12.47.45:902][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.22-12.47.45:902][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
-[2017.11.22-12.47.45:902][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Editor.ini
-[2017.11.22-12.47.45:902][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
-[2017.11.22-12.47.45:902][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
-[2017.11.22-12.47.45:902][  0]SourceControl: Untracked files:
-[2017.11.22-12.47.45:902][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.22-12.47.45:902][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-98C28AAE44E9EC0CC40A91A21627E746/
-[2017.11.22-12.47.45:902][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.22-12.47.45:902][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.22-12.47.45:943][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.22-12.47.45:949][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.08s
-[2017.11.22-12.47.46:919][ 52]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.22-12.49.53:842][131]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.22-12.49.54:171][131]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
-[2017.11.22-12.49.54:700][131]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.22-12.49.54:754][131]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.22-12.49.54:842][132]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.22-12.50.30:835][299]BlueprintLog: New page: Compile Bullet_02
-[2017.11.22-12.50.36:930][521]LogSavePackage: Save=40.37ms
-[2017.11.22-12.50.36:930][521]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Bullet_02DF05729043138A0481CA81A5FE6BE957.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/FirstPersonBP/Blueprints/Bullet_02.uasset'
-[2017.11.22-12.50.36:933][521]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/FirstPersonBP/Blueprints/Bullet_02.uasset
-[2017.11.22-12.50.36:991][521]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.22-12.50.37:126][522]Cmd: QUIT_EDITOR
-[2017.11.22-12.50.37:155][522]LogExit: Preparing to exit.
-[2017.11.22-12.50.37:965][522]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
-[2017.11.22-12.50.37:991][522]LogExit: Editor shut down
-[2017.11.22-12.50.37:992][522]LogExit: Transaction tracking system shut down
-[2017.11.22-12.50.38:143][522]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.22-12.50.38:143][522]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
-[2017.11.22-12.50.38:143][522]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.22-12.50.38:143][522]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.22-12.50.38:144][522]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.22-12.50.38:209][522]LogExit: Object subsystem successfully closed.
-[2017.11.22-12.50.38:225][522]LogD3D11RHI: Shutdown
-[2017.11.22-12.50.38:225][522]LogD3D11RHI: CleanupD3DDevice
-[2017.11.22-12.50.38:289][522]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module BlueprintGraph (537)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (535)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (533)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module SceneOutliner (531)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module AddContentDialog (529)
-[2017.11.22-12.50.38:304][522]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module WidgetCarousel (528)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module EditorWidgets (525)
-[2017.11.22-12.50.38:304][522]LogModuleManager: Shutting down and abandoning module CollectionManager (523)
-[2017.11.22-12.50.38:304][522]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
-[2017.11.22-12.50.38:304][522]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/MitjaSal/Collections/' was aborted.
-[2017.11.22-12.50.38:304][522]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module StatsViewer (521)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module FoliageEdit (519)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module LandscapeEditor (517)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module MeshPaintMode (515)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (513)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module ActorPickerMode (511)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module GeometryMode (509)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module TextureAlignMode (507)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module BspMode (505)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (503)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module HardwareSurvey (501)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (499)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AutomationWorker (497)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (495)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (493)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module PlacementMode (492)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (489)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (487)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (485)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (483)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (481)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module Media (480)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (477)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module CharacterAI (475)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AudioCapture (473)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module SequenceRecorder (472)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module SmartSnapping (469)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module SessionServices (467)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module ViewportSnapping (465)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module ViewportInteraction (463)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module ClothPainter (461)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module LogVisualizer (459)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module IntroTutorials (457)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (456)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (453)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (451)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (449)
-[2017.11.22-12.50.38:305][522]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (448)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (445)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (443)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (441)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module InputBindingEditor (439)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module MergeActors (437)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module SizeMap (435)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module TreeMap (433)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module ReferenceViewer (431)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (429)
-[2017.11.22-12.50.39:226][522]LogModuleManager: Shutting down and abandoning module LocalizationService (428)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module HardwareTargeting (425)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (423)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module UndoHistory (421)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module XmlParser (419)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module Blutility (417)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (415)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (414)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (411)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module SettingsEditor (409)
-[2017.11.22-12.50.39:227][522]LogModuleManager: Shutting down and abandoning module ProjectLauncher (407)
-[2017.11.22-12.50.39:228][522]LogModuleManager: Shutting down and abandoning module SessionFrontend (405)
-[2017.11.22-12.50.39:228][522]LogModuleManager: Shutting down and abandoning module ProfilerClient (403)
-[2017.11.22-12.50.39:228][522]LogModuleManager: Shutting down and abandoning module DeviceManager (401)
-[2017.11.22-12.50.39:228][522]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (400)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module AutomationController (397)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module AutomationWindow (395)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module Layers (393)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (391)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module DetailCustomizations (389)
-[2017.11.22-12.50.39:281][522]LogModuleManager: Shutting down and abandoning module PackagesDialog (387)
-[2017.11.22-12.50.39:282][522]LogModuleManager: Shutting down and abandoning module Persona (385)
-[2017.11.22-12.50.39:282][522]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (384)
-[2017.11.22-12.50.39:282][522]LogModuleManager: Shutting down and abandoning module AnimGraph (382)
-[2017.11.22-12.50.39:282][522]LogModuleManager: Shutting down and abandoning module Kismet (379)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module ClassViewer (377)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module Toolbox (375)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module ModuleUI (373)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module MovieSceneTools (371)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module OutputLog (369)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module GammaUI (367)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module Documentation (365)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (363)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module MovieScene (361)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module Niagara (359)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module NiagaraEditor (358)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (355)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module LauncherPlatform (353)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module AnalyticsET (351)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module PortalServices (349)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module PortalRpc (347)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module MessagingRpc (345)
-[2017.11.22-12.50.39:290][522]LogModuleManager: Shutting down and abandoning module AIModule (343)
-[2017.11.22-12.50.39:291][522]LogModuleManager: Shutting down and abandoning module GameplayDebugger (342)
-[2017.11.22-12.50.39:291][522]LogModuleManager: Shutting down and abandoning module AITestSuite (340)
-[2017.11.22-12.50.39:291][522]LogModuleManager: Shutting down and abandoning module ProfilerService (337)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module TaskGraph (335)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module SteamVRController (333)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (331)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (329)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module OculusInput (327)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (325)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (323)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module CableComponent (321)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (319)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module AndroidPermission (317)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (315)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module HTML5Networking (313)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module AlembicImporter (311)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module AlembicLibrary (310)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module GeometryCache (309)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (308)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (303)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module PluginBrowser (301)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (299)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (297)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module DesktopPlatform (296)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module UObjectPlugin (293)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (291)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (289)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module GitSourceControl (287)
-[2017.11.22-12.50.39:297][522]LogModuleManager: Shutting down and abandoning module SourceControl (286)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (283)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (281)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (279)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module Paper2DEditor (277)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module MeshPaint (276)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module LevelEditor (274)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (273)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module MainFrame (271)
-[2017.11.22-12.50.39:298][522]LogModuleManager: Shutting down and abandoning module HotReload (270)
-[2017.11.22-12.50.39:298][522]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Binaries/Win64' was aborted.
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module HatTrick (265)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (263)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (261)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module PhysXVehicles (259)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module OculusEditor (257)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (255)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (253)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (251)
-[2017.11.22-12.50.39:299][522]LogModuleManager: Shutting down and abandoning module UdpMessaging (249)
-[2017.11.22-12.50.39:399][522]LogModuleManager: Shutting down and abandoning module TcpMessaging (247)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (245)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (243)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module FacialAnimation (241)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (239)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module GraphEditor (238)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
-[2017.11.22-12.50.39:500][522]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (233)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module Paper2D (231)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (229)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module WmfMedia (227)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module Overlay (219)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module OverlayEditor (218)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module MediaAssets (215)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module VREditor (213)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module StringTableEditor (211)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (209)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (207)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module FunctionalTesting (205)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (203)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (202)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module UMG (199)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module UMGEditor (198)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module Sequencer (197)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module MessageLog (194)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module SlateReflector (189)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module Slate (187)
-[2017.11.22-12.50.39:501][522]LogModuleManager: Shutting down and abandoning module EditorStyle (185)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module MRMesh (183)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (181)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (179)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module XAudio2 (177)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module Networking (175)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module Core (173)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module MeshUtilities (165)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (164)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (163)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (162)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (160)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
-[2017.11.22-12.50.39:503][522]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.11.22-12.50.39:504][522]LogModuleManager: Shutting down and abandoning module DerivedDataCache (149)
-[2017.11.22-12.50.39:571][522]LogDerivedDataCache: Shutdown
-[2017.11.22-12.50.39:571][522]LogModuleManager: Shutting down and abandoning module TargetPlatform (147)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (146)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (144)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (142)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (140)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (138)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (136)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (134)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (132)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (130)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (128)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module ImageWrapper (127)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (124)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (122)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (120)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (118)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (116)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (114)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (112)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (110)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (108)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Messaging (106)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (104)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (102)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (100)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (98)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (96)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (94)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (92)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (90)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (88)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (86)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (84)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (82)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (80)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (78)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (76)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (74)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (72)
-[2017.11.22-12.50.39:572][522]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (70)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (68)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module InputCore (65)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module Settings (63)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module PhysXCooking (61)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module SteamVR (59)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module OculusHMD (57)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (55)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
-[2017.11.22-12.50.39:573][522]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
-[2017.11.22-12.50.39:573][522]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.22-12.50.39:573][522]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.22-12.50.39:574][522]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.22-12.50.39:574][522]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.22-12.50.39:574][522]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.22-12.50.39:574][522]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.22-12.50.39:574][522]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.22-12.50.39:574][522]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.22-12.50.39:574][522]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA4DE933-4A3C-DEB1-AA08-3DA6C22AA5DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d8738e7941e4d3cfec5b2bbcafccba71%7Ccf72d170c93c4791a870aa1338233e13%7Cb0151d52-2deb-4b7a-8d33-7a7ad62c4548&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.22-12.50.39:581][522]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.22-12.50.39:584][522]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.22-12.50.39:586][522]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.22-12.50.39:589][522]LogExit: Exiting.
-[2017.11.22-12.50.39:598][522]Log file closed, 11/22/17 14:50:39
+[2017.11.22-12.51.02:345][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.22-12.51.02:345][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.22-12.51.02:355][  0]LogInit: Computer: AOTA1-1L141-14D
+[2017.11.22-12.51.02:355][  0]LogInit: User: MitjaSal
+[2017.11.22-12.51.02:355][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.22-12.51.02:355][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2017.11.22-12.51.02:355][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.22-12.51.02:355][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.22-12.51.02:355][  0]LogMemory: Process Physical Memory: 279.79 MB used, 279.79 MB peak
+[2017.11.22-12.51.02:355][  0]LogMemory: Process Virtual Memory: 274.87 MB used, 274.87 MB peak
+[2017.11.22-12.51.02:355][  0]LogMemory: Physical Memory: 5340.77 MB used,  10923.53 MB free, 16264.30 MB total
+[2017.11.22-12.51.02:355][  0]LogMemory: Virtual Memory: 658.25 MB used,  10923.53 MB free, 134217728.00 MB total
+[2017.11.22-12.51.02:488][  0]LogInit: Using OS detected language (en-US).
+[2017.11.22-12.51.02:488][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.11.22-12.51.02:490][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.22-12.51.02:490][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
+[2017.11.22-12.51.03:054][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.22-12.51.03:088][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.11.22-12.51.03:088][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.22-12.51.03:093][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.22-12.51.03:093][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.22-12.51.03:094][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.22-12.51.03:094][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.22-12.51.03:094][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.22-12.51.03:099][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.22-12.51.03:099][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.22-12.51.03:099][  0]LogWindows: EnumDisplayDevices:
+[2017.11.22-12.51.03:099][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.11.22-12.51.03:099][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2017.11.22-12.51.03:099][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.22-12.51.03:099][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.22-12.51.03:100][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.22-12.51.03:100][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.22-12.51.03:100][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.22-12.51.03:100][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.22-12.51.03:100][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.11.22-12.51.03:100][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
+[2017.11.22-12.51.03:100][  0]LogD3D11RHI:      Driver Date: 8-17-2017
+[2017.11.22-12.51.03:100][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.22-12.51.03:128][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.22-12.51.03:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.22-12.51.03:186][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/6260/).
+[2017.11.22-12.51.03:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MitjaSal/AppData/Local/Temp/UnrealShaderWorkingDir/85528F3B4E26D8205A8CC097885FA65E/'.
+[2017.11.22-12.51.03:186][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.22-12.51.03:954][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.22-12.51.03:996][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.22-12.51.04:039][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.22-12.51.04:082][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.22-12.51.04:125][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.22-12.51.04:167][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.22-12.51.04:209][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.22-12.51.04:255][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.22-12.51.04:294][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.22-12.51.04:335][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.22-12.51.04:377][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.22-12.51.04:417][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.22-12.51.04:458][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.22-12.51.04:500][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.22-12.51.04:541][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.22-12.51.04:625][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.22-12.51.04:625][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.22-12.51.04:657][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.22-12.51.04:740][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.22-12.51.04:765][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.22-12.51.04:807][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.22-12.51.04:849][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.22-12.51.04:890][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.22-12.51.04:933][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.22-12.51.04:933][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.22-12.51.05:337][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.22-12.51.05:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.22-12.51.05:426][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.22-12.51.05:439][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MitjaSal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.22-12.51.05:450][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.22-12.51.05:450][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.22-12.51.05:451][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.22-12.51.05:451][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.22-12.51.05:663][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.11.22-12.51.05:759][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.22-12.51.05:895][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.22-12.51.06:142][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.22-12.51.06:175][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.22-12.51.06:175][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.22-12.51.06:175][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.22-12.51.06:175][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.22-12.51.06:175][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.22-12.51.06:477][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.11.22-12.51.06:657][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.039756 seconds
+[2017.11.22-12.51.06:661][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.22-12.51.06:661][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.22-12.51.06:661][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.22-12.51.08:800][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.22-12.51.08:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.22-12.51.09:408][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.22-12.51.09:742][  0]SourceControl: Source control is disabled
+[2017.11.22-12.51.10:673][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.22-12.51.10:871][  0]LogOcInput: OculusInput pre-init called
+[2017.11.22-12.51.11:093][  0]LogEngine: Initializing Engine...
+[2017.11.22-12.51.11:094][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.22-12.51.11:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.22-12.51.11:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.22-12.51.11:386][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.22-12.51.11:394][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.22-12.51.11:425][  0]LogInit: FAudioDevice initialized.
+[2017.11.22-12.51.11:570][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.22-12.51.11:584][  0]LogInit: Texture streaming: Enabled
+[2017.11.22-12.51.11:689][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.22-12.51.11:870][  0]LogInit: Transaction tracking system initialized
+[2017.11.22-12.51.12:134][  0]BlueprintLog: New page: Editor Load
+[2017.11.22-12.51.12:884][  0]LocalizationService: Localization service is disabled
+[2017.11.22-12.51.13:469][  0]LogConsoleResponse: Display: 
+[2017.11.22-12.51.13:623][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.22-12.51.13:623][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.22-12.51.13:623][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.22-12.51.14:503][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.01s
+[2017.11.22-12.51.14:503][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.22-12.51.14:504][  0]LightingResults: New page: Lighting Build
+[2017.11.22-12.51.14:538][  0]MapCheck: New page: Map Check
+[2017.11.22-12.51.14:538][  0]LightingResults: New page: Lighting Build
+[2017.11.22-12.51.15:113][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-12.51.15:114][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.22-12.51.15:126][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.22-12.51.15:172][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.457ms to complete.
+[2017.11.22-12.51.15:172][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.669
+[2017.11.22-12.51.15:314][  0]LogCollectionManager: Loaded 0 collections in 0.001601 seconds
+[2017.11.22-12.51.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.11.22-12.51.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/MitjaSal/Collections/' took 0.01s
+[2017.11.22-12.51.15:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.11.22-12.51.15:395][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.22-12.51.15:403][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2387 classes and 502 folders.
+[2017.11.22-12.51.15:459][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.11.22-12.51.15:491][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.11.22-12.51.15:529][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.11.22-12.51.15:546][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.22-12.51.15:548][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.22-12.51.15:554][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.22-12.51.15:650][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.22-12.51.15:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.22-12.51.15:824][  0]LogLoad: (Engine Initialization) Total time: 15.23 seconds
+[2017.11.22-12.51.15:824][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.22-12.51.15:824][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.22-12.51.15:835][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.22-12.51.15:884][  0]SourceControl: On branch Ketheres
+[2017.11.22-12.51.15:884][  0]SourceControl: Your branch is up to date with 'origin/Ketheres'.
+[2017.11.22-12.51.15:884][  0]SourceControl: Changes not staged for commit:
+[2017.11.22-12.51.15:884][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.22-12.51.15:884][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.22-12.51.15:884][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.11.22-12.51.15:884][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Editor.ini
+[2017.11.22-12.51.15:884][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
+[2017.11.22-12.51.15:884][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.11.22-12.51.15:884][  0]SourceControl: Untracked files:
+[2017.11.22-12.51.15:884][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.22-12.51.15:884][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-2D95A76348FCA177F50477A31DB2FDD3/
+[2017.11.22-12.51.15:884][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.22-12.51.15:884][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.22-12.51.15:924][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.07s
+[2017.11.22-12.51.15:937][  1]LogAssetRegistry: Asset discovery search completed in 10.2959 seconds
+[2017.11.22-12.51.15:939][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.22-12.51.15:939][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.11.22-12.51.19:940][225]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.22-12.51.37:550][220]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.22-12.51.37:855][220]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.11.22-12.51.38:388][220]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.22-12.51.38:454][220]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.22-12.51.38:517][221]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.22-12.55.52:478][151]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:731][789]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6235
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:731][789]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6237
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.56.00:731][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:731][789]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6238
+[2017.11.22-12.56.00:732][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.56.00:732][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:732][789]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6239
+[2017.11.22-12.56.00:732][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.56.00:732][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:732][789]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6242
+[2017.11.22-12.56.00:743][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.56.00:743][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:743][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.56.00:743][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.56.00:744][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.56.00:784][789]LoadErrors: Failed to load /Game/Meshes/Buildings/Material__6235.Material__6235 Referenced by Resident_House_01
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading NULL.
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.56.00:784][789]LoadErrors: Failed to load /Game/Meshes/Buildings/Material__6237.Material__6237 Referenced by Resident_House_01
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading NULL.
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.56.00:784][789]LoadErrors: Failed to load /Game/Meshes/Buildings/Material__6238.Material__6238 Referenced by Resident_House_01
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading NULL.
+[2017.11.22-12.56.00:784][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.56.00:784][789]LoadErrors: Failed to load /Game/Meshes/Buildings/Material__6239.Material__6239 Referenced by Resident_House_01
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading NULL.
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.56.00:785][789]LoadErrors: Failed to load /Game/Meshes/Buildings/Material__6242.Material__6242 Referenced by Resident_House_01
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading NULL.
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading NULL.
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading NULL.
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading NULL.
+[2017.11.22-12.56.00:785][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.56.00:786][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading NULL.
+[2017.11.22-12.56.00:786][789]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.56.00:786][789]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading NULL.
+[2017.11.22-12.56.00:864][789]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-12.56.02:671][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/BP_Ammo" FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset" SILENT=true
+[2017.11.22-12.56.02:703][789]LogSavePackage: Save=25.36ms
+[2017.11.22-12.56.02:703][789]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/BP_Ammo905080F64C45D671C0E78080037E8A32.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset'
+[2017.11.22-12.56.02:708][789]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset
+[2017.11.22-12.56.02:709][789]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.22-12.56.02:709][789]LightingResults: New page: Lighting Build
+[2017.11.22-12.56.02:710][789]LoadErrors: New page: Loading map: SaloonGameplay.umap
+[2017.11.22-12.56.02:710][789]MapCheck: New page: Map Check
+[2017.11.22-12.56.02:710][789]LightingResults: New page: Lighting Build
+[2017.11.22-12.56.02:750][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.22-12.56.02:799][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.22-12.56.02:852][789]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.802ms to complete.
+[2017.11.22-12.56.02:853][789]LogFileHelpers: Loading map 'SaloonGameplay' took 0.145
+[2017.11.22-12.56.17:385][289]LogSavePackage: Save=269.19ms
+[2017.11.22-12.56.17:385][289]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay40489EFA4323CD22CB9872AB2CB20EC1.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap'
+[2017.11.22-12.56.17:388][289]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap
+[2017.11.22-12.56.17:487][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SaloonGameplay_BuiltData" FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset" SILENT=true
+[2017.11.22-12.56.17:634][289]LogSavePackage: Save=137.97ms
+[2017.11.22-12.56.17:634][289]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay_BuiltData7F8E6421457CB093FFA0A89D787491C2.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset'
+[2017.11.22-12.56.17:636][289]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.22-12.56.19:127][348]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.22-12.56.19:169][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.22-12.56.19:169][348]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.56.19:169][348]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-12.56.19:170][348]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-12.56.19:170][348]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-12.56.19:170][348]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+[2017.11.22-12.56.19:170][348]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+[2017.11.22-12.56.19:185][348]PIE: New page: PIE session: SaloonGameplay (Nov 22, 2017, 4:56:19 PM)
+[2017.11.22-12.56.19:186][348]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_SaloonGameplay
+[2017.11.22-12.56.19:195][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009663s)
+[2017.11.22-12.56.19:196][348]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-12.56.19:196][348]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2017.11.22-12.56.19:196][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SaloonGameplay.SaloonGameplay to /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay (0.010419s)
+[2017.11.22-12.56.19:212][348]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.22-12.56.19:224][348]LogInit: FAudioDevice initialized.
+[2017.11.22-12.56.19:287][348]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-12.56.19:292][348]LogWorld: Bringing World /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.22-14.56.19
+[2017.11.22-12.56.19:292][348]LogWorld: Bringing up level for play took: 0.004101
+[2017.11.22-12.56.19:304][348]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.56.19:362][348]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.11.22-12.56.19:370][348]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_SaloonGameplay -0.109
+[2017.11.22-12.56.19:374][348]PIE: New page: PIE session: SaloonGameplay (Nov 22, 2017, 4:56:19 PM)
+[2017.11.22-12.56.19:374][348]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_SaloonGameplay
+[2017.11.22-12.56.19:383][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009105s)
+[2017.11.22-12.56.19:383][348]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-12.56.19:384][348]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.11.22-12.56.19:384][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SaloonGameplay.SaloonGameplay to /Game/Maps/UEDPIE_2_SaloonGameplay.SaloonGameplay (0.010019s)
+[2017.11.22-12.56.19:450][348]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-12.56.19:455][348]LogWorld: Bringing World /Game/Maps/UEDPIE_2_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.22-14.56.19
+[2017.11.22-12.56.19:456][348]LogWorld: Bringing up level for play took: 0.004253
+[2017.11.22-12.56.19:468][348]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.56.19:474][348]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_SaloonGameplay -0.004
+[2017.11.22-12.56.21:923][429]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.22:000][432]LogBlueprintUserMessages: [Bullet_01_C_0] Hit
+[2017.11.22-12.56.22:422][447]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.22:561][452]LogBlueprintUserMessages: [Bullet_01_C_1] Hit
+[2017.11.22-12.56.22:893][464]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.23:171][474]LogBlueprintUserMessages: [Bullet_01_C_2] Hit
+[2017.11.22-12.56.23:415][483]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.23:690][493]LogBlueprintUserMessages: [Bullet_01_C_3] Hit
+[2017.11.22-12.56.23:988][504]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.24:295][515]LogBlueprintUserMessages: [Bullet_01_C_4] Hit
+[2017.11.22-12.56.24:482][522]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.22-12.56.24:787][533]LogBlueprintUserMessages: [Bullet_01_C_5] Hit
+[2017.11.22-12.56.30:573][734]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.56.30:573][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-12.56.30:598][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-12.56.30:598][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-12.56.30:631][734]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.56.30:632][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-12.56.30:633][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-12.56.30:633][734]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-12.56.30:633][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.11.22-12.56.30:709][735]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2017.11.22-12.56.30:709][735]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.56.30:709][735]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2017.11.22-12.56.30:709][735]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.56.39:297][979]LogSavePackage: Save=268.97ms
+[2017.11.22-12.56.39:297][979]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay1F2B5ACB4F0D4E1B5FA5B48A0E0778F8.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap'
+[2017.11.22-12.56.39:300][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap
+[2017.11.22-12.56.39:397][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SaloonGameplay_BuiltData" FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset" SILENT=true
+[2017.11.22-12.56.39:514][979]LogSavePackage: Save=109.74ms
+[2017.11.22-12.56.39:514][979]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay_BuiltDataBB46AAF6404D8EF3F225DA8DB7F20898.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset'
+[2017.11.22-12.56.39:515][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.22-12.56.44:022][125]MapCheck: New page: Map Check
+[2017.11.22-12.56.44:036][125]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.22-12.56.44:036][125]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.22-12.56.44:114][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.22-12.56.44:119][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.11.22-12.56.44:125][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.22-12.56.44:130][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.11.22-12.56.44:136][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_AmmoBox, compiling. 
+[2017.11.22-12.56.44:143][125]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_Jerrycan, compiling. 
+[2017.11.22-12.56.44:601][125]TextureStreamingBuild: Display: Compiling optional shaders took 0.491 seconds.
+[2017.11.22-12.56.44:609][125]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2017.11.22-12.56.44:632][125]TextureStreamingBuild: Display: Build Texture Streaming took 0.022 seconds.
+[2017.11.22-12.56.44:655][125]LightingResults: New page: Lighting Build - Nov 22, 2017, 4:56:44 PM
+[2017.11.22-12.56.44:687][125]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.22-12.56.44:759][125]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.22-12.56.44:768][125]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.22-12.56.45:285][125]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.22-12.56.45:285][125]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6260
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.22-12.56.47:504][125]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.22-12.56.47:630][125]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.22-12.56.47:630][125]MapCheck: New page: SaloonGameplay - Nov 22, 2017, 4:56:47 PM
+[2017.11.22-12.56.47:685][125]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.794ms to complete.
+[2017.11.22-12.56.47:707][125]LogEditorBuildUtils: Build time 0:03
+[2017.11.22-12.56.53:048][143]Job is a success!
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.22-12.56.53:846][144]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.22-12.56.53:864][144]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2017.11.22-12.56.53:895][144]Lightmass on AOTA1-1L141-14D: 5.38 sec total, 217 ms importing, 114 ms setup, 1.24 sec photons, 3.76 sec processing, 0 ms extra exporting [150/150 mappings]. Threads: 26.1 sec total, 15.0 sec processing.
+[2017.11.22-12.56.53:902][144]LogStaticLightingSystem: Illumination: 8.90 sec (372 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2017.11.22-12.56.53:902][144]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.22-12.56.53:902][144]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.11.22-12.56.54:510][144]DumpUnbuiltLightIteractions
+[2017.11.22-12.56.54:510][144]Lights with unbuilt interactions: 0
+[2017.11.22-12.56.54:510][144]
+[2017.11.22-12.56.54:510][144]Primitives with unbuilt interactions: 0
+[2017.11.22-12.56.54:518][145]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.22-12.56.54:518][145]MapCheck: New page: SaloonGameplay - Nov 22, 2017, 4:56:54 PM
+[2017.11.22-12.56.54:643][145]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.59ms to complete.
+[2017.11.22-12.57.48:302][339]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-12.57.50:100][339]LogSavePackage: Save=276.51ms
+[2017.11.22-12.57.50:100][339]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplayE4E1DD5A44788B202DB0FF80D33BB15C.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap'
+[2017.11.22-12.57.50:102][339]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap
+[2017.11.22-12.57.50:122][339]LogFileHelpers: Saving map 'SaloonGameplay' took 0.373
+[2017.11.22-12.57.50:123][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SaloonGameplay_BuiltData" FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset" SILENT=true
+[2017.11.22-12.57.50:226][339]LogSavePackage: Save=97.95ms
+[2017.11.22-12.57.50:226][339]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay_BuiltData9B24E6874D19A40988FDCEB6042AB42F.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset'
+[2017.11.22-12.57.50:230][339]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.22-12.57.50:231][339]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.22-12.57.50:231][339]LightingResults: New page: Lighting Build
+[2017.11.22-12.57.50:231][339]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2017.11.22-12.57.50:233][339]MapCheck: New page: Map Check
+[2017.11.22-12.57.50:233][339]LightingResults: New page: Lighting Build
+[2017.11.22-12.57.50:257][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.22-12.57.50:293][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.22-12.57.50:347][339]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.981ms to complete.
+[2017.11.22-12.57.50:347][339]LogFileHelpers: Loading map 'MainMenuLevel' took 0.117
+[2017.11.22-12.57.50:957][376]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.22-12.57.50:974][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-12.57.50:974][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.22-12.57.50:978][376]PIE: New page: PIE session: MainMenuLevel (Nov 22, 2017, 4:57:50 PM)
+[2017.11.22-12.57.50:978][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenuLevel
+[2017.11.22-12.57.50:979][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000952s)
+[2017.11.22-12.57.50:980][376]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-12.57.50:980][376]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.11.22-12.57.50:980][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.001918s)
+[2017.11.22-12.57.51:000][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.22-12.57.51:013][376]LogInit: FAudioDevice initialized.
+[2017.11.22-12.57.51:060][376]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-12.57.51:062][376]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.22-14.57.51
+[2017.11.22-12.57.51:062][376]LogWorld: Bringing up level for play took: 0.000845
+[2017.11.22-12.57.51:074][376]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.57.51:081][376]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_MainMenuLevel -0.396
+[2017.11.22-12.57.51:084][376]PIE: New page: PIE session: MainMenuLevel (Nov 22, 2017, 4:57:51 PM)
+[2017.11.22-12.57.51:085][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MainMenuLevel
+[2017.11.22-12.57.51:085][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000705s)
+[2017.11.22-12.57.51:086][376]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-12.57.51:086][376]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2017.11.22-12.57.51:086][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel (0.001444s)
+[2017.11.22-12.57.51:153][376]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-12.57.51:154][376]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.22-14.57.51
+[2017.11.22-12.57.51:155][376]LogWorld: Bringing up level for play took: 0.000927
+[2017.11.22-12.57.51:167][376]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.57.51:174][376]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_MainMenuLevel -0.304
+[2017.11.22-12.57.51:182][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-12.57.54:180][516]LogNetVersion: HatTrick 0.0.0.1, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3540992105)
+[2017.11.22-12.57.54:181][516]LogInit: WinSock: I am AOTA1-1L141-14D (172.31.16.136:0)
+[2017.11.22-12.57.54:182][516]LogNet: Browse: /Game/Maps/SaloonGameplay?listen
+[2017.11.22-12.57.54:201][516]LogLoad: LoadMap: /Game/Maps/SaloonGameplay?listen
+[2017.11.22-12.57.54:219][516]Cmd: MEM
+[2017.11.22-12.57.54:234][516]LogMemory: Platform Memory Stats for Windows
+[2017.11.22-12.57.54:234][516]LogMemory: Process Physical Memory: 1577.18 MB used, 1577.59 MB peak
+[2017.11.22-12.57.54:234][516]LogMemory: Process Virtual Memory: 2357.82 MB used, 2359.35 MB peak
+[2017.11.22-12.57.54:234][516]LogMemory: Physical Memory: 6623.48 MB used,  9640.82 MB free, 16264.30 MB total
+[2017.11.22-12.57.54:234][516]LogMemory: Virtual Memory: 3687.89 MB used,  9640.82 MB free, 134217728.00 MB total
+[2017.11.22-12.57.54:234][516]LogMemory: 
+[2017.11.22-12.57.54:234][516]Allocator Stats for TBB: (not implemented)
+[2017.11.22-12.57.54:823][516]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-12.57.54:823][516]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-12.57.54:824][516]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-12.57.54:824][516]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.11.22-12.57.54:824][516]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-12.57.54:824][516]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.22-12.57.54:825][516]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-12.57.54:825][516]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.11.22-12.57.54:831][516]LogWorld: Bringing World /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay up for play (max tick rate 3) at 2017.11.22-14.57.54
+[2017.11.22-12.57.54:831][516]LogWorld: Bringing up level for play took: 0.005784
+[2017.11.22-12.57.54:832][516]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.57.54:835][516]LogLoad: Took 0.633451 seconds to LoadMap(/Game/Maps/SaloonGameplay)
+[2017.11.22-12.58.03:418][874]LogNet: Browse: 172.31.16.136//Game/Maps/MainMenuLevel
+[2017.11.22-12.58.03:418][874]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-12.58.03:418][874]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.11.22-12.58.03:418][874]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.22-12.58.03:418][874]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.22-12.58.03:419][874]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-12.58.03:419][874]LogNet: Game client on port 7777, rate 10000
+[2017.11.22-12.58.03:440][875]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:56147
+[2017.11.22-12.58.03:440][875]LogHandshake: SendConnectChallenge. Timestamp: 9.280445, Cookie: 140244069240247032231168197235015101007228214008103204236199
+[2017.11.22-12.58.03:441][875]LogHandshake: SendChallengeResponse. Timestamp: 9.280445, Cookie: 140244069240247032231168197235015101007228214008103204236199
+[2017.11.22-12.58.03:467][876]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:56147
+[2017.11.22-12.58.03:467][876]LogHandshake: SendChallengeAck. InCookie: 140244069240247032231168197235015101007228214008103204236199
+[2017.11.22-12.58.03:467][876]LogNet: Server accepting post-challenge connection from: 172.31.16.136:56147
+[2017.11.22-12.58.03:467][876]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-12.58.03:467][876]LogNet: NotifyAcceptedConnection: Name: SaloonGameplay, TimeStamp: 11/22/17 14:58:03, [UNetConnection] RemoteAddr: 172.31.16.136:56147, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.22-12.58.03:467][876]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.31.16.136:56147, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.22-12.58.03:468][876]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.22-12.58.03:490][877]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay: Accepted
+[2017.11.22-12.58.03:490][877]LogNet: Remote platform little endian=1
+[2017.11.22-12.58.03:490][877]LogNet: This platform little endian=1
+[2017.11.22-12.58.03:513][878]LogNet: Login request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-A60418EC47053F826C7959B2392F6EA9 userId: AOTA1-1L141-14D-A60418EC47053F826C7959B2392F6EA9
+[2017.11.22-12.58.03:515][878]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_SaloonGameplay, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.11.22-12.58.03:537][878]LogLoad: LoadMap: 172.31.16.136//Game/Maps/UEDPIE_1_SaloonGameplay?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.11.22-12.58.03:553][878]Cmd: MEM
+[2017.11.22-12.58.03:569][878]LogMemory: Platform Memory Stats for Windows
+[2017.11.22-12.58.03:569][878]LogMemory: Process Physical Memory: 1774.66 MB used, 1897.32 MB peak
+[2017.11.22-12.58.03:569][878]LogMemory: Process Virtual Memory: 2565.25 MB used, 2747.68 MB peak
+[2017.11.22-12.58.03:569][878]LogMemory: Physical Memory: 6753.01 MB used,  9511.29 MB free, 16264.30 MB total
+[2017.11.22-12.58.03:569][878]LogMemory: Virtual Memory: 3970.20 MB used,  9511.29 MB free, 134217728.00 MB total
+[2017.11.22-12.58.03:569][878]LogMemory: 
+[2017.11.22-12.58.03:569][878]Allocator Stats for TBB: (not implemented)
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:730][878]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6235
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:730][878]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6237
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:730][878]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6238
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.58.03:730][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:731][878]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6239
+[2017.11.22-12.58.03:731][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.58.03:731][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:731][878]LoadErrors: Error: /Game/Meshes/Buildings/Resident_House_01 : Can't find file for asset. /Game/Meshes/Buildings/Material__6242
+[2017.11.22-12.58.03:756][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-12.58.03:756][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-12.58.03:757][878]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-12.58.03:804][878]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-12.58.03:804][878]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-12.58.03:810][878]LogWorld: Bringing World /Game/Maps/UEDPIE_2_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.22-14.58.03
+[2017.11.22-12.58.03:811][878]LogWorld: Bringing up level for play took: 0.004986
+[2017.11.22-12.58.03:811][878]LogLoad: Took 0.273966 seconds to LoadMap(/Game/Maps/UEDPIE_1_SaloonGameplay)
+[2017.11.22-12.58.03:825][879]LogNet: Client netspeed is 10000
+[2017.11.22-12.58.03:825][879]LogNet: Join request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-A60418EC47053F826C7959B2392F6EA9?SplitscreenCount=1
+[2017.11.22-12.58.03:828][879]LogNet: Join succeeded: AOTA1-1L141-14D-A604
+[2017.11.22-12.58.03:830][879]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-12.58.03:854][880]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.11.22-12.58.03:854][880]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.11.22-12.58.03:855][880]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.11.22-12.58.03:855][880]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.11.22-12.58.04:148][891]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.04:296][896]LogBlueprintUserMessages: [Bullet_01_C_0] Server: Damage taken
+[2017.11.22-12.58.04:632][908]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.04:771][913]LogBlueprintUserMessages: [Bullet_01_C_1] Server: Damage taken
+[2017.11.22-12.58.05:138][926]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.05:279][931]LogBlueprintUserMessages: [Bullet_01_C_2] Server: Damage taken
+[2017.11.22-12.58.05:728][947]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.05:865][952]LogBlueprintUserMessages: [Bullet_01_C_3] Server: Damage taken
+[2017.11.22-12.58.06:226][965]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.06:227][965]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.06:368][970]LogBlueprintUserMessages: [Bullet_01_C_4] Server: Damage taken
+[2017.11.22-12.58.06:368][970]LogBlueprintUserMessages: [Bullet_01_C_5] Server: Damage taken
+[2017.11.22-12.58.08:428][ 44]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.08:565][ 49]LogBlueprintUserMessages: [Bullet_01_C_6] Server: Damage taken
+[2017.11.22-12.58.09:203][ 72]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-12.58.09:344][ 77]LogBlueprintUserMessages: [Bullet_01_C_7] Server: Damage taken
+[2017.11.22-12.58.19:743][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-12.58.19:816][451]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.58.19:816][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-12.58.19:843][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-12.58.19:843][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-12.58.19:873][451]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.58.19:873][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-12.58.19:874][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-12.58.19:874][451]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-12.58.19:874][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.11.22-12.58.19:874][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-12.58.19:889][451]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:56147, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.22-12.58.19:889][451]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:56147, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.11.22-12.58.19
+[2017.11.22-12.58.19:889][451]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:56147, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.22-12.58.19:889][451]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.22-12.58.19:889][451]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.11.22-12.58.19
+[2017.11.22-12.58.19:889][451]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.22-12.58.19:895][451]LogExit: GameNetDriver None shut down
+[2017.11.22-12.58.19:895][451]LogExit: GameNetDriver None shut down
+[2017.11.22-12.58.19:907][452]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2017.11.22-12.58.19:907][452]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-12.58.19:907][452]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2017.11.22-12.58.19:907][452]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.00.35:925][539]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.22-13.00.55:987][896]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.22-13.01.01:585][539]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.22-13.01.01:601][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-13.01.01:601][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.22-13.01.01:605][539]PIE: New page: PIE session: MainMenuLevel (Nov 22, 2017, 5:01:01 PM)
+[2017.11.22-13.01.01:605][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenuLevel
+[2017.11.22-13.01.01:606][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000740s)
+[2017.11.22-13.01.01:606][539]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-13.01.01:606][539]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.11.22-13.01.01:607][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.001598s)
+[2017.11.22-13.01.01:622][539]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.22-13.01.01:635][539]LogInit: FAudioDevice initialized.
+[2017.11.22-13.01.01:681][539]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-13.01.01:684][539]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.22-15.01.01
+[2017.11.22-13.01.01:684][539]LogWorld: Bringing up level for play took: 0.000874
+[2017.11.22-13.01.01:696][539]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.22-13.01.01:696][539]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-13.01.01:701][539]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_MainMenuLevel 0.226
+[2017.11.22-13.01.01:704][539]PIE: New page: PIE session: MainMenuLevel (Nov 22, 2017, 5:01:01 PM)
+[2017.11.22-13.01.01:705][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MainMenuLevel
+[2017.11.22-13.01.01:705][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000679s)
+[2017.11.22-13.01.01:706][539]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.22-13.01.01:706][539]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2017.11.22-13.01.01:706][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel (0.001344s)
+[2017.11.22-13.01.01:780][539]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-13.01.01:783][539]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.22-15.01.01
+[2017.11.22-13.01.01:784][539]LogWorld: Bringing up level for play took: 0.001361
+[2017.11.22-13.01.01:796][539]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.22-13.01.01:796][539]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-13.01.01:804][539]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_MainMenuLevel 0.33
+[2017.11.22-13.01.01:815][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-13.01.03:623][614]LogNet: Browse: /Game/Maps/SaloonGameplay?listen
+[2017.11.22-13.01.03:645][614]LogLoad: LoadMap: /Game/Maps/SaloonGameplay?listen
+[2017.11.22-13.01.03:663][614]Cmd: MEM
+[2017.11.22-13.01.03:678][614]LogMemory: Platform Memory Stats for Windows
+[2017.11.22-13.01.03:678][614]LogMemory: Process Physical Memory: 1883.46 MB used, 1897.32 MB peak
+[2017.11.22-13.01.03:678][614]LogMemory: Process Virtual Memory: 2682.48 MB used, 2747.68 MB peak
+[2017.11.22-13.01.03:678][614]LogMemory: Physical Memory: 6894.14 MB used,  9370.15 MB free, 16264.30 MB total
+[2017.11.22-13.01.03:678][614]LogMemory: Virtual Memory: 4046.57 MB used,  9370.15 MB free, 134217728.00 MB total
+[2017.11.22-13.01.03:678][614]LogMemory: 
+[2017.11.22-13.01.03:678][614]Allocator Stats for TBB: (not implemented)
+[2017.11.22-13.01.03:766][614]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-13.01.03:766][614]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.22-13.01.03:766][614]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-13.01.03:766][614]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2017.11.22-13.01.03:766][614]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-13.01.03:767][614]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.22-13.01.03:767][614]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-13.01.03:767][614]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.11.22-13.01.03:773][614]LogWorld: Bringing World /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.22-15.01.03
+[2017.11.22-13.01.03:773][614]LogWorld: Bringing up level for play took: 0.005873
+[2017.11.22-13.01.03:774][614]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-13.01.03:777][614]LogLoad: Took 0.131263 seconds to LoadMap(/Game/Maps/SaloonGameplay)
+[2017.11.22-13.01.13:924][  2]LogNet: Browse: 172.31.16.136//Game/Maps/MainMenuLevel
+[2017.11.22-13.01.13:924][  2]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-13.01.13:924][  2]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2017.11.22-13.01.13:924][  2]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.22-13.01.13:924][  2]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.22-13.01.13:925][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-13.01.13:925][  2]LogNet: Game client on port 7777, rate 10000
+[2017.11.22-13.01.13:946][  3]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:49566
+[2017.11.22-13.01.13:946][  3]LogHandshake: SendConnectChallenge. Timestamp: 10.345635, Cookie: 142137144023255174178009251112130091185209123168224192062004
+[2017.11.22-13.01.13:947][  3]LogHandshake: SendChallengeResponse. Timestamp: 10.345635, Cookie: 142137144023255174178009251112130091185209123168224192062004
+[2017.11.22-13.01.13:972][  4]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:49566
+[2017.11.22-13.01.13:972][  4]LogHandshake: SendChallengeAck. InCookie: 142137144023255174178009251112130091185209123168224192062004
+[2017.11.22-13.01.13:972][  4]LogNet: Server accepting post-challenge connection from: 172.31.16.136:49566
+[2017.11.22-13.01.13:972][  4]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.22-13.01.13:972][  4]LogNet: NotifyAcceptedConnection: Name: SaloonGameplay, TimeStamp: 11/22/17 15:01:13, [UNetConnection] RemoteAddr: 172.31.16.136:49566, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.22-13.01.13:972][  4]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.31.16.136:49566, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.22-13.01.13:973][  4]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.22-13.01.13:998][  5]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay: Accepted
+[2017.11.22-13.01.13:998][  5]LogNet: Remote platform little endian=1
+[2017.11.22-13.01.13:998][  5]LogNet: This platform little endian=1
+[2017.11.22-13.01.14:024][  6]LogNet: Login request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-857B58A94EDD5C78F14CD0A55F2BBC23 userId: AOTA1-1L141-14D-857B58A94EDD5C78F14CD0A55F2BBC23
+[2017.11.22-13.01.14:025][  6]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_SaloonGameplay, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.11.22-13.01.14:049][  6]LogLoad: LoadMap: 172.31.16.136//Game/Maps/UEDPIE_1_SaloonGameplay?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.11.22-13.01.14:066][  6]Cmd: MEM
+[2017.11.22-13.01.14:081][  6]LogMemory: Platform Memory Stats for Windows
+[2017.11.22-13.01.14:081][  6]LogMemory: Process Physical Memory: 1936.71 MB used, 1968.40 MB peak
+[2017.11.22-13.01.14:081][  6]LogMemory: Process Virtual Memory: 2736.41 MB used, 2824.18 MB peak
+[2017.11.22-13.01.14:081][  6]LogMemory: Physical Memory: 6947.05 MB used,  9317.25 MB free, 16264.30 MB total
+[2017.11.22-13.01.14:081][  6]LogMemory: Virtual Memory: 4147.32 MB used,  9317.25 MB free, 134217728.00 MB total
+[2017.11.22-13.01.14:081][  6]LogMemory: 
+[2017.11.22-13.01.14:081][  6]Allocator Stats for TBB: (not implemented)
+[2017.11.22-13.01.14:237][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-13.01.14:237][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:237][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-13.01.14:238][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:263][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6235'
+[2017.11.22-13.01.14:263][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6235' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:263][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6237'
+[2017.11.22-13.01.14:263][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6237' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6238'
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6238' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6239'
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6239' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file '/Game/Meshes/Buildings/Material__6242'
+[2017.11.22-13.01.14:264][  6]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Buildings/Material__6242' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/Resident_House_01.uasset.
+[2017.11.22-13.01.14:310][  6]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.22-13.01.14:310][  6]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.22-13.01.14:316][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_2_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.22-15.01.14
+[2017.11.22-13.01.14:316][  6]LogWorld: Bringing up level for play took: 0.004876
+[2017.11.22-13.01.14:316][  6]LogLoad: Took 0.267146 seconds to LoadMap(/Game/Maps/UEDPIE_1_SaloonGameplay)
+[2017.11.22-13.01.14:324][  7]LogNet: Client netspeed is 10000
+[2017.11.22-13.01.14:324][  7]LogNet: Join request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-857B58A94EDD5C78F14CD0A55F2BBC23?SplitscreenCount=1
+[2017.11.22-13.01.14:328][  7]LogNet: Join succeeded: AOTA1-1L141-14D-857B
+[2017.11.22-13.01.14:329][  7]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.22-13.01.14:360][  8]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.11.22-13.01.14:360][  8]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.11.22-13.01.14:361][  8]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.11.22-13.01.14:361][  8]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.11.22-13.01.15:612][ 50]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.15:757][ 55]LogBlueprintUserMessages: [Bullet_01_C_0] Server: Damage taken
+[2017.11.22-13.01.16:379][ 76]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.16:526][ 81]LogBlueprintUserMessages: [Bullet_01_C_1] Server: Damage taken
+[2017.11.22-13.01.18:084][125]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Server: Shot fired
+[2017.11.22-13.01.18:231][130]LogBlueprintUserMessages: [Bullet_01_C_2] Server: Damage taken
+[2017.11.22-13.01.18:754][148]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Server: Shot fired
+[2017.11.22-13.01.18:896][153]LogBlueprintUserMessages: [Bullet_01_C_3] Server: Damage taken
+[2017.11.22-13.01.19:331][168]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Server: Shot fired
+[2017.11.22-13.01.19:473][173]LogBlueprintUserMessages: [Bullet_01_C_4] Server: Damage taken
+[2017.11.22-13.01.19:821][185]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Server: Shot fired
+[2017.11.22-13.01.19:965][190]LogBlueprintUserMessages: [Bullet_01_C_5] Server: Damage taken
+[2017.11.22-13.01.21:162][222]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.21:309][227]LogBlueprintUserMessages: [Bullet_01_C_6] Server: Damage taken
+[2017.11.22-13.01.21:890][247]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.22:036][252]LogBlueprintUserMessages: [Bullet_01_C_7] Server: Damage taken
+[2017.11.22-13.01.22:470][267]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.22:617][272]LogBlueprintUserMessages: [Bullet_01_C_8] Server: Damage taken
+[2017.11.22-13.01.22:966][284]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.23:112][289]LogBlueprintUserMessages: [Bullet_01_C_9] Server: Damage taken
+[2017.11.22-13.01.25:429][369]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.25:573][374]LogBlueprintUserMessages: [Bullet_01_C_10] Server: Damage taken
+[2017.11.22-13.01.26:095][392]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.26:237][397]LogBlueprintUserMessages: [Bullet_01_C_11] Server: Damage taken
+[2017.11.22-13.01.26:587][409]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.26:588][409]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.26:733][414]LogBlueprintUserMessages: [Bullet_01_C_12] Server: Damage taken
+[2017.11.22-13.01.26:737][414]LogBlueprintUserMessages: [Bullet_01_C_13] Server: Damage taken
+[2017.11.22-13.01.26:738][414]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_2.StaticMeshComponent_4 NOT Supported.
+[2017.11.22-13.01.26:738][414]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_SaloonGameplay.SaloonGameplay:PersistentLevel.FirstPersonCharacter_C_2.DrawFrustumComponent_4 NOT Supported.
+[2017.11.22-13.01.27:091][426]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.27:329][434]LogBlueprintUserMessages: [Bullet_01_C_14] Client 1: Hit
+[2017.11.22-13.01.27:358][435]LogBlueprintUserMessages: [Bullet_01_C_14] Server: Hit
+[2017.11.22-13.01.28:214][464]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: Shot fired
+[2017.11.22-13.01.28:450][472]LogBlueprintUserMessages: [Bullet_01_C_15] Client 1: Hit
+[2017.11.22-13.01.28:481][473]LogBlueprintUserMessages: [Bullet_01_C_15] Server: Hit
+[2017.11.22-13.01.33:699][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-13.01.33:773][651]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.01.33:773][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-13.01.33:783][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-13.01.33:784][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-13.01.33:816][651]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.01.33:816][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-13.01.33:817][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-13.01.33:817][651]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-13.01.33:817][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.11.22-13.01.33:817][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.11.22-13.01.33:833][651]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:49566, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.11.22-13.01.33:833][651]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:49566, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 3, Time: 2017.11.22-13.01.33
+[2017.11.22-13.01.33:833][651]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:49566, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.11.22-13.01.33:833][651]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.11.22-13.01.33:833][651]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 3, Time: 2017.11.22-13.01.33
+[2017.11.22-13.01.33:833][651]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.11.22-13.01.33:839][651]LogExit: GameNetDriver None shut down
+[2017.11.22-13.01.33:839][651]LogExit: GameNetDriver None shut down
+[2017.11.22-13.01.33:859][652]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2017.11.22-13.01.33:859][652]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.01.33:859][652]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2017.11.22-13.01.33:859][652]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.02.04:006][247]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.22-13.02.12:414][865]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.22-13.02.15:324][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/BP_Ammo" FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset" SILENT=true
+[2017.11.22-13.02.15:363][171]LogSavePackage: Save=30.75ms
+[2017.11.22-13.02.15:363][171]LogSavePackage: Moving '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/BP_Ammo5AF158284C8C026BB2F7A6B35B4AA4CC.tmp' to '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset'
+[2017.11.22-13.02.15:365][171]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset
+[2017.11.22-13.02.24:991][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.22-13.02.25:192][309]Cmd: QUIT_EDITOR
+[2017.11.22-13.02.25:406][309]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.22-13.02.25:417][309]LogExit: Preparing to exit.
+[2017.11.22-13.02.26:194][309]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.22-13.02.26:222][309]LogExit: Editor shut down
+[2017.11.22-13.02.26:225][309]LogExit: Transaction tracking system shut down
+[2017.11.22-13.02.26:354][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.22-13.02.26:354][309]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.22-13.02.26:354][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.22-13.02.26:354][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.22-13.02.26:354][309]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.22-13.02.26:431][309]LogExit: Object subsystem successfully closed.
+[2017.11.22-13.02.26:454][309]LogD3D11RHI: Shutdown
+[2017.11.22-13.02.26:454][309]LogD3D11RHI: CleanupD3DDevice
+[2017.11.22-13.02.26:457][309]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (543)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (541)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module Voice (539)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module BlueprintGraph (537)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (535)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (533)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module SceneOutliner (531)
+[2017.11.22-13.02.26:469][309]LogModuleManager: Shutting down and abandoning module AddContentDialog (529)
+[2017.11.22-13.02.26:469][309]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module WidgetCarousel (528)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module EditorWidgets (525)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module CollectionManager (523)
+[2017.11.22-13.02.26:470][309]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.11.22-13.02.26:470][309]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/MitjaSal/Collections/' was aborted.
+[2017.11.22-13.02.26:470][309]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module StatsViewer (521)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module FoliageEdit (519)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module LandscapeEditor (517)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module MeshPaintMode (515)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (513)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module ActorPickerMode (511)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module GeometryMode (509)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module TextureAlignMode (507)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module BspMode (505)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (503)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module HardwareSurvey (501)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (499)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module AutomationWorker (497)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (495)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (493)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module PlacementMode (492)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (489)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (487)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (485)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (483)
+[2017.11.22-13.02.26:470][309]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (481)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module Media (480)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (477)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module CharacterAI (475)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module AudioCapture (473)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module SequenceRecorder (472)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module SmartSnapping (469)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module SessionServices (467)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module ViewportSnapping (465)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module ViewportInteraction (463)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module ClothPainter (461)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module LogVisualizer (459)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module IntroTutorials (457)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (456)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (453)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (451)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (449)
+[2017.11.22-13.02.26:471][309]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (448)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (445)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (443)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (441)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module InputBindingEditor (439)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module MergeActors (437)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module SizeMap (435)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module TreeMap (433)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module ReferenceViewer (431)
+[2017.11.22-13.02.27:451][309]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (429)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module LocalizationService (428)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module HardwareTargeting (425)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (423)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module UndoHistory (421)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module XmlParser (419)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module Blutility (417)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (415)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (414)
+[2017.11.22-13.02.27:452][309]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (411)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module SettingsEditor (409)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module ProjectLauncher (407)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module SessionFrontend (405)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module ProfilerClient (403)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module DeviceManager (401)
+[2017.11.22-13.02.27:453][309]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (400)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module AutomationController (397)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module AutomationWindow (395)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module Layers (393)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (391)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module DetailCustomizations (389)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module PackagesDialog (387)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module Persona (385)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (384)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module AnimGraph (382)
+[2017.11.22-13.02.27:506][309]LogModuleManager: Shutting down and abandoning module Kismet (379)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module ClassViewer (377)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module Toolbox (375)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module ModuleUI (373)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module MovieSceneTools (371)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module OutputLog (369)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module GammaUI (367)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module Documentation (365)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (363)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module MovieScene (361)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module Niagara (359)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module NiagaraEditor (358)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (355)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module LauncherPlatform (353)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module AnalyticsET (351)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module PortalServices (349)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module PortalRpc (347)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module MessagingRpc (345)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module AIModule (343)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module GameplayDebugger (342)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module AITestSuite (340)
+[2017.11.22-13.02.27:512][309]LogModuleManager: Shutting down and abandoning module ProfilerService (337)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module TaskGraph (335)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module SteamVRController (333)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (331)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (329)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module OculusInput (327)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (325)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (323)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module CableComponent (321)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (319)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module AndroidPermission (317)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (315)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module HTML5Networking (313)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module AlembicImporter (311)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module AlembicLibrary (310)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module GeometryCache (309)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (308)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (303)
+[2017.11.22-13.02.27:683][309]LogModuleManager: Shutting down and abandoning module PluginBrowser (301)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (299)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (297)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module DesktopPlatform (296)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module UObjectPlugin (293)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (291)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (289)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module GitSourceControl (287)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module SourceControl (286)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (283)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (281)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (279)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module Paper2DEditor (277)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module MeshPaint (276)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module LevelEditor (274)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (273)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module MainFrame (271)
+[2017.11.22-13.02.27:684][309]LogModuleManager: Shutting down and abandoning module HotReload (270)
+[2017.11.22-13.02.27:685][309]LogDirectoryWatcher: A directory notification for 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Binaries/Win64' was aborted.
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module HatTrick (265)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (263)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (261)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module PhysXVehicles (259)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module OculusEditor (257)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (255)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (253)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (251)
+[2017.11.22-13.02.27:685][309]LogModuleManager: Shutting down and abandoning module UdpMessaging (249)
+[2017.11.22-13.02.27:786][309]LogModuleManager: Shutting down and abandoning module TcpMessaging (247)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (245)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (243)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module FacialAnimation (241)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (239)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module GraphEditor (238)
+[2017.11.22-13.02.27:886][309]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (233)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module Paper2D (231)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (229)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module WmfMedia (227)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module Overlay (219)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module OverlayEditor (218)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module MediaAssets (215)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module VREditor (213)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module StringTableEditor (211)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (209)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (207)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module FunctionalTesting (205)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (203)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (202)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module UMG (199)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module UMGEditor (198)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module Sequencer (197)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module MessageLog (194)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module SlateReflector (189)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module Slate (187)
+[2017.11.22-13.02.27:888][309]LogModuleManager: Shutting down and abandoning module EditorStyle (185)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module MRMesh (183)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (181)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (179)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module XAudio2 (177)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module Networking (175)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module Core (173)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module MeshUtilities (165)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (164)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (163)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (162)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (160)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
+[2017.11.22-13.02.27:890][309]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
+[2017.11.22-13.02.27:891][309]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.11.22-13.02.27:891][309]LogModuleManager: Shutting down and abandoning module DerivedDataCache (149)
+[2017.11.22-13.02.27:987][309]LogDerivedDataCache: Shutdown
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TargetPlatform (147)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (146)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (144)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (142)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (140)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (138)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (136)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (134)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (132)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (130)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (128)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module ImageWrapper (127)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (124)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (122)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (120)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (118)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (116)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (114)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (112)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (110)
+[2017.11.22-13.02.27:988][309]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (108)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Messaging (106)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (104)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (102)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (100)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (98)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (96)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (94)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (92)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (90)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (88)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (86)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (84)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (82)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (80)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (78)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (76)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (74)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (72)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (70)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (68)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module InputCore (65)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module Settings (63)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module PhysXCooking (61)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module SteamVR (59)
+[2017.11.22-13.02.27:989][309]LogModuleManager: Shutting down and abandoning module OculusHMD (57)
+[2017.11.22-13.02.27:990][309]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (55)
+[2017.11.22-13.02.27:990][309]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2017.11.22-13.02.27:990][309]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2017.11.22-13.02.27:990][309]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.22-13.02.27:990][309]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.22-13.02.27:991][309]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.22-13.02.27:991][309]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.22-13.02.27:991][309]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.22-13.02.27:991][309]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.22-13.02.27:991][309]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.22-13.02.27:991][309]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.22-13.02.27:991][309]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD740002F-4DA8-7702-8777-6C8E557C0A69%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d8738e7941e4d3cfec5b2bbcafccba71%7Ccf72d170c93c4791a870aa1338233e13%7Cb0151d52-2deb-4b7a-8d33-7a7ad62c4548&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.22-13.02.28:013][309]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.22-13.02.28:016][309]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.22-13.02.28:018][309]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.22-13.02.28:021][309]LogExit: Exiting.
+[2017.11.22-13.02.28:031][309]Log file closed, 11/22/17 15:02:28
