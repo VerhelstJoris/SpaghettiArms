@@ -1,0 +1,1237 @@
+﻿Log file open, 11/17/17 09:29:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HatTrick
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1998475495) SRandInit(1998475495).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160261
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.17-07.29.46:874][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-07.29.46:874][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.17-07.29.46:882][  0]LogInit: Computer: AOTA1-1L141-11D
+[2017.11.17-07.29.46:882][  0]LogInit: User: JesseWih
+[2017.11.17-07.29.46:882][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.17-07.29.46:882][  0]LogInit: High frequency timer resolution =3.328118 MHz
+[2017.11.17-07.29.46:883][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.17-07.29.46:883][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-07.29.46:883][  0]LogMemory: Process Physical Memory: 278.35 MB used, 278.35 MB peak
+[2017.11.17-07.29.46:883][  0]LogMemory: Process Virtual Memory: 274.45 MB used, 274.45 MB peak
+[2017.11.17-07.29.46:883][  0]LogMemory: Physical Memory: 5002.77 MB used,  11261.53 MB free, 16264.30 MB total
+[2017.11.17-07.29.46:883][  0]LogMemory: Virtual Memory: 656.20 MB used,  11261.53 MB free, 134217728.00 MB total
+[2017.11.17-07.29.47:054][  0]LogInit: Using OS detected language (en-US).
+[2017.11.17-07.29.47:054][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.11.17-07.29.47:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.17-07.29.47:061][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
+[2017.11.17-07.29.47:657][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.17-07.29.47:694][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.11.17-07.29.47:694][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.17-07.29.47:699][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.17-07.29.47:699][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.17-07.29.47:700][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.17-07.29.47:700][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.17-07.29.47:700][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.17-07.29.47:705][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.17-07.29.47:705][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.17-07.29.47:705][  0]LogWindows: EnumDisplayDevices:
+[2017.11.17-07.29.47:705][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.11.17-07.29.47:705][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2017.11.17-07.29.47:705][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.17-07.29.47:705][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.17-07.29.47:705][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.17-07.29.47:706][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.17-07.29.47:706][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.17-07.29.47:706][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.17-07.29.47:706][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.11.17-07.29.47:706][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
+[2017.11.17-07.29.47:706][  0]LogD3D11RHI:      Driver Date: 8-17-2017
+[2017.11.17-07.29.47:706][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.17-07.29.47:731][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.17-07.29.47:746][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.17-07.29.47:791][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/5632/).
+[2017.11.17-07.29.47:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JesseWih/AppData/Local/Temp/UnrealShaderWorkingDir/36C5259F486080C4A8A0AB89FCAB588D/'.
+[2017.11.17-07.29.47:791][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.17-07.29.48:566][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.17-07.29.48:608][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.17-07.29.48:650][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.17-07.29.48:691][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.17-07.29.48:739][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.17-07.29.48:788][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.17-07.29.48:829][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.17-07.29.48:877][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.17-07.29.48:913][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.17-07.29.48:960][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.17-07.29.49:007][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.17-07.29.49:049][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.17-07.29.49:091][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.17-07.29.49:138][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.17-07.29.49:179][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.17-07.29.49:265][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.17-07.29.49:265][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.17-07.29.49:305][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.17-07.29.49:385][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.17-07.29.49:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.17-07.29.49:455][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.17-07.29.49:501][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.17-07.29.49:547][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.17-07.29.49:587][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.17-07.29.49:588][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.17-07.29.50:039][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.17-07.29.50:114][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.17-07.29.50:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.17-07.29.50:138][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JesseWih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.17-07.29.50:149][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.17-07.29.50:149][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.17-07.29.50:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-07.29.50:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-07.29.50:364][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.11.17-07.29.50:462][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-07.29.50:794][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.17-07.29.50:834][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.17-07.29.50:834][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.17-07.29.50:834][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.17-07.29.50:834][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.17-07.29.50:834][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.17-07.29.50:835][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.17-07.29.51:203][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.11.17-07.29.51:372][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.033501 seconds
+[2017.11.17-07.29.51:377][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.17-07.29.51:377][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.17-07.29.51:377][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.17-07.29.51:433][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.17-07.29.53:691][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.17-07.29.53:725][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.17-07.29.54:316][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.17-07.29.54:682][  0]SourceControl: Source control is disabled
+[2017.11.17-07.29.55:941][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.17-07.29.56:153][  0]LogOcInput: OculusInput pre-init called
+[2017.11.17-07.29.56:396][  0]LogEngine: Initializing Engine...
+[2017.11.17-07.29.56:397][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.17-07.29.56:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.17-07.29.56:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.17-07.29.56:702][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.17-07.29.56:710][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-07.29.56:741][  0]LogInit: FAudioDevice initialized.
+[2017.11.17-07.29.56:828][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-07.29.56:838][  0]LogInit: Texture streaming: Enabled
+[2017.11.17-07.29.56:951][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.17-07.29.57:147][  0]LogInit: Transaction tracking system initialized
+[2017.11.17-07.29.57:420][  0]BlueprintLog: New page: Editor Load
+[2017.11.17-07.29.58:247][  0]LocalizationService: Localization service is disabled
+[2017.11.17-07.29.58:883][  0]LogConsoleResponse: Display: 
+[2017.11.17-07.29.59:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.17-07.29.59:057][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.17-07.29.59:057][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.17-07.30.00:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.01s
+[2017.11.17-07.30.00:104][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-07.30.00:107][  0]LightingResults: New page: Lighting Build
+[2017.11.17-07.30.00:141][  0]MapCheck: New page: Map Check
+[2017.11.17-07.30.00:141][  0]LightingResults: New page: Lighting Build
+[2017.11.17-07.30.00:264][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Character'
+[2017.11.17-07.30.00:264][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:264][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Character' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Robot_rigged.uasset.
+[2017.11.17-07.30.00:264][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:264][  0]LoadErrors: Error: /Game/Meshes/Character/Robot_rigged : Can't find file for asset. /Game/Materials/Character/mat_Character
+[2017.11.17-07.30.00:264][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Revolver'
+[2017.11.17-07.30.00:264][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:264][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Revolver' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Robot_rigged.uasset.
+[2017.11.17-07.30.00:264][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:264][  0]LoadErrors: Error: /Game/Meshes/Character/Robot_rigged : Can't find file for asset. /Game/Materials/Character/mat_Revolver
+[2017.11.17-07.30.00:265][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Character'
+[2017.11.17-07.30.00:265][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:265][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Character' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Robot_rigged.uasset.
+[2017.11.17-07.30.00:265][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:265][  0]LoadErrors: Error: /Game/Meshes/Character/Robot_rigged : Can't find file for asset. /Game/Materials/Character/mat_Character
+[2017.11.17-07.30.00:265][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Revolver'
+[2017.11.17-07.30.00:265][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:265][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Revolver' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Robot_rigged.uasset.
+[2017.11.17-07.30.00:265][  0]LoadErrors: Failed to load /Game/Meshes/Character/Robot_rigged.Robot_rigged Referenced by CharacterMesh0
+[2017.11.17-07.30.00:265][  0]LoadErrors: Error: /Game/Meshes/Character/Robot_rigged : Can't find file for asset. /Game/Materials/Character/mat_Revolver
+[2017.11.17-07.30.00:466][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'Reload' for  InputAction Reload
+[2017.11.17-07.30.00:466][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2017.11.17-07.30.00:492][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0015.10] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 63 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.11.17-07.30.00:597][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Character'
+[2017.11.17-07.30.00:597][  0]LoadErrors: Failed to load /Game/Materials/Character/mat_Character.mat_Character Referenced by Robot_rigged
+[2017.11.17-07.30.00:597][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Character' while loading NULL.
+[2017.11.17-07.30.00:597][  0]LoadErrors: Failed to load /Game/Materials/Character/mat_Character.mat_Character Referenced by Robot_rigged
+[2017.11.17-07.30.00:597][  0]LogLinker: Warning: Can't find file '/Game/Materials/Character/mat_Revolver'
+[2017.11.17-07.30.00:597][  0]LoadErrors: Failed to load /Game/Materials/Character/mat_Revolver.mat_Revolver Referenced by Robot_rigged
+[2017.11.17-07.30.00:597][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/Character/mat_Revolver' while loading NULL.
+[2017.11.17-07.30.00:597][  0]LoadErrors: Failed to load /Game/Materials/Character/mat_Revolver.mat_Revolver Referenced by Robot_rigged
+[2017.11.17-07.30.00:921][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.17-07.30.00:929][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.11.17-07.30.00:929][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.11.17-07.30.00:929][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.11.17-07.30.00:930][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.11.17-07.30.00:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-07.30.00:954][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-07.30.01:002][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.646ms to complete.
+[2017.11.17-07.30.01:002][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.899
+[2017.11.17-07.30.01:185][  0]LogCollectionManager: Loaded 0 collections in 0.001553 seconds
+[2017.11.17-07.30.01:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.11.17-07.30.01:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/JesseWih/Collections/' took 0.01s
+[2017.11.17-07.30.01:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.11.17-07.30.01:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.17-07.30.01:276][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2386 classes and 500 folders.
+[2017.11.17-07.30.01:331][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.17-07.30.01:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.17-07.30.01:485][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.17-07.30.01:616][  0]LogSlate: Took 0.002434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-07.30.01:621][  0]LogSlate: Took 0.002528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.17-07.30.01:628][  0]LogSlate: Took 0.001646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.17-07.30.01:733][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.17-07.30.01:786][  0]LogSlate: Took 0.001381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-07.30.01:954][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.17-07.30.01:954][  0]LogLoad: (Engine Initialization) Total time: 16.57 seconds
+[2017.11.17-07.30.01:954][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.17-07.30.01:954][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.17-07.30.01:967][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.17-07.30.01:987][  0]LogAssetRegistry: Asset discovery search completed in 11.6451 seconds
+[2017.11.17-07.30.01:988][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.17-07.30.01:988][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.11.17-07.30.01:991][  0]SourceControl: On branch Jesse-Design
+[2017.11.17-07.30.01:991][  0]SourceControl: Your branch is ahead of 'origin/Jesse-Design' by 1 commit.
+[2017.11.17-07.30.01:991][  0]SourceControl:   (use "git push" to publish your local commits)
+[2017.11.17-07.30.01:991][  0]SourceControl: Changes not staged for commit:
+[2017.11.17-07.30.01:991][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.17-07.30.01:991][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.17-07.30.01:991][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.11.17-07.30.01:991][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
+[2017.11.17-07.30.01:991][  0]SourceControl: 	deleted:    HatTrick/Saved/Logs/HatTrick-backup-2017.11.10-13.25.05.log
+[2017.11.17-07.30.01:991][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.11.17-07.30.01:991][  0]SourceControl: Untracked files:
+[2017.11.17-07.30.01:991][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.17-07.30.01:991][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-492E25C942AB110FB97EFC96BC90E08C/
+[2017.11.17-07.30.01:991][  0]SourceControl: 	HatTrick/Saved/Logs/HatTrick-backup-2017.11.17-09.29.46.log
+[2017.11.17-07.30.01:991][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.17-07.30.01:991][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.17-07.30.40:224][998]LogSlate: Took 0.001554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-07.30.40:667][998]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-07.30.40:690][998]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Saloon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-07.30.40:690][998]LightingResults: New page: Lighting Build
+[2017.11.17-07.30.40:691][998]LoadErrors: New page: Loading map: Saloon.umap
+[2017.11.17-07.30.40:691][998]MapCheck: New page: Map Check
+[2017.11.17-07.30.40:691][998]LightingResults: New page: Lighting Build
+[2017.11.17-07.30.40:906][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-07.30.40:970][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-07.30.41:018][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.9ms to complete.
+[2017.11.17-07.30.41:018][998]LogFileHelpers: Loading map 'Saloon' took 0.329
+[2017.11.17-08.53.23:451][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_14)
+[2017.11.17-08.53.25:231][272]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.17-08.53.28:864][417]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-08.53.28:912][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-08.53.28:915][417]PIE: New page: PIE session: Saloon (Nov 17, 2017, 12:53:28 PM)
+[2017.11.17-08.53.28:916][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.17-08.53.28:930][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014471s)
+[2017.11.17-08.53.28:931][417]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-08.53.28:931][417]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2017.11.17-08.53.28:932][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.016624s)
+[2017.11.17-08.53.28:943][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-08.53.28:957][417]LogInit: FAudioDevice initialized.
+[2017.11.17-08.53.29:024][417]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-08.53.29:037][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-10.53.29
+[2017.11.17-08.53.29:038][417]LogWorld: Bringing up level for play took: 0.005670
+[2017.11.17-08.53.29:046][417]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-08.53.29:081][417]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.17-08.53.29:107][417]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon 0.414
+[2017.11.17-08.53.29:161][417]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.11.17-08.54.09:686][713]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.17-09.23.10:337][119]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.17-09.23.11:845][161]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.17-09.30.25:563][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.17-09.30.38:729][303]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.17-09.31.02:771][223]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-09.31.02:782][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-09.31.02:782][223]PIE: New page: PIE session: Saloon (Nov 17, 2017, 1:31:02 PM)
+[2017.11.17-09.31.02:782][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.17-09.31.02:796][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013848s)
+[2017.11.17-09.31.02:796][223]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-09.31.02:797][223]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.11.17-09.31.02:797][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.014893s)
+[2017.11.17-09.31.02:814][223]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-09.31.02:828][223]LogInit: FAudioDevice initialized.
+[2017.11.17-09.31.02:876][223]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-09.31.02:882][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-11.31.02
+[2017.11.17-09.31.02:882][223]LogWorld: Bringing up level for play took: 0.004902
+[2017.11.17-09.31.02:883][223]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-09.31.02:891][223]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon 0.196
+[2017.11.17-09.31.11:114][524]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-09.31.11:125][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-09.31.11:125][524]PIE: New page: PIE session: Saloon (Nov 17, 2017, 1:31:11 PM)
+[2017.11.17-09.31.11:125][524]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon
+[2017.11.17-09.31.11:138][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012852s)
+[2017.11.17-09.31.11:139][524]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-09.31.11:139][524]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2017.11.17-09.31.11:139][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_0_Saloon.Saloon (0.013534s)
+[2017.11.17-09.31.11:149][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-09.31.11:162][524]LogInit: FAudioDevice initialized.
+[2017.11.17-09.31.11:216][524]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-09.31.11:222][524]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-11.31.11
+[2017.11.17-09.31.11:222][524]LogWorld: Bringing up level for play took: 0.004778
+[2017.11.17-09.31.11:222][524]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-09.31.11:228][524]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon 0.534
+[2017.11.17-12.08.42:400][167]SourceControl: Error: fatal: Invalid path '/Script': No such file or directory
+[2017.11.17-12.09.16:827][703]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-12.09.16:838][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-12.09.16:843][703]PIE: New page: PIE session: Saloon (Nov 17, 2017, 4:09:16 PM)
+[2017.11.17-12.09.16:843][703]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Saloon
+[2017.11.17-12.09.16:856][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012331s)
+[2017.11.17-12.09.16:856][703]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-12.09.16:857][703]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2017.11.17-12.09.16:857][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_1_Saloon.Saloon (0.013613s)
+[2017.11.17-12.09.16:866][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-12.09.16:881][703]LogInit: FAudioDevice initialized.
+[2017.11.17-12.09.16:930][703]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-12.09.16:936][703]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-14.09.16
+[2017.11.17-12.09.16:936][703]LogWorld: Bringing up level for play took: 0.004851
+[2017.11.17-12.09.16:936][703]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.09.16:940][703]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.16:940][703]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.11.17-12.09.16:940][703]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.16:943][703]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.17-12.09.16:945][703]LogInit: WinSock: I am AOTA1-1L141-11D (172.31.16.37:0)
+[2017.11.17-12.09.16:946][703]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.16:947][703]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.11.17-12.09.16:953][703]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Saloon 0.295
+[2017.11.17-12.09.16:958][703]PIE: New page: PIE session: Saloon (Nov 17, 2017, 4:09:16 PM)
+[2017.11.17-12.09.17:007][703]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.11.17-12.09.17:007][703]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.17:007][703]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.11.17-12.09.17:007][703]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.17-12.09.17:007][703]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.17-12.09.17:008][703]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.17:010][703]LogNet: Game client on port 7777, rate 10000
+[2017.11.17-12.09.17:014][703]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.356
+[2017.11.17-12.09.17:025][703]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59384
+[2017.11.17-12.09.17:026][703]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 157218066235220117044087046002094145024062211067063033116200
+[2017.11.17-12.09.17:051][703]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 157218066235220117044087046002094145024062211067063033116200
+[2017.11.17-12.09.17:181][704]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59384
+[2017.11.17-12.09.17:181][704]LogHandshake: SendChallengeAck. InCookie: 157218066235220117044087046002094145024062211067063033116200
+[2017.11.17-12.09.17:181][704]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59384
+[2017.11.17-12.09.17:181][704]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.17:182][704]LogNet: NotifyAcceptedConnection: Name: Saloon, TimeStamp: 11/17/17 14:09:17, [UNetConnection] RemoteAddr: 127.0.0.1:59384, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-12.09.17:182][704]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59384, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-12.09.17:184][704]LogNetVersion: HatTrick 0.0.0.1, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3540992105)
+[2017.11.17-12.09.17:185][704]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.17-12.09.17:202][705]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Saloon.Saloon: Accepted
+[2017.11.17-12.09.17:202][705]LogNet: Remote platform little endian=1
+[2017.11.17-12.09.17:202][705]LogNet: This platform little endian=1
+[2017.11.17-12.09.17:239][706]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2017.11.17-12.09.17:241][706]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Saloon, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.11.17-12.09.17:280][706]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Saloon?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.11.17-12.09.17:290][706]Cmd: MEM
+[2017.11.17-12.09.17:305][706]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-12.09.17:305][706]LogMemory: Process Physical Memory: 1162.01 MB used, 1322.51 MB peak
+[2017.11.17-12.09.17:305][706]LogMemory: Process Virtual Memory: 2178.71 MB used, 2178.71 MB peak
+[2017.11.17-12.09.17:305][706]LogMemory: Physical Memory: 5728.82 MB used,  10535.47 MB free, 16264.30 MB total
+[2017.11.17-12.09.17:305][706]LogMemory: Virtual Memory: 3041.51 MB used,  10535.47 MB free, 134217728.00 MB total
+[2017.11.17-12.09.17:305][706]LogMemory: 
+[2017.11.17-12.09.17:305][706]Allocator Stats for TBB: (not implemented)
+[2017.11.17-12.09.17:319][706]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-12.09.17:319][706]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.17:325][706]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-14.09.17
+[2017.11.17-12.09.17:325][706]LogWorld: Bringing up level for play took: 0.004178
+[2017.11.17-12.09.17:325][706]LogLoad: Took 0.044998 seconds to LoadMap(/Game/Maps/UEDPIE_1_Saloon)
+[2017.11.17-12.09.17:335][707]LogNet: Client netspeed is 10000
+[2017.11.17-12.09.17:335][707]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2017.11.17-12.09.17:344][707]LogNet: Join succeeded: 260
+[2017.11.17-12.09.17:349][707]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.09.17:375][708]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.11.17-12.09.17:375][708]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.11.17-12.09.17:376][708]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.11.17-12.09.17:376][708]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.11.17-12.09.42:284][973]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59384, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.17-12.09.42:284][973]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59384, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 3, Time: 2017.11.17-12.09.42
+[2017.11.17-12.09.42:284][973]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59384, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.17-12.09.42:284][973]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.17-12.09.42:284][973]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 3, Time: 2017.11.17-12.09.42
+[2017.11.17-12.09.42:284][973]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.17-12.09.42:289][973]LogExit: GameNetDriver None shut down
+[2017.11.17-12.09.42:289][973]LogExit: GameNetDriver None shut down
+[2017.11.17-12.09.47:525][491]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-12.09.47:537][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-12.09.47:541][491]PIE: New page: PIE session: Saloon (Nov 17, 2017, 4:09:47 PM)
+[2017.11.17-12.09.47:542][491]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Saloon
+[2017.11.17-12.09.47:553][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011386s)
+[2017.11.17-12.09.47:553][491]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-12.09.47:554][491]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.11.17-12.09.47:554][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon.Saloon to /Game/Maps/UEDPIE_1_Saloon.Saloon (0.012184s)
+[2017.11.17-12.09.47:562][491]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-12.09.47:575][491]LogInit: FAudioDevice initialized.
+[2017.11.17-12.09.47:653][491]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-12.09.47:658][491]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-14.09.47
+[2017.11.17-12.09.47:658][491]LogWorld: Bringing up level for play took: 0.004671
+[2017.11.17-12.09.47:659][491]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.09.47:660][491]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.47:660][491]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2017.11.17-12.09.47:660][491]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.47:660][491]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.17-12.09.47:661][491]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.47:661][491]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.11.17-12.09.47:666][491]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Saloon 1.008
+[2017.11.17-12.09.47:669][491]PIE: New page: PIE session: Saloon (Nov 17, 2017, 4:09:47 PM)
+[2017.11.17-12.09.47:725][491]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.11.17-12.09.47:725][491]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.47:725][491]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2017.11.17-12.09.47:725][491]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.17-12.09.47:725][491]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.17-12.09.47:726][491]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.47:726][491]LogNet: Game client on port 7777, rate 10000
+[2017.11.17-12.09.47:729][491]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.071
+[2017.11.17-12.09.47:741][491]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61161
+[2017.11.17-12.09.47:741][491]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 073137066084173067087200186190230027029076117221213032061162
+[2017.11.17-12.09.47:742][491]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 073137066084173067087200186190230027029076117221213032061162
+[2017.11.17-12.09.47:856][492]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61161
+[2017.11.17-12.09.47:856][492]LogHandshake: SendChallengeAck. InCookie: 073137066084173067087200186190230027029076117221213032061162
+[2017.11.17-12.09.47:856][492]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61161
+[2017.11.17-12.09.47:857][492]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-12.09.47:857][492]LogNet: NotifyAcceptedConnection: Name: Saloon, TimeStamp: 11/17/17 14:09:47, [UNetConnection] RemoteAddr: 127.0.0.1:61161, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-12.09.47:857][492]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61161, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-12.09.47:857][492]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.17-12.09.47:865][493]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Saloon.Saloon: Accepted
+[2017.11.17-12.09.47:865][493]LogNet: Remote platform little endian=1
+[2017.11.17-12.09.47:865][493]LogNet: This platform little endian=1
+[2017.11.17-12.09.47:932][494]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2017.11.17-12.09.47:932][494]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Saloon, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.11.17-12.09.47:985][494]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Saloon?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.11.17-12.09.47:995][494]Cmd: MEM
+[2017.11.17-12.09.48:003][494]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-12.09.48:003][494]LogMemory: Process Physical Memory: 1186.07 MB used, 1322.51 MB peak
+[2017.11.17-12.09.48:003][494]LogMemory: Process Virtual Memory: 2200.10 MB used, 2240.51 MB peak
+[2017.11.17-12.09.48:003][494]LogMemory: Physical Memory: 5810.88 MB used,  10453.41 MB free, 16264.30 MB total
+[2017.11.17-12.09.48:003][494]LogMemory: Virtual Memory: 3060.32 MB used,  10453.41 MB free, 134217728.00 MB total
+[2017.11.17-12.09.48:003][494]LogMemory: 
+[2017.11.17-12.09.48:003][494]Allocator Stats for TBB: (not implemented)
+[2017.11.17-12.09.48:014][494]LogAIModule: Creating AISystem for world Saloon
+[2017.11.17-12.09.48:014][494]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-12.09.48:020][494]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Saloon.Saloon up for play (max tick rate 0) at 2017.11.17-14.09.48
+[2017.11.17-12.09.48:020][494]LogWorld: Bringing up level for play took: 0.004675
+[2017.11.17-12.09.48:020][494]LogLoad: Took 0.034584 seconds to LoadMap(/Game/Maps/UEDPIE_1_Saloon)
+[2017.11.17-12.09.48:033][495]LogNet: Client netspeed is 10000
+[2017.11.17-12.09.48:033][495]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2017.11.17-12.09.48:036][495]LogNet: Join succeeded: 262
+[2017.11.17-12.09.48:038][495]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.09.48:072][496]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.11.17-12.09.48:072][496]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.11.17-12.09.48:073][496]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.11.17-12.09.48:073][496]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Saloon.Saloon:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.11.17-12.10.15:110][903]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61161, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.11.17-12.10.15:110][903]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61161, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.11.17-12.10.15
+[2017.11.17-12.10.15:110][903]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61161, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.11.17-12.10.15:110][903]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.11.17-12.10.15:110][903]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.11.17-12.10.15
+[2017.11.17-12.10.15:110][903]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.11.17-12.10.15:114][903]LogExit: GameNetDriver None shut down
+[2017.11.17-12.10.15:114][903]LogExit: GameNetDriver None shut down
+[2017.11.17-12.22.43:540][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel-1" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.17-12.22.43:560][ 85]LogSavePackage: Save=9.28ms
+[2017.11.17-12.22.43:560][ 85]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-12A89089F4B59E84D537ED6B117165F7A.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap'
+[2017.11.17-12.22.43:564][ 85]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap
+[2017.11.17-12.22.43:699][ 85]LogFileHelpers: Saving map 'Duel-1' took 0.216
+[2017.11.17-12.22.43:701][ 85]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-12.22.43:706][ 85]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-12.22.43:706][ 85]LightingResults: New page: Lighting Build
+[2017.11.17-12.22.43:707][ 85]LoadErrors: New page: Loading map: Duel-1.umap
+[2017.11.17-12.22.43:708][ 85]MapCheck: New page: Map Check
+[2017.11.17-12.22.43:708][ 85]LightingResults: New page: Lighting Build
+[2017.11.17-12.22.43:763][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-12.22.43:764][ 85]LogAIModule: Creating AISystem for world Duel-1
+[2017.11.17-12.22.43:798][ 85]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-12.22.43:849][ 85]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.258ms to complete.
+[2017.11.17-12.22.43:850][ 85]LogFileHelpers: Loading map 'Duel-1' took 0.145
+[2017.11.17-12.22.47:116][349]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2017.11.17-12.22.49:298][470]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2017.11.17-12.23.37:739][747]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.24.10:406][309]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.17-12.24.14:864][498]MapCheck: New page: Map Check
+[2017.11.17-12.24.14:883][498]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.17-12.24.14:883][498]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.17-12.24.15:000][498]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.17-12.24.15:010][498]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_45, compiling. 
+[2017.11.17-12.24.15:409][498]TextureStreamingBuild: Display: Compiling optional shaders took 0.414 seconds.
+[2017.11.17-12.24.15:415][498]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.11.17-12.24.15:418][498]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2017.11.17-12.24.15:429][498]LightingResults: New page: Lighting Build - Nov 17, 2017, 4:24:15 PM
+[2017.11.17-12.24.15:471][498]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.17-12.24.15:563][498]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.17-12.24.15:579][498]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.17-12.24.16:132][498]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.17-12.24.16:132][498]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5632
+[2017.11.17-12.24.18:706][498]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.17-12.24.18:707][498]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.17-12.24.18:707][498]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.17-12.24.18:707][498]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.17-12.24.18:707][498]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.17-12.24.18:707][498]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.17-12.24.18:845][498]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.17-12.24.18:845][498]MapCheck: New page: Duel-1 - Nov 17, 2017, 4:24:18 PM
+[2017.11.17-12.24.18:898][498]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.361ms to complete.
+[2017.11.17-12.24.18:920][498]LogEditorBuildUtils: Build time 0:04
+[2017.11.17-12.24.23:670][645]Job is a success!
+[2017.11.17-12.24.23:818][646]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.17-12.24.23:818][646]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.17-12.24.23:818][646]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.17-12.24.23:844][646]Lightmass on AOTA1-1L141-11D: 878 ms total, 147 ms importing, 29 ms setup, 277 ms photons, 394 ms processing, 0 ms extra exporting [65/65 mappings]. Threads: 2.60 sec total, 1.04 sec processing.
+[2017.11.17-12.24.23:866][646]LogStaticLightingSystem: Illumination: 8.38 sec (15 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.11.17-12.24.23:866][646]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.17-12.24.23:866][646]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.17-12.24.24:712][646]DumpUnbuiltLightIteractions
+[2017.11.17-12.24.24:713][646]Lights with unbuilt interactions: 0
+[2017.11.17-12.24.24:713][646]
+[2017.11.17-12.24.24:713][646]Primitives with unbuilt interactions: 0
+[2017.11.17-12.24.24:913][647]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.17-12.24.24:913][647]MapCheck: New page: Duel-1 - Nov 17, 2017, 4:24:24 PM
+[2017.11.17-12.24.24:983][647]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.299ms to complete.
+[2017.11.17-12.24.26:093][693]LogEditorViewport: Clicking Background
+[2017.11.17-12.24.28:770][801]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.17-12.24.30:628][864]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.17-12.24.31:096][878]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.17-12.25.00:164][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel-1" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.17-12.25.00:327][316]LogSavePackage: Save=148.21ms
+[2017.11.17-12.25.00:327][316]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-18C1FAE66401E6CBCF7094986B2C0B0F9.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap'
+[2017.11.17-12.25.00:330][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap
+[2017.11.17-12.25.00:423][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel-1_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset" SILENT=true
+[2017.11.17-12.25.00:438][316]LogSavePackage: Save=13.89ms
+[2017.11.17-12.25.00:438][316]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-1_BuiltData977705F241104BEB6E2E23AEF2C1FF28.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset'
+[2017.11.17-12.25.00:440][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset
+[2017.11.17-12.25.00:563][316]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2017.11.17-12.25.00:563][316]SourceControl: Error: HatTrick/Content/Maps/Duel-1_BuiltData.uasset
+[2017.11.17-12.25.00:563][316]SourceControl: Error: Use -f if you really want to add them.
+[2017.11.17-12.29.40:243][817]Cmd: TRANSACTION UNDO
+[2017.11.17-12.29.40:243][817]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.17-12.29.40:281][817]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.29.40:331][817]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-12.29.57:616][510]Cmd: TRANSACTION UNDO
+[2017.11.17-12.29.57:616][510]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.17-12.29.57:674][510]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.30.05:709][911]Cmd: TRANSACTION UNDO
+[2017.11.17-12.30.05:709][911]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.17-12.30.49:799][  6]Cmd: TRANSACTION UNDO
+[2017.11.17-12.30.49:799][  6]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.17-12.30.49:834][  6]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.30.53:610][159]Cmd: TRANSACTION UNDO
+[2017.11.17-12.30.53:611][159]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.17-12.31.29:297][881]Cmd: TRANSACTION UNDO
+[2017.11.17-12.31.29:297][881]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.11.17-12.31.29:330][881]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.31.29:782][898]Cmd: TRANSACTION UNDO
+[2017.11.17-12.31.29:782][898]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.11.17-12.31.29:787][898]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.31.42:782][512]Cmd: TRANSACTION UNDO
+[2017.11.17-12.31.42:782][512]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.11.17-12.31.45:069][605]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.11.17-12.35.00:189][869]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-12.35.00:316][869]LogSavePackage: Save=147.31ms
+[2017.11.17-12.35.00:316][869]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-1_Auto18428B06B4E65FFCBE3A8DF8ECED1F8CC.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Duel-1_Auto1.umap'
+[2017.11.17-12.35.00:319][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Duel-1_Auto1.umap
+[2017.11.17-12.35.00:321][869]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Duel-1' took 0.168
+[2017.11.17-12.35.00:321][869]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2017.11.17-13.00.26:701][774]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.17-13.00.29:901][904]LogActorFactory: Actor Factory created Resident_House_01
+[2017.11.17-13.00.33:518][ 17]LogActorFactory: Actor Factory created Saloon_Rescale
+[2017.11.17-13.00.34:488][ 53]LogActorFactory: Actor Factory created Saloon_Rescale
+[2017.11.17-13.00.46:857][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.17-13.01.02:453][167]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2017.11.17-13.01.02:601][173]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2017.11.17-13.01.02:726][178]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2017.11.17-13.01.02:976][188]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2017.11.17-13.01.03:076][192]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2017.11.17-13.01.03:352][203]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 8X8)
+[2017.11.17-13.01.03:753][219]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 8X8)
+[2017.11.17-13.01.04:284][240]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2017.11.17-13.01.04:359][243]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 8X8)
+[2017.11.17-13.01.04:384][244]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 8X8)
+[2017.11.17-13.01.04:688][256]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 8X8)
+[2017.11.17-13.01.04:968][267]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 8X8)
+[2017.11.17-13.01.05:526][289]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 8X8)
+[2017.11.17-13.01.05:602][292]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 8X8)
+[2017.11.17-13.01.05:678][295]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 8X8)
+[2017.11.17-13.01.05:885][303]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 8X8)
+[2017.11.17-13.01.05:961][306]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 8X8)
+[2017.11.17-13.01.06:403][323]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 8X8)
+[2017.11.17-13.01.06:429][324]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 8X8)
+[2017.11.17-13.01.06:686][334]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 8X8)
+[2017.11.17-13.01.06:788][338]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 8X8)
+[2017.11.17-13.01.06:840][340]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 8X8)
+[2017.11.17-13.01.07:278][357]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 8X8)
+[2017.11.17-13.01.07:305][358]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 8X8)
+[2017.11.17-13.01.11:422][514]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 8X8)
+[2017.11.17-13.01.12:407][552]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 8X8)
+[2017.11.17-13.01.13:749][604]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 8X8)
+[2017.11.17-13.01.13:953][612]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 8X8)
+[2017.11.17-13.01.13:979][613]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 8X8)
+[2017.11.17-13.01.14:212][622]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 8X8)
+[2017.11.17-13.01.14:802][645]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 8X8)
+[2017.11.17-13.01.14:982][652]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 8X8)
+[2017.11.17-13.01.15:213][661]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 8X8)
+[2017.11.17-13.01.15:445][670]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 8X8)
+[2017.11.17-13.01.15:600][676]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 8X8)
+[2017.11.17-13.01.15:728][681]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 8X8)
+[2017.11.17-13.01.16:141][697]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 8X8)
+[2017.11.17-13.01.16:553][713]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 8X8)
+[2017.11.17-13.01.16:629][716]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 8X8)
+[2017.11.17-13.01.16:786][722]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 8X8)
+[2017.11.17-13.01.16:993][730]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 8X8)
+[2017.11.17-13.01.17:145][736]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 8X8)
+[2017.11.17-13.01.17:328][743]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 8X8)
+[2017.11.17-13.01.17:405][746]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 8X8)
+[2017.11.17-13.01.17:509][750]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 8X8)
+[2017.11.17-13.01.17:716][758]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 8X8)
+[2017.11.17-13.01.19:167][814]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 8X8)
+[2017.11.17-13.01.19:323][820]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 8X8)
+[2017.11.17-13.01.19:375][822]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 8X8)
+[2017.11.17-13.01.19:556][829]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 8X8)
+[2017.11.17-13.01.19:739][836]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 8X8)
+[2017.11.17-13.01.19:901][842]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 8X8)
+[2017.11.17-13.01.19:981][845]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 8X8)
+[2017.11.17-13.01.20:085][849]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 8X8)
+[2017.11.17-13.01.20:268][856]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 8X8)
+[2017.11.17-13.01.22:090][925]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 8X8)
+[2017.11.17-13.01.22:194][929]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 8X8)
+[2017.11.17-13.01.22:482][940]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 8X8)
+[2017.11.17-13.01.23:057][962]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 8X8)
+[2017.11.17-13.01.23:083][963]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 8X8)
+[2017.11.17-13.01.23:212][968]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 8X8)
+[2017.11.17-13.01.23:503][979]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 8X8)
+[2017.11.17-13.01.23:632][984]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 8X8)
+[2017.11.17-13.01.23:736][988]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 8X8)
+[2017.11.17-13.01.23:868][993]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 8X8)
+[2017.11.17-13.01.23:999][998]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 8X8)
+[2017.11.17-13.01.24:235][  7]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 8X8)
+[2017.11.17-13.01.24:445][ 15]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 8X8)
+[2017.11.17-13.03.15:050][571]Cmd: TRANSACTION UNDO
+[2017.11.17-13.03.15:050][571]LogEditorTransaction: Undo Move Actors
+[2017.11.17-13.03.16:058][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.17-13.04.11:177][660]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.17-13.04.11:601][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.17-13.04.16:164][846]Cmd: TRANSACTION UNDO
+[2017.11.17-13.04.16:164][846]LogEditorTransaction: Undo Move Actors
+[2017.11.17-13.04.25:337][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.17-13.04.29:589][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.17-13.04.52:839][186]Cmd: EDIT COPY
+[2017.11.17-13.04.53:156][197]Cmd: EDIT PASTE
+[2017.11.17-13.04.57:438][342]Cmd: EDIT PASTE
+[2017.11.17-13.05.04:333][581]Cmd: SELECT NONE
+[2017.11.17-13.05.10:185][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_01)
+[2017.11.17-13.05.10:741][812]Cmd: DELETE
+[2017.11.17-13.05.10:741][812]Cmd: ACTOR DELETE
+[2017.11.17-13.05.10:742][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.17-13.05.10:752][812]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.11.17-13.05.12:902][889]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_2)
+[2017.11.17-13.05.13:359][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_3)
+[2017.11.17-13.05.14:403][941]Cmd: EDIT COPY
+[2017.11.17-13.05.14:824][957]Cmd: EDIT PASTE
+[2017.11.17-13.06.50:008][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_4)
+[2017.11.17-13.06.50:442][834]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_5)
+[2017.11.17-13.06.51:051][856]Cmd: EDIT COPY
+[2017.11.17-13.06.51:368][868]Cmd: EDIT PASTE
+[2017.11.17-13.06.59:313][129]Cmd: EDIT PASTE
+[2017.11.17-13.07.08:253][429]Cmd: EDIT COPY
+[2017.11.17-13.07.08:795][448]Cmd: EDIT PASTE
+[2017.11.17-13.07.15:662][685]Cmd: SELECT NONE
+[2017.11.17-13.07.16:192][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_11)
+[2017.11.17-13.07.16:594][717]Cmd: DELETE
+[2017.11.17-13.07.16:594][717]Cmd: ACTOR DELETE
+[2017.11.17-13.07.16:595][717]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.17-13.07.16:623][717]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.11.17-13.07.20:052][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_8)
+[2017.11.17-13.07.20:776][867]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_9)
+[2017.11.17-13.07.21:219][882]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_10)
+[2017.11.17-13.07.22:366][924]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_7)
+[2017.11.17-13.07.23:110][951]Cmd: EDIT COPY
+[2017.11.17-13.07.23:777][976]Cmd: EDIT PASTE
+[2017.11.17-13.09.22:515][774]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_4)
+[2017.11.17-13.09.23:139][798]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_5)
+[2017.11.17-13.09.23:634][815]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_6)
+[2017.11.17-13.09.24:160][834]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_7)
+[2017.11.17-13.09.25:187][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_8)
+[2017.11.17-13.09.25:973][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Saloon_Rescale)
+[2017.11.17-13.09.27:423][951]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_9)
+[2017.11.17-13.09.28:028][972]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House_10)
+[2017.11.17-13.09.28:645][995]Cmd: EDIT COPY
+[2017.11.17-13.09.29:118][ 13]Cmd: EDIT PASTE
+[2017.11.17-13.11.17:972][218]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 8X8)
+[2017.11.17-13.11.17:983][218]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 8X8)
+[2017.11.17-13.11.24:294][527]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 8X8)
+[2017.11.17-13.12.13:111][606]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-13.12.13:123][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-13.12.13:127][606]PIE: New page: PIE session: Duel-1 (Nov 17, 2017, 5:12:13 PM)
+[2017.11.17-13.12.13:127][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Duel-1
+[2017.11.17-13.12.13:138][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010437s)
+[2017.11.17-13.12.13:138][606]LogAIModule: Creating AISystem for world Duel-1
+[2017.11.17-13.12.13:138][606]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.11.17-13.12.13:138][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Duel-1.Duel-1 to /Game/Maps/UEDPIE_1_Duel-1.Duel-1 (0.011334s)
+[2017.11.17-13.12.13:154][606]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-13.12.13:168][606]LogInit: FAudioDevice initialized.
+[2017.11.17-13.12.13:216][606]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-13.12.13:221][606]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Duel-1.Duel-1 up for play (max tick rate 0) at 2017.11.17-15.12.13
+[2017.11.17-13.12.13:222][606]LogWorld: Bringing up level for play took: 0.004209
+[2017.11.17-13.12.13:222][606]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-13.12.13:223][606]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-13.12.13:223][606]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2017.11.17-13.12.13:223][606]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-13.12.13:223][606]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.17-13.12.13:224][606]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-13.12.13:224][606]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.11.17-13.12.13:229][606]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Duel-1 0.59
+[2017.11.17-13.12.13:234][606]PIE: New page: PIE session: Duel-1 (Nov 17, 2017, 5:12:13 PM)
+[2017.11.17-13.12.13:288][606]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.11.17-13.12.13:288][606]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-13.12.13:288][606]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2017.11.17-13.12.13:288][606]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.17-13.12.13:288][606]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.17-13.12.13:289][606]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-13.12.13:289][606]LogNet: Game client on port 7777, rate 10000
+[2017.11.17-13.12.13:292][606]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.653
+[2017.11.17-13.12.13:306][606]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62208
+[2017.11.17-13.12.13:306][606]LogHandshake: SendConnectChallenge. Timestamp: 0.008337, Cookie: 255058185041119069005105145084243160224221049035133240104215
+[2017.11.17-13.12.13:307][606]LogHandshake: SendChallengeResponse. Timestamp: 0.008337, Cookie: 255058185041119069005105145084243160224221049035133240104215
+[2017.11.17-13.12.13:433][607]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62208
+[2017.11.17-13.12.13:433][607]LogHandshake: SendChallengeAck. InCookie: 255058185041119069005105145084243160224221049035133240104215
+[2017.11.17-13.12.13:433][607]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62208
+[2017.11.17-13.12.13:433][607]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.17-13.12.13:433][607]LogNet: NotifyAcceptedConnection: Name: Duel-1, TimeStamp: 11/17/17 15:12:13, [UNetConnection] RemoteAddr: 127.0.0.1:62208, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-13.12.13:433][607]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62208, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.17-13.12.13:434][607]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.17-13.12.13:447][608]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Duel-1.Duel-1: Accepted
+[2017.11.17-13.12.13:447][608]LogNet: Remote platform little endian=1
+[2017.11.17-13.12.13:447][608]LogNet: This platform little endian=1
+[2017.11.17-13.12.13:521][609]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2017.11.17-13.12.13:522][609]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Duel-1, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.11.17-13.12.13:567][609]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Duel-1?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.11.17-13.12.13:579][609]Cmd: MEM
+[2017.11.17-13.12.13:587][609]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-13.12.13:587][609]LogMemory: Process Physical Memory: 1293.09 MB used, 1322.51 MB peak
+[2017.11.17-13.12.13:587][609]LogMemory: Process Virtual Memory: 2417.79 MB used, 2417.79 MB peak
+[2017.11.17-13.12.13:587][609]LogMemory: Physical Memory: 6041.59 MB used,  10222.71 MB free, 16264.30 MB total
+[2017.11.17-13.12.13:587][609]LogMemory: Virtual Memory: 3663.17 MB used,  10222.71 MB free, 134217728.00 MB total
+[2017.11.17-13.12.13:587][609]LogMemory: 
+[2017.11.17-13.12.13:587][609]Allocator Stats for TBB: (not implemented)
+[2017.11.17-13.12.13:597][609]LogAIModule: Creating AISystem for world Duel-1
+[2017.11.17-13.12.13:597][609]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.17-13.12.13:603][609]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Duel-1.Duel-1 up for play (max tick rate 0) at 2017.11.17-15.12.13
+[2017.11.17-13.12.13:603][609]LogWorld: Bringing up level for play took: 0.003885
+[2017.11.17-13.12.13:603][609]LogLoad: Took 0.035925 seconds to LoadMap(/Game/Maps/UEDPIE_1_Duel-1)
+[2017.11.17-13.12.13:673][610]LogNet: Client netspeed is 10000
+[2017.11.17-13.12.13:673][610]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2017.11.17-13.12.13:676][610]LogNet: Join succeeded: 264
+[2017.11.17-13.12.13:678][610]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-13.12.13:687][611]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Duel-1.Duel-1:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
+[2017.11.17-13.12.13:687][611]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Duel-1.Duel-1:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
+[2017.11.17-13.12.13:688][611]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_Duel-1.Duel-1:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
+[2017.11.17-13.12.13:688][611]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_Duel-1.Duel-1:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
+[2017.11.17-13.12.15:222][638]LogScript: Warning: Accessed None trying to read property FP_Character
+	BP_Weapon_C /Game/Maps/UEDPIE_2_Duel-1.Duel-1:PersistentLevel.BP_Weapon_C_3
+	Function /Game/Blueprints/Weapon/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon:02B9
+[2017.11.17-13.12.15:223][638]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property FP_Character from function: 'ExecuteUbergraph_BP_Weapon' from node: Montage Play in graph: EventGraph in object: BP_Weapon with description: Accessed None trying to read property FP_Character
+[2017.11.17-13.12.15:223][638]LogScript: Warning: Accessed None
+	BP_Weapon_C /Game/Maps/UEDPIE_2_Duel-1.Duel-1:PersistentLevel.BP_Weapon_C_3
+	Function /Game/Blueprints/Weapon/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon:02CE
+[2017.11.17-13.12.15:223][638]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_BP_Weapon' from node: Montage Play in graph: EventGraph in object: BP_Weapon with description: Accessed None
+[2017.11.17-13.12.15:223][638]LogScript: Warning: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue
+	BP_Weapon_C /Game/Maps/UEDPIE_2_Duel-1.Duel-1:PersistentLevel.BP_Weapon_C_3
+	Function /Game/Blueprints/Weapon/BP_Weapon.BP_Weapon_C:ExecuteUbergraph_BP_Weapon:0301
+[2017.11.17-13.12.15:223][638]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue from function: 'ExecuteUbergraph_BP_Weapon' from node: Montage Play in graph: EventGraph in object: BP_Weapon with description: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue
+[2017.11.17-13.12.21:075][745]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62208, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.11.17-13.12.21:075][745]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62208, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.11.17-13.12.21
+[2017.11.17-13.12.21:075][745]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62208, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.11.17-13.12.21:075][745]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.11.17-13.12.21:075][745]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.11.17-13.12.21
+[2017.11.17-13.12.21:075][745]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.11.17-13.12.21:079][745]LogExit: GameNetDriver None shut down
+[2017.11.17-13.12.21:079][745]LogExit: GameNetDriver None shut down
+[2017.11.17-13.16.02:590][997]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.17-13.16.02:601][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-13.16.02:602][997]PIE: New page: PIE session: Duel-1 (Nov 17, 2017, 5:16:02 PM)
+[2017.11.17-13.16.02:602][997]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Duel-1
+[2017.11.17-13.16.02:613][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010983s)
+[2017.11.17-13.16.02:613][997]LogAIModule: Creating AISystem for world Duel-1
+[2017.11.17-13.16.02:614][997]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.11.17-13.16.02:614][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Duel-1.Duel-1 to /Game/Maps/UEDPIE_0_Duel-1.Duel-1 (0.012140s)
+[2017.11.17-13.16.02:623][997]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.17-13.16.02:637][997]LogInit: FAudioDevice initialized.
+[2017.11.17-13.16.02:690][997]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.17-13.16.02:696][997]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Duel-1.Duel-1 up for play (max tick rate 0) at 2017.11.17-15.16.02
+[2017.11.17-13.16.02:696][997]LogWorld: Bringing up level for play took: 0.004280
+[2017.11.17-13.16.02:696][997]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-13.16.02:703][997]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Duel-1 0.065
+[2017.11.17-13.17.38:976][598]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.17-13.17.38:976][598]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2017.11.17-13.17.38:976][598]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2017.11.17-13.17.38:977][598]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2017.11.17-13.17.38:977][598]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2017.11.17-13.17.38:977][598]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2017.11.17-13.17.38:978][598]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 8X8)
+[2017.11.17-13.17.38:978][598]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 8X8)
+[2017.11.17-13.17.38:978][598]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2017.11.17-13.17.38:979][598]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 8X8)
+[2017.11.17-13.17.38:979][598]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 8X8)
+[2017.11.17-13.17.38:980][598]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 8X8)
+[2017.11.17-13.17.38:980][598]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 8X8)
+[2017.11.17-13.17.38:980][598]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 8X8)
+[2017.11.17-13.17.38:980][598]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 8X8)
+[2017.11.17-13.17.38:980][598]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 8X8)
+[2017.11.17-13.17.38:981][598]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 8X8)
+[2017.11.17-13.17.38:981][598]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 8X8)
+[2017.11.17-13.17.38:982][598]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 8X8)
+[2017.11.17-13.17.38:982][598]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 8X8)
+[2017.11.17-13.17.38:982][598]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 8X8)
+[2017.11.17-13.17.38:983][598]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 8X8)
+[2017.11.17-13.17.38:983][598]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 8X8)
+[2017.11.17-13.17.38:983][598]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 8X8)
+[2017.11.17-13.17.38:984][598]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 8X8)
+[2017.11.17-13.17.38:984][598]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 8X8)
+[2017.11.17-13.17.38:984][598]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 8X8)
+[2017.11.17-13.17.38:985][598]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 8X8)
+[2017.11.17-13.17.38:985][598]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 8X8)
+[2017.11.17-13.17.38:985][598]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 8X8)
+[2017.11.17-13.17.38:985][598]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 8X8)
+[2017.11.17-13.17.38:986][598]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 8X8)
+[2017.11.17-13.17.38:986][598]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 8X8)
+[2017.11.17-13.17.38:986][598]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 8X8)
+[2017.11.17-13.17.38:987][598]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 8X8)
+[2017.11.17-13.17.38:987][598]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 8X8)
+[2017.11.17-13.17.38:987][598]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 8X8)
+[2017.11.17-13.17.38:987][598]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 8X8)
+[2017.11.17-13.17.38:988][598]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 8X8)
+[2017.11.17-13.17.38:988][598]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 8X8)
+[2017.11.17-13.17.38:989][598]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 8X8)
+[2017.11.17-13.17.38:989][598]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 8X8)
+[2017.11.17-13.17.38:989][598]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 8X8)
+[2017.11.17-13.17.38:989][598]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 8X8)
+[2017.11.17-13.17.38:990][598]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 8X8)
+[2017.11.17-13.17.38:990][598]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 8X8)
+[2017.11.17-13.17.38:990][598]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 8X8)
+[2017.11.17-13.17.38:991][598]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 8X8)
+[2017.11.17-13.17.38:991][598]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 8X8)
+[2017.11.17-13.17.38:991][598]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 8X8)
+[2017.11.17-13.17.38:992][598]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 8X8)
+[2017.11.17-13.17.38:992][598]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 8X8)
+[2017.11.17-13.17.38:992][598]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 8X8)
+[2017.11.17-13.17.38:992][598]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 8X8)
+[2017.11.17-13.17.38:993][598]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 8X8)
+[2017.11.17-13.17.38:993][598]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 8X8)
+[2017.11.17-13.17.38:994][598]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 8X8)
+[2017.11.17-13.17.38:994][598]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 8X8)
+[2017.11.17-13.17.38:994][598]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 8X8)
+[2017.11.17-13.17.38:995][598]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 8X8)
+[2017.11.17-13.17.38:995][598]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 8X8)
+[2017.11.17-13.17.38:995][598]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 8X8)
+[2017.11.17-13.17.38:995][598]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 8X8)
+[2017.11.17-13.17.38:996][598]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 8X8)
+[2017.11.17-13.17.38:996][598]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 8X8)
+[2017.11.17-13.17.38:996][598]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 8X8)
+[2017.11.17-13.17.38:996][598]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 8X8)
+[2017.11.17-13.17.38:997][598]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 8X8)
+[2017.11.17-13.17.38:997][598]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 8X8)
+[2017.11.17-13.17.39:263][598]LogSavePackage: Save=331.95ms
+[2017.11.17-13.17.39:264][598]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-1_Auto24A0A629047CD1F282118A6B677056319.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Duel-1_Auto2.umap'
+[2017.11.17-13.17.39:267][598]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/Duel-1_Auto2.umap
+[2017.11.17-13.17.39:268][598]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Duel-1' took 0.352
+[2017.11.17-13.17.39:268][598]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.352
+[2017.11.17-13.45.47:880][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel-1" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.17-13.45.48:165][674]LogSavePackage: Save=270.39ms
+[2017.11.17-13.45.48:165][674]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-1D8FD2D7F41A353739F4AA0A393D89463.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap'
+[2017.11.17-13.45.48:168][674]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1.umap
+[2017.11.17-13.45.48:284][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel-1_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset" SILENT=true
+[2017.11.17-13.45.48:303][674]LogSavePackage: Save=14.87ms
+[2017.11.17-13.45.48:303][674]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel-1_BuiltData5D4C354D4EF2B34E3C608CB08D7B5CD6.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset'
+[2017.11.17-13.45.48:305][674]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel-1_BuiltData.uasset
+[2017.11.17-13.46.38:208][887]Cmd: QUIT_EDITOR
+[2017.11.17-13.46.39:037][887]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.17-13.46.39:063][887]LogExit: Preparing to exit.
+[2017.11.17-13.46.39:737][887]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.17-13.46.39:761][887]LogExit: Editor shut down
+[2017.11.17-13.46.39:768][887]LogExit: Transaction tracking system shut down
+[2017.11.17-13.46.39:941][887]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.17-13.46.39:941][887]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.17-13.46.39:941][887]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.17-13.46.39:941][887]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.17-13.46.39:941][887]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.17-13.46.39:993][887]LogExit: Object subsystem successfully closed.
+[2017.11.17-13.46.40:005][887]LogD3D11RHI: Shutdown
+[2017.11.17-13.46.40:005][887]LogD3D11RHI: CleanupD3DDevice
+[2017.11.17-13.46.40:009][887]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.17-13.46.40:025][887]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2017.11.17-13.46.40:025][887]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.17-13.46.40:025][887]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.17-13.46.40:025][887]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.17-13.46.40:025][887]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.17-13.46.40:025][887]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.17-13.46.40:026][887]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.11.17-13.46.40:026][887]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/JesseWih/Collections/' was aborted.
+[2017.11.17-13.46.40:026][887]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.17-13.46.40:026][887]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.17-13.46.40:027][887]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.17-13.46.40:028][887]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.17-13.46.40:968][887]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.17-13.46.41:021][887]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.17-13.46.41:022][887]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.17-13.46.41:022][887]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.17-13.46.41:022][887]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.17-13.46.41:022][887]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.17-13.46.41:024][887]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.17-13.46.41:024][887]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.17-13.46.41:024][887]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.17-13.46.41:024][887]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.17-13.46.41:024][887]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.17-13.46.41:025][887]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.17-13.46.41:026][887]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.17-13.46.41:026][887]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.17-13.46.41:050][887]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.17-13.46.41:051][887]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.17-13.46.41:052][887]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.17-13.46.41:153][887]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.17-13.46.41:254][887]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.17-13.46.41:257][887]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.17-13.46.41:258][887]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.17-13.46.41:259][887]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.17-13.46.41:259][887]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.17-13.46.41:259][887]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.17-13.46.41:259][887]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.17-13.46.41:261][887]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.17-13.46.41:262][887]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.17-13.46.41:346][887]LogDerivedDataCache: Shutdown
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.17-13.46.41:346][887]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.17-13.46.41:347][887]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.17-13.46.41:347][887]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.17-13.46.41:347][887]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.17-13.46.41:347][887]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B679881BA-4DBD-3CF1-00A6-5880C13C46E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d7ae3af140edfbd82237c685d8b4a1d5%7C8486c7e2423b49b0b0401785d16f836b%7Ca8b05006-4976-4dd1-9ab2-11f0dd6b60f5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.17-13.46.41:353][887]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.17-13.46.41:353][887]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.17-13.46.41:354][887]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.17-13.46.41:355][887]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.17-13.46.41:358][887]LogExit: Exiting.
+[2017.11.17-13.46.41:366][887]Log file closed, 11/17/17 15:46:41
