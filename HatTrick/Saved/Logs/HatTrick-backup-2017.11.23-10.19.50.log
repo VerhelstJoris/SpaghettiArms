@@ -1,0 +1,1129 @@
+﻿Log file open, 11/23/17 09:23:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HatTrick
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(858989969) SRandInit(858989969).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160352
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.23-07.23.59:359][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.23-07.23.59:359][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.23-07.23.59:371][  0]LogInit: Computer: AOTA1-1L141-11D
+[2017.11.23-07.23.59:371][  0]LogInit: User: JesseWih
+[2017.11.23-07.23.59:371][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.23-07.23.59:371][  0]LogInit: High frequency timer resolution =3.328122 MHz
+[2017.11.23-07.23.59:371][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.23-07.23.59:371][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.23-07.23.59:371][  0]LogMemory: Process Physical Memory: 280.01 MB used, 280.01 MB peak
+[2017.11.23-07.23.59:371][  0]LogMemory: Process Virtual Memory: 282.76 MB used, 282.76 MB peak
+[2017.11.23-07.23.59:371][  0]LogMemory: Physical Memory: 4539.71 MB used,  11724.58 MB free, 16264.30 MB total
+[2017.11.23-07.23.59:371][  0]LogMemory: Virtual Memory: 666.25 MB used,  11724.58 MB free, 134217728.00 MB total
+[2017.11.23-07.23.59:498][  0]LogInit: Using OS detected language (en-US).
+[2017.11.23-07.23.59:498][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.11.23-07.23.59:500][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.23-07.23.59:501][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
+[2017.11.23-07.24.00:066][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.23-07.24.00:107][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.11.23-07.24.00:107][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.23-07.24.00:113][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.23-07.24.00:113][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.23-07.24.00:116][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.23-07.24.00:116][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.23-07.24.00:116][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.23-07.24.00:121][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.23-07.24.00:121][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.23-07.24.00:121][  0]LogWindows: EnumDisplayDevices:
+[2017.11.23-07.24.00:121][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.11.23-07.24.00:121][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:1)
+[2017.11.23-07.24.00:121][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.23-07.24.00:121][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.11.23-07.24.00:121][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.23-07.24.00:121][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.23-07.24.00:121][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.23-07.24.00:122][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.23-07.24.00:122][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.11.23-07.24.00:122][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
+[2017.11.23-07.24.00:122][  0]LogD3D11RHI:      Driver Date: 8-17-2017
+[2017.11.23-07.24.00:122][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.23-07.24.00:149][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.23-07.24.00:165][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.23-07.24.00:208][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/9484/).
+[2017.11.23-07.24.00:209][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JesseWih/AppData/Local/Temp/UnrealShaderWorkingDir/DD9529BE469EACEBF243BD9CE23FC734/'.
+[2017.11.23-07.24.00:209][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.23-07.24.00:993][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.23-07.24.01:034][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.23-07.24.01:075][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.23-07.24.01:117][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.23-07.24.01:160][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.23-07.24.01:202][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.23-07.24.01:244][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.23-07.24.01:286][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.23-07.24.01:322][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.23-07.24.01:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.23-07.24.01:404][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.23-07.24.01:445][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.23-07.24.01:487][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.23-07.24.01:529][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.23-07.24.01:569][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.23-07.24.01:653][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.23-07.24.01:653][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.23-07.24.01:685][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.23-07.24.01:768][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.23-07.24.01:797][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.23-07.24.01:837][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.23-07.24.01:878][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.23-07.24.01:918][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.23-07.24.01:959][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.23-07.24.01:959][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.23-07.24.02:349][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.23-07.24.02:424][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.23-07.24.02:424][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.23-07.24.02:424][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.23-07.24.02:425][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.23-07.24.02:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.23-07.24.02:425][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.23-07.24.02:437][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.23-07.24.02:449][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JesseWih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.23-07.24.02:460][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.23-07.24.02:461][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.23-07.24.02:461][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.23-07.24.02:461][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.23-07.24.02:686][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.11.23-07.24.02:791][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.23-07.24.02:922][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.23-07.24.03:174][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.23-07.24.03:208][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.23-07.24.03:208][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.23-07.24.03:208][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.23-07.24.03:208][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.23-07.24.03:208][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.23-07.24.03:503][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.11.23-07.24.03:679][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.035639 seconds
+[2017.11.23-07.24.03:684][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.23-07.24.03:684][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.23-07.24.03:684][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.23-07.24.05:907][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.23-07.24.05:942][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.23-07.24.06:502][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.23-07.24.06:830][  0]SourceControl: Source control is disabled
+[2017.11.23-07.24.07:751][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.23-07.24.07:943][  0]LogOcInput: OculusInput pre-init called
+[2017.11.23-07.24.08:152][  0]LogEngine: Initializing Engine...
+[2017.11.23-07.24.08:153][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.23-07.24.08:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.23-07.24.08:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.23-07.24.08:452][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.23-07.24.08:460][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.23-07.24.08:491][  0]LogInit: FAudioDevice initialized.
+[2017.11.23-07.24.08:575][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/JesseWih/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.23-07.24.08:584][  0]LogInit: Texture streaming: Enabled
+[2017.11.23-07.24.08:679][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.23-07.24.08:853][  0]LogInit: Transaction tracking system initialized
+[2017.11.23-07.24.09:103][  0]BlueprintLog: New page: Editor Load
+[2017.11.23-07.24.09:823][  0]LocalizationService: Localization service is disabled
+[2017.11.23-07.24.10:381][  0]LogConsoleResponse: Display: 
+[2017.11.23-07.24.10:541][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.23-07.24.10:541][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.23-07.24.10:541][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.23-07.24.11:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.02s
+[2017.11.23-07.24.11:383][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.23-07.24.11:385][  0]LightingResults: New page: Lighting Build
+[2017.11.23-07.24.11:419][  0]MapCheck: New page: Map Check
+[2017.11.23-07.24.11:419][  0]LightingResults: New page: Lighting Build
+[2017.11.23-07.24.11:708][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
+[2017.11.23-07.24.11:708][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap.
+[2017.11.23-07.24.11:708][  0]LoadErrors: Error: /Game/Maps/MainMenuLevel : Can't find file for asset. /Game/Maps/MainMenuLevel_BuiltData
+[2017.11.23-07.24.11:768][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
+[2017.11.23-07.24.11:768][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap.
+[2017.11.23-07.24.11:769][  0]LoadErrors: Error: /Game/Maps/MainMenuLevel : Can't find file for asset. /Game/Maps/MainMenuLevel_BuiltData
+[2017.11.23-07.24.11:770][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
+[2017.11.23-07.24.11:770][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
+[2017.11.23-07.24.11:770][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
+[2017.11.23-07.24.11:770][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
+[2017.11.23-07.24.11:798][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
+[2017.11.23-07.24.11:798][  0]LoadErrors: Failed to load /Game/Maps/MainMenuLevel_BuiltData.MainMenuLevel_BuiltData Referenced by PersistentLevel
+[2017.11.23-07.24.11:798][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
+[2017.11.23-07.24.11:798][  0]LoadErrors: Failed to load /Game/Maps/MainMenuLevel_BuiltData.MainMenuLevel_BuiltData Referenced by PersistentLevel
+[2017.11.23-07.24.11:812][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Punch_Sound_Effect...
+[2017.11.23-07.24.12:007][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.23-07.24.12:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.23-07.24.12:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.23-07.24.12:069][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.771ms to complete.
+[2017.11.23-07.24.12:069][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.686
+[2017.11.23-07.24.12:226][  0]LogCollectionManager: Loaded 0 collections in 0.001392 seconds
+[2017.11.23-07.24.12:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.11.23-07.24.12:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/JesseWih/Collections/' took 0.01s
+[2017.11.23-07.24.12:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.11.23-07.24.12:305][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.23-07.24.12:313][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2387 classes and 502 folders.
+[2017.11.23-07.24.12:367][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.11.23-07.24.12:398][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.11.23-07.24.12:434][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.11.23-07.24.12:494][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.23-07.24.12:496][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.23-07.24.12:501][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.23-07.24.12:626][  0]LogRenderer: Reallocating scene render targets to support 1208x644 Format 10 NumSamples 1 (Frame:1).
+[2017.11.23-07.24.12:835][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.11.23-07.24.12:835][  0]LogLoad: (Engine Initialization) Total time: 15.18 seconds
+[2017.11.23-07.24.12:835][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.23-07.24.12:835][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.23-07.24.12:845][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.23-07.24.12:878][  0]SourceControl: On branch Ketheres
+[2017.11.23-07.24.12:878][  0]SourceControl: Your branch is up-to-date with 'origin/Ketheres'.
+[2017.11.23-07.24.12:878][  0]SourceControl: Changes not staged for commit:
+[2017.11.23-07.24.12:878][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.23-07.24.12:878][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.23-07.24.12:878][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.11.23-07.24.12:878][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
+[2017.11.23-07.24.12:878][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.11.23-07.24.12:878][  0]SourceControl: Untracked files:
+[2017.11.23-07.24.12:878][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.23-07.24.12:878][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-D7B183894714FE2F2A50DF8B934BA9FE/
+[2017.11.23-07.24.12:878][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.23-07.24.12:879][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.23-07.24.12:927][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-07.24.12:933][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.07s
+[2017.11.23-07.24.12:945][  1]LogAssetRegistry: Asset discovery search completed in 10.2806 seconds
+[2017.11.23-07.24.12:947][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
+[2017.11.23-07.24.12:947][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2017.11.23-07.25.44:886][597]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-07.25.44:969][597]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplayJakob_BuiltData'
+[2017.11.23-07.25.44:969][597]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplayJakob_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob.umap.
+[2017.11.23-07.25.44:969][597]LoadErrors: Error: /Game/Maps/SaloonGameplayJakob : Can't find file for asset. /Game/Maps/SaloonGameplayJakob_BuiltData
+[2017.11.23-07.25.44:975][597]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplayJakob_BuiltData'
+[2017.11.23-07.25.44:975][597]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplayJakob_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob.umap.
+[2017.11.23-07.25.45:060][597]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplayJakob_BuiltData'
+[2017.11.23-07.25.45:060][597]LoadErrors: Failed to load /Game/Maps/SaloonGameplayJakob_BuiltData.SaloonGameplayJakob_BuiltData Referenced by PersistentLevel
+[2017.11.23-07.25.45:060][597]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplayJakob_BuiltData' while loading NULL.
+[2017.11.23-07.25.45:077][597]LogTexture: Display: Building textures: T_Lights_E (BGRA8, 2048X2048)
+[2017.11.23-07.25.45:077][597]LogMaterial: Missing cached shader map for material Mat_BASEBuildings, compiling. 
+[2017.11.23-07.25.45:776][597]LogTexture: Display: Building textures: Trim_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.45:776][597]LogTexture: Display: Building textures: T_Lights_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.45:776][597]LogTexture: Display: Building textures: T_floor_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.45:776][597]LogTexture: Display: Building textures: T_Metal_A (AutoDXT, 2480X2480)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: T_Copper_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: T_PlatedMetal_texture_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: T_roof_texture_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_100 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_101 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_102 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_103 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_104 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_105 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_106 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_107 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_108 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_109 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_143 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_144 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 8X8)
+[2017.11.23-07.25.50:473][597]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_81 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_82 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_83 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_86 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_87 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_88 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_89 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_91 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_92 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_93 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_96 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_97 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_98 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: Texture2D_99 (BGRA8, 8X8)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: T_Billboards_A (AutoDXT, 2480X2480)
+[2017.11.23-07.25.50:474][597]LogTexture: Display: Building textures: T_Base_Uniques_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.52:260][597]LogTexture: Display: Building textures: T_Plated_Roof_A (AutoDXT, 4096X2048)
+[2017.11.23-07.25.52:260][597]LogTexture: Display: Building textures: T_metal_wood_A (AutoDXT, 2048X2048)
+[2017.11.23-07.25.52:261][597]LogStaticMesh: Building static mesh M_Saloon...
+[2017.11.23-07.25.57:693][597]LogStaticMesh: Built static mesh [5.43s] /Game/Meshes/Buildings/M_Saloon.M_Saloon
+[2017.11.23-07.25.58:008][597]LogStaticMesh: Building static mesh M_Resident_House...
+[2017.11.23-07.25.58:394][597]LogStaticMesh: Built static mesh [0.39s] /Game/Meshes/Buildings/M_Resident_House.M_Resident_House
+[2017.11.23-07.25.58:424][597]LogStaticMesh: Building static mesh M_Jail...
+[2017.11.23-07.25.58:563][597]LogStaticMesh: Built static mesh [0.14s] /Game/Meshes/Buildings/M_Jail.M_Jail
+[2017.11.23-07.25.58:581][597]LogMaterial: Missing cached shader map for material Mat_BASEBuildings, compiling. 
+[2017.11.23-07.25.58:618][597]LogStaticMesh: Building static mesh M_Barber_Shop...
+[2017.11.23-07.25.59:125][597]LogStaticMesh: Built static mesh [0.51s] /Game/Meshes/Buildings/M_Barber_Shop.M_Barber_Shop
+[2017.11.23-07.25.59:126][597]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.23-07.25.59:223][597]LogAIModule: Creating AISystem for world SaloonGameplayJakob
+[2017.11.23-07.25.59:254][597]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.23-07.25.59:254][597]LightingResults: New page: Lighting Build
+[2017.11.23-07.25.59:254][597]LoadErrors: New page: Loading map: SaloonGameplayJakob.umap
+[2017.11.23-07.25.59:255][597]MapCheck: New page: Map Check
+[2017.11.23-07.25.59:255][597]LightingResults: New page: Lighting Build
+[2017.11.23-07.25.59:372][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.23-07.25.59:438][597]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.23-07.25.59:508][597]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.074ms to complete.
+[2017.11.23-07.25.59:508][597]LogFileHelpers: Loading map 'SaloonGameplayJakob' took 0.255
+[2017.11.23-07.26.12:270][923]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1).
+[2017.11.23-07.26.29:813][812]LogSavePackage: Save=12.66ms
+[2017.11.23-07.26.29:813][812]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/M_Barber_Shop0CB410534B35E9027AB701A69913E73A.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Barber_Shop.uasset'
+[2017.11.23-07.26.29:817][812]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Barber_Shop.uasset
+[2017.11.23-07.26.44:812][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Buildings/M_Jail" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Jail.uasset" SILENT=true
+[2017.11.23-07.26.44:827][315]LogSavePackage: Save=11.45ms
+[2017.11.23-07.26.44:827][315]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/M_Jail7AB3D0D84E9C627DEF17BB8B8EC1E76C.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Jail.uasset'
+[2017.11.23-07.26.44:830][315]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Jail.uasset
+[2017.11.23-07.26.52:058][546]LogSavePackage: Save=11.25ms
+[2017.11.23-07.26.52:058][546]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/M_Resident_House53E3CD90466DE8DC114F42A1C82C4499.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Resident_House.uasset'
+[2017.11.23-07.26.52:061][546]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Resident_House.uasset
+[2017.11.23-07.27.02:145][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Buildings/M_Saloon" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Saloon.uasset" SILENT=true
+[2017.11.23-07.27.02:178][910]LogSavePackage: Save=21.36ms
+[2017.11.23-07.27.02:178][910]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/M_Saloon08D77F7C4E9429440A5A46AB0CA963C4.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Saloon.uasset'
+[2017.11.23-07.27.02:182][910]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Buildings/M_Saloon.uasset
+[2017.11.23-07.27.10:345][977]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.23-07.27.10:450][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-07.27.10:450][977]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-07.27.10:450][977]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.23-07.27.10:451][977]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.23-07.27.10:451][977]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.23-07.27.10:451][977]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+[2017.11.23-07.27.10:451][977]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+[2017.11.23-07.27.10:462][977]PIE: New page: PIE session: SaloonGameplayJakob (Nov 23, 2017, 11:27:10 AM)
+[2017.11.23-07.27.10:462][977]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SaloonGameplayJakob
+[2017.11.23-07.27.10:471][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008932s)
+[2017.11.23-07.27.10:472][977]LogAIModule: Creating AISystem for world SaloonGameplayJakob
+[2017.11.23-07.27.10:472][977]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.11.23-07.27.10:472][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SaloonGameplayJakob.SaloonGameplayJakob to /Game/Maps/UEDPIE_0_SaloonGameplayJakob.SaloonGameplayJakob (0.009806s)
+[2017.11.23-07.27.10:482][977]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.23-07.27.10:496][977]LogInit: FAudioDevice initialized.
+[2017.11.23-07.27.10:554][977]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.23-07.27.10:560][977]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SaloonGameplayJakob.SaloonGameplayJakob up for play (max tick rate 0) at 2017.11.23-09.27.10
+[2017.11.23-07.27.10:561][977]LogWorld: Bringing up level for play took: 0.004372
+[2017.11.23-07.27.10:573][977]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.23-07.27.10:625][977]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.11.23-07.27.10:633][977]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SaloonGameplayJakob 1.139
+[2017.11.23-07.27.25:426][685]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.27.25:426][685]LogBlueprintUserMessages: [Bullet_01_C_0] Hit
+[2017.11.23-07.27.36:531][222]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-07.27.36:531][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.23-07.27.36:531][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.23-07.27.36:531][222]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.23-07.27.36:531][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.11.23-07.27.36:579][223]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2017.11.23-07.27.36:579][223]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-07.27.51:304][411]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.23-07.27.51:926][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon)
+[2017.11.23-07.27.52:762][440]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House)
+[2017.11.23-07.27.53:697][463]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Jail)
+[2017.11.23-07.28.00:719][657]Cmd: SELECT NONE
+[2017.11.23-07.28.05:406][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House)
+[2017.11.23-07.28.23:361][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Jail)
+[2017.11.23-07.28.58:823][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House)
+[2017.11.23-07.28.59:972][300]Cmd: EDIT COPY
+[2017.11.23-07.29.00:488][313]Cmd: EDIT PASTE
+[2017.11.23-07.29.14:252][755]Cmd: EDIT COPY
+[2017.11.23-07.29.14:558][763]Cmd: EDIT PASTE
+[2017.11.23-07.29.20:869][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House2)
+[2017.11.23-07.29.24:710][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House)
+[2017.11.23-07.29.25:425][ 41]Cmd: DELETE
+[2017.11.23-07.29.25:425][ 41]Cmd: ACTOR DELETE
+[2017.11.23-07.29.25:426][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.23-07.29.25:445][ 41]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.23-07.29.25:768][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House2)
+[2017.11.23-07.29.26:663][ 75]Cmd: EDIT COPY
+[2017.11.23-07.29.27:023][ 85]Cmd: EDIT PASTE
+[2017.11.23-07.29.30:809][186]Cmd: SELECT NONE
+[2017.11.23-07.29.34:832][290]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House3)
+[2017.11.23-07.29.35:220][297]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House2)
+[2017.11.23-07.29.35:626][307]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House4)
+[2017.11.23-07.29.36:546][331]Cmd: EDIT COPY
+[2017.11.23-07.29.36:956][342]Cmd: EDIT PASTE
+[2017.11.23-07.29.56:985][863]Cmd: EDIT COPY
+[2017.11.23-07.29.57:337][873]Cmd: EDIT PASTE
+[2017.11.23-07.30.07:850][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House6)
+[2017.11.23-07.30.08:731][174]Cmd: EDIT COPY
+[2017.11.23-07.30.09:062][183]Cmd: EDIT PASTE
+[2017.11.23-07.30.13:264][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House10)
+[2017.11.23-07.30.13:764][305]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House8)
+[2017.11.23-07.30.14:128][313]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House9)
+[2017.11.23-07.30.18:335][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House11)
+[2017.11.23-07.30.19:100][442]Cmd: DELETE
+[2017.11.23-07.30.19:100][442]Cmd: ACTOR DELETE
+[2017.11.23-07.30.19:101][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.23-07.30.19:118][442]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.23-07.30.24:593][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House9)
+[2017.11.23-07.30.25:032][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House8)
+[2017.11.23-07.30.25:431][611]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House10)
+[2017.11.23-07.30.26:323][635]Cmd: EDIT COPY
+[2017.11.23-07.30.26:683][645]Cmd: EDIT PASTE
+[2017.11.23-07.30.33:803][830]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.23-07.30.34:936][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House13)
+[2017.11.23-07.30.35:425][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House11)
+[2017.11.23-07.30.36:091][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House12)
+[2017.11.23-07.30.40:292][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House8)
+[2017.11.23-07.30.42:775][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House12)
+[2017.11.23-07.30.43:353][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House11)
+[2017.11.23-07.30.43:888][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House13)
+[2017.11.23-07.30.44:564][104]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House11)
+[2017.11.23-07.30.44:876][111]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House12)
+[2017.11.23-07.31.08:239][707]Cmd: EDIT COPY
+[2017.11.23-07.31.08:872][726]Cmd: EDIT PASTE
+[2017.11.23-07.31.13:766][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House15)
+[2017.11.23-07.31.15:139][906]Cmd: EDIT COPY
+[2017.11.23-07.31.15:572][919]Cmd: EDIT PASTE
+[2017.11.23-07.31.19:379][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House16)
+[2017.11.23-07.31.20:187][ 51]Cmd: DELETE
+[2017.11.23-07.31.20:187][ 51]Cmd: ACTOR DELETE
+[2017.11.23-07.31.20:188][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.23-07.31.20:205][ 51]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.11.23-07.31.26:070][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House17)
+[2017.11.23-07.31.26:584][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House15)
+[2017.11.23-07.31.28:217][267]Cmd: EDIT COPY
+[2017.11.23-07.31.28:571][277]Cmd: EDIT PASTE
+[2017.11.23-07.31.43:800][688]Cmd: SELECT NONE
+[2017.11.23-07.31.49:374][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House18)
+[2017.11.23-07.31.49:891][847]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Resident_House16)
+[2017.11.23-07.31.52:365][906]Cmd: SELECT NONE
+[2017.11.23-07.32.21:613][743]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.23-07.32.26:439][870]MapCheck: New page: Map Check
+[2017.11.23-07.32.26:455][870]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.23-07.32.26:457][870]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.23-07.32.26:572][870]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.23-07.32.26:577][870]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.11.23-07.32.26:584][870]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_roof_texture, compiling. 
+[2017.11.23-07.32.26:941][870]TextureStreamingBuild: Display: Compiling optional shaders took 0.373 seconds.
+[2017.11.23-07.32.26:951][870]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2017.11.23-07.32.26:962][870]TextureStreamingBuild: Display: Build Texture Streaming took 0.011 seconds.
+[2017.11.23-07.32.26:971][870]LightingResults: New page: Lighting Build - Nov 23, 2017, 11:32:26 AM
+[2017.11.23-07.32.27:003][870]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.23-07.32.27:080][870]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.23-07.32.27:089][870]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.23-07.32.27:603][870]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.23-07.32.27:603][870]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9484
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.23-07.32.30:038][870]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.23-07.32.30:842][870]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.23-07.32.30:842][870]MapCheck: New page: SaloonGameplayJakob - Nov 23, 2017, 11:32:30 AM
+[2017.11.23-07.32.30:843][870]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.11.23-07.32.30:895][870]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.477ms to complete.
+[2017.11.23-07.32.30:917][870]LogEditorBuildUtils: Build time 0:04
+[2017.11.23-07.32.30:940][870]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.11.23-07.32.30:946][870]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.11.23-07.32.32:367][919]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MI_roof_texture, compiling. 
+[2017.11.23-07.32.32:372][919]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MI_roof_texture, compiling. 
+[2017.11.23-07.33.08:824][730]LightingResults: Warning: M_Barber_Shop Object has overlapping UVs.
+[2017.11.23-07.33.08:865][731]LightingResults: M_Barber_Shop Lightmap UV are overlapping by 6.1%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.12:355][814]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.12:355][814]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.12:566][819]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.12:566][819]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.15:677][893]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.15:677][893]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.20:241][  2]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.20:241][  2]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.27:471][174]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.27:471][174]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.30:500][246]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.30:500][246]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.38:122][427]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.38:122][427]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.46:025][615]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.46:025][615]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.53:717][798]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.53:717][798]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.33.59:384][933]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.33.59:384][933]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.34.07:087][116]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.34.07:087][116]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.34.15:973][334]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.34.15:973][334]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.34.22:843][503]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.34.22:843][503]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.34.29:412][665]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.34.29:412][665]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.35.45:723][548]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.35.45:723][548]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.35.51:240][684]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.35.51:240][684]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.35.56:075][803]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
+[2017.11.23-07.35.56:075][803]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.35.56:277][808]LightingResults: Warning: M_Saloon Object has wrapping UVs.
+[2017.11.23-07.35.56:277][808]LightingResults: Warning: M_Saloon Object has overlapping UVs.
+[2017.11.23-07.35.56:277][808]LightingResults: M_Saloon Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.23-07.35.57:557][840]Job is a success!
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 64X32)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 64X64)
+[2017.11.23-07.36.02:415][841]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 64X64)
+[2017.11.23-07.36.02:615][841]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.11.23-07.36.02:815][841]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.11.23-07.36.02:815][841]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2017.11.23-07.36.02:942][841]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2017.11.23-07.36.02:943][841]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2017.11.23-07.36.02:943][841]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2017.11.23-07.36.02:943][841]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.11.23-07.36.02:958][841]Lightmass on AOTA1-1L141-11D: 3:20 min total, 498 ms importing, 245 ms setup, 18.9 sec photons, 3:00 min processing, 0 ms extra exporting [133/133 mappings]. Threads: 21:04 min total, 15:53 min processing.
+[2017.11.23-07.36.02:979][841]LogStaticLightingSystem: Illumination: 3:35 min (4.36 sec encoding lightmaps, 525 ms encoding shadowmaps)
+[2017.11.23-07.36.02:979][841]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.11.23-07.36.02:979][841]LogStaticLightingSystem: Shadowmap texture memory: 8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.23-07.36.03:076][841]DumpUnbuiltLightIteractions
+[2017.11.23-07.36.03:077][841]Lights with unbuilt interactions: 0
+[2017.11.23-07.36.03:077][841]
+[2017.11.23-07.36.03:077][841]Primitives with unbuilt interactions: 0
+[2017.11.23-07.36.03:092][842]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.23-07.36.03:092][842]MapCheck: New page: SaloonGameplayJakob - Nov 23, 2017, 11:36:03 AM
+[2017.11.23-07.36.03:144][842]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.746ms to complete.
+[2017.11.23-07.36.30:655][666]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.23-07.37.26:739][613]LogSlate: Took 0.005296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.23-07.37.30:772][773]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.23-07.37.33:167][827]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.23-07.37.39:389][989]Cmd: DELETE
+[2017.11.23-07.37.39:389][989]Cmd: ACTOR DELETE
+[2017.11.23-07.37.39:390][989]LogEditorActor: Deleted Actor: SkyLight
+[2017.11.23-07.37.39:428][989]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.11.23-07.37.41:008][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.23-07.38.04:198][872]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.04:198][872]LogEditorTransaction: Undo Edit Horizon Falloff
+[2017.11.23-07.38.04:362][872]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-07.38.17:803][435]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.17:803][435]LogEditorTransaction: Undo Edit Sun Brightness
+[2017.11.23-07.38.18:092][449]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.18:092][449]LogEditorTransaction: Undo Edit Sun Height
+[2017.11.23-07.38.18:509][485]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.18:509][485]LogEditorTransaction: Undo Edit Sun Brightness
+[2017.11.23-07.38.18:967][519]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.18:967][519]LogEditorTransaction: Undo Edit Sun Brightness
+[2017.11.23-07.38.19:628][535]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.19:628][535]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.23-07.38.20:524][560]Cmd: TRANSACTION UNDO
+[2017.11.23-07.38.20:524][560]LogEditorTransaction: Undo Delete Actors
+[2017.11.23-07.39.05:883][761]LogSavePackage: Save=254.59ms
+[2017.11.23-07.39.05:883][761]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplayJakobD295CE1A4EAA20E6197176967992CEAB.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob.umap'
+[2017.11.23-07.39.05:888][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob.umap
+[2017.11.23-07.39.07:197][761]LogSavePackage: Save=1199.21ms
+[2017.11.23-07.39.07:197][761]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplayJakob_BuiltDataAE963B1F46B87DC5A347A0AD66B63839.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob_BuiltData.uasset'
+[2017.11.23-07.39.07:199][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplayJakob_BuiltData.uasset
+[2017.11.23-07.39.07:325][761]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2017.11.23-07.39.07:325][761]SourceControl: Error: HatTrick/Content/Maps/SaloonGameplayJakob_BuiltData.uasset
+[2017.11.23-07.39.07:325][761]SourceControl: Error: Use -f if you really want to add them.
+[2017.11.23-07.39.13:650][939]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplay_BuiltData'
+[2017.11.23-07.39.13:650][939]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplay_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap.
+[2017.11.23-07.39.13:650][939]LoadErrors: Error: /Game/Maps/SaloonGameplay : Can't find file for asset. /Game/Maps/SaloonGameplay_BuiltData
+[2017.11.23-07.39.13:653][939]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplay_BuiltData'
+[2017.11.23-07.39.13:653][939]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplay_BuiltData' while loading ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap.
+[2017.11.23-07.39.13:698][939]LogLinker: Warning: Can't find file '/Game/Maps/SaloonGameplay_BuiltData'
+[2017.11.23-07.39.13:698][939]LoadErrors: Failed to load /Game/Maps/SaloonGameplay_BuiltData.SaloonGameplay_BuiltData Referenced by PersistentLevel
+[2017.11.23-07.39.13:698][939]LogLinker: Warning: Can't find file for asset '/Game/Maps/SaloonGameplay_BuiltData' while loading NULL.
+[2017.11.23-07.39.13:778][939]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.23-07.39.13:799][939]Cmd: MAP LOAD FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.23-07.39.13:799][939]LightingResults: New page: Lighting Build
+[2017.11.23-07.39.13:800][939]LoadErrors: New page: Loading map: SaloonGameplay.umap
+[2017.11.23-07.39.13:801][939]MapCheck: New page: Map Check
+[2017.11.23-07.39.13:801][939]LightingResults: New page: Lighting Build
+[2017.11.23-07.39.13:936][939]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.23-07.39.13:985][939]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.23-07.39.14:037][939]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.869ms to complete.
+[2017.11.23-07.39.14:038][939]LogFileHelpers: Loading map 'SaloonGameplay' took 0.239
+[2017.11.23-07.39.30:245][398]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.11.23-07.39.30:258][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-07.39.30:258][398]PIE: New page: PIE session: SaloonGameplay (Nov 23, 2017, 11:39:30 AM)
+[2017.11.23-07.39.30:258][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SaloonGameplay
+[2017.11.23-07.39.30:269][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010751s)
+[2017.11.23-07.39.30:269][398]LogAIModule: Creating AISystem for world SaloonGameplay
+[2017.11.23-07.39.30:269][398]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2017.11.23-07.39.30:269][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SaloonGameplay.SaloonGameplay to /Game/Maps/UEDPIE_0_SaloonGameplay.SaloonGameplay (0.011518s)
+[2017.11.23-07.39.30:280][398]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.23-07.39.30:293][398]LogInit: FAudioDevice initialized.
+[2017.11.23-07.39.30:340][398]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.11.23-07.39.30:345][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SaloonGameplay.SaloonGameplay up for play (max tick rate 0) at 2017.11.23-09.39.30
+[2017.11.23-07.39.30:345][398]LogWorld: Bringing up level for play took: 0.004486
+[2017.11.23-07.39.30:357][398]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.23-07.39.30:364][398]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_SaloonGameplay 0.874
+[2017.11.23-07.39.37:241][677]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.39.37:432][685]LogBlueprintUserMessages: [Bullet_01_C_0] Hit
+[2017.11.23-07.39.37:864][703]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.39.37:864][703]LogBlueprintUserMessages: [Bullet_01_C_1] Hit
+[2017.11.23-07.39.38:530][731]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.39.38:552][732]LogBlueprintUserMessages: [Bullet_01_C_2] Hit
+[2017.11.23-07.39.39:275][762]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.39.39:323][764]LogBlueprintUserMessages: [Bullet_01_C_3] Hit
+[2017.11.23-07.39.40:061][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.11.23-07.39.40:155][799]LogBlueprintUserMessages: [Bullet_01_C_4] Hit
+[2017.11.23-07.40.58:835][175]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-07.40.58:835][175]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.23-07.40.58:836][175]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.23-07.40.58:836][175]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.23-07.40.58:836][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.11.23-07.40.58:882][176]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2017.11.23-07.40.58:882][176]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-07.41.21:728][823]MapCheck: New page: Map Check
+[2017.11.23-07.41.21:750][823]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.23-07.41.21:750][823]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.23-07.41.21:845][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.11.23-07.41.21:850][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.11.23-07.41.21:857][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.23-07.41.21:864][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.11.23-07.41.21:871][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_AmmoBox, compiling. 
+[2017.11.23-07.41.21:877][823]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_Jerrycan, compiling. 
+[2017.11.23-07.41.22:299][823]TextureStreamingBuild: Display: Compiling optional shaders took 0.455 seconds.
+[2017.11.23-07.41.22:313][823]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2017.11.23-07.41.22:335][823]TextureStreamingBuild: Display: Build Texture Streaming took 0.022 seconds.
+[2017.11.23-07.41.22:361][823]LightingResults: New page: Lighting Build - Nov 23, 2017, 11:41:22 AM
+[2017.11.23-07.41.22:374][823]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.23-07.41.22:375][823]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.23-07.41.22:375][823]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.23-07.41.22:377][823]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.23-07.41.22:377][823]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9484
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.23-07.41.26:895][823]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.23-07.41.26:984][823]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.23-07.41.26:984][823]MapCheck: New page: SaloonGameplay - Nov 23, 2017, 11:41:26 AM
+[2017.11.23-07.41.26:984][823]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.11.23-07.41.27:036][823]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.459ms to complete.
+[2017.11.23-07.41.27:058][823]LogEditorBuildUtils: Build time 0:05
+[2017.11.23-07.41.55:776][616]Job is a success!
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.23-07.41.56:330][617]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.23-07.41.56:346][617]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X64)
+[2017.11.23-07.41.56:363][617]Lightmass on AOTA1-1L141-11D: 28.5 sec total, 238 ms importing, 99 ms setup, 12.5 sec photons, 15.6 sec processing, 0 ms extra exporting [150/150 mappings]. Threads: 1:49 min total, 1:28 min processing.
+[2017.11.23-07.41.56:365][617]LogStaticLightingSystem: Illumination: 33.9 sec (351 ms encoding lightmaps, 13 ms encoding shadowmaps)
+[2017.11.23-07.41.56:365][617]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.23-07.41.56:365][617]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.11.23-07.41.56:903][617]DumpUnbuiltLightIteractions
+[2017.11.23-07.41.56:903][617]Lights with unbuilt interactions: 0
+[2017.11.23-07.41.56:903][617]
+[2017.11.23-07.41.56:903][617]Primitives with unbuilt interactions: 0
+[2017.11.23-07.41.56:911][618]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.23-07.41.56:911][618]MapCheck: New page: SaloonGameplay - Nov 23, 2017, 11:41:56 AM
+[2017.11.23-07.41.56:962][618]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.278ms to complete.
+[2017.11.23-07.42.39:944][962]LogSavePackage: Save=267.13ms
+[2017.11.23-07.42.39:944][962]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay6AE5164148BC167CC472FABCAC89530A.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap'
+[2017.11.23-07.42.39:947][962]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap
+[2017.11.23-07.42.40:048][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SaloonGameplay_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset" SILENT=true
+[2017.11.23-07.42.40:148][962]LogSavePackage: Save=98.01ms
+[2017.11.23-07.42.40:148][962]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay_BuiltData43DA0DBD47D95A1F02CEDBB5C9D10F96.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset'
+[2017.11.23-07.42.40:150][962]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.23-07.42.40:279][962]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2017.11.23-07.42.40:279][962]SourceControl: Error: HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.23-07.42.40:279][962]SourceControl: Error: Use -f if you really want to add them.
+[2017.11.23-07.42.54:161][497]Cmd: SELECT NONE
+[2017.11.23-07.43.23:792][384]Cmd: SELECT NONE
+[2017.11.23-07.43.47:581][ 82]LogEditorViewport: Clicking on Actor (LMB): BP_Ammo_C (BP_Ammo6)
+[2017.11.23-07.43.54:561][290]Cmd: SELECT NONE
+[2017.11.23-07.44.03:300][546]Cmd: SELECT NONE
+[2017.11.23-07.44.11:510][792]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 113 classes and 0 folders.
+[2017.11.23-07.44.12:106][792]LogSlate: Took 0.001752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.23-07.44.43:541][735]BlueprintLog: New page: Compile BP_Ammo
+[2017.11.23-07.44.45:583][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/BP_Ammo" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset" SILENT=true
+[2017.11.23-07.44.45:608][765]LogSavePackage: Save=21.31ms
+[2017.11.23-07.44.45:609][765]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/BP_AmmoE6942D8744FCEAD9343EFD99B8F1182D.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset'
+[2017.11.23-07.44.45:611][765]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Blueprints/Pickups/BP_Ammo.uasset
+[2017.11.23-07.44.58:336][147]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPack_C (BP_HealthPack7)
+[2017.11.23-07.58.15:545][677]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPack_C (BP_HealthPack3)
+[2017.11.23-07.58.16:080][692]Cmd: DELETE
+[2017.11.23-07.58.16:080][692]Cmd: ACTOR DELETE
+[2017.11.23-07.58.16:081][692]LogEditorActor: Deleted Actor: BP_HealthPack_C
+[2017.11.23-07.58.16:112][692]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.11.23-08.01.50:564][161]LogEditorViewport: Clicking on Actor (LMB): BP_Ammo_C (BP_Ammo)
+[2017.11.23-08.01.50:872][169]Cmd: DELETE
+[2017.11.23-08.01.50:872][169]Cmd: ACTOR DELETE
+[2017.11.23-08.01.50:872][169]LogEditorActor: Deleted Actor: BP_Ammo_C
+[2017.11.23-08.01.50:888][169]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.23-08.01.51:363][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House_18)
+[2017.11.23-08.01.51:891][198]LogEditorViewport: Clicking on Actor (LMB): BP_HealthPack_C (BP_HealthPack)
+[2017.11.23-08.01.52:307][209]Cmd: DELETE
+[2017.11.23-08.01.52:307][209]Cmd: ACTOR DELETE
+[2017.11.23-08.01.52:307][209]LogEditorActor: Deleted Actor: BP_HealthPack_C
+[2017.11.23-08.01.52:340][209]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.11.23-08.15.21:621][839]LogSavePackage: Save=289.12ms
+[2017.11.23-08.15.21:622][839]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplayB118B12E49861E25228434960098DEF0.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap'
+[2017.11.23-08.15.21:625][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay.umap
+[2017.11.23-08.15.21:730][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SaloonGameplay_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset" SILENT=true
+[2017.11.23-08.15.21:833][839]LogSavePackage: Save=98.58ms
+[2017.11.23-08.15.21:833][839]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/SaloonGameplay_BuiltData56D93A554707099644102C8B36B2B482.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset'
+[2017.11.23-08.15.21:835][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/SaloonGameplay_BuiltData.uasset
+[2017.11.23-08.15.35:284][987]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.23-08.15.35:453][988]Cmd: QUIT_EDITOR
+[2017.11.23-08.15.36:160][988]LogExit: Preparing to exit.
+[2017.11.23-08.15.37:255][988]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.23-08.15.37:282][988]LogExit: Editor shut down
+[2017.11.23-08.15.37:289][988]LogExit: Transaction tracking system shut down
+[2017.11.23-08.15.37:398][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.23-08.15.37:398][988]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.11.23-08.15.37:398][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.23-08.15.37:398][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.23-08.15.37:398][988]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.23-08.15.37:467][988]LogExit: Object subsystem successfully closed.
+[2017.11.23-08.15.37:481][988]LogD3D11RHI: Shutdown
+[2017.11.23-08.15.37:481][988]LogD3D11RHI: CleanupD3DDevice
+[2017.11.23-08.15.37:483][988]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module BlueprintGraph (545)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (543)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (541)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (539)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module Voice (537)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (535)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (533)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module SceneOutliner (531)
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module AddContentDialog (529)
+[2017.11.23-08.15.37:498][988]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.23-08.15.37:498][988]LogModuleManager: Shutting down and abandoning module WidgetCarousel (528)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module EditorWidgets (525)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module CollectionManager (523)
+[2017.11.23-08.15.37:499][988]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.11.23-08.15.37:499][988]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/JesseWih/Collections/' was aborted.
+[2017.11.23-08.15.37:499][988]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module StatsViewer (521)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module FoliageEdit (519)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module LandscapeEditor (517)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module MeshPaintMode (515)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (513)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module ActorPickerMode (511)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module GeometryMode (509)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module TextureAlignMode (507)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module BspMode (505)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (503)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module HardwareSurvey (501)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (499)
+[2017.11.23-08.15.37:499][988]LogModuleManager: Shutting down and abandoning module AutomationWorker (497)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (495)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (493)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module PlacementMode (492)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (489)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (487)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (485)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (483)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (481)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module Media (480)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (477)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module CharacterAI (475)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AudioCapture (473)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module SequenceRecorder (472)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module SmartSnapping (469)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module SessionServices (467)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module ViewportSnapping (465)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module ViewportInteraction (463)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module ClothPainter (461)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module LogVisualizer (459)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module IntroTutorials (457)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (456)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (453)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (451)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (449)
+[2017.11.23-08.15.37:500][988]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (448)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (445)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (443)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (441)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module InputBindingEditor (439)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module MergeActors (437)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module SizeMap (435)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module TreeMap (433)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module ReferenceViewer (431)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (429)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module LocalizationService (428)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module HardwareTargeting (425)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (423)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module UndoHistory (421)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module XmlParser (419)
+[2017.11.23-08.15.38:429][988]LogModuleManager: Shutting down and abandoning module Blutility (417)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (415)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (414)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (411)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module SettingsEditor (409)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module ProjectLauncher (407)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module SessionFrontend (405)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module ProfilerClient (403)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module DeviceManager (401)
+[2017.11.23-08.15.38:430][988]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (400)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module AutomationController (397)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module AutomationWindow (395)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module Layers (393)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (391)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module DetailCustomizations (389)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module PackagesDialog (387)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module Persona (385)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (384)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module AnimGraph (382)
+[2017.11.23-08.15.38:483][988]LogModuleManager: Shutting down and abandoning module Kismet (379)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module ClassViewer (377)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module Toolbox (375)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module ModuleUI (373)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module MovieSceneTools (371)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module OutputLog (369)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module GammaUI (367)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module Documentation (365)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (363)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module MovieScene (361)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module Niagara (359)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module NiagaraEditor (358)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (355)
+[2017.11.23-08.15.38:490][988]LogModuleManager: Shutting down and abandoning module LauncherPlatform (353)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module AnalyticsET (351)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module PortalServices (349)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module PortalRpc (347)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module MessagingRpc (345)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module AIModule (343)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module GameplayDebugger (342)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module AITestSuite (340)
+[2017.11.23-08.15.38:491][988]LogModuleManager: Shutting down and abandoning module ProfilerService (337)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module TaskGraph (335)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module SteamVRController (333)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (331)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (329)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module OculusInput (327)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (325)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (323)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module CableComponent (321)
+[2017.11.23-08.15.38:577][988]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (319)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module AndroidPermission (317)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (315)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module HTML5Networking (313)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module AlembicImporter (311)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module AlembicLibrary (310)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module GeometryCache (309)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (308)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (303)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module PluginBrowser (301)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (299)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (297)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module DesktopPlatform (296)
+[2017.11.23-08.15.38:578][988]LogModuleManager: Shutting down and abandoning module UObjectPlugin (293)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (291)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (289)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module GitSourceControl (287)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module SourceControl (286)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (283)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (281)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (279)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module Paper2DEditor (277)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module MeshPaint (276)
+[2017.11.23-08.15.38:579][988]LogModuleManager: Shutting down and abandoning module LevelEditor (274)
+[2017.11.23-08.15.38:581][988]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (273)
+[2017.11.23-08.15.38:581][988]LogModuleManager: Shutting down and abandoning module MainFrame (271)
+[2017.11.23-08.15.38:581][988]LogModuleManager: Shutting down and abandoning module HotReload (270)
+[2017.11.23-08.15.38:581][988]LogDirectoryWatcher: A directory notification for 'C:/Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Binaries/Win64' was aborted.
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module HatTrick (265)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (263)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (261)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module PhysXVehicles (259)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module OculusEditor (257)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (255)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (253)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (251)
+[2017.11.23-08.15.38:583][988]LogModuleManager: Shutting down and abandoning module UdpMessaging (249)
+[2017.11.23-08.15.38:684][988]LogModuleManager: Shutting down and abandoning module TcpMessaging (247)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (245)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (243)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module FacialAnimation (241)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (239)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module GraphEditor (238)
+[2017.11.23-08.15.38:785][988]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
+[2017.11.23-08.15.38:788][988]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (233)
+[2017.11.23-08.15.38:788][988]LogModuleManager: Shutting down and abandoning module Paper2D (231)
+[2017.11.23-08.15.38:788][988]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (229)
+[2017.11.23-08.15.38:788][988]LogModuleManager: Shutting down and abandoning module WmfMedia (227)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module Overlay (219)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module OverlayEditor (218)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module MediaAssets (215)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module VREditor (213)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module StringTableEditor (211)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (209)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (207)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module FunctionalTesting (205)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (203)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (202)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module UMG (199)
+[2017.11.23-08.15.38:789][988]LogModuleManager: Shutting down and abandoning module UMGEditor (198)
+[2017.11.23-08.15.38:790][988]LogModuleManager: Shutting down and abandoning module Sequencer (197)
+[2017.11.23-08.15.38:790][988]LogModuleManager: Shutting down and abandoning module MessageLog (194)
+[2017.11.23-08.15.38:790][988]LogModuleManager: Shutting down and abandoning module SlateReflector (189)
+[2017.11.23-08.15.38:790][988]LogModuleManager: Shutting down and abandoning module Slate (187)
+[2017.11.23-08.15.38:790][988]LogModuleManager: Shutting down and abandoning module EditorStyle (185)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module MRMesh (183)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (181)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (179)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module XAudio2 (177)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module Networking (175)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module Core (173)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module MeshUtilities (165)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (164)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (163)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (162)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (160)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
+[2017.11.23-08.15.38:792][988]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.11.23-08.15.38:793][988]LogModuleManager: Shutting down and abandoning module DerivedDataCache (149)
+[2017.11.23-08.15.38:810][988]LogDerivedDataCache: Shutdown
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TargetPlatform (147)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (146)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (144)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (142)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (140)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (138)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (136)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (134)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (132)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (130)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (128)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module ImageWrapper (127)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (124)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (122)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (120)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (118)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (116)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (114)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (112)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (110)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (108)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module Messaging (106)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (104)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (102)
+[2017.11.23-08.15.38:810][988]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (100)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (98)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (96)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (94)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (92)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (90)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (88)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (86)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (84)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (82)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (80)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (78)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (76)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (74)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (72)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (70)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (68)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module InputCore (65)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module Settings (63)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module PhysXCooking (61)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module SteamVR (59)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module OculusHMD (57)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (55)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2017.11.23-08.15.38:811][988]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.11.23-08.15.38:811][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.11.23-08.15.38:811][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.11.23-08.15.38:811][988]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.11.23-08.15.38:811][988]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.23-08.15.38:811][988]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.23-08.15.38:812][988]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.23-08.15.38:812][988]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.23-08.15.38:812][988]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45C2CF98-4723-7875-04CA-5CA12864E394%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d7ae3af140edfbd82237c685d8b4a1d5%7C8486c7e2423b49b0b0401785d16f836b%7Ca8b05006-4976-4dd1-9ab2-11f0dd6b60f5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.23-08.15.38:831][988]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.23-08.15.38:832][988]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.23-08.15.38:834][988]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.23-08.15.38:838][988]LogExit: Exiting.
+[2017.11.23-08.15.38:851][988]Log file closed, 11/23/17 10:15:38
