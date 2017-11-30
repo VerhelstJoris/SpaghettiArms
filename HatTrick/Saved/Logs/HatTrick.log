@@ -2015,3 +2015,33 @@ LogInit: Object subsystem initialized
 [2017.11.30-13.48.31:046][326]LogSavePackage: Save=759.09ms
 [2017.11.30-13.48.31:046][326]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel1-1_BuiltData6D607CBC4429E6D96A2193A6D7685C1A.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1_BuiltData.uasset'
 [2017.11.30-13.48.31:050][326]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1_BuiltData.uasset
+[2017.11.30-13.49.19:277][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_Saloon)
+[2017.11.30-13.49.20:673][593]Cmd: SELECT NONE
+[2017.11.30-13.51.29:434][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_Resident_House3)
+[2017.11.30-13.51.45:178][ 44]Cmd: SELECT NONE
+[2017.11.30-13.52.22:442][467]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2017.11.30-13.52.25:553][612]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2017.11.30-13.52.26:504][659]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2017.11.30-13.52.26:884][678]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2017.11.30-13.52.34:597][ 66]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2017.11.30-13.53.09:757][806]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (M_Resident_House3)
+[2017.11.30-13.56.38:777][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel1-1" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.30-13.56.38:852][398]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2017.11.30-13.56.38:853][398]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 16X16)
+[2017.11.30-13.56.38:853][398]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2017.11.30-13.56.38:853][398]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 16X16)
+[2017.11.30-13.56.38:854][398]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 16X16)
+[2017.11.30-13.56.38:854][398]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 16X16)
+[2017.11.30-13.56.38:855][398]LogTexture: Display: Building textures: Texture2D_129 (BGRA8, 16X16)
+[2017.11.30-13.56.38:855][398]LogTexture: Display: Building textures: Texture2D_130 (BGRA8, 16X16)
+[2017.11.30-13.56.38:855][398]LogTexture: Display: Building textures: Texture2D_131 (BGRA8, 16X16)
+[2017.11.30-13.56.38:856][398]LogTexture: Display: Building textures: Texture2D_132 (BGRA8, 16X16)
+[2017.11.30-13.56.38:856][398]LogTexture: Display: Building textures: Texture2D_133 (BGRA8, 16X16)
+[2017.11.30-13.56.38:857][398]LogTexture: Display: Building textures: Texture2D_134 (BGRA8, 16X16)
+[2017.11.30-13.56.39:095][398]LogSavePackage: Save=284.11ms
+[2017.11.30-13.56.39:095][398]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel1-17547E4384288E6A729BFDEB0ED4A27F3.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1.umap'
+[2017.11.30-13.56.39:098][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1.umap
+[2017.11.30-13.56.39:129][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Duel1-1_BuiltData" FILE="../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1_BuiltData.uasset" SILENT=true
+[2017.11.30-13.56.39:926][398]LogSavePackage: Save=775.14ms
+[2017.11.30-13.56.39:926][398]LogSavePackage: Moving '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Duel1-1_BuiltDataEF70FAF143237D3E3A10689319808860.tmp' to '../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1_BuiltData.uasset'
+[2017.11.30-13.56.39:930][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/JesseWih/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/Duel1-1_BuiltData.uasset
