@@ -1,17 +1,15 @@
-﻿Log file open, 11/16/17 13:23:53
+﻿Log file open, 12/07/17 12:04:55
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HatTrick
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1717183890) SRandInit(1717183890).
+LogInit: Display: RandInit(-1340679264) SRandInit(-1340679264).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.158798
+LogStats: Stats thread started at 0.180778
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -84,7 +82,7 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
-LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.17-CL-3658906
 LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
@@ -111,393 +109,371 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.16-11.23.54:468][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.16-11.23.54:468][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.16-11.23.54:474][  0]LogInit: Computer: AOTA1-1L141-14D
-[2017.11.16-11.23.54:474][  0]LogInit: User: MitjaSal
-[2017.11.16-11.23.54:474][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.16-11.23.54:474][  0]LogInit: High frequency timer resolution =3.328132 MHz
-[2017.11.16-11.23.54:475][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.16-11.23.54:475][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.16-11.23.54:475][  0]LogMemory: Process Physical Memory: 279.63 MB used, 279.63 MB peak
-[2017.11.16-11.23.54:475][  0]LogMemory: Process Virtual Memory: 274.70 MB used, 274.70 MB peak
-[2017.11.16-11.23.54:475][  0]LogMemory: Physical Memory: 5410.22 MB used,  10854.08 MB free, 16264.30 MB total
-[2017.11.16-11.23.54:475][  0]LogMemory: Virtual Memory: 658.25 MB used,  10854.08 MB free, 134217728.00 MB total
-[2017.11.16-11.23.54:609][  0]LogInit: Using OS detected language (en-US).
-[2017.11.16-11.23.54:609][  0]LogInit: Using OS detected locale (fi-FI).
-[2017.11.16-11.23.54:611][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.16-11.23.54:611][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
-[2017.11.16-11.23.55:169][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.16-11.23.55:207][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
-[2017.11.16-11.23.55:207][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.16-11.23.55:216][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.11.16-11.23.55:216][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.11.16-11.23.55:217][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.16-11.23.55:217][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.16-11.23.55:217][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.16-11.23.55:221][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.16-11.23.55:221][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.16-11.23.55:221][  0]LogWindows: EnumDisplayDevices:
-[2017.11.16-11.23.55:221][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:0 D:1)
-[2017.11.16-11.23.55:221][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:1 D:1)
-[2017.11.16-11.23.55:221][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.11.16-11.23.55:221][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.11.16-11.23.55:222][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.16-11.23.55:222][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.16-11.23.55:222][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.11.16-11.23.55:222][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.16-11.23.55:222][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
-[2017.11.16-11.23.55:222][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
-[2017.11.16-11.23.55:222][  0]LogD3D11RHI:      Driver Date: 8-17-2017
-[2017.11.16-11.23.55:222][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.16-11.23.55:251][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.16-11.23.55:267][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.16-11.23.55:309][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/10808/).
-[2017.11.16-11.23.55:309][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MitjaSal/AppData/Local/Temp/UnrealShaderWorkingDir/B91B2883459CB36E625025BE9412B1A4/'.
-[2017.11.16-11.23.55:309][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.16-11.23.56:080][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.16-11.23.56:122][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.16-11.23.56:166][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.16-11.23.56:209][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.16-11.23.56:252][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.16-11.23.56:295][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.16-11.23.56:338][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.16-11.23.56:385][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.16-11.23.56:424][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.16-11.23.56:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.16-11.23.56:508][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.16-11.23.56:549][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.16-11.23.56:593][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.16-11.23.56:634][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.16-11.23.56:676][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.16-11.23.56:761][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.16-11.23.56:761][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.16-11.23.56:794][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.16-11.23.56:878][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.16-11.23.56:918][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.16-11.23.56:961][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.16-11.23.57:002][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.16-11.23.57:044][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.16-11.23.57:087][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.16-11.23.57:087][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.16-11.23.57:513][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.16-11.23.57:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.16-11.23.57:611][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.16-11.23.57:623][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MitjaSal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.16-11.23.57:632][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.16-11.23.57:632][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.16-11.23.57:632][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.16-11.23.57:633][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.16-11.23.57:862][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
-[2017.11.16-11.23.57:964][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.16-11.23.58:099][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.16-11.23.58:416][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.16-11.23.58:463][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.16-11.23.58:463][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.16-11.23.58:463][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.16-11.23.58:463][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.16-11.23.58:463][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.16-11.23.58:761][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
-[2017.11.16-11.23.58:935][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034719 seconds
-[2017.11.16-11.23.58:940][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.16-11.23.58:940][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.16-11.23.58:940][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.16-11.24.01:103][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.16-11.24.01:137][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.16-11.24.01:696][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.16-11.24.02:039][  0]SourceControl: Source control is disabled
-[2017.11.16-11.24.02:979][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.16-11.24.03:187][  0]LogOcInput: OculusInput pre-init called
-[2017.11.16-11.24.03:406][  0]LogEngine: Initializing Engine...
-[2017.11.16-11.24.03:408][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.16-11.24.03:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.16-11.24.03:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.16-11.24.03:695][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.16-11.24.03:703][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-11.24.03:737][  0]LogInit: FAudioDevice initialized.
-[2017.11.16-11.24.03:816][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/MitjaSal/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.16-11.24.03:820][  0]LogInit: Texture streaming: Enabled
-[2017.11.16-11.24.03:918][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.16-11.24.04:102][  0]LogInit: Transaction tracking system initialized
-[2017.11.16-11.24.04:361][  0]BlueprintLog: New page: Editor Load
-[2017.11.16-11.24.05:105][  0]LocalizationService: Localization service is disabled
-[2017.11.16-11.24.05:686][  0]LogConsoleResponse: Display: 
-[2017.11.16-11.24.05:851][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.16-11.24.05:851][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.16-11.24.05:851][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.16-11.24.05:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/' took 0.01s
-[2017.11.16-11.24.06:722][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.16-11.24.06:722][  0]LightingResults: New page: Lighting Build
-[2017.11.16-11.24.06:757][  0]MapCheck: New page: Map Check
-[2017.11.16-11.24.06:757][  0]LightingResults: New page: Lighting Build
-[2017.11.16-11.24.06:863][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
-[2017.11.16-11.24.06:863][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:863][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
-[2017.11.16-11.24.06:863][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:864][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Revolver
-[2017.11.16-11.24.06:864][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
-[2017.11.16-11.24.06:864][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:864][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
-[2017.11.16-11.24.06:864][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:864][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Revolver
-[2017.11.16-11.24.06:864][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
-[2017.11.16-11.24.06:864][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:864][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_PhysicsAsset
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_Skeleton
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_PhysicsAsset
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.24.06:865][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
-[2017.11.16-11.24.06:865][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_Skeleton
-[2017.11.16-11.24.06:966][  0]LogBlueprint: Warning: [BP_Weapon] 'Mesh2P' variable not found. Base class was probably changed.
-[2017.11.16-11.24.07:123][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
-[2017.11.16-11.24.07:123][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Revolver.T_Revolver Referenced by MaterialExpressionTextureSample_1
-[2017.11.16-11.24.07:123][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading NULL.
-[2017.11.16-11.24.07:123][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Revolver.T_Revolver Referenced by MaterialExpressionTextureSample_1
-[2017.11.16-11.24.07:124][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
-[2017.11.16-11.24.07:124][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_Skeleton.Character_rig_complete_Skeleton Referenced by Character_rig_complete
-[2017.11.16-11.24.07:124][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading NULL.
-[2017.11.16-11.24.07:124][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_Skeleton.Character_rig_complete_Skeleton Referenced by Character_rig_complete
-[2017.11.16-11.24.07:124][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
-[2017.11.16-11.24.07:124][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_PhysicsAsset.Character_rig_complete_PhysicsAsset Referenced by Character_rig_complete
-[2017.11.16-11.24.07:124][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading NULL.
-[2017.11.16-11.24.07:124][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_PhysicsAsset.Character_rig_complete_PhysicsAsset Referenced by Character_rig_complete
-[2017.11.16-11.24.07:239][  0]LogMaterial: Missing cached shader map for material mat_Revolver, compiling. 
-[2017.11.16-11.24.07:240][  0]LogMaterial: Warning: Failed to compile Material /Game/Materials/Character/mat_Revolver.mat_Revolver for platform PCD3D_SM5, Default Material will be used in game.
-[2017.11.16-11.24.07:240][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.11.16-11.24.07:321][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2017.11.16-11.24.07:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.16-11.24.07:333][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.16-11.24.07:378][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.256ms to complete.
-[2017.11.16-11.24.07:378][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.657
-[2017.11.16-11.24.07:529][  0]LogCollectionManager: Loaded 0 collections in 0.001440 seconds
-[2017.11.16-11.24.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
-[2017.11.16-11.24.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Developers/MitjaSal/Collections/' took 0.01s
-[2017.11.16-11.24.07:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
-[2017.11.16-11.24.07:607][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.16-11.24.07:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2386 classes and 500 folders.
-[2017.11.16-11.24.07:667][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.11.16-11.24.07:696][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.11.16-11.24.07:733][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.11.16-11.24.07:751][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.16-11.24.07:754][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.16-11.24.07:760][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.16-11.24.07:853][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.16-11.24.08:009][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.16-11.24.08:009][  0]LogLoad: (Engine Initialization) Total time: 15.00 seconds
-[2017.11.16-11.24.08:009][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.16-11.24.08:009][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.16-11.24.08:372][  0]SourceControl: On branch Ketheres
-[2017.11.16-11.24.08:372][  0]SourceControl: Your branch is up-to-date with 'origin/Ketheres'.
-[2017.11.16-11.24.08:372][  0]SourceControl: Changes not staged for commit:
-[2017.11.16-11.24.08:372][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.16-11.24.08:372][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.16-11.24.08:372][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
-[2017.11.16-11.24.08:372][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Editor.ini
-[2017.11.16-11.24.08:372][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
-[2017.11.16-11.24.08:372][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
-[2017.11.16-11.24.08:372][  0]SourceControl: Untracked files:
-[2017.11.16-11.24.08:373][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.16-11.24.08:373][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-3B0D67804C76B4934AC0E2953A194BF0/
-[2017.11.16-11.24.08:373][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.16-11.24.08:373][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.16-11.24.09:035][  2]LogAssetRegistry: Asset discovery search completed in 11.1948 seconds
-[2017.11.16-11.24.09:038][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.16-11.24.09:038][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
-[2017.11.16-11.24.39:986][179]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.16-11.24.50:307][526]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.16-11.24.50:633][526]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
-[2017.11.16-11.24.51:168][526]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.16-11.24.51:254][526]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.16-11.24.51:568][527]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.16-11.25.10:692][270]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.11.16-11.25.10:731][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2017.11.16-11.25.10:731][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-11.25.10:731][270]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.16-11.25.10:731][270]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.16-11.25.10:732][270]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.16-11.25.10:732][270]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.16-11.25.10:732][270]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
-[2017.11.16-11.25.10:732][270]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
-[2017.11.16-11.25.10:747][270]PIE: New page: PIE session: MainMenuLevel (Nov 16, 2017, 3:25:10 PM)
-[2017.11.16-11.25.10:747][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenuLevel
-[2017.11.16-11.25.10:748][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000810s)
-[2017.11.16-11.25.10:748][270]LogAIModule: Creating AISystem for world MainMenuLevel
-[2017.11.16-11.25.10:748][270]LogPlayLevel: PIE: World Init took: (0.000554s)
-[2017.11.16-11.25.10:748][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel (0.001542s)
-[2017.11.16-11.25.10:766][270]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-11.25.10:779][270]LogInit: FAudioDevice initialized.
-[2017.11.16-11.25.10:856][270]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.16-11.25.10:858][270]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.16-13.25.10
-[2017.11.16-11.25.10:858][270]LogWorld: Bringing up level for play took: 0.000818
-[2017.11.16-11.25.10:870][270]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.16-11.25.10:923][270]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.11.16-11.25.10:937][270]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_MainMenuLevel -0.57
-[2017.11.16-11.25.10:941][270]PIE: New page: PIE session: MainMenuLevel (Nov 16, 2017, 3:25:10 PM)
-[2017.11.16-11.25.10:941][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MainMenuLevel
-[2017.11.16-11.25.10:941][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000712s)
-[2017.11.16-11.25.10:942][270]LogAIModule: Creating AISystem for world MainMenuLevel
-[2017.11.16-11.25.10:942][270]LogPlayLevel: PIE: World Init took: (0.000709s)
-[2017.11.16-11.25.10:942][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel (0.001568s)
-[2017.11.16-11.25.11:017][270]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.16-11.25.11:019][270]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2017.11.16-13.25.11
-[2017.11.16-11.25.11:019][270]LogWorld: Bringing up level for play took: 0.000697
-[2017.11.16-11.25.11:031][270]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.16-11.25.11:044][270]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_MainMenuLevel -0.463
-[2017.11.16-11.25.11:059][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2017.11.16-11.25.11:103][270]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2017.11.16-11.25.13:332][313]LogNetVersion: HatTrick 0.0.0.1, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3540992105)
-[2017.11.16-11.25.13:333][313]LogInit: WinSock: I am AOTA1-1L141-14D (172.31.16.136:0)
-[2017.11.16-11.25.13:334][313]LogNet: Browse: /Game/Maps/MapBlockB?listen
-[2017.11.16-11.25.13:393][313]LogLoad: LoadMap: /Game/Maps/MapBlockB?listen
-[2017.11.16-11.25.13:409][313]Cmd: MEM
-[2017.11.16-11.25.13:422][313]LogMemory: Platform Memory Stats for Windows
-[2017.11.16-11.25.13:423][313]LogMemory: Process Physical Memory: 1424.01 MB used, 1475.71 MB peak
-[2017.11.16-11.25.13:423][313]LogMemory: Process Virtual Memory: 2223.73 MB used, 2277.61 MB peak
-[2017.11.16-11.25.13:423][313]LogMemory: Physical Memory: 6635.83 MB used,  9628.47 MB free, 16264.30 MB total
-[2017.11.16-11.25.13:423][313]LogMemory: Virtual Memory: 3100.21 MB used,  9628.47 MB free, 134217728.00 MB total
-[2017.11.16-11.25.13:423][313]LogMemory: 
-[2017.11.16-11.25.13:423][313]Allocator Stats for TBB: (not implemented)
-[2017.11.16-11.25.13:972][313]LogAIModule: Creating AISystem for world MapBlockB
-[2017.11.16-11.25.13:972][313]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.16-11.25.13:972][313]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.11.16-11.25.13:972][313]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2017.11.16-11.25.13:972][313]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.11.16-11.25.13:972][313]LogInit: WinSock: Socket queue 131072 / 131072
-[2017.11.16-11.25.13:973][313]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.11.16-11.25.13:973][313]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2017.11.16-11.25.13:978][313]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB up for play (max tick rate 0) at 2017.11.16-13.25.13
-[2017.11.16-11.25.13:978][313]LogWorld: Bringing up level for play took: 0.004398
-[2017.11.16-11.25.13:979][313]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.16-11.25.13:982][313]LogLoad: Took 0.590038 seconds to LoadMap(/Game/Maps/MapBlockB)
-[2017.11.16-11.25.23:578][480]LogNet: Browse: 172.31.16.136//Game/Maps/MainMenuLevel
-[2017.11.16-11.25.23:578][480]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.11.16-11.25.23:578][480]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2017.11.16-11.25.23:578][480]LogTemp: Display: ParseSettings for PendingNetDriver
-[2017.11.16-11.25.23:578][480]LogInit: WinSock: Socket queue 32768 / 32768
-[2017.11.16-11.25.23:579][480]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.11.16-11.25.23:579][480]LogNet: Game client on port 7777, rate 10000
-[2017.11.16-11.25.23:634][481]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:52793
-[2017.11.16-11.25.23:634][481]LogHandshake: SendConnectChallenge. Timestamp: 10.346937, Cookie: 019126021060138172057090052163011014192033093200205191104186
-[2017.11.16-11.25.23:635][481]LogHandshake: SendChallengeResponse. Timestamp: 10.346937, Cookie: 019126021060138172057090052163011014192033093200205191104186
-[2017.11.16-11.25.23:687][482]LogNet: NotifyAcceptingConnection accepted from: 172.31.16.136:52793
-[2017.11.16-11.25.23:687][482]LogHandshake: SendChallengeAck. InCookie: 019126021060138172057090052163011014192033093200205191104186
-[2017.11.16-11.25.23:687][482]LogNet: Server accepting post-challenge connection from: 172.31.16.136:52793
-[2017.11.16-11.25.23:687][482]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.11.16-11.25.23:687][482]LogNet: NotifyAcceptedConnection: Name: MapBlockB, TimeStamp: 11/16/17 13:25:23, [UNetConnection] RemoteAddr: 172.31.16.136:52793, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.11.16-11.25.23:687][482]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.31.16.136:52793, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2017.11.16-11.25.23:688][482]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
-[2017.11.16-11.25.23:742][483]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB: Accepted
-[2017.11.16-11.25.23:742][483]LogNet: Remote platform little endian=1
-[2017.11.16-11.25.23:742][483]LogNet: This platform little endian=1
-[2017.11.16-11.25.23:797][484]LogNet: Login request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-E3758D5D48BC413B0487798A11A8EE8E userId: AOTA1-1L141-14D-E3758D5D48BC413B0487798A11A8EE8E
-[2017.11.16-11.25.23:797][484]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MapBlockB, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
-[2017.11.16-11.25.23:852][484]LogLoad: LoadMap: 172.31.16.136//Game/Maps/UEDPIE_1_MapBlockB?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
-[2017.11.16-11.25.23:869][484]Cmd: MEM
-[2017.11.16-11.25.23:883][484]LogMemory: Platform Memory Stats for Windows
-[2017.11.16-11.25.23:883][484]LogMemory: Process Physical Memory: 1663.57 MB used, 1734.97 MB peak
-[2017.11.16-11.25.23:883][484]LogMemory: Process Virtual Memory: 2281.88 MB used, 2461.74 MB peak
-[2017.11.16-11.25.23:883][484]LogMemory: Physical Memory: 6773.54 MB used,  9490.76 MB free, 16264.30 MB total
-[2017.11.16-11.25.23:883][484]LogMemory: Virtual Memory: 3250.34 MB used,  9490.76 MB free, 134217728.00 MB total
-[2017.11.16-11.25.23:883][484]LogMemory: 
-[2017.11.16-11.25.23:883][484]Allocator Stats for TBB: (not implemented)
-[2017.11.16-11.25.23:969][484]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
-[2017.11.16-11.25.23:969][484]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
-[2017.11.16-11.25.23:970][484]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.25.23:971][484]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
-[2017.11.16-11.25.23:971][484]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Users/MitjaSal/Documents/GitHub/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
-[2017.11.16-11.25.24:037][484]LogAIModule: Creating AISystem for world MapBlockB
-[2017.11.16-11.25.24:038][484]LogTemp: Display: ParseSettings for GameNetDriver
-[2017.11.16-11.25.24:043][484]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MapBlockB.MapBlockB up for play (max tick rate 0) at 2017.11.16-13.25.24
-[2017.11.16-11.25.24:043][484]LogWorld: Bringing up level for play took: 0.003699
-[2017.11.16-11.25.24:043][484]LogLoad: Took 0.191424 seconds to LoadMap(/Game/Maps/UEDPIE_1_MapBlockB)
-[2017.11.16-11.25.24:064][485]LogNet: Client netspeed is 10000
-[2017.11.16-11.25.24:064][485]LogNet: Join request: /Game/Maps/MainMenuLevel?Name=AOTA1-1L141-14D-E3758D5D48BC413B0487798A11A8EE8E?SplitscreenCount=1
-[2017.11.16-11.25.24:067][485]LogNet: Join succeeded: AOTA1-1L141-14D-E375
-[2017.11.16-11.25.24:069][485]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.16-11.25.24:141][486]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_1 NOT Supported.
-[2017.11.16-11.25.24:141][486]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_1 NOT Supported.
-[2017.11.16-11.25.24:142][486]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: StaticMeshComponent /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_3 NOT Supported.
-[2017.11.16-11.25.24:142][486]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: DrawFrustumComponent /Game/Maps/UEDPIE_1_MapBlockB.MapBlockB:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_3 NOT Supported.
-[2017.11.16-11.25.30:189][578]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now90.0
-[2017.11.16-11.25.30:254][579]LogBlueprintUserMessages: [Bullet_01_C_0] Client 1: Hit
-[2017.11.16-11.25.30:316][580]LogBlueprintUserMessages: [Bullet_01_C_0] Server: Hit
-[2017.11.16-11.25.30:447][582]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.31:754][603]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now85.0
-[2017.11.16-11.25.31:756][603]LogBlueprintUserMessages: [Bullet_01_C_1] Client 1: Hit
-[2017.11.16-11.25.31:877][605]LogBlueprintUserMessages: [Bullet_01_C_1] Server: Hit
-[2017.11.16-11.25.32:124][609]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.33:671][634]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now80.0
-[2017.11.16-11.25.33:796][636]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.34:229][643]LogBlueprintUserMessages: [Bullet_01_C_2] Client 1: Hit
-[2017.11.16-11.25.34:287][644]LogBlueprintUserMessages: [Bullet_01_C_2] Client 1: Hit
-[2017.11.16-11.25.34:417][646]LogBlueprintUserMessages: [Bullet_01_C_2] Server: Hit
-[2017.11.16-11.25.35:536][664]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now75.0
-[2017.11.16-11.25.35:537][664]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.36:099][673]LogBlueprintUserMessages: [Bullet_01_C_3] Client 1: Hit
-[2017.11.16-11.25.36:281][676]LogBlueprintUserMessages: [Bullet_01_C_3] Server: Hit
-[2017.11.16-11.25.40:492][744]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now70.0
-[2017.11.16-11.25.40:674][747]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.41:046][753]LogBlueprintUserMessages: [Bullet_01_C_4] Client 1: Hit
-[2017.11.16-11.25.41:233][756]LogBlueprintUserMessages: [Bullet_01_C_4] Server: Hit
-[2017.11.16-11.25.49:942][898]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now65.0
-[2017.11.16-11.25.50:315][904]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.59:501][ 53]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now60.0
-[2017.11.16-11.25.59:502][ 53]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.25.59:682][ 56]LogBlueprintUserMessages: [Bullet_01_C_6] Client 1: Hit
-[2017.11.16-11.25.59:809][ 58]LogBlueprintUserMessages: [Bullet_01_C_6] Server: Hit
-[2017.11.16-11.26.00:796][ 74]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Server: HP is now55.0
-[2017.11.16-11.26.00:979][ 77]LogBlueprintUserMessages: [Bullet_01_C_7] Client 1: Hit
-[2017.11.16-11.26.01:099][ 79]LogBlueprintUserMessages: [Bullet_01_C_7] Server: Hit
-[2017.11.16-11.26.01:162][ 80]LogBlueprintUserMessages: [BP_Weapon_C_1] Client 1: FP_Character invalid fucker
-[2017.11.16-11.26.06:096][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2017.11.16-11.26.06:191][160]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.16-11.26.06:191][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.16-11.26.06:218][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.16-11.26.06:218][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.16-11.26.06:249][160]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.16-11.26.06:249][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.16-11.26.06:249][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.16-11.26.06:249][160]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.16-11.26.06:249][160]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2017.11.16-11.26.06:250][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2017.11.16-11.26.06:266][160]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
-[2017.11.16-11.26.06:266][160]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, Channels: 1, Time: 2017.11.16-11.26.06
-[2017.11.16-11.26.06:266][160]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
-[2017.11.16-11.26.06:266][160]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:52793, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2017.11.16-11.26.06:266][160]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.31.16.136:52793, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 1, Time: 2017.11.16-11.26.06
-[2017.11.16-11.26.06:266][160]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.31.16.136:52793, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2017.11.16-11.26.06:267][160]LogExit: GameNetDriver None shut down
-[2017.11.16-11.26.06:268][160]LogExit: GameNetDriver None shut down
-[2017.11.16-11.26.06:317][161]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2017.11.16-11.26.06:317][161]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.16-11.26.06:317][161]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2017.11.16-11.26.06:317][161]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.07-10.04.56:762][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-10.04.56:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-10.04.56:848][  0]LogInit: Computer: AOTA1-1L141-09D
+[2017.12.07-10.04.56:848][  0]LogInit: User: JessicaCar
+[2017.12.07-10.04.56:848][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-10.04.56:848][  0]LogInit: High frequency timer resolution =3.328121 MHz
+[2017.12.07-10.04.56:848][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.07-10.04.56:848][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-10.04.56:848][  0]LogMemory: Process Physical Memory: 280.84 MB used, 280.84 MB peak
+[2017.12.07-10.04.56:848][  0]LogMemory: Process Virtual Memory: 282.74 MB used, 282.74 MB peak
+[2017.12.07-10.04.56:848][  0]LogMemory: Physical Memory: 7587.29 MB used,  8677.01 MB free, 16264.30 MB total
+[2017.12.07-10.04.56:848][  0]LogMemory: Virtual Memory: 666.54 MB used,  8677.01 MB free, 134217728.00 MB total
+[2017.12.07-10.04.56:952][  0]LogInit: Using OS detected language (en-US).
+[2017.12.07-10.04.56:952][  0]LogInit: Using OS detected locale (fi-FI).
+[2017.12.07-10.04.56:954][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.07-10.04.56:954][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en-US' will be used for the locale.
+[2017.12.07-10.04.57:554][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-10.04.57:560][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.12.07-10.04.57:560][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.12.07-10.04.57:604][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.12.07-10.04.57:604][  0]LogD3D11RHI:       2018/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.12.07-10.04.57:605][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.07-10.04.57:605][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.07-10.04.57:605][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.12.07-10.04.57:610][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-10.04.57:610][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-10.04.57:610][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-10.04.57:610][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.12.07-10.04.57:610][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.12.07-10.04.57:610][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.12.07-10.04.57:610][  0]LogWindows:    3. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.12.07-10.04.57:610][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.12.07-10.04.57:611][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.12.07-10.04.57:611][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.12.07-10.04.57:611][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.07-10.04.57:611][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.12.07-10.04.57:611][  0]LogD3D11RHI:   Driver Version: 382.98 (internal:22.21.13.8298, unified:382.98)
+[2017.12.07-10.04.57:611][  0]LogD3D11RHI:      Driver Date: 8-17-2017
+[2017.12.07-10.04.57:611][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.07-10.04.57:641][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-10.04.57:653][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.07-10.04.57:654][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/12616/).
+[2017.12.07-10.04.57:654][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JessicaCar/AppData/Local/Temp/UnrealShaderWorkingDir/3E32F6094883BC536A128D943BEB4E95/'.
+[2017.12.07-10.04.57:655][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-10.04.58:401][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-10.04.58:435][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-10.04.58:468][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-10.04.58:501][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-10.04.58:535][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-10.04.58:568][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-10.04.58:601][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-10.04.58:634][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-10.04.58:662][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-10.04.58:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-10.04.58:729][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-10.04.58:762][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-10.04.58:794][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-10.04.58:827][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-10.04.58:858][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-10.04.58:924][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-10.04.58:924][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-10.04.58:947][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-10.04.59:015][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-10.04.59:035][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-10.04.59:068][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-10.04.59:101][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-10.04.59:135][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-10.04.59:168][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-10.04.59:169][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-10.04.59:467][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/JessicaCar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JessicaCar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-10.04.59:551][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-10.04.59:565][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-10.04.59:578][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JessicaCar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-10.04.59:586][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-10.04.59:586][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-10.04.59:587][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-10.04.59:587][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-10.04.59:803][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.12.07-10.04.59:892][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-10.05.00:027][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.07-10.05.00:234][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-10.05.00:259][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-10.05.00:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-10.05.00:259][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-10.05.00:259][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-10.05.00:259][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-10.05.00:605][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.12.07-10.05.02:600][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 1.859341 seconds
+[2017.12.07-10.05.02:611][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.07-10.05.02:611][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.07-10.05.02:611][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-10.05.04:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-10.05.04:556][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-10.05.04:994][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-10.05.05:545][  0]SourceControl: Source control is disabled
+[2017.12.07-10.05.06:719][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-10.05.06:865][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-10.05.07:038][  0]LogEngine: Initializing Engine...
+[2017.12.07-10.05.07:040][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-10.05.07:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-10.05.07:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-10.05.07:316][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-10.05.07:324][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-10.05.07:358][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-10.05.07:447][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/JessicaCar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.07-10.05.07:458][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-10.05.07:527][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-10.05.07:778][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-10.05.07:970][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-10.05.09:262][  0]LocalizationService: Localization service is disabled
+[2017.12.07-10.05.09:705][  0]LogConsoleResponse: Display: 
+[2017.12.07-10.05.10:346][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-10.05.10:346][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-10.05.10:346][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-10.05.10:358][  0]LogFileCache: Scanning file cache for directory 'E:/Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/' took 0.03s
+[2017.12.07-10.05.11:018][  0]Cmd: MAP LOAD FILE="../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-10.05.11:406][  0]LightingResults: New page: Lighting Build
+[2017.12.07-10.05.11:449][  0]MapCheck: New page: Map Check
+[2017.12.07-10.05.11:449][  0]LightingResults: New page: Lighting Build
+[2017.12.07-10.05.12:420][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
+[2017.12.07-10.05.12:420][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:421][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
+[2017.12.07-10.05.12:421][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:421][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Revolver
+[2017.12.07-10.05.12:421][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
+[2017.12.07-10.05.12:421][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:421][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
+[2017.12.07-10.05.12:421][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:421][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Revolver
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
+[2017.12.07-10.05.12:422][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
+[2017.12.07-10.05.12:422][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:422][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_PhysicsAsset
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
+[2017.12.07-10.05.12:422][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
+[2017.12.07-10.05.12:422][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:422][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_Skeleton
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
+[2017.12.07-10.05.12:422][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:422][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
+[2017.12.07-10.05.12:423][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:423][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_PhysicsAsset
+[2017.12.07-10.05.12:423][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
+[2017.12.07-10.05.12:423][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:423][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Meshes/Character/Character_rig_complete.uasset.
+[2017.12.07-10.05.12:423][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete.Character_rig_complete Referenced by CharacterMesh0
+[2017.12.07-10.05.12:423][  0]LoadErrors: Error: /Game/Meshes/Character/Character_rig_complete : Can't find file for asset. /Game/Meshes/Character/Character_rig_complete_Skeleton
+[2017.12.07-10.05.13:350][  0]LogBlueprint: Warning: [BP_Weapon] 'Mesh2P' variable not found. Base class was probably changed.
+[2017.12.07-10.05.13:437][  0]LogBlueprint: Error: [Compiler FirstPersonCharacter] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.12.07-10.05.13:437][  0]LogBlueprint: Error: [Compiler FirstPersonCharacter] Could not find a function named "jumpstart" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Jumpstart
+[2017.12.07-10.05.13:492][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0020.26] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 175 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.12.07-10.05.13:741][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Revolver'
+[2017.12.07-10.05.13:741][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Revolver.T_Revolver Referenced by MaterialExpressionTextureSample_1
+[2017.12.07-10.05.13:741][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Revolver' while loading NULL.
+[2017.12.07-10.05.13:741][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Revolver.T_Revolver Referenced by MaterialExpressionTextureSample_1
+[2017.12.07-10.05.13:764][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_Skeleton'
+[2017.12.07-10.05.13:764][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_Skeleton.Character_rig_complete_Skeleton Referenced by Character_rig_complete
+[2017.12.07-10.05.13:764][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_Skeleton' while loading NULL.
+[2017.12.07-10.05.13:764][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_Skeleton.Character_rig_complete_Skeleton Referenced by Character_rig_complete
+[2017.12.07-10.05.13:765][  0]LogLinker: Warning: Can't find file '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset'
+[2017.12.07-10.05.13:765][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_PhysicsAsset.Character_rig_complete_PhysicsAsset Referenced by Character_rig_complete
+[2017.12.07-10.05.13:765][  0]LogLinker: Warning: Can't find file for asset '/Game/Meshes/Character/Character_rig_complete_PhysicsAsset' while loading NULL.
+[2017.12.07-10.05.13:765][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_complete_PhysicsAsset.Character_rig_complete_PhysicsAsset Referenced by Character_rig_complete
+[2017.12.07-10.05.14:071][  0]LogMaterial: Missing cached shader map for material mat_Revolver, compiling. 
+[2017.12.07-10.05.14:111][  0]LogMaterial: Warning: Failed to compile Material /Game/Materials/Character/mat_Revolver.mat_Revolver for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.07-10.05.14:111][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.07-10.05.14:269][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.07-10.05.14:270][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-10.05.14:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-10.05.14:359][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.977ms to complete.
+[2017.12.07-10.05.14:359][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 3.341
+[2017.12.07-10.05.16:680][  0]LogCollectionManager: Loaded 0 collections in 0.001300 seconds
+[2017.12.07-10.05.16:829][  0]LogFileCache: Scanning file cache for directory 'E:/Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.12.07-10.05.16:829][  0]LogFileCache: Scanning file cache for directory 'E:/Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Developers/JessicaCar/Collections/' took 0.01s
+[2017.12.07-10.05.16:829][  0]LogFileCache: Scanning file cache for directory 'E:/Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.12.07-10.05.16:830][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-10.05.16:841][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2386 classes and 500 folders.
+[2017.12.07-10.05.16:889][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.07-10.05.18:805][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.07-10.05.18:905][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.05.19:492][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-10.05.19:494][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-10.05.19:666][  0]LogSlate: Took 0.008306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-10.05.20:406][  0]LogRenderer: Reallocating scene render targets to support 1208x200 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-10.05.21:125][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.05.21:126][  0]LogLoad: (Engine Initialization) Total time: 27.89 seconds
+[2017.12.07-10.05.21:126][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-10.05.21:126][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.07-10.05.21:126][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.07-10.05.21:136][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.07-10.05.21:272][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-10.05.21:412][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/' took 0.24s
+[2017.12.07-10.05.21:496][  2]LogAssetRegistry: Asset discovery search completed in 21.7146 seconds
+[2017.12.07-10.05.21:529][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.07-10.05.21:529][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.12.07-10.05.21:632][  4]SourceControl: On branch master
+[2017.12.07-10.05.21:632][  4]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.12.07-10.05.21:632][  4]SourceControl: Changes to be committed:
+[2017.12.07-10.05.21:632][  4]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_Crouch_Move_righ_front_left.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_Move_front_back.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_Move_front_iddle_back.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_Move_right_back_left.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_Move_right_front_left.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_chouched_movement.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_jump.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/BlendSpace_movement.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Blendspace_Move_front_right.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Blendspace_Move_front_right_Left.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/Character_animation_jump_007_Armature_anim_jump_Left.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/Character_animation_jump_007_Armature_anim_jump_back.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/Character_animation_jump_007_Armature_anim_jump_front.uasset
+[2017.12.07-10.05.21:632][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/Character_animation_jump_007_Armature_anim_jump_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/Character_animation_jump_007_Armature_anim_jump_up.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Crouch/anim_crouch_Armature_anim_crouch_down.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Crouch/anim_crouch_Armature_anim_crouch_iddle.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Crouch/anim_crouch_Armature_anim_crouch_up.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_Left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_asc.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_desc.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_loop.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/NewAnimBlueprint.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/NewBlendSpace.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_death.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_iddle_Anim_Armature_iddle.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_movement_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Anim_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/Walk/anim_walk_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_crouch_Armature_anim_crouch_down.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_crouch_Armature_anim_crouch_iddle.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_crouch_Armature_anim_crouch_up.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_death.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/anim_death_Armature_SunAction.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	deleted:    HatTrick/Content/Animations/anim_death_Armature_anim_death.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_iddle_Anim_Armature_iddle.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_jump_Armature_anim_jump_Left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_jump_Armature_anim_jump_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_jump_Armature_anim_jump_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_jump_Armature_anim_jump_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_jump_Armature_anim_jump_up.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/anim_walk_Anim_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/arms/Character_animation_reload_003_Armature_Armature_Armature_ArmatureAction_Armature_ArmatureAction.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Animations/lendSpace_jump.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Meshes/Character/Character_rig.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Meshes/Character/Character_rig_PhysicsAsset.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	new file:   HatTrick/Content/Meshes/Character/Character_rig_Skeleton.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: Changes not staged for commit:
+[2017.12.07-10.05.21:633][  4]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.12.07-10.05.21:633][  4]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/BlendSpace_chouched_movement.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/BlendSpace_movement.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_Left.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_back.uasset
+[2017.12.07-10.05.21:633][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_front.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_right.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_asc.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_desc.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/Jump/anim_jump_Armature_anim_jump_up_loop.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/NewAnimBlueprint.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim__walk_front_crouch.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_back.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_back_crouch.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_front.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_left.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_left_crouch.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_right.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Animations/anim_walk_Armature_anim_walk_right_crouch.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Maps/MainMenuLevel.umap
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Meshes/Character/Character_rig_Skeleton.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Content/Meshes/Character/Character_rig_fixed_Skeleton.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-2948C6424F50BEFAA421DA84F0161F89/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-2C9CE35847439CD16526968081892F74/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-2F4F968A4D49A364417EB088A1A3A12B/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-3B0D67804C76B4934AC0E2953A194BF0/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-4F19856A49B2332BE70444A1122F9BFE/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-63AEE7A942AF354F6173D5B5407BD81A/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-B92E534B423AD90C4C3ED0ABD1C24741/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-C6BCF47A49ACD7D6381B26B238354057/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-C9763CBC434838EF7F14FD90B79C6C18/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-CDB8105C4429F77335459390F3C38636/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-D4AA5D7B40978AF58C59CCAF15EBF851/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-E7A7B21945918CB483B797AC1927B491/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-E846A4DF4395EE9FAFB0A98C79556A1D/CrashReportClient.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Editor.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.07-10.05.21:634][  4]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.12.07-10.05.21:634][  4]SourceControl: Untracked files:
+[2017.12.07-10.05.21:634][  4]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Autosaves/Game/Animations/
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Autosaves/Game/Meshes/Character/
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-9D065F3C4734ADD9B9BED8842821E8F1/
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Crashes/UE4CC-Windows-1479D5D146FB46854484FF87B02228FF_0000/
+[2017.12.07-10.05.21:634][  4]SourceControl: 	HatTrick/Saved/Crashes/UE4CC-Windows-6F03DC9F42FBE067BABC0988D84020F4_0000/
+[2017.12.07-10.05.33:186][641]LogSlate: Took 0.009397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-10.05.33:477][641]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.05.33:789][641]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-10.05.34:053][641]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.12.07-10.05.34:658][641]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2017.12.07-10.05.35:652][641]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.12.07-10.05.36:527][641]LogRenderer: Reallocating scene render targets to support 1208x256 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-10.05.36:623][641]LogSlate: Took 0.006911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.07-10.05.37:043][641]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.12.07-10.05.37:396][641]LogRenderer: Reallocating scene render targets to support 1208x420 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-10.05.41:733][755]LogSlate: Took 0.010817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.07-14.03.34:087][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/NewAnimBlueprint" FILE="../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Animations/NewAnimBlueprint.uasset" SILENT=true
+[2017.12.07-14.03.34:340][385]LogSavePackage: Save=192.40ms
+[2017.12.07-14.03.34:340][385]LogSavePackage: Moving '../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Saved/NewAnimBlueprint42AC1F904057F43BEC4854AB7803A2EC.tmp' to '../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Animations/NewAnimBlueprint.uasset'
+[2017.12.07-14.03.34:344][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Animations/NewAnimBlueprint.uasset
+[2017.12.07-14.03.40:915][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuLevel" FILE="../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-14.03.41:428][666]LogSavePackage: Save=71.76ms
+[2017.12.07-14.03.41:428][666]LogSavePackage: Moving '../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Saved/MainMenuLevel23F51A73434227F3C42D7D9ED207FFAA.tmp' to '../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap'
+[2017.12.07-14.03.41:431][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Work/KAMK/SpaghetiArms/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap
