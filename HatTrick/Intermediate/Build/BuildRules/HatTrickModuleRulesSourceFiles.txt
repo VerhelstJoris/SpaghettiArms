@@ -1,0 +1,3 @@
+C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Source\HatTrick\HatTrick.Build.cs
+C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Source\HatTrick.Target.cs
+C:\Users\MitjaSal\Documents\GitHub\SpaghettiArms\HatTrick\Source\HatTrickEditor.Target.cs
