@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 12/08/17 13:49:43
+=======
+﻿Log file open, 12/08/17 13:22:35
+>>>>>>> c6ae536515939d9d40b95786747b89e2002340de
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +13,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HatTrick
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1711855200) SRandInit(-1711855200).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.160838
+=======
+LogInit: Display: RandInit(-1760199073) SRandInit(-1760199073).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163958
+>>>>>>> c6ae536515939d9d40b95786747b89e2002340de
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -84,7 +94,7 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
-LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/' was not found.
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.17-CL-3658906
 LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
@@ -111,11 +121,12 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.12.08-11.49.44:682][  0]LogInit: Selected Device Profile: [Windows]
 [2017.12.08-11.49.44:682][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.12.08-11.49.44:689][  0]LogInit: Computer: AOTA1-1L141-12D
@@ -732,3 +743,1301 @@ LogInit: Object subsystem initialized
 [2017.12.08-11.59.10:274][850]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.12.08-11.59.10:277][850]LogExit: Exiting.
 [2017.12.08-11.59.10:289][850]Log file closed, 12/08/17 13:59:10
+=======
+[2017.12.08-11.22.36:165][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-11.22.36:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.08-11.22.36:195][  0]LogInit: Computer: LAPTOPJAKOB
+[2017.12.08-11.22.36:195][  0]LogInit: User: jakob000
+[2017.12.08-11.22.36:195][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.08-11.22.36:195][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2017.12.08-11.22.36:195][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.08-11.22.36:195][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.08-11.22.36:195][  0]LogMemory: Process Physical Memory: 277.87 MB used, 277.87 MB peak
+[2017.12.08-11.22.36:195][  0]LogMemory: Process Virtual Memory: 282.41 MB used, 282.41 MB peak
+[2017.12.08-11.22.36:195][  0]LogMemory: Physical Memory: 10160.69 MB used,  6138.42 MB free, 16299.11 MB total
+[2017.12.08-11.22.36:195][  0]LogMemory: Virtual Memory: 661.32 MB used,  6138.42 MB free, 134217728.00 MB total
+[2017.12.08-11.22.36:295][  0]LogInit: Using OS detected language (en-GB).
+[2017.12.08-11.22.36:295][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.08-11.22.36:298][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.12.08-11.22.37:014][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.08-11.22.37:041][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200M' (Feature Level 11_0)
+[2017.12.08-11.22.37:041][  0]LogD3D11RHI:       1961/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.08-11.22.37:042][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.08-11.22.37:042][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.08-11.22.37:042][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.08-11.22.37:048][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.08-11.22.37:048][  0]LogD3D11RHI:     GPU DeviceId: 0x13b3 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.08-11.22.37:048][  0]LogWindows: EnumDisplayDevices:
+[2017.12.08-11.22.37:048][  0]LogWindows:    0. 'NVIDIA Quadro K2200M' (P:1 D:1)
+[2017.12.08-11.22.37:048][  0]LogWindows:    1. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.08-11.22.37:048][  0]LogWindows:    2. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.08-11.22.37:048][  0]LogWindows:    3. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.08-11.22.37:048][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.08-11.22.37:048][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200M
+[2017.12.08-11.22.37:048][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
+[2017.12.08-11.22.37:048][  0]LogD3D11RHI:      Driver Date: 9-25-2017
+[2017.12.08-11.22.37:049][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.08-11.22.37:062][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.08-11.22.37:080][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.08-11.22.37:123][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/19272/).
+[2017.12.08-11.22.37:124][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/2762E42D47239550098FC2A0942BD300/'.
+[2017.12.08-11.22.37:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.08-11.22.37:983][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.08-11.22.38:017][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.08-11.22.38:052][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.08-11.22.38:087][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.08-11.22.38:121][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.08-11.22.38:155][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.08-11.22.38:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.08-11.22.38:223][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.08-11.22.38:250][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.08-11.22.38:284][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.08-11.22.38:317][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.08-11.22.38:352][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.08-11.22.38:386][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.08-11.22.38:420][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.08-11.22.38:454][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.08-11.22.38:520][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.08-11.22.38:520][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.08-11.22.38:544][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.08-11.22.38:611][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.08-11.22.38:635][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.08-11.22.38:668][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.08-11.22.38:701][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.08-11.22.38:734][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.08-11.22.38:769][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.08-11.22.38:769][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.08-11.22.39:047][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.08-11.22.39:141][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.08-11.22.39:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.08-11.22.39:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jakob_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.08-11.22.39:182][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.08-11.22.39:183][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.08-11.22.39:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-11.22.39:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.08-11.22.39:434][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.12.08-11.22.39:538][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.08-11.22.39:663][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.08-11.22.39:869][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.08-11.22.39:892][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.08-11.22.39:892][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.08-11.22.39:892][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.08-11.22.39:892][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.08-11.22.39:892][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.08-11.22.40:215][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.12.08-11.22.40:381][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.038521 seconds
+[2017.12.08-11.22.40:387][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.12.08-11.22.40:387][  0]LogUObjectAllocator: 7529328 out of 0 bytes used by permanent object pool.
+[2017.12.08-11.22.40:387][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.08-11.22.42:283][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.08-11.22.42:312][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.08-11.22.42:764][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.08-11.22.43:028][  0]SourceControl: Source control is disabled
+[2017.12.08-11.22.43:387][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.08-11.22.43:525][  0]LogOcInput: OculusInput pre-init called
+[2017.12.08-11.22.43:692][  0]LogEngine: Initializing Engine...
+[2017.12.08-11.22.43:694][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.08-11.22.43:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.08-11.22.43:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.08-11.22.43:984][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.08-11.22.43:990][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.08-11.22.44:000][  0]LogInit: FAudioDevice initialized.
+[2017.12.08-11.22.44:085][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.08-11.22.44:099][  0]LogInit: Texture streaming: Enabled
+[2017.12.08-11.22.44:186][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.08-11.22.44:378][  0]LogInit: Transaction tracking system initialized
+[2017.12.08-11.22.44:561][  0]BlueprintLog: New page: Editor Load
+[2017.12.08-11.22.45:104][  0]LocalizationService: Localization service is disabled
+[2017.12.08-11.22.45:508][  0]LogConsoleResponse: Display: 
+[2017.12.08-11.22.45:647][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.08-11.22.45:647][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.08-11.22.45:647][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.08-11.22.45:801][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.01s
+[2017.12.08-11.22.46:246][  0]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.08-11.22.46:247][  0]LightingResults: New page: Lighting Build
+[2017.12.08-11.22.46:270][  0]MapCheck: New page: Map Check
+[2017.12.08-11.22.46:270][  0]LightingResults: New page: Lighting Build
+[2017.12.08-11.22.46:406][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Handgun_A'
+[2017.12.08-11.22.46:406][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_fixed.Character_rig_fixed Referenced by CharacterMesh0
+[2017.12.08-11.22.46:406][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Handgun_A' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Character/Handgun_UVW.uasset.
+[2017.12.08-11.22.46:406][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_fixed.Character_rig_fixed Referenced by CharacterMesh0
+[2017.12.08-11.22.46:406][  0]LoadErrors: Error: /Game/Textures/Character/Handgun_UVW : Can't find file for asset. /Game/Textures/Character/T_Handgun_A
+[2017.12.08-11.22.46:406][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Handgun_A'
+[2017.12.08-11.22.46:406][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_fixed.Character_rig_fixed Referenced by CharacterMesh0
+[2017.12.08-11.22.46:406][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Handgun_A' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Character/Handgun_UVW.uasset.
+[2017.12.08-11.22.46:407][  0]LoadErrors: Failed to load /Game/Meshes/Character/Character_rig_fixed.Character_rig_fixed Referenced by CharacterMesh0
+[2017.12.08-11.22.46:407][  0]LoadErrors: Error: /Game/Textures/Character/Handgun_UVW : Can't find file for asset. /Game/Textures/Character/T_Handgun_A
+[2017.12.08-11.22.46:407][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Handgun_A'
+[2017.12.08-11.22.46:407][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Handgun_A.T_Handgun_A Referenced by Handgun_UVW
+[2017.12.08-11.22.46:407][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Handgun_A' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
+[2017.12.08-11.22.46:407][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Handgun_A.T_Handgun_A Referenced by Handgun_UVW
+[2017.12.08-11.22.46:407][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Handgun_A
+[2017.12.08-11.22.46:408][  0]LogLinker: Warning: Can't find file '/Game/Textures/Character/T_Handgun_A'
+[2017.12.08-11.22.46:408][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Handgun_A.T_Handgun_A Referenced by Handgun_UVW
+[2017.12.08-11.22.46:408][  0]LogLinker: Warning: Can't find file for asset '/Game/Textures/Character/T_Handgun_A' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Character/mat_Revolver.uasset.
+[2017.12.08-11.22.46:408][  0]LoadErrors: Failed to load /Game/Textures/Character/T_Handgun_A.T_Handgun_A Referenced by Handgun_UVW
+[2017.12.08-11.22.46:408][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Can't find file for asset. /Game/Textures/Character/T_Handgun_A
+[2017.12.08-11.22.46:573][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.08-11.22.46:573][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Particle_effects/Meshes/Torus.uasset.
+[2017.12.08-11.22.46:573][  0]LoadErrors: Error: /Game/Particle_effects/Meshes/Torus : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.08-11.22.46:573][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.08-11.22.46:573][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Particle_effects/Meshes/Torus.uasset.
+[2017.12.08-11.22.46:573][  0]LoadErrors: Error: /Game/Particle_effects/Meshes/Torus : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.08-11.22.46:574][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.08-11.22.46:574][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.08-11.22.46:574][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Particle_effects/P_Shooting_Explosionit.uasset.
+[2017.12.08-11.22.46:574][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.08-11.22.46:574][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.08-11.22.46:574][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.08-11.22.46:574][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.08-11.22.46:574][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Particle_effects/P_Shooting_Explosionit.uasset.
+[2017.12.08-11.22.46:574][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.08-11.22.46:574][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.08-11.22.46:859][  0]LogMaterial: Missing cached shader map for material mat_Revolver, compiling. 
+[2017.12.08-11.22.46:860][  0]LogMaterial: Warning: Failed to compile Material /Game/Materials/Character/mat_Revolver.mat_Revolver for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.08-11.22.46:860][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.08-11.22.47:162][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.08-11.22.47:163][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.08-11.22.47:178][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.08-11.22.47:220][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.88ms to complete.
+[2017.12.08-11.22.47:220][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.974
+[2017.12.08-11.22.47:277][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.08-11.22.47:277][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.08-11.22.47:346][  0]LogCollectionManager: Loaded 0 collections in 0.000801 seconds
+[2017.12.08-11.22.47:407][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.12.08-11.22.47:407][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' took 0.01s
+[2017.12.08-11.22.47:407][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.12.08-11.22.47:407][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.08-11.22.47:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2387 classes and 502 folders.
+[2017.12.08-11.22.47:454][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.12.08-11.22.47:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.12.08-11.22.47:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.12.08-11.22.47:601][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.08-11.22.47:602][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.08-11.22.47:606][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.08-11.22.47:721][  0]LogRenderer: Reallocating scene render targets to support 1020x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.08-11.22.48:040][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.12.08-11.22.48:040][  0]LogLoad: (Engine Initialization) Total time: 13.59 seconds
+[2017.12.08-11.22.48:040][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.08-11.22.48:040][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.08-11.22.48:059][  0]LoadErrors: Error: /Game/Materials/Character/mat_Revolver : Failed import for Texture2D /Game/Textures/Character/Handgun_UVW.Handgun_UVW [redirection] in /Game/Materials/Character/mat_Revolver Referenced by export MaterialExpressionTextureSample /Game/Materials/Character/mat_Revolver.mat_Revolver:MaterialExpressionTextureSample_1
+[2017.12.08-11.22.48:059][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Failed import for StaticMesh /Game/Particle_effects/Meshes/Torus.Torus [redirection] in /Game/Particle_effects/P_Shooting_Explosionit Referenced by export ParticleModuleTypeDataMesh /Game/Particle_effects/P_Shooting_Explosionit.P_Shooting_Explosionit:ParticleModuleTypeDataMesh_0 Referenced by export ParticleModuleTypeDataMesh /Game/Particle_effects/P_Shooting_Explosionit.P_Shooting_Explosionit:ParticleModuleTypeDataMesh_5
+[2017.12.08-11.22.48:090][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.08-11.22.48:138][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-11.22.48:158][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.09s
+[2017.12.08-11.22.48:173][  1]LogAssetRegistry: Asset discovery search completed in 8.7614 seconds
+[2017.12.08-11.22.48:175][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.08-11.22.48:175][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.12.08-11.27.58:979][724]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-11.27.59:036][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_06_Jerrycan.jpg)
+[2017.12.08-11.27.59:291][724]LogTexture: Display: Building textures: T_06_Jerrycan (AutoDXT, 2048X2048)
+[2017.12.08-11.28.00:952][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_07_Cactus.jpg)
+[2017.12.08-11.28.01:032][724]LogTexture: Display: Building textures: T_07_Cactus (AutoDXT, 2048X2048)
+[2017.12.08-11.28.02:156][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_07_Cactus_Small.jpg)
+[2017.12.08-11.28.02:231][724]LogTexture: Display: Building textures: T_07_Cactus_Small (AutoDXT, 2048X2048)
+[2017.12.08-11.28.03:270][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_07_Cactus_Small_E.jpg)
+[2017.12.08-11.28.03:326][724]LogTexture: Display: Building textures: T_07_Cactus_Small_E (AutoDXT, 2048X2048)
+[2017.12.08-11.28.03:688][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_08_Bench.jpg)
+[2017.12.08-11.28.03:786][724]LogTexture: Display: Building textures: T_08_Bench (AutoDXT, 2048X2048)
+[2017.12.08-11.28.05:091][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_09_Bottle_Large.jpg)
+[2017.12.08-11.28.05:118][724]LogTexture: Display: Building textures: T_09_Bottle_Large (AutoDXT, 256X256)
+[2017.12.08-11.28.05:175][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_09_Bottle_Round.jpg)
+[2017.12.08-11.28.05:179][724]LogTexture: Display: Building textures: T_09_Bottle_Round (AutoDXT, 256X256)
+[2017.12.08-11.28.05:243][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_09_Mug.jpg)
+[2017.12.08-11.28.05:246][724]LogTexture: Display: Building textures: T_09_Mug (AutoDXT, 256X256)
+[2017.12.08-11.28.05:318][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_10_Cart.jpg)
+[2017.12.08-11.28.05:325][724]LogTexture: Display: Building textures: T_10_Cart (AutoDXT, 512X512)
+[2017.12.08-11.28.05:450][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_11_Sofa.jpg)
+[2017.12.08-11.28.05:456][724]LogTexture: Display: Building textures: T_11_Sofa (AutoDXT, 512X512)
+[2017.12.08-11.28.05:537][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_11_Table.jpg)
+[2017.12.08-11.28.05:545][724]LogTexture: Display: Building textures: T_11_Table (AutoDXT, 512X512)
+[2017.12.08-11.28.05:641][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_11_Table2.jpg)
+[2017.12.08-11.28.05:648][724]LogTexture: Display: Building textures: T_11_Table2 (AutoDXT, 512X512)
+[2017.12.08-11.28.05:732][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_12_Lightpole.jpg)
+[2017.12.08-11.28.05:740][724]LogTexture: Display: Building textures: T_12_Lightpole (AutoDXT, 512X512)
+[2017.12.08-11.28.05:847][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_12_MailBox.jpg)
+[2017.12.08-11.28.05:855][724]LogTexture: Display: Building textures: T_12_MailBox (AutoDXT, 512X512)
+[2017.12.08-11.28.05:967][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_14_Barrel.jpg)
+[2017.12.08-11.28.05:974][724]LogTexture: Display: Building textures: T_14_Barrel (AutoDXT, 512X512)
+[2017.12.08-11.28.06:099][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_15_barstool.jpg)
+[2017.12.08-11.28.06:195][724]LogTexture: Display: Building textures: T_15_barstool (AutoDXT, 2048X2048)
+[2017.12.08-11.28.07:404][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_16_Bed.jpg)
+[2017.12.08-11.28.07:412][724]LogTexture: Display: Building textures: T_16_Bed (AutoDXT, 512X512)
+[2017.12.08-11.28.07:501][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_17_Boot.jpg)
+[2017.12.08-11.28.07:509][724]LogTexture: Display: Building textures: T_17_Boot (AutoDXT, 512X512)
+[2017.12.08-11.28.07:627][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_18_Bucket.jpg)
+[2017.12.08-11.28.07:637][724]LogTexture: Display: Building textures: T_18_Bucket (AutoDXT, 512X512)
+[2017.12.08-11.28.07:767][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_19_Crate.jpg)
+[2017.12.08-11.28.07:775][724]LogTexture: Display: Building textures: T_19_Crate (AutoDXT, 512X512)
+[2017.12.08-11.28.07:882][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_20_Elevator.jpg)
+[2017.12.08-11.28.07:905][724]LogTexture: Display: Building textures: T_20_Elevator (AutoDXT, 1024X1024)
+[2017.12.08-11.28.08:150][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_21_broom.jpg)
+[2017.12.08-11.28.08:158][724]LogTexture: Display: Building textures: T_21_broom (AutoDXT, 512X512)
+[2017.12.08-11.28.08:280][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_22_FlowerPot.jpg)
+[2017.12.08-11.28.08:287][724]LogTexture: Display: Building textures: T_22_FlowerPot (AutoDXT, 512X512)
+[2017.12.08-11.28.08:403][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_23_Fridge.jpg)
+[2017.12.08-11.28.08:411][724]LogTexture: Display: Building textures: T_23_Fridge (AutoDXT, 512X512)
+[2017.12.08-11.28.08:528][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_24_GarbageBin.jpg)
+[2017.12.08-11.28.08:553][724]LogTexture: Display: Building textures: T_24_GarbageBin (AutoDXT, 1024X1024)
+[2017.12.08-11.28.08:881][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_25_JukeBox.jpg)
+[2017.12.08-11.28.08:900][724]LogTexture: Display: Building textures: T_25_JukeBox (AutoDXT, 1024X1024)
+[2017.12.08-11.28.09:094][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_26_fountain.jpg)
+[2017.12.08-11.28.09:121][724]LogTexture: Display: Building textures: T_26_fountain (AutoDXT, 1024X1024)
+[2017.12.08-11.28.09:533][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Prop_Fbx\Textures\T_27_Wheel.jpg)
+[2017.12.08-11.28.09:537][724]LogTexture: Display: Building textures: T_27_Wheel (AutoDXT, 256X256)
+[2017.12.08-11.28.19:154][103]LogMaterial: Missing cached shader map for material T_06_Jerrycan_Mat, compiling. 
+[2017.12.08-11.28.19:194][103]LogMaterial: Missing cached shader map for material T_07_Cactus_Mat, compiling. 
+[2017.12.08-11.28.19:213][103]LogMaterial: Missing cached shader map for material T_07_Cactus_Small_Mat, compiling. 
+[2017.12.08-11.28.19:232][103]LogMaterial: Missing cached shader map for material T_07_Cactus_Small_E_Mat, compiling. 
+[2017.12.08-11.28.19:255][103]LogMaterial: Missing cached shader map for material T_08_Bench_Mat, compiling. 
+[2017.12.08-11.28.19:274][103]LogMaterial: Missing cached shader map for material T_09_Bottle_Large_Mat, compiling. 
+[2017.12.08-11.28.19:292][103]LogMaterial: Missing cached shader map for material T_09_Bottle_Round_Mat, compiling. 
+[2017.12.08-11.28.19:310][103]LogMaterial: Missing cached shader map for material T_09_Mug_Mat, compiling. 
+[2017.12.08-11.28.19:332][103]LogMaterial: Missing cached shader map for material T_10_Cart_Mat, compiling. 
+[2017.12.08-11.28.19:356][103]LogMaterial: Missing cached shader map for material T_11_Sofa_Mat, compiling. 
+[2017.12.08-11.28.19:377][103]LogMaterial: Missing cached shader map for material T_11_Table_Mat, compiling. 
+[2017.12.08-11.28.19:396][103]LogMaterial: Missing cached shader map for material T_11_Table2_Mat, compiling. 
+[2017.12.08-11.28.19:422][103]LogMaterial: Missing cached shader map for material T_12_Lightpole_Mat, compiling. 
+[2017.12.08-11.28.19:448][103]LogMaterial: Missing cached shader map for material T_12_MailBox_Mat, compiling. 
+[2017.12.08-11.28.19:474][103]LogMaterial: Missing cached shader map for material T_14_Barrel_Mat, compiling. 
+[2017.12.08-11.28.19:506][103]LogMaterial: Missing cached shader map for material T_15_barstool_Mat, compiling. 
+[2017.12.08-11.28.19:541][103]LogMaterial: Missing cached shader map for material T_16_Bed_Mat, compiling. 
+[2017.12.08-11.28.19:573][103]LogMaterial: Missing cached shader map for material T_17_Boot_Mat, compiling. 
+[2017.12.08-11.28.19:608][103]LogMaterial: Missing cached shader map for material T_18_Bucket_Mat, compiling. 
+[2017.12.08-11.28.19:643][103]LogMaterial: Missing cached shader map for material T_19_Crate_Mat, compiling. 
+[2017.12.08-11.28.19:677][103]LogMaterial: Missing cached shader map for material T_20_Elevator_Mat, compiling. 
+[2017.12.08-11.28.19:706][103]LogMaterial: Missing cached shader map for material T_21_broom_Mat, compiling. 
+[2017.12.08-11.28.19:733][103]LogMaterial: Missing cached shader map for material T_22_FlowerPot_Mat, compiling. 
+[2017.12.08-11.28.19:763][103]LogMaterial: Missing cached shader map for material T_23_Fridge_Mat, compiling. 
+[2017.12.08-11.28.19:792][103]LogMaterial: Missing cached shader map for material T_24_GarbageBin_Mat, compiling. 
+[2017.12.08-11.28.19:818][103]LogMaterial: Missing cached shader map for material T_25_JukeBox_Mat, compiling. 
+[2017.12.08-11.28.19:844][103]LogMaterial: Missing cached shader map for material T_26_fountain_Mat, compiling. 
+[2017.12.08-11.28.19:869][103]LogMaterial: Missing cached shader map for material T_27_Wheel_Mat, compiling. 
+[2017.12.08-11.28.52:468][822]LogSavePackage: Save=26.69ms
+[2017.12.08-11.28.52:468][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_06_Jerrycan_Mat8F95822F408957A18502F8B80F07AEEE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_06_Jerrycan_Mat.uasset'
+[2017.12.08-11.28.52:470][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_06_Jerrycan_Mat.uasset
+[2017.12.08-11.28.52:510][822]LogSavePackage: Save=16.33ms
+[2017.12.08-11.28.52:510][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus_Mat43106AB64EDFB7CF71676E97A797B113.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Mat.uasset'
+[2017.12.08-11.28.52:512][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Mat.uasset
+[2017.12.08-11.28.52:568][822]LogSavePackage: Save=18.00ms
+[2017.12.08-11.28.52:568][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus_Small_E_MatC444D47442030BF75CE03B9D7B7B2E7E.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Small_E_Mat.uasset'
+[2017.12.08-11.28.52:571][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Small_E_Mat.uasset
+[2017.12.08-11.28.52:631][822]LogSavePackage: Save=26.40ms
+[2017.12.08-11.28.52:632][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus_Small_Mat920879F94CDA9667C9AD0898C57AE690.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Small_Mat.uasset'
+[2017.12.08-11.28.52:633][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_07_Cactus_Small_Mat.uasset
+[2017.12.08-11.28.52:672][822]LogSavePackage: Save=17.11ms
+[2017.12.08-11.28.52:672][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_08_Bench_Mat924068834C389E436FB20FA2A658F165.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_08_Bench_Mat.uasset'
+[2017.12.08-11.28.52:673][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_08_Bench_Mat.uasset
+[2017.12.08-11.28.52:713][822]LogSavePackage: Save=16.95ms
+[2017.12.08-11.28.52:713][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Bottle_Large_Mat4C5BC96B48A8984DDA19AC97082FDA77.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Bottle_Large_Mat.uasset'
+[2017.12.08-11.28.52:715][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Bottle_Large_Mat.uasset
+[2017.12.08-11.28.52:753][822]LogSavePackage: Save=16.69ms
+[2017.12.08-11.28.52:753][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Bottle_Round_MatD3EF0FC94DDE3494497F4A8A0A3B9631.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Bottle_Round_Mat.uasset'
+[2017.12.08-11.28.52:754][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Bottle_Round_Mat.uasset
+[2017.12.08-11.28.52:793][822]LogSavePackage: Save=17.01ms
+[2017.12.08-11.28.52:793][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Mug_Mat986B028448674EDB02FF768503FBD50D.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Mug_Mat.uasset'
+[2017.12.08-11.28.52:795][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_09_Mug_Mat.uasset
+[2017.12.08-11.28.52:833][822]LogSavePackage: Save=16.44ms
+[2017.12.08-11.28.52:833][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_10_Cart_Mat5B599CFC4736FCA991A903AEFC44A4EF.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_10_Cart_Mat.uasset'
+[2017.12.08-11.28.52:835][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_10_Cart_Mat.uasset
+[2017.12.08-11.28.52:874][822]LogSavePackage: Save=16.67ms
+[2017.12.08-11.28.52:874][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_Sofa_Mat24DDA45C4C3777678E45EF9D0804987F.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Sofa_Mat.uasset'
+[2017.12.08-11.28.52:876][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Sofa_Mat.uasset
+[2017.12.08-11.28.52:922][822]LogSavePackage: Save=21.82ms
+[2017.12.08-11.28.52:922][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_Table2_Mat24655A5E4317CF303C95859AA8BB190A.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Table2_Mat.uasset'
+[2017.12.08-11.28.52:924][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Table2_Mat.uasset
+[2017.12.08-11.28.52:962][822]LogSavePackage: Save=15.95ms
+[2017.12.08-11.28.52:962][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_Table_Mat7335077444F360A3F173D9A6958F9270.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Table_Mat.uasset'
+[2017.12.08-11.28.52:964][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_11_Table_Mat.uasset
+[2017.12.08-11.28.53:002][822]LogSavePackage: Save=15.97ms
+[2017.12.08-11.28.53:002][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_12_Lightpole_Mat25BC4280497BCCE45F0808BADACE4E9B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_12_Lightpole_Mat.uasset'
+[2017.12.08-11.28.53:003][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_12_Lightpole_Mat.uasset
+[2017.12.08-11.28.53:041][822]LogSavePackage: Save=16.78ms
+[2017.12.08-11.28.53:041][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_12_MailBox_MatD54FF18E4294ECBFEB669BAA92DC82C6.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_12_MailBox_Mat.uasset'
+[2017.12.08-11.28.53:042][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_12_MailBox_Mat.uasset
+[2017.12.08-11.28.53:082][822]LogSavePackage: Save=17.17ms
+[2017.12.08-11.28.53:082][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_14_Barrel_MatE1FCC5D8489C72E9F44F6F856095E312.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_14_Barrel_Mat.uasset'
+[2017.12.08-11.28.53:084][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_14_Barrel_Mat.uasset
+[2017.12.08-11.28.53:123][822]LogSavePackage: Save=16.99ms
+[2017.12.08-11.28.53:123][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_15_barstool_Mat784FBA7443D344CF1D1AB0BCB41F1492.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_15_barstool_Mat.uasset'
+[2017.12.08-11.28.53:125][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_15_barstool_Mat.uasset
+[2017.12.08-11.28.53:165][822]LogSavePackage: Save=16.19ms
+[2017.12.08-11.28.53:165][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_16_Bed_MatCF6E96584D59BE47BCC5CB9A7CFBFA5A.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_16_Bed_Mat.uasset'
+[2017.12.08-11.28.53:167][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_16_Bed_Mat.uasset
+[2017.12.08-11.28.53:278][822]LogSavePackage: Save=88.81ms
+[2017.12.08-11.28.53:278][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_17_Boot_Mat622C9A4246DE5C03023F82AACDB7795F.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_17_Boot_Mat.uasset'
+[2017.12.08-11.28.53:280][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_17_Boot_Mat.uasset
+[2017.12.08-11.28.53:319][822]LogSavePackage: Save=16.73ms
+[2017.12.08-11.28.53:320][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_18_Bucket_MatE716C32741844279FE871287D6BCB14D.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_18_Bucket_Mat.uasset'
+[2017.12.08-11.28.53:321][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_18_Bucket_Mat.uasset
+[2017.12.08-11.28.53:369][822]LogSavePackage: Save=25.09ms
+[2017.12.08-11.28.53:369][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_19_Crate_Mat9E5338E141B8A07DD833E2B0F0D19682.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_19_Crate_Mat.uasset'
+[2017.12.08-11.28.53:370][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_19_Crate_Mat.uasset
+[2017.12.08-11.28.53:412][822]LogSavePackage: Save=17.87ms
+[2017.12.08-11.28.53:412][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_20_Elevator_MatAED935F44FDBE26BEA8BF184367D4F89.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_20_Elevator_Mat.uasset'
+[2017.12.08-11.28.53:414][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_20_Elevator_Mat.uasset
+[2017.12.08-11.28.53:452][822]LogSavePackage: Save=16.98ms
+[2017.12.08-11.28.53:452][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_21_broom_Mat62F15EFC4ECE6EB2F3FE0B8C96A12B1C.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_21_broom_Mat.uasset'
+[2017.12.08-11.28.53:454][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_21_broom_Mat.uasset
+[2017.12.08-11.28.53:494][822]LogSavePackage: Save=18.02ms
+[2017.12.08-11.28.53:494][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_22_FlowerPot_MatF6B15E364B4A8434970E039E42694A56.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_22_FlowerPot_Mat.uasset'
+[2017.12.08-11.28.53:498][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_22_FlowerPot_Mat.uasset
+[2017.12.08-11.28.53:568][822]LogSavePackage: Save=34.78ms
+[2017.12.08-11.28.53:568][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_23_Fridge_Mat3310B79F42D0F4AC4DBD0BB9AD54E9FE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_23_Fridge_Mat.uasset'
+[2017.12.08-11.28.53:571][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_23_Fridge_Mat.uasset
+[2017.12.08-11.28.53:646][822]LogSavePackage: Save=37.85ms
+[2017.12.08-11.28.53:646][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_24_GarbageBin_MatE947EBE04BF8D13CC7E7F8B01167A968.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_24_GarbageBin_Mat.uasset'
+[2017.12.08-11.28.53:649][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_24_GarbageBin_Mat.uasset
+[2017.12.08-11.28.53:697][822]LogSavePackage: Save=16.96ms
+[2017.12.08-11.28.53:697][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_25_JukeBox_MatD50E81004B23DA6CAEF2E0B353434560.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_25_JukeBox_Mat.uasset'
+[2017.12.08-11.28.53:699][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_25_JukeBox_Mat.uasset
+[2017.12.08-11.28.53:739][822]LogSavePackage: Save=18.17ms
+[2017.12.08-11.28.53:739][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_26_fountain_Mat4B91C37D48F4675ECF551582FF9D6BEF.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_26_fountain_Mat.uasset'
+[2017.12.08-11.28.53:741][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_26_fountain_Mat.uasset
+[2017.12.08-11.28.53:781][822]LogSavePackage: Save=19.09ms
+[2017.12.08-11.28.53:781][822]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_27_Wheel_MatDC6A6C344CA153C987FA2090CD8C255D.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_27_Wheel_Mat.uasset'
+[2017.12.08-11.28.53:783][822]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/T_27_Wheel_Mat.uasset
+[2017.12.08-11.29.11:022][578]LogSavePackage: Save=20.87ms
+[2017.12.08-11.29.11:022][578]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_06_Jerrycan_Mat344365CF41DF2B3B41E0FE925B041BB0.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_06_Jerrycan_Mat.uasset'
+[2017.12.08-11.29.11:024][578]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_06_Jerrycan_Mat.uasset
+[2017.12.08-11.29.17:506][876]LogSavePackage: Save=21.12ms
+[2017.12.08-11.29.17:506][876]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_07_Cactus_MatF2D7AC0442110C022E3A98A992118292.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Mat.uasset'
+[2017.12.08-11.29.17:508][876]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Mat.uasset
+[2017.12.08-11.29.27:037][232]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0017 seconds. Added 1 classes and 0 folders.
+[2017.12.08-11.29.27:041][232]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.27:405][232]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.27:424][232]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.27:475][232]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.08-11.29.27:502][232]LogSlate: Took 0.014377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.08-11.29.28:967][285]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.12.08-11.29.28:967][285]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.29.28:967][285]MaterialEditorStats: Texture samplers: 2/16
+[2017.12.08-11.29.28:967][285]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.29.39:890][746]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.39:905][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.08-11.29.39:933][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.08-11.29.39:939][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.08-11.29.41:422][823]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.41:475][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.08-11.29.42:409][873]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.12.08-11.29.42:409][873]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.29.42:409][873]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.08-11.29.42:409][873]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.29.49:396][287]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.50:361][338]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.12.08-11.29.50:361][338]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.29.50:361][338]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.08-11.29.50:361][338]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.29.51:502][406]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.51:516][406]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.08-11.29.52:888][482]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.53:824][531]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.12.08-11.29.53:824][531]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.29.53:824][531]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.08-11.29.53:824][531]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.29.57:984][778]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.29.58:945][834]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.12.08-11.29.58:945][834]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.29.58:945][834]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.08-11.29.58:945][834]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.30.00:147][906]LogMaterialEditor: Saving and Compiling material Mat_07_Cactus_Mat
+[2017.12.08-11.30.00:620][906]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.30.00:692][906]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.30.00:725][906]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.30.00:772][906]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.30.01:487][906]TextureStreamingBuild: Display: Compiling optional shaders took 0.723 seconds.
+[2017.12.08-11.30.02:960][906]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.08-11.30.03:019][906]LogSavePackage: Save=17.64ms
+[2017.12.08-11.30.03:019][906]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_07_Cactus_MatFEF2A8BD4B144F680DE3A2AF93033D16.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Mat.uasset'
+[2017.12.08-11.30.03:020][906]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Mat.uasset
+[2017.12.08-11.30.03:037][906]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.12.08-11.30.03:037][906]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.12.08-11.30.03:037][906]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.08-11.30.03:037][906]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.08-11.30.18:107][633]LogSavePackage: Save=21.48ms
+[2017.12.08-11.30.18:107][633]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_07_Cactus_Small_MatBB5048BB409773C2B0DCD7958427F101.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Small_Mat.uasset'
+[2017.12.08-11.30.18:109][633]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_07_Cactus_Small_Mat.uasset
+[2017.12.08-11.30.22:024][788]LogSavePackage: Save=22.01ms
+[2017.12.08-11.30.22:024][788]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_08_Bench_Mat7B2F0FA54F906F784F366399D95EB26B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_08_Bench_Mat.uasset'
+[2017.12.08-11.30.22:026][788]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_08_Bench_Mat.uasset
+[2017.12.08-11.30.25:919][942]LogSavePackage: Save=22.11ms
+[2017.12.08-11.30.25:919][942]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_09_Bottle_Large_MatD72B808C45CB286FC0C675B76949DFA1.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Bottle_Large_Mat.uasset'
+[2017.12.08-11.30.25:921][942]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Bottle_Large_Mat.uasset
+[2017.12.08-11.30.29:802][ 95]LogSavePackage: Save=31.60ms
+[2017.12.08-11.30.29:802][ 95]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_09_Bottle_Round_MatE735EBDC476FE3F5ECCA2491D436D35E.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Bottle_Round_Mat.uasset'
+[2017.12.08-11.30.29:804][ 95]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Bottle_Round_Mat.uasset
+[2017.12.08-11.30.34:023][264]LogSavePackage: Save=21.30ms
+[2017.12.08-11.30.34:023][264]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_09_Mug_Mat74EF11D149D288A5CF935E92C1F4BD31.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Mug_Mat.uasset'
+[2017.12.08-11.30.34:025][264]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_09_Mug_Mat.uasset
+[2017.12.08-11.30.38:040][424]LogSavePackage: Save=21.14ms
+[2017.12.08-11.30.38:040][424]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_10_Cart_MatE0CD334D4CA0A5DACD50FEBEE4154D84.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_10_Cart_Mat.uasset'
+[2017.12.08-11.30.38:042][424]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_10_Cart_Mat.uasset
+[2017.12.08-11.30.41:957][577]LogSavePackage: Save=21.37ms
+[2017.12.08-11.30.41:957][577]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_11_Sofa_Mat6FBAEA924EC8625A9280E9AC1E53E727.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Sofa_Mat.uasset'
+[2017.12.08-11.30.41:959][577]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Sofa_Mat.uasset
+[2017.12.08-11.30.46:143][744]LogSavePackage: Save=23.75ms
+[2017.12.08-11.30.46:143][744]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_11_Table2_MatD0C439C84DA97705C32791B257247BB6.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Table2_Mat.uasset'
+[2017.12.08-11.30.46:145][744]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Table2_Mat.uasset
+[2017.12.08-11.30.49:608][881]LogSavePackage: Save=21.12ms
+[2017.12.08-11.30.49:608][881]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_11_Table_Mat4B37DBBB4567E41E6270969E28CD0C00.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Table_Mat.uasset'
+[2017.12.08-11.30.49:611][881]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_11_Table_Mat.uasset
+[2017.12.08-11.30.53:287][ 25]LogSavePackage: Save=29.23ms
+[2017.12.08-11.30.53:287][ 25]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_12_Lightpole_MatEEF32B784A10DEDE8856D7A43C17CFD2.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_12_Lightpole_Mat.uasset'
+[2017.12.08-11.30.53:290][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_12_Lightpole_Mat.uasset
+[2017.12.08-11.30.56:627][157]LogSavePackage: Save=23.94ms
+[2017.12.08-11.30.56:627][157]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_12_MailBox_Mat5D2FAE89488A96CFC97E7097E0ECA04A.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_12_MailBox_Mat.uasset'
+[2017.12.08-11.30.56:629][157]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_12_MailBox_Mat.uasset
+[2017.12.08-11.31.00:243][300]LogSavePackage: Save=23.09ms
+[2017.12.08-11.31.00:243][300]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_14_Barrel_MatC9214E7B4D30114BDD92D38D167B0499.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_14_Barrel_Mat.uasset'
+[2017.12.08-11.31.00:245][300]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_14_Barrel_Mat.uasset
+[2017.12.08-11.31.04:836][484]LogSavePackage: Save=34.73ms
+[2017.12.08-11.31.04:836][484]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_15_barstool_Mat0EC3A2FD4FEF9272E47D36B26F09FD8C.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_15_barstool_Mat.uasset'
+[2017.12.08-11.31.04:839][484]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_15_barstool_Mat.uasset
+[2017.12.08-11.31.08:340][621]LogSavePackage: Save=19.85ms
+[2017.12.08-11.31.08:340][621]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_16_Bed_Mat9089E02746EFBB094C89EBB9E185DFB8.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_16_Bed_Mat.uasset'
+[2017.12.08-11.31.08:342][621]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_16_Bed_Mat.uasset
+[2017.12.08-11.31.12:527][788]LogSavePackage: Save=24.52ms
+[2017.12.08-11.31.12:527][788]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_17_Boot_MatB30829D84E97F844BAE00DB29FC68935.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_17_Boot_Mat.uasset'
+[2017.12.08-11.31.12:529][788]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_17_Boot_Mat.uasset
+[2017.12.08-11.31.16:108][930]LogSavePackage: Save=22.25ms
+[2017.12.08-11.31.16:108][930]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_18_Bucket_Mat974BBE4C434402551D3DDCB1C7A2BA23.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_18_Bucket_Mat.uasset'
+[2017.12.08-11.31.16:110][930]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_18_Bucket_Mat.uasset
+[2017.12.08-11.31.19:964][ 80]LogSavePackage: Save=47.71ms
+[2017.12.08-11.31.19:964][ 80]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_19_Crate_Mat1AD21F2747935D8EED0192A1202DD26D.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_19_Crate_Mat.uasset'
+[2017.12.08-11.31.19:968][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_19_Crate_Mat.uasset
+[2017.12.08-11.31.23:409][215]LogSavePackage: Save=22.66ms
+[2017.12.08-11.31.23:409][215]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_20_Elevator_MatFD538BE042CEB3A80059C18A351B1731.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_20_Elevator_Mat.uasset'
+[2017.12.08-11.31.23:411][215]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_20_Elevator_Mat.uasset
+[2017.12.08-11.31.27:143][363]LogSavePackage: Save=21.86ms
+[2017.12.08-11.31.27:143][363]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_21_broom_MatF9A5C78D4FB0E954ECB386B608E04356.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_21_broom_Mat.uasset'
+[2017.12.08-11.31.27:145][363]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_21_broom_Mat.uasset
+[2017.12.08-11.31.31:157][525]LogSavePackage: Save=21.72ms
+[2017.12.08-11.31.31:157][525]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_22_FlowerPot_Mat5166104148A6FC4FC19856942CDBB4AE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_22_FlowerPot_Mat.uasset'
+[2017.12.08-11.31.31:159][525]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_22_FlowerPot_Mat.uasset
+[2017.12.08-11.31.34:657][667]LogSavePackage: Save=20.13ms
+[2017.12.08-11.31.34:657][667]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_23_Fridge_MatD7A0574A41985433BB7E2CB928A7EF75.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_23_Fridge_Mat.uasset'
+[2017.12.08-11.31.34:658][667]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_23_Fridge_Mat.uasset
+[2017.12.08-11.31.38:300][812]LogSavePackage: Save=16.65ms
+[2017.12.08-11.31.38:300][812]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_24_GarbageBin_Mat5F9AD59C496765F19DFF0884F34FE43C.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_24_GarbageBin_Mat.uasset'
+[2017.12.08-11.31.38:302][812]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_24_GarbageBin_Mat.uasset
+[2017.12.08-11.31.43:158][  6]LogSavePackage: Save=22.27ms
+[2017.12.08-11.31.43:158][  6]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_25_JukeBox_MatA9E5E62140705976A4441D96EC2C8683.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_25_JukeBox_Mat.uasset'
+[2017.12.08-11.31.43:160][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_25_JukeBox_Mat.uasset
+[2017.12.08-11.31.46:925][156]LogSavePackage: Save=22.86ms
+[2017.12.08-11.31.46:925][156]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_26_fountain_Mat4884688546FD573D8A840EA7486AA3E8.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_26_fountain_Mat.uasset'
+[2017.12.08-11.31.46:927][156]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_26_fountain_Mat.uasset
+[2017.12.08-11.31.50:527][298]LogSavePackage: Save=24.80ms
+[2017.12.08-11.31.50:527][298]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Mat_27_Wheel_MatC26863994999ED0ACF4D86966D76F108.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_27_Wheel_Mat.uasset'
+[2017.12.08-11.31.50:529][298]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Materials/Props/Mat_27_Wheel_Mat.uasset
+[2017.12.08-11.32.02:926][883]LogRenderer: Reallocating scene render targets to support 1180x812 Format 10 NumSamples 1 (Frame:1).
+[2017.12.08-11.32.11:478][278]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.08-11.32.26:580][996]LogRenderer: Reallocating scene render targets to support 1180x816 Format 10 NumSamples 1 (Frame:269).
+[2017.12.08-11.32.26:717][996]LogRenderer: Reallocating scene render targets to support 1180x824 Format 10 NumSamples 1 (Frame:270).
+[2017.12.08-11.32.27:926][ 52]LogSavePackage: Save=18.07ms
+[2017.12.08-11.32.27:926][ 52]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_07_Cactus592BF6954A2D7F2C734956BD9EB692B1.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_07_Cactus.uasset'
+[2017.12.08-11.32.27:928][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_07_Cactus.uasset
+[2017.12.08-11.32.38:906][576]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.12.08-11.32.39:015][576]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-11.32.39:119][576]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-11.32.39:209][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.12.08-11.32.39:214][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.12.08-11.32.39:219][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2017.12.08-11.32.39:224][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.12.08-11.32.39:228][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2017.12.08-11.33.01:988][654]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.08-11.33.02:086][654]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. Is special engine material.
+[2017.12.08-11.33.02:137][654]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. Is special engine material.
+[2017.12.08-11.33.02:212][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.12.08-11.33.02:218][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.12.08-11.33.02:223][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2017.12.08-11.33.02:228][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.12.08-11.33.02:234][654]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2017.12.08-11.33.17:688][358]LogSavePackage: Save=30.27ms
+[2017.12.08-11.33.17:688][358]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_08_Bench4F78222541B9C2DA2C994999E563EDF5.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_08_Bench.uasset'
+[2017.12.08-11.33.17:690][358]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_08_Bench.uasset
+[2017.12.08-11.33.31:593][ 30]LogSavePackage: Save=16.90ms
+[2017.12.08-11.33.31:593][ 30]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_09_Bottle_LargeC9E5A1D94DAD212678B094B61E1FE781.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Bottle_Large.uasset'
+[2017.12.08-11.33.31:595][ 30]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Bottle_Large.uasset
+[2017.12.08-11.34.12:031][560]LogSavePackage: Save=19.32ms
+[2017.12.08-11.34.12:031][560]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_10_Cart0893B5104A5176D5AC11FEA44A934B52.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_10_Cart.uasset'
+[2017.12.08-11.34.12:033][560]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_10_Cart.uasset
+[2017.12.08-11.34.13:674][606]LogSavePackage: Save=15.44ms
+[2017.12.08-11.34.13:674][606]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_09_Mug0B92CFD64C5C8A67A1811798DD8C7F28.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Mug.uasset'
+[2017.12.08-11.34.13:676][606]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Mug.uasset
+[2017.12.08-11.34.14:941][633]LogSavePackage: Save=29.46ms
+[2017.12.08-11.34.14:941][633]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_09_Bottle_Round4FA9D3744F3FA965C9466AB676407426.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Bottle_Round.uasset'
+[2017.12.08-11.34.14:943][633]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_09_Bottle_Round.uasset
+[2017.12.08-11.38.03:088][445]LogSavePackage: Save=155.99ms
+[2017.12.08-11.38.03:088][445]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/MainMenuLevelEB4BE0DD4195CE7A3087F0A2A45CF360.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap'
+[2017.12.08-11.38.03:089][445]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap
+[2017.12.08-11.38.05:381][452]LogSavePackage: Save=60.37ms
+[2017.12.08-11.38.05:381][452]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_26_fountain0DE258E3474F2BD1B550FB8A608A5262.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_26_fountain.uasset'
+[2017.12.08-11.38.05:383][452]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_26_fountain.uasset
+[2017.12.08-11.38.07:809][462]LogSavePackage: Save=33.68ms
+[2017.12.08-11.38.07:809][462]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_25_JukeBoxBAF44469466736F02449A8B670646CB4.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_25_JukeBox.uasset'
+[2017.12.08-11.38.07:811][462]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_25_JukeBox.uasset
+[2017.12.08-11.38.09:781][472]LogSavePackage: Save=48.22ms
+[2017.12.08-11.38.09:781][472]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_24_GarbagebinD4BEAB9A4F447C54D00E8584133867FC.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_24_Garbagebin.uasset'
+[2017.12.08-11.38.09:783][472]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_24_Garbagebin.uasset
+[2017.12.08-11.38.12:008][482]LogSavePackage: Save=28.17ms
+[2017.12.08-11.38.12:008][482]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_23_Fridge158A6E6D440187ED47045C9B1901FD50.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_23_Fridge.uasset'
+[2017.12.08-11.38.12:010][482]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_23_Fridge.uasset
+[2017.12.08-11.38.13:773][491]LogSavePackage: Save=24.12ms
+[2017.12.08-11.38.13:773][491]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_22_FlowerPot7F29345D4F387D26DEAA8DABE66CAB7A.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_22_FlowerPot.uasset'
+[2017.12.08-11.38.13:776][491]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_22_FlowerPot.uasset
+[2017.12.08-11.38.16:072][501]LogSavePackage: Save=21.92ms
+[2017.12.08-11.38.16:072][501]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_21_broomA4A31660490842CF777242A957A346FF.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_21_broom.uasset'
+[2017.12.08-11.38.16:074][501]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_21_broom.uasset
+[2017.12.08-11.38.18:746][510]LogSavePackage: Save=21.48ms
+[2017.12.08-11.38.18:746][510]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_20_ElevatorD0B1D16943FFC33A260D928567A912E5.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_20_Elevator.uasset'
+[2017.12.08-11.38.18:748][510]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_20_Elevator.uasset
+[2017.12.08-11.38.21:188][520]LogSavePackage: Save=39.98ms
+[2017.12.08-11.38.21:188][520]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_19_Crate8D1197964E25C342790EE6BB14BEC3BE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_19_Crate.uasset'
+[2017.12.08-11.38.21:190][520]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_19_Crate.uasset
+[2017.12.08-11.38.23:630][530]LogSavePackage: Save=44.02ms
+[2017.12.08-11.38.23:630][530]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_18_Bucket0DFA57B84D98EEC76C7B99BD2371AA44.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_18_Bucket.uasset'
+[2017.12.08-11.38.23:633][530]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_18_Bucket.uasset
+[2017.12.08-11.38.25:807][538]LogSavePackage: Save=31.54ms
+[2017.12.08-11.38.25:807][538]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_17_BootFF01E511431D33BEAED698B29AE22952.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_17_Boot.uasset'
+[2017.12.08-11.38.25:810][538]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_17_Boot.uasset
+[2017.12.08-11.38.29:315][553]LogSavePackage: Save=87.74ms
+[2017.12.08-11.38.29:315][553]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_16_Bed0BE74C824CFEFC6828464DB5ED1BE82B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_16_Bed.uasset'
+[2017.12.08-11.38.29:322][553]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_16_Bed.uasset
+[2017.12.08-11.38.31:352][561]LogSavePackage: Save=15.26ms
+[2017.12.08-11.38.31:352][561]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_15_barstool9830380C4BB5D9420BBF5F912B9EFA98.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_15_barstool.uasset'
+[2017.12.08-11.38.31:354][561]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_15_barstool.uasset
+[2017.12.08-11.38.33:661][626]LogSavePackage: Save=39.70ms
+[2017.12.08-11.38.33:662][626]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_14_BarrelCEC6DF504EA2644FFF1874A89F81E58C.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_14_Barrel.uasset'
+[2017.12.08-11.38.33:666][626]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_14_Barrel.uasset
+[2017.12.08-11.38.43:479][673]LogSavePackage: Save=23.64ms
+[2017.12.08-11.38.43:479][673]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_12_MailBox391668B446FF3A699E48D5910F51B18B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_12_MailBox.uasset'
+[2017.12.08-11.38.43:481][673]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_12_MailBox.uasset
+[2017.12.08-11.38.44:732][677]LogSavePackage: Save=21.28ms
+[2017.12.08-11.38.44:732][677]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_12_LightpoleB33F1C344DD2A1119F4B33906ADB97B0.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_12_Lightpole.uasset'
+[2017.12.08-11.38.44:735][677]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_12_Lightpole.uasset
+[2017.12.08-11.38.46:863][685]LogSavePackage: Save=37.61ms
+[2017.12.08-11.38.46:863][685]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_11_Table20E60696646AA2C2E4DA1A4BB97C52E15.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Table2.uasset'
+[2017.12.08-11.38.46:868][685]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Table2.uasset
+[2017.12.08-11.38.50:300][726]LogSavePackage: Save=28.68ms
+[2017.12.08-11.38.50:300][726]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_11_Table7D15B5B447452D4CDC280C946607B8F3.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Table.uasset'
+[2017.12.08-11.38.50:303][726]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Table.uasset
+[2017.12.08-11.38.51:766][731]LogSavePackage: Save=24.86ms
+[2017.12.08-11.38.51:766][731]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_11_Sofa5AFF79FB4EB5D2D8A5912A813E0BB711.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Sofa.uasset'
+[2017.12.08-11.38.51:770][731]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_11_Sofa.uasset
+[2017.12.08-11.39.11:369][389]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.08-11.39.11:376][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_07_Cactus_Mat.Mat_07_Cactus_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:382][389]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.39.11:409][389]MapCheck: Warning: Mat_07_Cactus_Mat Material /Game/Materials/Props/Mat_07_Cactus_Mat.Mat_07_Cactus_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:420][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_07_Cactus_Small_Mat.Mat_07_Cactus_Small_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:423][389]LogMaterial: Missing cached shader map for material Mat_07_Cactus_Small_Mat, compiling. 
+[2017.12.08-11.39.11:443][389]MapCheck: Warning: Mat_07_Cactus_Small_Mat Material /Game/Materials/Props/Mat_07_Cactus_Small_Mat.Mat_07_Cactus_Small_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:444][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_08_Bench_Mat.Mat_08_Bench_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:447][389]LogMaterial: Missing cached shader map for material Mat_08_Bench_Mat, compiling. 
+[2017.12.08-11.39.11:467][389]MapCheck: Warning: Mat_08_Bench_Mat Material /Game/Materials/Props/Mat_08_Bench_Mat.Mat_08_Bench_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:468][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_09_Bottle_Large_Mat.Mat_09_Bottle_Large_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:470][389]LogMaterial: Missing cached shader map for material Mat_09_Bottle_Large_Mat, compiling. 
+[2017.12.08-11.39.11:491][389]MapCheck: Warning: Mat_09_Bottle_Large_Mat Material /Game/Materials/Props/Mat_09_Bottle_Large_Mat.Mat_09_Bottle_Large_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:492][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_09_Bottle_Round_Mat.Mat_09_Bottle_Round_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:494][389]LogMaterial: Missing cached shader map for material Mat_09_Bottle_Round_Mat, compiling. 
+[2017.12.08-11.39.11:514][389]MapCheck: Warning: Mat_09_Bottle_Round_Mat Material /Game/Materials/Props/Mat_09_Bottle_Round_Mat.Mat_09_Bottle_Round_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:514][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_09_Mug_Mat.Mat_09_Mug_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:517][389]LogMaterial: Missing cached shader map for material Mat_09_Mug_Mat, compiling. 
+[2017.12.08-11.39.11:537][389]MapCheck: Warning: Mat_09_Mug_Mat Material /Game/Materials/Props/Mat_09_Mug_Mat.Mat_09_Mug_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:538][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_10_Cart_Mat.Mat_10_Cart_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:541][389]LogMaterial: Missing cached shader map for material Mat_10_Cart_Mat, compiling. 
+[2017.12.08-11.39.11:561][389]MapCheck: Warning: Mat_10_Cart_Mat Material /Game/Materials/Props/Mat_10_Cart_Mat.Mat_10_Cart_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:562][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_11_Sofa_Mat.Mat_11_Sofa_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:564][389]LogMaterial: Missing cached shader map for material Mat_11_Sofa_Mat, compiling. 
+[2017.12.08-11.39.11:584][389]MapCheck: Warning: Mat_11_Sofa_Mat Material /Game/Materials/Props/Mat_11_Sofa_Mat.Mat_11_Sofa_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:585][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_11_Table_Mat.Mat_11_Table_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:587][389]LogMaterial: Missing cached shader map for material Mat_11_Table_Mat, compiling. 
+[2017.12.08-11.39.11:607][389]MapCheck: Warning: Mat_11_Table_Mat Material /Game/Materials/Props/Mat_11_Table_Mat.Mat_11_Table_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:608][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_11_Table2_Mat.Mat_11_Table2_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:611][389]LogMaterial: Missing cached shader map for material Mat_11_Table2_Mat, compiling. 
+[2017.12.08-11.39.11:631][389]MapCheck: Warning: Mat_11_Table2_Mat Material /Game/Materials/Props/Mat_11_Table2_Mat.Mat_11_Table2_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:632][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_12_Lightpole_Mat.Mat_12_Lightpole_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:634][389]LogMaterial: Missing cached shader map for material Mat_12_Lightpole_Mat, compiling. 
+[2017.12.08-11.39.11:655][389]MapCheck: Warning: Mat_12_Lightpole_Mat Material /Game/Materials/Props/Mat_12_Lightpole_Mat.Mat_12_Lightpole_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:656][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_12_MailBox_Mat.Mat_12_MailBox_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:658][389]LogMaterial: Missing cached shader map for material Mat_12_MailBox_Mat, compiling. 
+[2017.12.08-11.39.11:682][389]MapCheck: Warning: Mat_12_MailBox_Mat Material /Game/Materials/Props/Mat_12_MailBox_Mat.Mat_12_MailBox_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:683][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_14_Barrel_Mat.Mat_14_Barrel_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:686][389]LogMaterial: Missing cached shader map for material Mat_14_Barrel_Mat, compiling. 
+[2017.12.08-11.39.11:707][389]MapCheck: Warning: Mat_14_Barrel_Mat Material /Game/Materials/Props/Mat_14_Barrel_Mat.Mat_14_Barrel_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:708][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_15_barstool_Mat.Mat_15_barstool_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:710][389]LogMaterial: Missing cached shader map for material Mat_15_barstool_Mat, compiling. 
+[2017.12.08-11.39.11:731][389]MapCheck: Warning: Mat_15_barstool_Mat Material /Game/Materials/Props/Mat_15_barstool_Mat.Mat_15_barstool_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:731][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_16_Bed_Mat.Mat_16_Bed_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:734][389]LogMaterial: Missing cached shader map for material Mat_16_Bed_Mat, compiling. 
+[2017.12.08-11.39.11:755][389]MapCheck: Warning: Mat_16_Bed_Mat Material /Game/Materials/Props/Mat_16_Bed_Mat.Mat_16_Bed_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:756][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_17_Boot_Mat.Mat_17_Boot_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:759][389]LogMaterial: Missing cached shader map for material Mat_17_Boot_Mat, compiling. 
+[2017.12.08-11.39.11:779][389]MapCheck: Warning: Mat_17_Boot_Mat Material /Game/Materials/Props/Mat_17_Boot_Mat.Mat_17_Boot_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:780][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_18_Bucket_Mat.Mat_18_Bucket_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:782][389]LogMaterial: Missing cached shader map for material Mat_18_Bucket_Mat, compiling. 
+[2017.12.08-11.39.11:803][389]MapCheck: Warning: Mat_18_Bucket_Mat Material /Game/Materials/Props/Mat_18_Bucket_Mat.Mat_18_Bucket_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:804][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_19_Crate_Mat.Mat_19_Crate_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:806][389]LogMaterial: Missing cached shader map for material Mat_19_Crate_Mat, compiling. 
+[2017.12.08-11.39.11:827][389]MapCheck: Warning: Mat_19_Crate_Mat Material /Game/Materials/Props/Mat_19_Crate_Mat.Mat_19_Crate_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:828][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_20_Elevator_Mat.Mat_20_Elevator_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:830][389]LogMaterial: Missing cached shader map for material Mat_20_Elevator_Mat, compiling. 
+[2017.12.08-11.39.11:852][389]MapCheck: Warning: Mat_20_Elevator_Mat Material /Game/Materials/Props/Mat_20_Elevator_Mat.Mat_20_Elevator_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:853][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_21_broom_Mat.Mat_21_broom_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:855][389]LogMaterial: Missing cached shader map for material Mat_21_broom_Mat, compiling. 
+[2017.12.08-11.39.11:876][389]MapCheck: Warning: Mat_21_broom_Mat Material /Game/Materials/Props/Mat_21_broom_Mat.Mat_21_broom_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:878][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_22_FlowerPot_Mat.Mat_22_FlowerPot_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:880][389]LogMaterial: Missing cached shader map for material Mat_22_FlowerPot_Mat, compiling. 
+[2017.12.08-11.39.11:901][389]MapCheck: Warning: Mat_22_FlowerPot_Mat Material /Game/Materials/Props/Mat_22_FlowerPot_Mat.Mat_22_FlowerPot_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:902][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_23_Fridge_Mat.Mat_23_Fridge_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:904][389]LogMaterial: Missing cached shader map for material Mat_23_Fridge_Mat, compiling. 
+[2017.12.08-11.39.11:925][389]MapCheck: Warning: Mat_23_Fridge_Mat Material /Game/Materials/Props/Mat_23_Fridge_Mat.Mat_23_Fridge_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:926][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_24_GarbageBin_Mat.Mat_24_GarbageBin_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:928][389]LogMaterial: Missing cached shader map for material Mat_24_GarbageBin_Mat, compiling. 
+[2017.12.08-11.39.11:953][389]MapCheck: Warning: Mat_24_GarbageBin_Mat Material /Game/Materials/Props/Mat_24_GarbageBin_Mat.Mat_24_GarbageBin_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:954][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_25_JukeBox_Mat.Mat_25_JukeBox_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:957][389]LogMaterial: Missing cached shader map for material Mat_25_JukeBox_Mat, compiling. 
+[2017.12.08-11.39.11:977][389]MapCheck: Warning: Mat_25_JukeBox_Mat Material /Game/Materials/Props/Mat_25_JukeBox_Mat.Mat_25_JukeBox_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.11:978][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_26_fountain_Mat.Mat_26_fountain_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.11:981][389]LogMaterial: Missing cached shader map for material Mat_26_fountain_Mat, compiling. 
+[2017.12.08-11.39.12:001][389]MapCheck: Warning: Mat_26_fountain_Mat Material /Game/Materials/Props/Mat_26_fountain_Mat.Mat_26_fountain_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.12:002][389]LogMaterial: Warning: Material /Game/Materials/Props/Mat_27_Wheel_Mat.Mat_27_Wheel_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.08-11.39.12:004][389]LogMaterial: Missing cached shader map for material Mat_27_Wheel_Mat, compiling. 
+[2017.12.08-11.39.12:025][389]MapCheck: Warning: Mat_27_Wheel_Mat Material /Game/Materials/Props/Mat_27_Wheel_Mat.Mat_27_Wheel_Mat was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.08-11.39.13:555][389]LogSavePackage: Save=42.89ms
+[2017.12.08-11.39.13:555][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_07_Cactus_SmallEE393DF340E71DDE0AC975B3403A5D2C.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_07_Cactus_Small.uasset'
+[2017.12.08-11.39.13:557][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_07_Cactus_Small.uasset
+[2017.12.08-11.39.13:618][389]LogSavePackage: Save=20.14ms
+[2017.12.08-11.39.13:618][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/M_27_Wheel58BB48904D4A4BAE30BB1F98FD4FA5B2.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_27_Wheel.uasset'
+[2017.12.08-11.39.13:621][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Outdoor/M_27_Wheel.uasset
+[2017.12.08-11.39.14:410][389]LogSavePackage: Save=772.21ms
+[2017.12.08-11.39.14:410][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_06_Jerrycan2B963BA849A4A73BD9F509955FBB285E.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_06_Jerrycan.uasset'
+[2017.12.08-11.39.14:412][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_06_Jerrycan.uasset
+[2017.12.08-11.39.15:137][389]LogSavePackage: Save=709.16ms
+[2017.12.08-11.39.15:137][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus961AFF76485CDF310C6283BE7EB0FE46.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus.uasset'
+[2017.12.08-11.39.15:139][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus.uasset
+[2017.12.08-11.39.15:820][389]LogSavePackage: Save=665.88ms
+[2017.12.08-11.39.15:820][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus_SmallC89EA9F64EFCD729355CB291538FA397.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus_Small.uasset'
+[2017.12.08-11.39.15:822][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus_Small.uasset
+[2017.12.08-11.39.16:162][389]LogSavePackage: Save=313.26ms
+[2017.12.08-11.39.16:162][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_07_Cactus_Small_E6ECC68454E62233E914FFAA582FC7ABF.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus_Small_E.uasset'
+[2017.12.08-11.39.16:164][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_07_Cactus_Small_E.uasset
+[2017.12.08-11.39.16:872][389]LogSavePackage: Save=695.04ms
+[2017.12.08-11.39.16:872][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_08_BenchF83B5C1E444345EDBB3683BDADCDDF14.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_08_Bench.uasset'
+[2017.12.08-11.39.16:874][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_08_Bench.uasset
+[2017.12.08-11.39.16:921][389]LogSavePackage: Save=33.82ms
+[2017.12.08-11.39.16:921][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Bottle_Large641DB0244516F6852754699A45D59D23.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Bottle_Large.uasset'
+[2017.12.08-11.39.16:924][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Bottle_Large.uasset
+[2017.12.08-11.39.16:968][389]LogSavePackage: Save=30.92ms
+[2017.12.08-11.39.16:969][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Bottle_RoundE74E3704482C1899E24960A62F9FDD7E.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Bottle_Round.uasset'
+[2017.12.08-11.39.16:971][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Bottle_Round.uasset
+[2017.12.08-11.39.17:037][389]LogSavePackage: Save=33.30ms
+[2017.12.08-11.39.17:037][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_09_Mug9C8D2F9C4A62BF2B80374CA912ECD36B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Mug.uasset'
+[2017.12.08-11.39.17:039][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_09_Mug.uasset
+[2017.12.08-11.39.17:115][389]LogSavePackage: Save=61.73ms
+[2017.12.08-11.39.17:115][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_10_Cart877365ED4F2C3419B06EB4AEC6837B6F.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_10_Cart.uasset'
+[2017.12.08-11.39.17:118][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_10_Cart.uasset
+[2017.12.08-11.39.17:202][389]LogSavePackage: Save=71.10ms
+[2017.12.08-11.39.17:203][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_Sofa52C7CB104F4AB6D8ED0592874855383F.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Sofa.uasset'
+[2017.12.08-11.39.17:206][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Sofa.uasset
+[2017.12.08-11.39.17:276][389]LogSavePackage: Save=57.39ms
+[2017.12.08-11.39.17:276][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_TableD09465B7404B376A54CCDDB049EDEB62.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Table.uasset'
+[2017.12.08-11.39.17:279][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Table.uasset
+[2017.12.08-11.39.17:354][389]LogSavePackage: Save=63.06ms
+[2017.12.08-11.39.17:354][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_11_Table2CC1863C44E37DBCE46F25A957E895B92.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Table2.uasset'
+[2017.12.08-11.39.17:357][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_11_Table2.uasset
+[2017.12.08-11.39.17:433][389]LogSavePackage: Save=63.24ms
+[2017.12.08-11.39.17:433][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_12_Lightpole77BD4F0D4BB06ADDECAA93A08281AC58.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_12_Lightpole.uasset'
+[2017.12.08-11.39.17:436][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_12_Lightpole.uasset
+[2017.12.08-11.39.17:510][389]LogSavePackage: Save=59.50ms
+[2017.12.08-11.39.17:510][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_12_MailBox8A9B15044418191FCB27AF8BEED1C6AC.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_12_MailBox.uasset'
+[2017.12.08-11.39.17:512][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_12_MailBox.uasset
+[2017.12.08-11.39.17:588][389]LogSavePackage: Save=63.50ms
+[2017.12.08-11.39.17:588][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_14_BarrelB55D7B974F94CCF8D3F834ABE611B82D.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_14_Barrel.uasset'
+[2017.12.08-11.39.17:591][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_14_Barrel.uasset
+[2017.12.08-11.39.18:271][389]LogSavePackage: Save=648.36ms
+[2017.12.08-11.39.18:272][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_15_barstoolFE36E6C743207EF580015387E28F22BA.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_15_barstool.uasset'
+[2017.12.08-11.39.18:274][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_15_barstool.uasset
+[2017.12.08-11.39.18:343][389]LogSavePackage: Save=55.02ms
+[2017.12.08-11.39.18:343][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_16_Bed469CD84347075247A4161CA6DDDAE188.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_16_Bed.uasset'
+[2017.12.08-11.39.18:346][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_16_Bed.uasset
+[2017.12.08-11.39.18:432][389]LogSavePackage: Save=73.65ms
+[2017.12.08-11.39.18:433][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_17_Boot29E2E1A44F4791A0E302F5A5043B26CD.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_17_Boot.uasset'
+[2017.12.08-11.39.18:436][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_17_Boot.uasset
+[2017.12.08-11.39.18:561][389]LogSavePackage: Save=111.18ms
+[2017.12.08-11.39.18:561][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_18_Bucket2235B4C5462D2CCC3A97BDBBDE44557B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_18_Bucket.uasset'
+[2017.12.08-11.39.18:564][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_18_Bucket.uasset
+[2017.12.08-11.39.18:655][389]LogSavePackage: Save=65.28ms
+[2017.12.08-11.39.18:655][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_19_Crate962D16B04F80BCDFDF64F4B033BE0BDE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_19_Crate.uasset'
+[2017.12.08-11.39.18:657][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_19_Crate.uasset
+[2017.12.08-11.39.18:840][389]LogSavePackage: Save=168.38ms
+[2017.12.08-11.39.18:841][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_20_Elevator626A31704879F969C033DBBDA597D4E2.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_20_Elevator.uasset'
+[2017.12.08-11.39.18:844][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_20_Elevator.uasset
+[2017.12.08-11.39.18:930][389]LogSavePackage: Save=63.02ms
+[2017.12.08-11.39.18:930][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_21_broomBFFD260041A26CD44CBD52B1509B7A65.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_21_broom.uasset'
+[2017.12.08-11.39.18:933][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_21_broom.uasset
+[2017.12.08-11.39.19:008][389]LogSavePackage: Save=62.50ms
+[2017.12.08-11.39.19:008][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_22_FlowerPot5E296CBB4472A18B62518AB069191F91.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_22_FlowerPot.uasset'
+[2017.12.08-11.39.19:010][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_22_FlowerPot.uasset
+[2017.12.08-11.39.19:089][389]LogSavePackage: Save=65.22ms
+[2017.12.08-11.39.19:089][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_23_FridgeE04AFC584EEBDB0C0815EC922272F5C3.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_23_Fridge.uasset'
+[2017.12.08-11.39.19:091][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_23_Fridge.uasset
+[2017.12.08-11.39.19:285][389]LogSavePackage: Save=180.26ms
+[2017.12.08-11.39.19:285][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_24_GarbageBinD1952DBE47925B08272F1BA233554101.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_24_GarbageBin.uasset'
+[2017.12.08-11.39.19:288][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_24_GarbageBin.uasset
+[2017.12.08-11.39.19:437][389]LogSavePackage: Save=135.89ms
+[2017.12.08-11.39.19:437][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_25_JukeBox25DB5DE748F6B37103A927AC36F48BFE.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_25_JukeBox.uasset'
+[2017.12.08-11.39.19:439][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_25_JukeBox.uasset
+[2017.12.08-11.39.19:677][389]LogSavePackage: Save=225.15ms
+[2017.12.08-11.39.19:677][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_26_fountain8728BCB74DF00C0D53FF3AAC59210C28.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_26_fountain.uasset'
+[2017.12.08-11.39.19:679][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_26_fountain.uasset
+[2017.12.08-11.39.19:723][389]LogSavePackage: Save=29.08ms
+[2017.12.08-11.39.19:723][389]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/T_27_WheelE8AE5D9D4DA4239D133741AD8ECAABB5.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_27_Wheel.uasset'
+[2017.12.08-11.39.19:726][389]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Textures/Props/T_27_Wheel.uasset
+[2017.12.08-11.39.19:729][389]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.08-11.39.19:729][389]LightingResults: New page: Lighting Build
+[2017.12.08-11.39.19:730][389]LoadErrors: New page: Loading map: Saloon_Gameplay_Jakob.umap
+[2017.12.08-11.39.19:731][389]MapCheck: New page: Map Check
+[2017.12.08-11.39.19:731][389]LightingResults: New page: Lighting Build
+[2017.12.08-11.39.20:589][389]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.08-11.39.20:677][389]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.08-11.39.20:753][389]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.059ms to complete.
+[2017.12.08-11.39.20:753][389]LogFileHelpers: Loading map 'Saloon_Gameplay_Jakob' took 1.027
+[2017.12.08-11.40.11:852][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_17_Boot)
+[2017.12.08-11.40.15:516][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_16_Bed)
+[2017.12.08-11.40.24:757][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_10_Cart)
+[2017.12.08-11.40.29:756][364]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.12.08-11.40.30:531][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_09_Mug)
+[2017.12.08-11.40.38:078][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_24_Garbagebin)
+[2017.12.08-11.40.41:359][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_23_Fridge)
+[2017.12.08-11.40.44:670][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_26_fountain)
+[2017.12.08-11.40.52:280][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_16_Bed)
+[2017.12.08-11.40.59:270][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_20_Elevator)
+[2017.12.08-11.41.03:736][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_21_broom)
+[2017.12.08-11.41.13:204][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_25_JukeBox)
+[2017.12.08-11.41.21:991][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_07_Cactus_Small)
+[2017.12.08-11.41.23:226][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_07_Cactus)
+[2017.12.08-11.41.25:940][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_07_Cactus_Small)
+[2017.12.08-11.41.27:816][697]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.12.08-11.41.33:707][ 42]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.12.08-11.41.34:361][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_07_Cactus)
+[2017.12.08-11.41.38:653][325]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.12.08-11.41.41:645][494]MapCheck: New page: Map Check
+[2017.12.08-11.41.41:746][494]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.08-11.41.41:749][494]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.08-11.41.43:343][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.12.08-11.41.43:361][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.12.08-11.41.43:381][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.41.43:390][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_07_Cactus_Small_Mat, compiling. 
+[2017.12.08-11.41.43:399][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_08_Bench_Mat, compiling. 
+[2017.12.08-11.41.43:408][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_09_Bottle_Large_Mat, compiling. 
+[2017.12.08-11.41.43:418][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_09_Bottle_Round_Mat, compiling. 
+[2017.12.08-11.41.43:425][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_09_Mug_Mat, compiling. 
+[2017.12.08-11.41.43:432][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_10_Cart_Mat, compiling. 
+[2017.12.08-11.41.43:439][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_11_Sofa_Mat, compiling. 
+[2017.12.08-11.41.43:446][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_11_Table_Mat, compiling. 
+[2017.12.08-11.41.43:453][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_11_Table2_Mat, compiling. 
+[2017.12.08-11.41.43:459][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_12_Lightpole_Mat, compiling. 
+[2017.12.08-11.41.43:466][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_12_MailBox_Mat, compiling. 
+[2017.12.08-11.41.43:480][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.08-11.41.43:488][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_14_Barrel_Mat, compiling. 
+[2017.12.08-11.41.43:496][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_15_barstool_Mat, compiling. 
+[2017.12.08-11.41.43:504][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_16_Bed_Mat, compiling. 
+[2017.12.08-11.41.43:512][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_17_Boot_Mat, compiling. 
+[2017.12.08-11.41.43:520][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_18_Bucket_Mat, compiling. 
+[2017.12.08-11.41.43:526][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_19_Crate_Mat, compiling. 
+[2017.12.08-11.41.43:533][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_20_Elevator_Mat, compiling. 
+[2017.12.08-11.41.43:541][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_21_broom_Mat, compiling. 
+[2017.12.08-11.41.43:548][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_22_FlowerPot_Mat, compiling. 
+[2017.12.08-11.41.43:558][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_23_Fridge_Mat, compiling. 
+[2017.12.08-11.41.43:568][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_24_GarbageBin_Mat, compiling. 
+[2017.12.08-11.41.43:576][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_25_JukeBox_Mat, compiling. 
+[2017.12.08-11.41.43:585][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_26_fountain_Mat, compiling. 
+[2017.12.08-11.41.43:593][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_27_Wheel_Mat, compiling. 
+[2017.12.08-11.41.44:843][494]TextureStreamingBuild: Display: Compiling optional shaders took 1.527 seconds.
+[2017.12.08-11.41.44:891][494]LogLevel: Display: Export Material TexCoord Scales took 0.049 seconds.
+[2017.12.08-11.41.44:926][494]TextureStreamingBuild: Display: Build Texture Streaming took 0.027 seconds.
+[2017.12.08-11.41.44:983][494]LightingResults: New page: Lighting Build - Dec 8, 2017, 3:41:44 PM
+[2017.12.08-11.41.45:407][494]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.08-11.41.45:730][494]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.08-11.41.45:756][494]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.08-11.41.46:276][494]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.08-11.41.46:277][494]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19272
+[2017.12.08-11.41.49:778][494]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.12.08-11.41.49:788][494]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.08-11.41.49:788][494]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.08-11.41.49:788][494]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.08-11.41.49:788][494]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.08-11.41.49:788][494]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.08-11.41.49:945][494]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.08-11.41.49:945][494]MapCheck: New page: Saloon_Gameplay_Jakob - Dec 8, 2017, 3:41:49 PM
+[2017.12.08-11.41.50:020][494]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.12.08-11.41.50:092][494]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 145.78ms to complete.
+[2017.12.08-11.41.50:114][494]LogEditorBuildUtils: Build time 0:08
+[2017.12.08-11.41.50:232][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.41.50:238][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_07_Cactus_Mat, compiling. 
+[2017.12.08-11.41.50:326][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_07_Cactus_Small_Mat, compiling. 
+[2017.12.08-11.41.50:333][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_07_Cactus_Small_Mat, compiling. 
+[2017.12.08-11.41.50:358][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_08_Bench_Mat, compiling. 
+[2017.12.08-11.41.50:365][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_08_Bench_Mat, compiling. 
+[2017.12.08-11.41.50:416][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Bottle_Large_Mat, compiling. 
+[2017.12.08-11.41.50:424][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Bottle_Large_Mat, compiling. 
+[2017.12.08-11.41.50:452][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Bottle_Round_Mat, compiling. 
+[2017.12.08-11.41.50:461][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Bottle_Round_Mat, compiling. 
+[2017.12.08-11.41.50:493][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Mug_Mat, compiling. 
+[2017.12.08-11.41.50:504][500]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_09_Mug_Mat, compiling. 
+[2017.12.08-11.41.50:538][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_10_Cart_Mat, compiling. 
+[2017.12.08-11.41.50:551][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_10_Cart_Mat, compiling. 
+[2017.12.08-11.41.50:578][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Sofa_Mat, compiling. 
+[2017.12.08-11.41.50:587][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Sofa_Mat, compiling. 
+[2017.12.08-11.41.50:610][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Table_Mat, compiling. 
+[2017.12.08-11.41.50:620][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Table_Mat, compiling. 
+[2017.12.08-11.41.50:641][504]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Table2_Mat, compiling. 
+[2017.12.08-11.41.50:649][504]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_11_Table2_Mat, compiling. 
+[2017.12.08-11.41.50:671][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_12_Lightpole_Mat, compiling. 
+[2017.12.08-11.41.50:681][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_12_Lightpole_Mat, compiling. 
+[2017.12.08-11.41.50:706][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_12_MailBox_Mat, compiling. 
+[2017.12.08-11.41.50:716][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_12_MailBox_Mat, compiling. 
+[2017.12.08-11.41.50:738][507]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_14_Barrel_Mat, compiling. 
+[2017.12.08-11.41.50:747][507]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_14_Barrel_Mat, compiling. 
+[2017.12.08-11.41.50:774][508]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_15_barstool_Mat, compiling. 
+[2017.12.08-11.41.50:782][508]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_15_barstool_Mat, compiling. 
+[2017.12.08-11.41.50:815][509]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_16_Bed_Mat, compiling. 
+[2017.12.08-11.41.50:823][509]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_16_Bed_Mat, compiling. 
+[2017.12.08-11.41.50:848][510]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_17_Boot_Mat, compiling. 
+[2017.12.08-11.41.50:857][510]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_17_Boot_Mat, compiling. 
+[2017.12.08-11.41.50:878][511]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_18_Bucket_Mat, compiling. 
+[2017.12.08-11.41.50:886][511]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_18_Bucket_Mat, compiling. 
+[2017.12.08-11.41.50:905][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_19_Crate_Mat, compiling. 
+[2017.12.08-11.41.50:915][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_19_Crate_Mat, compiling. 
+[2017.12.08-11.41.50:938][513]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_20_Elevator_Mat, compiling. 
+[2017.12.08-11.41.50:947][513]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_20_Elevator_Mat, compiling. 
+[2017.12.08-11.41.50:974][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_21_broom_Mat, compiling. 
+[2017.12.08-11.41.50:984][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_21_broom_Mat, compiling. 
+[2017.12.08-11.41.51:007][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_22_FlowerPot_Mat, compiling. 
+[2017.12.08-11.41.51:016][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_22_FlowerPot_Mat, compiling. 
+[2017.12.08-11.41.51:036][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_23_Fridge_Mat, compiling. 
+[2017.12.08-11.41.51:047][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_23_Fridge_Mat, compiling. 
+[2017.12.08-11.41.51:068][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_24_GarbageBin_Mat, compiling. 
+[2017.12.08-11.41.51:076][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_24_GarbageBin_Mat, compiling. 
+[2017.12.08-11.41.51:106][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_25_JukeBox_Mat, compiling. 
+[2017.12.08-11.41.51:116][518]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_25_JukeBox_Mat, compiling. 
+[2017.12.08-11.41.51:142][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_26_fountain_Mat, compiling. 
+[2017.12.08-11.41.51:153][519]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_26_fountain_Mat, compiling. 
+[2017.12.08-11.41.51:177][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_27_Wheel_Mat, compiling. 
+[2017.12.08-11.41.51:187][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_27_Wheel_Mat, compiling. 
+[2017.12.08-11.42.01:123][760]LightingResults: Warning: M_12_Lightpole Object has overlapping UVs.
+[2017.12.08-11.42.01:123][760]LightingResults: M_12_Lightpole Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.08-11.42.01:145][761]LightingResults: Warning: M_07_Cactus Object has overlapping UVs.
+[2017.12.08-11.42.01:145][761]LightingResults: M_07_Cactus Lightmap UV are overlapping by 5.1%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.08-11.42.01:442][775]LightingResults: Warning: M_18_Bucket Object has overlapping UVs.
+[2017.12.08-11.42.01:442][775]LightingResults: M_18_Bucket Lightmap UV are overlapping by 1.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.12.08-11.42.03:208][864]Job is a success!
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.12.08-11.42.03:867][865]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.12.08-11.42.04:019][865]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.12.08-11.42.04:019][865]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2017.12.08-11.42.04:042][865]Lightmass on LAPTOPJAKOB: 6.31 sec total, 939 ms importing, 50 ms setup, 1.13 sec photons, 4.16 sec processing, 0 ms extra exporting [116/116 mappings]. Threads: 28.9 sec total, 14.7 sec processing.
+[2017.12.08-11.42.04:061][865]LogStaticLightingSystem: Illumination: 19.0 sec (492 ms encoding lightmaps, 67 ms encoding shadowmaps)
+[2017.12.08-11.42.04:061][865]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.12.08-11.42.04:061][865]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.12.08-11.42.04:790][865]DumpUnbuiltLightIteractions
+[2017.12.08-11.42.04:790][865]Lights with unbuilt interactions: 0
+[2017.12.08-11.42.04:790][865]
+[2017.12.08-11.42.04:790][865]Primitives with unbuilt interactions: 0
+[2017.12.08-11.42.04:803][866]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.08-11.42.04:803][866]MapCheck: New page: Saloon_Gameplay_Jakob - Dec 8, 2017, 3:42:04 PM
+[2017.12.08-11.42.04:897][866]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.204ms to complete.
+[2017.12.08-11.43.00:638][193]LogSlate: Took 0.017892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.08-11.43.04:500][419]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.12.08-11.43.04:890][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.08-11.43.04:936][419]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.43.04:936][419]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.08-11.43.04:943][419]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.08-11.43.04:944][419]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.08-11.43.04:944][419]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+[2017.12.08-11.43.04:944][419]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/' was not found.
+[2017.12.08-11.43.04:969][419]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Dec 8, 2017, 3:43:04 PM)
+[2017.12.08-11.43.04:979][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob
+[2017.12.08-11.43.05:008][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028451s)
+[2017.12.08-11.43.05:009][419]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.08-11.43.05:009][419]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2017.12.08-11.43.05:014][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.038399s)
+[2017.12.08-11.43.05:032][419]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.08-11.43.05:044][419]LogInit: FAudioDevice initialized.
+[2017.12.08-11.43.05:145][419]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.08-11.43.05:359][419]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.08-13.43.05
+[2017.12.08-11.43.05:379][419]LogWorld: Bringing up level for play took: 0.024438
+[2017.12.08-11.43.05:494][419]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.08-11.43.05:631][419]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.12.08-11.43.06:182][419]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob 2.128
+[2017.12.08-11.43.06:187][419]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Dec 8, 2017, 3:43:06 PM)
+[2017.12.08-11.43.06:188][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob
+[2017.12.08-11.43.06:217][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029596s)
+[2017.12.08-11.43.06:218][419]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.08-11.43.06:218][419]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2017.12.08-11.43.06:219][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.031196s)
+[2017.12.08-11.43.06:285][419]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.08-11.43.06:290][419]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.08-13.43.06
+[2017.12.08-11.43.06:290][419]LogWorld: Bringing up level for play took: 0.004513
+[2017.12.08-11.43.06:302][419]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.08-11.43.06:311][419]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob 2.257
+[2017.12.08-11.43.08:760][528]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.08:867][529]LogBlueprintUserMessages: [Bullet_01_C_0] Hit
+[2017.12.08-11.43.09:203][542]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.09:220][543]LogBlueprintUserMessages: [Bullet_01_C_1] Hit
+[2017.12.08-11.43.17:737][ 52]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-145.540 Y=507.625 Z=124.434] for [Bullet_01_C]
+[2017.12.08-11.43.17:737][ 52]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.18:771][114]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-272.849 Y=524.507 Z=117.995] for [Bullet_01_C]
+[2017.12.08-11.43.18:771][114]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.19:251][143]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.19:252][143]LogBlueprintUserMessages: [Bullet_01_C_4] Hit
+[2017.12.08-11.43.27:887][661]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-383.351 Y=804.661 Z=128.467] for [Bullet_01_C]
+[2017.12.08-11.43.27:887][661]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.38:121][275]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.38:121][275]LogBlueprintUserMessages: [Bullet_01_C_6] Hit
+[2017.12.08-11.43.39:755][373]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.39:768][374]LogBlueprintUserMessages: [Bullet_01_C_7] Hit
+[2017.12.08-11.43.40:236][402]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.40:252][403]LogBlueprintUserMessages: [Bullet_01_C_8] Hit
+[2017.12.08-11.43.40:921][443]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.40:935][444]LogBlueprintUserMessages: [Bullet_01_C_9] Hit
+[2017.12.08-11.43.42:287][525]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.42:318][527]LogBlueprintUserMessages: [Bullet_01_C_10] Hit
+[2017.12.08-11.43.43:039][570]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=225.741 Y=729.811 Z=116.338] for [Bullet_01_C]
+[2017.12.08-11.43.43:039][570]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.45:087][693]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.45:087][693]LogBlueprintUserMessages: [Bullet_01_C_12] Hit
+[2017.12.08-11.43.45:568][722]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.45:607][722]LogBlueprintUserMessages: [Bullet_01_C_13] Hit
+[2017.12.08-11.43.46:069][750]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.46:569][780]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.43.46:585][781]LogBlueprintUserMessages: [Bullet_01_C_14] Hit
+[2017.12.08-11.43.47:069][810]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
+[2017.12.08-11.44.08:073][ 50]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.44.08:073][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.08-11.44.08:111][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.08-11.44.08:112][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.08-11.44.08:147][ 50]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.44.08:147][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.08-11.44.08:147][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.08-11.44.08:147][ 50]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.08-11.44.08:147][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.08-11.44.08:255][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2017.12.08-11.44.08:255][ 51]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.44.08:255][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2017.12.08-11.44.08:255][ 51]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.44.09:961][149]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.12.08-11.44.54:397][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.12.08-11.44.56:329][823]LogSavePackage: Save=370.79ms
+[2017.12.08-11.44.56:329][823]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Saloon_Gameplay_JakobB5704016477D232396E132A71EA8D7D3.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap'
+[2017.12.08-11.44.56:331][823]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap
+[2017.12.08-11.44.56:682][823]LogSavePackage: Save=127.57ms
+[2017.12.08-11.44.56:682][823]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Saloon_Gameplay_Jakob_BuiltDataD1182C8148BAC948B6DC6093F8F1D919.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob_BuiltData.uasset'
+[2017.12.08-11.44.56:684][823]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob_BuiltData.uasset
+[2017.12.08-11.45.00:819][ 58]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.08-11.45.00:819][ 58]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.08-11.45.01:093][ 59]Cmd: QUIT_EDITOR
+[2017.12.08-11.45.02:369][ 59]LogExit: Preparing to exit.
+[2017.12.08-11.45.03:581][ 59]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.12.08-11.45.03:753][ 59]LogExit: Editor shut down
+[2017.12.08-11.45.03:768][ 59]LogExit: Transaction tracking system shut down
+[2017.12.08-11.45.04:018][ 59]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.08-11.45.04:018][ 59]LogDirectoryWatcher: A directory notification for '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.12.08-11.45.04:018][ 59]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.08-11.45.04:018][ 59]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.08-11.45.04:018][ 59]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.08-11.45.05:066][ 59]LogExit: Object subsystem successfully closed.
+[2017.12.08-11.45.05:299][ 59]LogD3D11RHI: Shutdown
+[2017.12.08-11.45.05:304][ 59]LogD3D11RHI: CleanupD3DDevice
+[2017.12.08-11.45.05:335][ 59]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.08-11.45.06:087][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (543)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module Voice (541)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (539)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (537)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module MaterialEditor (535)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (533)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module SceneOutliner (531)
+[2017.12.08-11.45.06:088][ 59]LogModuleManager: Shutting down and abandoning module AddContentDialog (529)
+[2017.12.08-11.45.06:098][ 59]LogDirectoryWatcher: A directory notification for 'G:/Program Files/EpicGames/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.08-11.45.06:126][ 59]LogModuleManager: Shutting down and abandoning module WidgetCarousel (528)
+[2017.12.08-11.45.06:126][ 59]LogModuleManager: Shutting down and abandoning module EditorWidgets (525)
+[2017.12.08-11.45.06:126][ 59]LogModuleManager: Shutting down and abandoning module CollectionManager (523)
+[2017.12.08-11.45.06:137][ 59]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.12.08-11.45.06:137][ 59]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' was aborted.
+[2017.12.08-11.45.06:137][ 59]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.12.08-11.45.06:137][ 59]LogModuleManager: Shutting down and abandoning module StatsViewer (521)
+[2017.12.08-11.45.06:146][ 59]LogModuleManager: Shutting down and abandoning module FoliageEdit (519)
+[2017.12.08-11.45.06:146][ 59]LogModuleManager: Shutting down and abandoning module LandscapeEditor (517)
+[2017.12.08-11.45.06:167][ 59]LogModuleManager: Shutting down and abandoning module MeshPaintMode (515)
+[2017.12.08-11.45.06:167][ 59]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (513)
+[2017.12.08-11.45.06:167][ 59]LogModuleManager: Shutting down and abandoning module ActorPickerMode (511)
+[2017.12.08-11.45.06:167][ 59]LogModuleManager: Shutting down and abandoning module GeometryMode (509)
+[2017.12.08-11.45.06:167][ 59]LogModuleManager: Shutting down and abandoning module TextureAlignMode (507)
+[2017.12.08-11.45.06:168][ 59]LogModuleManager: Shutting down and abandoning module BspMode (505)
+[2017.12.08-11.45.06:177][ 59]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (503)
+[2017.12.08-11.45.06:177][ 59]LogModuleManager: Shutting down and abandoning module HardwareSurvey (501)
+[2017.12.08-11.45.06:177][ 59]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (499)
+[2017.12.08-11.45.06:183][ 59]LogModuleManager: Shutting down and abandoning module AutomationWorker (497)
+[2017.12.08-11.45.06:189][ 59]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (495)
+[2017.12.08-11.45.06:200][ 59]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (493)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module PlacementMode (492)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (489)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (487)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (485)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (483)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (481)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module Media (480)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (477)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module CharacterAI (475)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module AudioCapture (473)
+[2017.12.08-11.45.06:235][ 59]LogModuleManager: Shutting down and abandoning module SequenceRecorder (472)
+[2017.12.08-11.45.06:246][ 59]LogModuleManager: Shutting down and abandoning module SmartSnapping (469)
+[2017.12.08-11.45.06:246][ 59]LogModuleManager: Shutting down and abandoning module SessionServices (467)
+[2017.12.08-11.45.06:246][ 59]LogModuleManager: Shutting down and abandoning module ViewportSnapping (465)
+[2017.12.08-11.45.06:246][ 59]LogModuleManager: Shutting down and abandoning module ViewportInteraction (463)
+[2017.12.08-11.45.06:246][ 59]LogModuleManager: Shutting down and abandoning module ClothPainter (461)
+[2017.12.08-11.45.06:276][ 59]LogModuleManager: Shutting down and abandoning module LogVisualizer (459)
+[2017.12.08-11.45.06:293][ 59]LogModuleManager: Shutting down and abandoning module IntroTutorials (457)
+[2017.12.08-11.45.06:310][ 59]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (456)
+[2017.12.08-11.45.06:310][ 59]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (453)
+[2017.12.08-11.45.06:316][ 59]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (451)
+[2017.12.08-11.45.06:316][ 59]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (449)
+[2017.12.08-11.45.06:317][ 59]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (448)
+[2017.12.08-11.45.07:252][ 59]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (445)
+[2017.12.08-11.45.07:252][ 59]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (443)
+[2017.12.08-11.45.07:252][ 59]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (441)
+[2017.12.08-11.45.07:252][ 59]LogModuleManager: Shutting down and abandoning module InputBindingEditor (439)
+[2017.12.08-11.45.07:287][ 59]LogModuleManager: Shutting down and abandoning module MergeActors (437)
+[2017.12.08-11.45.07:292][ 59]LogModuleManager: Shutting down and abandoning module SizeMap (435)
+[2017.12.08-11.45.07:292][ 59]LogModuleManager: Shutting down and abandoning module TreeMap (433)
+[2017.12.08-11.45.07:301][ 59]LogModuleManager: Shutting down and abandoning module ReferenceViewer (431)
+[2017.12.08-11.45.07:301][ 59]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (429)
+[2017.12.08-11.45.07:307][ 59]LogModuleManager: Shutting down and abandoning module LocalizationService (428)
+[2017.12.08-11.45.07:318][ 59]LogModuleManager: Shutting down and abandoning module HardwareTargeting (425)
+[2017.12.08-11.45.07:318][ 59]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (423)
+[2017.12.08-11.45.07:325][ 59]LogModuleManager: Shutting down and abandoning module UndoHistory (421)
+[2017.12.08-11.45.07:325][ 59]LogModuleManager: Shutting down and abandoning module XmlParser (419)
+[2017.12.08-11.45.07:336][ 59]LogModuleManager: Shutting down and abandoning module Blutility (417)
+[2017.12.08-11.45.07:336][ 59]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (415)
+[2017.12.08-11.45.07:336][ 59]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (414)
+[2017.12.08-11.45.07:337][ 59]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (411)
+[2017.12.08-11.45.07:337][ 59]LogModuleManager: Shutting down and abandoning module SettingsEditor (409)
+[2017.12.08-11.45.07:346][ 59]LogModuleManager: Shutting down and abandoning module ProjectLauncher (407)
+[2017.12.08-11.45.07:357][ 59]LogModuleManager: Shutting down and abandoning module SessionFrontend (405)
+[2017.12.08-11.45.07:369][ 59]LogModuleManager: Shutting down and abandoning module ProfilerClient (403)
+[2017.12.08-11.45.07:376][ 59]LogModuleManager: Shutting down and abandoning module DeviceManager (401)
+[2017.12.08-11.45.07:386][ 59]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (400)
+[2017.12.08-11.45.07:430][ 59]LogModuleManager: Shutting down and abandoning module AutomationController (397)
+[2017.12.08-11.45.07:436][ 59]LogModuleManager: Shutting down and abandoning module AutomationWindow (395)
+[2017.12.08-11.45.07:459][ 59]LogModuleManager: Shutting down and abandoning module Layers (393)
+[2017.12.08-11.45.07:471][ 59]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (391)
+[2017.12.08-11.45.07:471][ 59]LogModuleManager: Shutting down and abandoning module DetailCustomizations (389)
+[2017.12.08-11.45.07:471][ 59]LogModuleManager: Shutting down and abandoning module PackagesDialog (387)
+[2017.12.08-11.45.07:471][ 59]LogModuleManager: Shutting down and abandoning module Persona (385)
+[2017.12.08-11.45.07:498][ 59]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (384)
+[2017.12.08-11.45.07:498][ 59]LogModuleManager: Shutting down and abandoning module AnimGraph (382)
+[2017.12.08-11.45.07:504][ 59]LogModuleManager: Shutting down and abandoning module Kismet (379)
+[2017.12.08-11.45.07:505][ 59]LogModuleManager: Shutting down and abandoning module ClassViewer (377)
+[2017.12.08-11.45.07:505][ 59]LogModuleManager: Shutting down and abandoning module Toolbox (375)
+[2017.12.08-11.45.07:505][ 59]LogModuleManager: Shutting down and abandoning module ModuleUI (373)
+[2017.12.08-11.45.07:514][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneTools (371)
+[2017.12.08-11.45.07:537][ 59]LogModuleManager: Shutting down and abandoning module OutputLog (369)
+[2017.12.08-11.45.07:542][ 59]LogModuleManager: Shutting down and abandoning module GammaUI (367)
+[2017.12.08-11.45.07:552][ 59]LogModuleManager: Shutting down and abandoning module Documentation (365)
+[2017.12.08-11.45.07:552][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (363)
+[2017.12.08-11.45.07:552][ 59]LogModuleManager: Shutting down and abandoning module MovieScene (361)
+[2017.12.08-11.45.07:552][ 59]LogModuleManager: Shutting down and abandoning module Niagara (359)
+[2017.12.08-11.45.07:552][ 59]LogModuleManager: Shutting down and abandoning module NiagaraEditor (358)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (355)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module LauncherPlatform (353)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module AnalyticsET (351)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module PortalServices (349)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module PortalRpc (347)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module MessagingRpc (345)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module AIModule (343)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module GameplayDebugger (342)
+[2017.12.08-11.45.07:575][ 59]LogModuleManager: Shutting down and abandoning module AITestSuite (340)
+[2017.12.08-11.45.07:581][ 59]LogModuleManager: Shutting down and abandoning module ProfilerService (337)
+[2017.12.08-11.45.07:746][ 59]LogModuleManager: Shutting down and abandoning module TaskGraph (335)
+[2017.12.08-11.45.07:758][ 59]LogModuleManager: Shutting down and abandoning module SteamVRController (333)
+[2017.12.08-11.45.07:758][ 59]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (331)
+[2017.12.08-11.45.07:758][ 59]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (329)
+[2017.12.08-11.45.07:758][ 59]LogModuleManager: Shutting down and abandoning module OculusInput (327)
+[2017.12.08-11.45.07:770][ 59]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (325)
+[2017.12.08-11.45.07:770][ 59]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (323)
+[2017.12.08-11.45.07:770][ 59]LogModuleManager: Shutting down and abandoning module CableComponent (321)
+[2017.12.08-11.45.07:781][ 59]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (319)
+[2017.12.08-11.45.07:781][ 59]LogModuleManager: Shutting down and abandoning module AndroidPermission (317)
+[2017.12.08-11.45.07:781][ 59]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (315)
+[2017.12.08-11.45.07:798][ 59]LogModuleManager: Shutting down and abandoning module HTML5Networking (313)
+[2017.12.08-11.45.07:798][ 59]LogModuleManager: Shutting down and abandoning module AlembicImporter (311)
+[2017.12.08-11.45.07:806][ 59]LogModuleManager: Shutting down and abandoning module AlembicLibrary (310)
+[2017.12.08-11.45.07:806][ 59]LogModuleManager: Shutting down and abandoning module GeometryCache (309)
+[2017.12.08-11.45.07:806][ 59]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (308)
+[2017.12.08-11.45.07:807][ 59]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (303)
+[2017.12.08-11.45.07:807][ 59]LogModuleManager: Shutting down and abandoning module PluginBrowser (301)
+[2017.12.08-11.45.07:823][ 59]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (299)
+[2017.12.08-11.45.07:837][ 59]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (297)
+[2017.12.08-11.45.07:844][ 59]LogModuleManager: Shutting down and abandoning module DesktopPlatform (296)
+[2017.12.08-11.45.07:855][ 59]LogModuleManager: Shutting down and abandoning module UObjectPlugin (293)
+[2017.12.08-11.45.07:856][ 59]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (291)
+[2017.12.08-11.45.07:869][ 59]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (289)
+[2017.12.08-11.45.07:878][ 59]LogModuleManager: Shutting down and abandoning module GitSourceControl (287)
+[2017.12.08-11.45.07:896][ 59]LogModuleManager: Shutting down and abandoning module SourceControl (286)
+[2017.12.08-11.45.07:897][ 59]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (283)
+[2017.12.08-11.45.07:897][ 59]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (281)
+[2017.12.08-11.45.07:897][ 59]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (279)
+[2017.12.08-11.45.07:897][ 59]LogModuleManager: Shutting down and abandoning module Paper2DEditor (277)
+[2017.12.08-11.45.07:905][ 59]LogModuleManager: Shutting down and abandoning module MeshPaint (276)
+[2017.12.08-11.45.07:914][ 59]LogModuleManager: Shutting down and abandoning module LevelEditor (274)
+[2017.12.08-11.45.07:920][ 59]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (273)
+[2017.12.08-11.45.07:930][ 59]LogModuleManager: Shutting down and abandoning module MainFrame (271)
+[2017.12.08-11.45.07:931][ 59]LogModuleManager: Shutting down and abandoning module HotReload (270)
+[2017.12.08-11.45.07:938][ 59]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Binaries/Win64' was aborted.
+[2017.12.08-11.45.07:955][ 59]LogModuleManager: Shutting down and abandoning module HatTrick (265)
+[2017.12.08-11.45.07:955][ 59]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (263)
+[2017.12.08-11.45.07:955][ 59]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (261)
+[2017.12.08-11.45.07:955][ 59]LogModuleManager: Shutting down and abandoning module PhysXVehicles (259)
+[2017.12.08-11.45.07:955][ 59]LogModuleManager: Shutting down and abandoning module OculusEditor (257)
+[2017.12.08-11.45.07:956][ 59]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (255)
+[2017.12.08-11.45.07:956][ 59]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (253)
+[2017.12.08-11.45.07:956][ 59]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (251)
+[2017.12.08-11.45.07:967][ 59]LogModuleManager: Shutting down and abandoning module UdpMessaging (249)
+[2017.12.08-11.45.08:068][ 59]LogModuleManager: Shutting down and abandoning module TcpMessaging (247)
+[2017.12.08-11.45.08:194][ 59]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (245)
+[2017.12.08-11.45.08:222][ 59]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (243)
+[2017.12.08-11.45.08:222][ 59]LogModuleManager: Shutting down and abandoning module FacialAnimation (241)
+[2017.12.08-11.45.08:222][ 59]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (239)
+[2017.12.08-11.45.08:236][ 59]LogModuleManager: Shutting down and abandoning module GraphEditor (238)
+[2017.12.08-11.45.08:237][ 59]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
+[2017.12.08-11.45.08:240][ 59]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (233)
+[2017.12.08-11.45.08:240][ 59]LogModuleManager: Shutting down and abandoning module Paper2D (231)
+[2017.12.08-11.45.08:251][ 59]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (229)
+[2017.12.08-11.45.08:263][ 59]LogModuleManager: Shutting down and abandoning module WmfMedia (227)
+[2017.12.08-11.45.08:276][ 59]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
+[2017.12.08-11.45.08:276][ 59]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
+[2017.12.08-11.45.08:276][ 59]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
+[2017.12.08-11.45.08:317][ 59]LogModuleManager: Shutting down and abandoning module Overlay (219)
+[2017.12.08-11.45.08:317][ 59]LogModuleManager: Shutting down and abandoning module OverlayEditor (218)
+[2017.12.08-11.45.08:317][ 59]LogModuleManager: Shutting down and abandoning module MediaAssets (215)
+[2017.12.08-11.45.08:317][ 59]LogModuleManager: Shutting down and abandoning module VREditor (213)
+[2017.12.08-11.45.08:332][ 59]LogModuleManager: Shutting down and abandoning module StringTableEditor (211)
+[2017.12.08-11.45.08:335][ 59]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (209)
+[2017.12.08-11.45.08:335][ 59]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (207)
+[2017.12.08-11.45.08:361][ 59]LogModuleManager: Shutting down and abandoning module FunctionalTesting (205)
+[2017.12.08-11.45.08:362][ 59]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (203)
+[2017.12.08-11.45.08:373][ 59]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (202)
+[2017.12.08-11.45.08:373][ 59]LogModuleManager: Shutting down and abandoning module UMG (199)
+[2017.12.08-11.45.08:373][ 59]LogModuleManager: Shutting down and abandoning module UMGEditor (198)
+[2017.12.08-11.45.08:393][ 59]LogModuleManager: Shutting down and abandoning module Sequencer (197)
+[2017.12.08-11.45.08:419][ 59]LogModuleManager: Shutting down and abandoning module MessageLog (194)
+[2017.12.08-11.45.08:419][ 59]LogModuleManager: Shutting down and abandoning module SlateReflector (189)
+[2017.12.08-11.45.08:446][ 59]LogModuleManager: Shutting down and abandoning module Slate (187)
+[2017.12.08-11.45.08:446][ 59]LogModuleManager: Shutting down and abandoning module EditorStyle (185)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module MRMesh (183)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (181)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (179)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module XAudio2 (177)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module Networking (175)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module Core (173)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
+[2017.12.08-11.45.08:467][ 59]LogModuleManager: Shutting down and abandoning module MeshUtilities (165)
+[2017.12.08-11.45.08:489][ 59]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (164)
+[2017.12.08-11.45.08:500][ 59]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (163)
+[2017.12.08-11.45.08:500][ 59]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (162)
+[2017.12.08-11.45.08:507][ 59]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (160)
+[2017.12.08-11.45.08:508][ 59]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
+[2017.12.08-11.45.08:524][ 59]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
+[2017.12.08-11.45.08:530][ 59]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.12.08-11.45.08:533][ 59]LogModuleManager: Shutting down and abandoning module DerivedDataCache (149)
+[2017.12.08-11.45.08:627][ 59]LogDerivedDataCache: Shutdown
+[2017.12.08-11.45.08:627][ 59]LogModuleManager: Shutting down and abandoning module TargetPlatform (147)
+[2017.12.08-11.45.08:627][ 59]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (146)
+[2017.12.08-11.45.08:665][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (144)
+[2017.12.08-11.45.08:676][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (142)
+[2017.12.08-11.45.08:684][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (140)
+[2017.12.08-11.45.08:740][ 59]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (138)
+[2017.12.08-11.45.08:791][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (136)
+[2017.12.08-11.45.08:791][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (134)
+[2017.12.08-11.45.08:791][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (132)
+[2017.12.08-11.45.08:791][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (130)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (128)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module ImageWrapper (127)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (124)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (122)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (120)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (118)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (116)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (114)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (112)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (110)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (108)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Messaging (106)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (104)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (102)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (100)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (98)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (96)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (94)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (92)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (90)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (88)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (86)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (84)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (82)
+[2017.12.08-11.45.08:800][ 59]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (80)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (78)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (76)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (74)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (72)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (70)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (68)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module InputCore (65)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module Settings (63)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module PhysXCooking (61)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module SteamVR (59)
+[2017.12.08-11.45.08:801][ 59]LogModuleManager: Shutting down and abandoning module OculusHMD (57)
+[2017.12.08-11.45.08:806][ 59]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (55)
+[2017.12.08-11.45.08:807][ 59]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2017.12.08-11.45.08:807][ 59]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2017.12.08-11.45.08:807][ 59]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.08-11.45.08:807][ 59]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.08-11.45.08:808][ 59]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.08-11.45.08:808][ 59]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.08-11.45.08:808][ 59]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.08-11.45.08:821][ 59]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.08-11.45.08:830][ 59]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.08-11.45.08:830][ 59]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.08-11.45.08:841][ 59]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B02997A64-4C56-8194-6CF9-B99E9D9ADDB8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=357f863d4f5fb1ff71e785b6d1103b1d%7C64977fec07734a60b96d8774f36ba866%7Ce3a1f3dd-580a-406e-afe3-de2f723cde57&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.08-11.45.08:847][ 59]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.08-11.45.08:854][ 59]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.08-11.45.08:866][ 59]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.08-11.45.08:883][ 59]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.08-11.45.08:889][ 59]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.08-11.45.08:901][ 59]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.08-11.45.08:901][ 59]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.08-11.45.08:904][ 59]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.08-11.45.08:905][ 59]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.08-11.45.08:916][ 59]LogExit: Exiting.
+[2017.12.08-11.45.08:942][ 59]Log file closed, 12/08/17 13:45:08
+>>>>>>> c6ae536515939d9d40b95786747b89e2002340de
