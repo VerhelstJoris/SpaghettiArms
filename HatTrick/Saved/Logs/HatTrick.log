@@ -1,4 +1,4 @@
-﻿Log file open, 11/29/17 15:07:05
+﻿Log file open, 12/04/17 22:19:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HatTrick
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1154070398) SRandInit(-1154070398).
+LogInit: Display: RandInit(1897167825) SRandInit(1897167825).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.162451
+LogStats: Stats thread started at 0.163230
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -116,992 +116,698 @@ LogInit: Base directory: G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win6
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.29-13.07.06:452][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.29-13.07.06:452][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.29-13.07.06:476][  0]LogInit: Computer: LAPTOPJAKOB
-[2017.11.29-13.07.06:476][  0]LogInit: User: jakob000
-[2017.11.29-13.07.06:476][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.29-13.07.06:476][  0]LogInit: High frequency timer resolution =2.435775 MHz
-[2017.11.29-13.07.06:477][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.29-13.07.06:477][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.29-13.07.06:477][  0]LogMemory: Process Physical Memory: 277.60 MB used, 277.60 MB peak
-[2017.11.29-13.07.06:477][  0]LogMemory: Process Virtual Memory: 282.46 MB used, 282.46 MB peak
-[2017.11.29-13.07.06:477][  0]LogMemory: Physical Memory: 10486.85 MB used,  5812.25 MB free, 16299.11 MB total
-[2017.11.29-13.07.06:477][  0]LogMemory: Virtual Memory: 661.32 MB used,  5812.25 MB free, 134217728.00 MB total
-[2017.11.29-13.07.06:590][  0]LogInit: Using OS detected language (en-GB).
-[2017.11.29-13.07.06:590][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.29-13.07.06:593][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.11.29-13.07.07:241][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.29-13.07.07:268][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200M' (Feature Level 11_0)
-[2017.11.29-13.07.07:268][  0]LogD3D11RHI:       1961/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.29-13.07.07:269][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.29-13.07.07:269][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.29-13.07.07:269][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.29-13.07.07:275][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.29-13.07.07:275][  0]LogD3D11RHI:     GPU DeviceId: 0x13b3 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.29-13.07.07:275][  0]LogWindows: EnumDisplayDevices:
-[2017.11.29-13.07.07:275][  0]LogWindows:    0. 'NVIDIA Quadro K2200M' (P:1 D:1)
-[2017.11.29-13.07.07:276][  0]LogWindows:    1. 'NVIDIA Quadro K2200M' (P:0 D:0)
-[2017.11.29-13.07.07:276][  0]LogWindows:    2. 'NVIDIA Quadro K2200M' (P:0 D:0)
-[2017.11.29-13.07.07:276][  0]LogWindows:    3. 'NVIDIA Quadro K2200M' (P:0 D:0)
-[2017.11.29-13.07.07:276][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.29-13.07.07:276][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200M
-[2017.11.29-13.07.07:276][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
-[2017.11.29-13.07.07:276][  0]LogD3D11RHI:      Driver Date: 9-25-2017
-[2017.11.29-13.07.07:276][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.29-13.07.07:291][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.29-13.07.07:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.11.29-13.07.07:354][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/20596/).
-[2017.11.29-13.07.07:354][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/CF5566DD4A11DC2620F962ACA9EDF875/'.
-[2017.11.29-13.07.07:354][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.29-13.07.08:204][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.29-13.07.08:240][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.29-13.07.08:276][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.29-13.07.08:311][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.29-13.07.08:346][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.29-13.07.08:382][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.29-13.07.08:417][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.29-13.07.08:451][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.29-13.07.08:481][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.29-13.07.08:516][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.29-13.07.08:551][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.29-13.07.08:585][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.29-13.07.08:620][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.29-13.07.08:655][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.29-13.07.08:690][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.29-13.07.08:761][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.29-13.07.08:761][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.29-13.07.08:787][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.29-13.07.08:856][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.29-13.07.08:899][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.29-13.07.08:955][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.29-13.07.08:990][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.29-13.07.09:025][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.29-13.07.09:060][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.29-13.07.09:060][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.29-13.07.09:351][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.29-13.07.09:446][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.29-13.07.09:446][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.29-13.07.09:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.29-13.07.09:446][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.29-13.07.09:447][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.29-13.07.09:447][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.29-13.07.09:465][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.29-13.07.09:477][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jakob_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.29-13.07.09:487][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.29-13.07.09:488][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.29-13.07.09:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.29-13.07.09:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.29-13.07.09:742][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2017.11.29-13.07.09:846][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.29-13.07.10:105][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.29-13.07.10:129][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.29-13.07.10:129][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.29-13.07.10:129][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.29-13.07.10:129][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.29-13.07.10:129][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.29-13.07.10:130][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.29-13.07.10:534][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
-[2017.11.29-13.07.10:703][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.037049 seconds
-[2017.11.29-13.07.10:709][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
-[2017.11.29-13.07.10:709][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
-[2017.11.29-13.07.10:709][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.29-13.07.12:660][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.29-13.07.12:689][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.29-13.07.13:175][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.29-13.07.13:453][  0]SourceControl: Source control is disabled
-[2017.11.29-13.07.13:453][  0]SourceControl: Source control is disabled
-[2017.11.29-13.07.13:482][  0]SourceControl: Source control is disabled
-[2017.11.29-13.07.13:511][  0]SourceControl: Source control is disabled
-[2017.11.29-13.07.13:829][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.29-13.07.13:976][  0]LogOcInput: OculusInput pre-init called
-[2017.11.29-13.07.14:147][  0]LogEngine: Initializing Engine...
-[2017.11.29-13.07.14:148][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.29-13.07.14:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.29-13.07.14:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.29-13.07.14:444][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.29-13.07.14:449][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.29-13.07.14:852][  0]LogInit: FAudioDevice initialized.
-[2017.11.29-13.07.14:982][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.29-13.07.15:005][  0]LogInit: Texture streaming: Enabled
-[2017.11.29-13.07.15:076][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.29-13.07.15:207][  0]LogInit: Transaction tracking system initialized
-[2017.11.29-13.07.15:389][  0]BlueprintLog: New page: Editor Load
-[2017.11.29-13.07.15:963][  0]LocalizationService: Localization service is disabled
-[2017.11.29-13.07.16:424][  0]LogConsoleResponse: Display: 
-[2017.11.29-13.07.16:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.29-13.07.16:575][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.29-13.07.16:575][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.29-13.07.17:271][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.01s
-[2017.11.29-13.07.17:271][  0]SourceControl: Source control is disabled
-[2017.11.29-13.07.17:272][  0]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.29-13.07.17:272][  0]LightingResults: New page: Lighting Build
-[2017.11.29-13.07.17:304][  0]MapCheck: New page: Map Check
-[2017.11.29-13.07.17:304][  0]LightingResults: New page: Lighting Build
-[2017.11.29-13.07.17:674][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
-[2017.11.29-13.07.17:674][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap.
-[2017.11.29-13.07.17:674][  0]LoadErrors: Error: /Game/Maps/MainMenuLevel : Can't find file for asset. /Game/Maps/MainMenuLevel_BuiltData
-[2017.11.29-13.07.17:745][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
-[2017.11.29-13.07.17:745][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap.
-[2017.11.29-13.07.17:745][  0]LoadErrors: Error: /Game/Maps/MainMenuLevel : Can't find file for asset. /Game/Maps/MainMenuLevel_BuiltData
-[2017.11.29-13.07.17:747][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
-[2017.11.29-13.07.17:747][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
-[2017.11.29-13.07.17:747][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
-[2017.11.29-13.07.17:747][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
-[2017.11.29-13.07.17:793][  0]LogLinker: Warning: Can't find file '/Game/Maps/MainMenuLevel_BuiltData'
-[2017.11.29-13.07.17:793][  0]LoadErrors: Failed to load /Game/Maps/MainMenuLevel_BuiltData.MainMenuLevel_BuiltData Referenced by PersistentLevel
-[2017.11.29-13.07.17:793][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/MainMenuLevel_BuiltData' while loading NULL.
-[2017.11.29-13.07.17:793][  0]LoadErrors: Failed to load /Game/Maps/MainMenuLevel_BuiltData.MainMenuLevel_BuiltData Referenced by PersistentLevel
-[2017.11.29-13.07.18:038][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2017.11.29-13.07.18:039][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.29-13.07.18:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.29-13.07.18:094][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.388ms to complete.
-[2017.11.29-13.07.18:095][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.823
-[2017.11.29-13.07.18:168][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.29-13.07.18:282][  0]LogCollectionManager: Loaded 0 collections in 0.000846 seconds
-[2017.11.29-13.07.18:342][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
-[2017.11.29-13.07.18:342][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' took 0.01s
-[2017.11.29-13.07.18:342][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
-[2017.11.29-13.07.18:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.29-13.07.18:351][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2387 classes and 502 folders.
-[2017.11.29-13.07.18:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.11.29-13.07.18:422][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.11.29-13.07.18:450][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2017.11.29-13.07.18:525][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.29-13.07.18:529][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.29-13.07.18:535][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.29-13.07.18:645][  0]LogRenderer: Reallocating scene render targets to support 844x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.29-13.07.18:819][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
-[2017.11.29-13.07.18:819][  0]LogLoad: (Engine Initialization) Total time: 14.01 seconds
-[2017.11.29-13.07.18:819][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.29-13.07.18:820][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.29-13.07.18:874][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.29-13.07.18:950][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.29-13.07.18:958][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.11s
-[2017.11.29-13.07.18:977][  1]LogAssetRegistry: Asset discovery search completed in 9.2565 seconds
-[2017.11.29-13.07.18:979][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.29-13.07.18:979][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2017.11.29-13.07.19:866][ 53]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.29-13.07.27:913][531]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.29-13.07.28:147][531]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
-[2017.11.29-13.07.28:147][531]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
-[2017.11.29-13.07.28:147][531]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2017.11.29-13.07.28:147][531]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
-[2017.11.29-13.07.28:147][531]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2017.11.29-13.07.30:827][531]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 512X256)
-[2017.11.29-13.07.30:828][531]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
-[2017.11.29-13.07.31:019][531]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
-[2017.11.29-13.07.31:039][531]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.29-13.07.31:076][531]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.29-13.07.31:076][531]LightingResults: New page: Lighting Build
-[2017.11.29-13.07.31:077][531]LoadErrors: New page: Loading map: Saloon_Gameplay_Jakob.umap
-[2017.11.29-13.07.31:077][531]MapCheck: New page: Map Check
-[2017.11.29-13.07.31:077][531]LightingResults: New page: Lighting Build
-[2017.11.29-13.07.31:172][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.29-13.07.31:527][531]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.29-13.07.31:576][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.956ms to complete.
-[2017.11.29-13.07.31:576][531]LogFileHelpers: Loading map 'Saloon_Gameplay_Jakob' took 0.501
-[2017.11.29-13.07.35:136][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barber_Shop)
-[2017.11.29-13.07.35:807][772]Cmd: DELETE
-[2017.11.29-13.07.35:807][772]Cmd: ACTOR DELETE
-[2017.11.29-13.07.35:810][772]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.35:825][772]LogEditorActor: Deleted 1 Actors (0.018 secs)
-[2017.11.29-13.07.36:152][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House13)
-[2017.11.29-13.07.36:233][792]Cmd: DELETE
-[2017.11.29-13.07.36:233][792]Cmd: ACTOR DELETE
-[2017.11.29-13.07.36:234][792]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.36:244][792]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.36:503][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House11)
-[2017.11.29-13.07.36:576][808]Cmd: DELETE
-[2017.11.29-13.07.36:576][808]Cmd: ACTOR DELETE
-[2017.11.29-13.07.36:576][808]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.36:587][808]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.36:843][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House12)
-[2017.11.29-13.07.36:874][823]Cmd: DELETE
-[2017.11.29-13.07.36:874][823]Cmd: ACTOR DELETE
-[2017.11.29-13.07.36:874][823]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.36:885][823]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.37:190][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House15)
-[2017.11.29-13.07.37:268][842]Cmd: DELETE
-[2017.11.29-13.07.37:268][842]Cmd: ACTOR DELETE
-[2017.11.29-13.07.37:268][842]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.37:279][842]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.37:749][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House14)
-[2017.11.29-13.07.37:779][870]Cmd: DELETE
-[2017.11.29-13.07.37:779][870]Cmd: ACTOR DELETE
-[2017.11.29-13.07.37:779][870]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.37:790][870]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.38:013][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House16)
-[2017.11.29-13.07.38:089][884]Cmd: DELETE
-[2017.11.29-13.07.38:089][884]Cmd: ACTOR DELETE
-[2017.11.29-13.07.38:090][884]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.38:100][884]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.38:435][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House19)
-[2017.11.29-13.07.38:506][905]Cmd: DELETE
-[2017.11.29-13.07.38:506][905]Cmd: ACTOR DELETE
-[2017.11.29-13.07.38:507][905]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.38:517][905]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.38:687][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House17)
-[2017.11.29-13.07.38:717][915]Cmd: DELETE
-[2017.11.29-13.07.38:717][915]Cmd: ACTOR DELETE
-[2017.11.29-13.07.38:718][915]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.38:728][915]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.39:100][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House18)
-[2017.11.29-13.07.39:174][938]Cmd: DELETE
-[2017.11.29-13.07.39:174][938]Cmd: ACTOR DELETE
-[2017.11.29-13.07.39:174][938]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.39:185][938]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.39:436][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saloon)
-[2017.11.29-13.07.39:473][953]Cmd: DELETE
-[2017.11.29-13.07.39:473][953]Cmd: ACTOR DELETE
-[2017.11.29-13.07.39:473][953]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.39:484][953]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.39:903][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House20)
-[2017.11.29-13.07.40:098][986]Cmd: DELETE
-[2017.11.29-13.07.40:098][986]Cmd: ACTOR DELETE
-[2017.11.29-13.07.40:099][986]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.40:109][986]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.40:411][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House9)
-[2017.11.29-13.07.40:493][  5]Cmd: DELETE
-[2017.11.29-13.07.40:493][  5]Cmd: ACTOR DELETE
-[2017.11.29-13.07.40:493][  5]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.40:504][  5]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.40:855][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House21)
-[2017.11.29-13.07.40:980][ 30]Cmd: DELETE
-[2017.11.29-13.07.40:980][ 30]Cmd: ACTOR DELETE
-[2017.11.29-13.07.40:981][ 30]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.40:992][ 30]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.41:342][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House8)
-[2017.11.29-13.07.41:416][ 52]Cmd: DELETE
-[2017.11.29-13.07.41:416][ 52]Cmd: ACTOR DELETE
-[2017.11.29-13.07.41:417][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.07.41:427][ 52]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.07.42:346][107]MapCheck: New page: Map Check
-[2017.11.29-13.07.42:362][107]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.07.42:362][107]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.07.42:508][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.07.42:515][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2017.11.29-13.07.42:521][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Plated_Roof, compiling. 
-[2017.11.29-13.07.42:527][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.07.42:534][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.07.42:541][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.07.42:547][107]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.07.43:081][107]TextureStreamingBuild: Display: Compiling optional shaders took 0.577 seconds.
-[2017.11.29-13.07.43:092][107]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
-[2017.11.29-13.07.43:099][107]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
-[2017.11.29-13.07.43:109][107]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:07:43 PM
-[2017.11.29-13.07.43:142][107]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.07.43:173][107]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.07.43:181][107]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.07.43:691][107]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.07.43:691][107]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.07.46:564][107]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.07.46:690][107]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.07.46:690][107]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:07:46 PM
-[2017.11.29-13.07.46:728][107]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.11.29-13.07.46:779][107]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 88.423ms to complete.
-[2017.11.29-13.07.46:801][107]LogEditorBuildUtils: Build time 0:04
-[2017.11.29-13.07.50:190][264]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
-[2017.11.29-13.07.50:212][265]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
-[2017.11.29-13.07.50:425][278]Job is a success!
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2017.11.29-13.07.50:944][279]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2017.11.29-13.07.51:104][279]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2017.11.29-13.07.51:104][279]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
-[2017.11.29-13.07.51:124][279]Lightmass on LAPTOPJAKOB: 3.32 sec total, 407 ms importing, 54 ms setup, 558 ms photons, 2.29 sec processing, 0 ms extra exporting [90/90 mappings]. Threads: 15.8 sec total, 4.39 sec processing.
-[2017.11.29-13.07.51:153][279]LogStaticLightingSystem: Illumination: 8.01 sec (408 ms encoding lightmaps, 153 ms encoding shadowmaps)
-[2017.11.29-13.07.51:153][279]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.11.29-13.07.51:153][279]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.07.51:572][279]DumpUnbuiltLightIteractions
-[2017.11.29-13.07.51:572][279]Lights with unbuilt interactions: 0
-[2017.11.29-13.07.51:572][279]
-[2017.11.29-13.07.51:572][279]Primitives with unbuilt interactions: 0
-[2017.11.29-13.07.51:592][280]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.07.51:593][280]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:07:51 PM
-[2017.11.29-13.07.51:709][280]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.198ms to complete.
-[2017.11.29-13.07.59:901][718]LogRenderer: Reallocating scene render targets to support 924x592 Format 10 NumSamples 1 (Frame:1).
-[2017.11.29-13.08.12:725][359]LogActorFactory: Actor Factory created All_Buildings_M_Barber_Shop
-[2017.11.29-13.08.17:086][599]LogActorFactory: Actor Factory created All_Buildings_M_Barber_Shop
-[2017.11.29-13.08.17:703][636]LogActorFactory: Actor Factory created All_Buildings_M_Barber_Shop
-[2017.11.29-13.08.20:446][794]MapCheck: New page: Map Check
-[2017.11.29-13.08.20:479][794]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.08.20:479][794]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.08.20:596][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.08.20:601][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
-[2017.11.29-13.08.20:607][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Plated_Roof, compiling. 
-[2017.11.29-13.08.20:614][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.08.20:620][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.08.20:627][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.08.20:634][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.08.20:644][794]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.29-13.08.21:259][794]TextureStreamingBuild: Display: Compiling optional shaders took 0.665 seconds.
-[2017.11.29-13.08.21:268][794]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
-[2017.11.29-13.08.21:275][794]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
-[2017.11.29-13.08.21:285][794]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:08:21 PM
-[2017.11.29-13.08.21:297][794]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.08.21:299][794]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.08.21:299][794]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.08.21:300][794]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.08.21:300][794]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.08.25:827][794]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.08.25:828][794]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.08.25:828][794]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.08.25:828][794]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.08.25:828][794]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.08.25:829][794]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.08.26:071][794]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.08.26:071][794]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:08:26 PM
-[2017.11.29-13.08.26:108][794]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.11.29-13.08.26:156][794]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 84.981ms to complete.
-[2017.11.29-13.08.26:180][794]LogEditorBuildUtils: Build time 0:05
-[2017.11.29-13.08.28:477][879]LightingResults: Warning: All_Buildings_M_Barber_Shop Object has overlapping UVs.
-[2017.11.29-13.08.28:477][879]LightingResults: All_Buildings_M_Barber_Shop Lightmap UV are overlapping by 59.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.11.29-13.08.29:276][915]LightingResults: Warning: M_Resident_House Object has overlapping UVs.
-[2017.11.29-13.08.29:276][915]LightingResults: M_Resident_House Lightmap UV are overlapping by 6.2%. Please adjust content - Enable Error Coloring to visualize.
-[2017.11.29-13.08.29:545][928]Job is a success!
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2017.11.29-13.08.30:053][929]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.11.29-13.08.30:200][929]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2017.11.29-13.08.30:200][929]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X512)
-[2017.11.29-13.08.30:222][929]Lightmass on LAPTOPJAKOB: 3.21 sec total, 368 ms importing, 62 ms setup, 496 ms photons, 2.27 sec processing, 0 ms extra exporting [91/91 mappings]. Threads: 15.7 sec total, 5.11 sec processing.
-[2017.11.29-13.08.30:229][929]LogStaticLightingSystem: Illumination: 8.90 sec (395 ms encoding lightmaps, 140 ms encoding shadowmaps)
-[2017.11.29-13.08.30:229][929]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.11.29-13.08.30:229][929]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.08.30:837][929]DumpUnbuiltLightIteractions
-[2017.11.29-13.08.30:837][929]Lights with unbuilt interactions: 0
-[2017.11.29-13.08.30:837][929]
-[2017.11.29-13.08.30:837][929]Primitives with unbuilt interactions: 0
-[2017.11.29-13.08.30:848][930]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.08.30:848][930]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:08:30 PM
-[2017.11.29-13.08.30:950][930]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.632ms to complete.
-[2017.11.29-13.08.35:742][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.08.37:284][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Resident_House10)
-[2017.11.29-13.08.38:146][314]Cmd: DELETE
-[2017.11.29-13.08.38:146][314]Cmd: ACTOR DELETE
-[2017.11.29-13.08.38:146][314]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.08.38:160][314]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.11.29-13.08.38:437][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.08.38:524][331]Cmd: DELETE
-[2017.11.29-13.08.38:524][331]Cmd: ACTOR DELETE
-[2017.11.29-13.08.38:525][331]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.08.38:535][331]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.11.29-13.08.52:903][584]LogStaticMesh: Building static mesh All_Buildings_M_Barber_Shop...
-[2017.11.29-13.08.53:159][584]LogStaticMesh: Built static mesh [0.26s] /Game/Meshes/Buildings/All_Buildings_M_Barber_Shop.All_Buildings_M_Barber_Shop
-[2017.11.29-13.08.53:201][584]LogStaticMesh: Warning: All_Buildings_M_Barber_Shop has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.01:441][646]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\DAE\DAE_2017_2018\Groupproject\Buildings_Fbx\All_Buildings.FBX)
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: Model, ItemCount : 9
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: Geometry, ItemCount : 9
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: Material, ItemCount : 65
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: Texture, ItemCount : 56
-[2017.11.29-13.09.01:513][646]LogFbx: ItemName: Video, ItemCount : 56
-[2017.11.29-13.09.01:519][646]LogFbx: Loading FBX Scene from G:\DAE\DAE_2017_2018\Groupproject\Buildings_Fbx\All_Buildings.FBX
-[2017.11.29-13.09.01:824][646]LogFbx: FBX Scene Loaded Succesfully
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_1' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_2' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_3' 
-[2017.11.29-13.09.01:831][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_3' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_4' 
-[2017.11.29-13.09.01:832][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_4' 
-[2017.11.29-13.09.25:738][646]LogFbx: Loading FBX Scene from G:\DAE\DAE_2017_2018\Groupproject\Buildings_Fbx\All_Buildings.FBX
-[2017.11.29-13.09.26:048][646]LogFbx: FBX Scene Loaded Succesfully
-[2017.11.29-13.09.26:113][646]LogStaticMesh: Building static mesh All_Buildings_M_Resident_House_3...
-[2017.11.29-13.09.26:498][646]LogStaticMesh: Built static mesh [0.39s] /Game/Meshes/Buildings/All_Buildings_M_Resident_House_3.All_Buildings_M_Resident_House_3
-[2017.11.29-13.09.26:546][646]LogStaticMesh: Warning: All_Buildings_M_Resident_House_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.26:570][646]LogFbx: Warning: Triangulating static mesh M_Saloon
-[2017.11.29-13.09.34:249][646]LogStaticMesh: Building static mesh All_Buildings_M_Saloon...
-[2017.11.29-13.09.38:507][646]LogStaticMesh: Built static mesh [4.26s] /Game/Meshes/Buildings/All_Buildings_M_Saloon.All_Buildings_M_Saloon
-[2017.11.29-13.09.38:766][646]LogStaticMesh: Warning: All_Buildings_M_Saloon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.38:819][646]LogStaticMesh: Building static mesh All_Buildings_M_Resident_House_2...
-[2017.11.29-13.09.38:968][646]LogStaticMesh: Built static mesh [0.15s] /Game/Meshes/Buildings/All_Buildings_M_Resident_House_2.All_Buildings_M_Resident_House_2
-[2017.11.29-13.09.38:999][646]LogStaticMesh: Warning: All_Buildings_M_Resident_House_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.39:015][646]LogStaticMesh: Building static mesh All_Buildings_M_Jail...
-[2017.11.29-13.09.39:059][646]LogStaticMesh: Built static mesh [0.04s] /Game/Meshes/Buildings/All_Buildings_M_Jail.All_Buildings_M_Jail
-[2017.11.29-13.09.39:069][646]LogStaticMesh: Warning: All_Buildings_M_Jail has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.39:112][646]LogStaticMesh: Building static mesh All_Buildings_M_Intenet_Cafe...
-[2017.11.29-13.09.39:320][646]LogStaticMesh: Built static mesh [0.21s] /Game/Meshes/Buildings/All_Buildings_M_Intenet_Cafe.All_Buildings_M_Intenet_Cafe
-[2017.11.29-13.09.39:352][646]LogStaticMesh: Warning: All_Buildings_M_Intenet_Cafe has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.39:400][646]LogStaticMesh: Building static mesh All_Buildings_M_Barber_Shop...
-[2017.11.29-13.09.39:644][646]LogStaticMesh: Built static mesh [0.24s] /Game/Meshes/Buildings/All_Buildings_M_Barber_Shop.All_Buildings_M_Barber_Shop
-[2017.11.29-13.09.39:684][646]LogStaticMesh: Warning: All_Buildings_M_Barber_Shop has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.39:742][646]LogStaticMesh: Building static mesh All_Buildings_M_General_Store...
-[2017.11.29-13.09.40:081][646]LogStaticMesh: Built static mesh [0.34s] /Game/Meshes/Buildings/All_Buildings_M_General_Store.All_Buildings_M_General_Store
-[2017.11.29-13.09.40:131][646]LogStaticMesh: Warning: All_Buildings_M_General_Store has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.40:168][646]LogStaticMesh: Building static mesh All_Buildings_M_Resident_House_1...
-[2017.11.29-13.09.40:299][646]LogStaticMesh: Built static mesh [0.13s] /Game/Meshes/Buildings/All_Buildings_M_Resident_House_1.All_Buildings_M_Resident_House_1
-[2017.11.29-13.09.40:358][646]LogStaticMesh: Building static mesh All_Buildings_M_Oil_Tacos...
-[2017.11.29-13.09.40:532][646]LogStaticMesh: Built static mesh [0.17s] /Game/Meshes/Buildings/All_Buildings_M_Oil_Tacos.All_Buildings_M_Oil_Tacos
-[2017.11.29-13.09.40:559][646]LogStaticMesh: Warning: All_Buildings_M_Oil_Tacos has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_1' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6234' was rename 'Material #6234_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_2' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_3' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6198' was rename 'Material #6198_ncl1_4' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6235' was rename 'Material #6235_ncl1_4' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6237' was rename 'Material #6237_ncl1_4' 
-[2017.11.29-13.09.40:573][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6238' was rename 'Material #6238_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6239' was rename 'Material #6239_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6242' was rename 'Material #6242_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6326' was rename 'Material #6326_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6327' was rename 'Material #6327_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6328' was rename 'Material #6328_ncl1_3' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6329' was rename 'Material #6329_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #6330' was rename 'Material #6330_ncl1_4' 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Resident_House_3 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Saloon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Resident_House_2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Jail has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Intenet_Cafe has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Barber_Shop has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_General_Store has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.40:574][646]FBXImport: Warning: All_Buildings_M_Oil_Tacos has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2017.11.29-13.09.44:668][819]LogActorFactory: Actor Factory created All_Buildings_M_Barber_Shop
-[2017.11.29-13.09.45:488][868]LogActorFactory: Actor Factory created All_Buildings_M_Barber_Shop
-[2017.11.29-13.09.46:950][951]MapCheck: New page: Map Check
-[2017.11.29-13.09.46:972][951]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.09.46:972][951]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.09.47:105][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.09.47:110][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
-[2017.11.29-13.09.47:116][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.09.47:123][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.09.47:129][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.09.47:136][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.09.47:146][951]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.29-13.09.47:731][951]TextureStreamingBuild: Display: Compiling optional shaders took 0.629 seconds.
-[2017.11.29-13.09.47:735][951]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
-[2017.11.29-13.09.47:743][951]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
-[2017.11.29-13.09.47:754][951]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:09:47 PM
-[2017.11.29-13.09.47:765][951]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.09.47:767][951]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.09.47:767][951]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.09.47:768][951]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.09.47:768][951]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.09.52:280][951]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.09.52:281][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.09.52:281][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.09.52:281][951]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.09.52:281][951]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.09.52:281][951]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.09.52:563][951]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.09.52:563][951]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:09:52 PM
-[2017.11.29-13.09.52:563][951]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.11.29-13.09.52:614][951]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 51.184ms to complete.
-[2017.11.29-13.09.52:637][951]LogEditorBuildUtils: Build time 0:05
-[2017.11.29-13.09.55:269][ 59]Job is a success!
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2017.11.29-13.09.55:459][ 60]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 512X64)
-[2017.11.29-13.09.55:482][ 60]Lightmass on LAPTOPJAKOB: 1.99 sec total, 332 ms importing, 54 ms setup, 408 ms photons, 1.18 sec processing, 0 ms extra exporting [90/90 mappings]. Threads: 8.14 sec total, 4.05 sec processing.
-[2017.11.29-13.09.55:501][ 60]LogStaticLightingSystem: Illumination: 7.71 sec (87 ms encoding lightmaps, 17 ms encoding shadowmaps)
-[2017.11.29-13.09.55:501][ 60]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.11.29-13.09.55:501][ 60]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.09.56:292][ 60]DumpUnbuiltLightIteractions
-[2017.11.29-13.09.56:292][ 60]Lights with unbuilt interactions: 0
-[2017.11.29-13.09.56:292][ 60]
-[2017.11.29-13.09.56:292][ 60]Primitives with unbuilt interactions: 0
-[2017.11.29-13.09.56:351][ 61]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.09.56:351][ 61]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:09:56 PM
-[2017.11.29-13.09.56:427][ 61]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.745ms to complete.
-[2017.11.29-13.10.29:424][879]MapCheck: New page: Map Check
-[2017.11.29-13.10.29:452][879]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.10.29:452][879]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.10.29:596][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.10.29:600][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
-[2017.11.29-13.10.29:607][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.10.29:614][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.10.29:621][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.10.29:630][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.10.29:640][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.29-13.10.30:206][879]TextureStreamingBuild: Display: Compiling optional shaders took 0.613 seconds.
-[2017.11.29-13.10.30:210][879]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
-[2017.11.29-13.10.30:216][879]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
-[2017.11.29-13.10.30:227][879]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:10:30 PM
-[2017.11.29-13.10.30:238][879]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.10.30:242][879]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.10.30:242][879]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.10.30:245][879]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.10.30:245][879]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.10.34:760][879]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.10.34:761][879]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.10.34:761][879]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.10.34:761][879]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.10.34:761][879]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.10.34:761][879]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.10.35:034][879]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.10.35:034][879]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:10:35 PM
-[2017.11.29-13.10.35:035][879]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.11.29-13.10.35:086][879]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 51.638ms to complete.
-[2017.11.29-13.10.35:109][879]LogEditorBuildUtils: Build time 0:05
-[2017.11.29-13.10.57:933][ 31]Job is a success!
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.11.29-13.10.58:687][ 33]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.11.29-13.10.58:839][ 33]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
-[2017.11.29-13.10.58:839][ 33]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X512)
-[2017.11.29-13.10.58:860][ 33]Lightmass on LAPTOPJAKOB: 22.9 sec total, 322 ms importing, 53 ms setup, 4.82 sec photons, 17.7 sec processing, 0 ms extra exporting [90/90 mappings]. Threads: 2:04 min total, 19.7 sec processing.
-[2017.11.29-13.10.58:868][ 33]LogStaticLightingSystem: Illumination: 28.6 sec (631 ms encoding lightmaps, 147 ms encoding shadowmaps)
-[2017.11.29-13.10.58:868][ 33]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.11.29-13.10.58:868][ 33]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.10.59:784][ 33]DumpUnbuiltLightIteractions
-[2017.11.29-13.10.59:784][ 33]Lights with unbuilt interactions: 0
-[2017.11.29-13.10.59:784][ 33]
-[2017.11.29-13.10.59:785][ 33]Primitives with unbuilt interactions: 0
-[2017.11.29-13.10.59:806][ 34]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.10.59:807][ 34]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:10:59 PM
-[2017.11.29-13.10.59:905][ 34]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.617ms to complete.
-[2017.11.29-13.11.43:232][441]LogActorFactory: Actor Factory created All_Buildings_M_General_Store
-[2017.11.29-13.11.45:587][582]LogActorFactory: Actor Factory created All_Buildings_M_General_Store
-[2017.11.29-13.11.46:309][620]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.11.53:671][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_General_Store)
-[2017.11.29-13.11.53:765][ 40]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.11.29-13.12.45:718][147]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.11.29-13.12.46:225][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.12.54:483][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_General_Store)
-[2017.11.29-13.13.03:760][405]LogActorFactory: Actor Factory created All_Buildings_M_Intenet_Cafe
-[2017.11.29-13.13.05:435][505]LogActorFactory: Actor Factory created All_Buildings_M_Intenet_Cafe
-[2017.11.29-13.13.14:088][640]LogActorFactory: Actor Factory created All_Buildings_M_Jail
-[2017.11.29-13.13.17:042][817]LogActorFactory: Actor Factory created All_Buildings_M_Jail
-[2017.11.29-13.13.22:644][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_General_Store)
-[2017.11.29-13.13.23:286][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.13.23:745][908]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Intenet_Cafe)
-[2017.11.29-13.13.24:170][913]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Jail)
-[2017.11.29-13.13.29:195][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Intenet_Cafe)
-[2017.11.29-13.13.29:670][991]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Jail)
-[2017.11.29-13.13.42:977][191]LogActorFactory: Actor Factory created All_Buildings_M_Oil_Tacos
-[2017.11.29-13.13.44:197][264]LogActorFactory: Actor Factory created All_Buildings_M_Oil_Tacos
-[2017.11.29-13.13.51:528][370]Cmd: TRANSACTION UNDO
-[2017.11.29-13.13.51:528][370]LogEditorTransaction: Undo Move Actors
-[2017.11.29-13.14.05:307][548]LogActorFactory: Actor Factory created All_Buildings_M_Saloon
-[2017.11.29-13.14.06:431][615]LogActorFactory: Actor Factory created All_Buildings_M_Saloon
-[2017.11.29-13.14.26:368][906]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.11.29-13.14.33:436][  2]Cmd: TRANSACTION UNDO
-[2017.11.29-13.14.33:436][  2]LogEditorTransaction: Undo Scale Actors
-[2017.11.29-13.14.51:700][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Saloon)
-[2017.11.29-13.15.18:169][679]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_1
-[2017.11.29-13.15.19:463][756]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_1
-[2017.11.29-13.15.23:930][812]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_2
-[2017.11.29-13.15.25:196][887]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_2
-[2017.11.29-13.15.41:310][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Oil_Tacos)
-[2017.11.29-13.15.47:588][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Saloon)
-[2017.11.29-13.15.54:663][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Jail)
-[2017.11.29-13.15.55:309][308]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Intenet_Cafe)
-[2017.11.29-13.15.55:879][316]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_Barber_Shop)
-[2017.11.29-13.15.56:280][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (All_Buildings_M_General_Store)
-[2017.11.29-13.16.00:228][378]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.29-13.16.05:126][447]MapCheck: New page: Map Check
-[2017.11.29-13.16.05:148][447]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.16.05:155][447]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.16.05:336][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.16.05:341][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
-[2017.11.29-13.16.05:348][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.16.05:354][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.16.05:362][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.16.05:370][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.16.05:381][447]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.11.29-13.16.05:947][447]TextureStreamingBuild: Display: Compiling optional shaders took 0.612 seconds.
-[2017.11.29-13.16.05:950][447]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
-[2017.11.29-13.16.05:963][447]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
-[2017.11.29-13.16.05:974][447]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:16:05 PM
-[2017.11.29-13.16.05:986][447]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.16.05:989][447]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.16.05:989][447]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.16.05:990][447]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.16.05:990][447]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.16.10:502][447]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.16.11:581][447]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.16.11:582][447]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:16:11 PM
-[2017.11.29-13.16.11:582][447]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2017.11.29-13.16.11:635][447]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 53.603ms to complete.
-[2017.11.29-13.16.11:658][447]LogEditorBuildUtils: Build time 0:06
-[2017.11.29-13.17.22:463][225]LightingResults: Warning: All_Buildings_M_Saloon Object has wrapping UVs.
-[2017.11.29-13.17.22:840][231]Job is a success!
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2017.11.29-13.17.25:094][232]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2017.11.29-13.17.25:295][232]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
-[2017.11.29-13.17.25:380][232]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
-[2017.11.29-13.17.25:404][232]Lightmass on LAPTOPJAKOB: 56.8 sec total, 556 ms importing, 169 ms setup, 5.23 sec photons, 50.8 sec processing, 0 ms extra exporting [97/97 mappings]. Threads: 5:55 min total, 3:20 min processing.
-[2017.11.29-13.17.25:412][232]LogStaticLightingSystem: Illumination: 1:19 min (1.79 sec encoding lightmaps, 281 ms encoding shadowmaps)
-[2017.11.29-13.17.25:412][232]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
-[2017.11.29-13.17.25:412][232]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.17.25:559][232]DumpUnbuiltLightIteractions
-[2017.11.29-13.17.25:559][232]Lights with unbuilt interactions: 0
-[2017.11.29-13.17.25:559][232]
-[2017.11.29-13.17.25:559][232]Primitives with unbuilt interactions: 0
-[2017.11.29-13.17.25:567][233]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.17.25:567][233]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:17:25 PM
-[2017.11.29-13.17.25:622][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.313ms to complete.
-[2017.11.29-13.17.42:120][477]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.11.29-13.17.42:414][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.29-13.17.42:449][477]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.17.42:449][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.29-13.17.42:464][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.29-13.17.42:464][477]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.29-13.17.42:464][477]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
-[2017.11.29-13.17.42:464][477]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/' was not found.
-[2017.11.29-13.17.42:491][477]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Nov 29, 2017, 5:17:42 PM)
-[2017.11.29-13.17.42:501][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob
-[2017.11.29-13.17.42:538][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036583s)
-[2017.11.29-13.17.42:539][477]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
-[2017.11.29-13.17.42:539][477]LogPlayLevel: PIE: World Init took: (0.001350s)
-[2017.11.29-13.17.42:552][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.053652s)
-[2017.11.29-13.17.42:580][477]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.29-13.17.42:592][477]LogInit: FAudioDevice initialized.
-[2017.11.29-13.17.42:809][477]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.29-13.17.42:961][477]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.11.29-15.17.42
-[2017.11.29-13.17.42:985][477]LogWorld: Bringing up level for play took: 0.032111
-[2017.11.29-13.17.43:091][477]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.29-13.17.43:188][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
-[2017.11.29-13.17.43:593][477]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob 0.499
-[2017.11.29-13.17.43:595][477]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Nov 29, 2017, 5:17:43 PM)
-[2017.11.29-13.17.43:595][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob
-[2017.11.29-13.17.43:608][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012117s)
-[2017.11.29-13.17.43:608][477]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
-[2017.11.29-13.17.43:608][477]LogPlayLevel: PIE: World Init took: (0.000642s)
-[2017.11.29-13.17.43:608][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.013040s)
-[2017.11.29-13.17.43:679][477]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.29-13.17.43:683][477]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.11.29-15.17.43
-[2017.11.29-13.17.43:683][477]LogWorld: Bringing up level for play took: 0.003471
-[2017.11.29-13.17.43:695][477]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.29-13.17.43:745][477]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob 0.651
-[2017.11.29-13.17.44:081][477]LogRenderer: Reallocating scene render targets to support 1292x836 Format 10 NumSamples 1 (Frame:1).
-[2017.11.29-13.17.54:090][905]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.54:503][921]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.55:011][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.55:519][967]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.56:036][990]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.56:553][ 13]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.17.56:609][ 15]LogBlueprintUserMessages: [Bullet_01_C_4] Hit
-[2017.11.29-13.17.57:105][ 38]LogBlueprintUserMessages: [Bullet_01_C_5] Hit
-[2017.11.29-13.18.01:037][214]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.01:523][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.03:089][306]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.03:586][328]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.03:829][339]LogBlueprintUserMessages: [Bullet_01_C_8] Hit
-[2017.11.29-13.18.06:842][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.07:324][496]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.19:152][ 26]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.19:638][ 48]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.20:150][ 71]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.20:659][ 94]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.20:837][102]LogBlueprintUserMessages: [Bullet_01_C_14] Hit
-[2017.11.29-13.18.21:166][117]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.21:210][119]LogBlueprintUserMessages: [Bullet_01_C_15] Hit
-[2017.11.29-13.18.21:458][130]LogBlueprintUserMessages: [Bullet_01_C_16] Hit
-[2017.11.29-13.18.27:248][385]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.31:793][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.32:285][610]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.35:279][742]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.35:778][764]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.40:743][985]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.41:239][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.43:587][109]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.18.54:832][603]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.18.54:833][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.29-13.18.54:852][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.29-13.18.54:852][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.29-13.18.54:887][603]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.18.54:887][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.29-13.18.54:888][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.29-13.18.54:888][603]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.29-13.18.54:888][603]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2017.11.29-13.18.54:945][604]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2017.11.29-13.18.54:945][604]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.18.54:945][604]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2017.11.29-13.18.54:945][604]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.21.26:936][552]LogRenderer: Reallocating scene render targets to support 1292x840 Format 10 NumSamples 1 (Frame:11335).
-[2017.11.29-13.21.27:012][552]LogRenderer: Reallocating scene render targets to support 1292x856 Format 10 NumSamples 1 (Frame:11336).
-[2017.11.29-13.21.27:082][552]LogRenderer: Reallocating scene render targets to support 1292x864 Format 10 NumSamples 1 (Frame:11337).
-[2017.11.29-13.21.27:169][552]LogRenderer: Reallocating scene render targets to support 1292x868 Format 10 NumSamples 1 (Frame:11338).
-[2017.11.29-13.21.27:268][552]LogRenderer: Reallocating scene render targets to support 1292x872 Format 10 NumSamples 1 (Frame:11339).
-[2017.11.29-13.21.27:352][552]LogRenderer: Reallocating scene render targets to support 1292x880 Format 10 NumSamples 1 (Frame:11340).
-[2017.11.29-13.21.27:446][552]LogRenderer: Reallocating scene render targets to support 1292x884 Format 10 NumSamples 1 (Frame:11341).
-[2017.11.29-13.24.25:546][157]LogSavePackage: Save=30.38ms
-[2017.11.29-13.24.25:546][157]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Barber_ShopC042D51743812E89228DF5A9E4025FA7.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Barber_Shop.uasset'
-[2017.11.29-13.24.25:548][157]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Barber_Shop.uasset
-[2017.11.29-13.24.48:238][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_General_Store)
-[2017.11.29-13.27.15:659][112]LogSavePackage: Save=40.32ms
-[2017.11.29-13.27.15:660][112]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_General_Store642E7BF244E1A97F596052811C9586BC.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_General_Store.uasset'
-[2017.11.29-13.27.15:662][112]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_General_Store.uasset
-[2017.11.29-13.30.34:418][278]LogSavePackage: Save=22.41ms
-[2017.11.29-13.30.34:418][278]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Jail3F15DBF241A96C235A9AFCB0928A3F41.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Jail.uasset'
-[2017.11.29-13.30.34:420][278]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Jail.uasset
-[2017.11.29-13.32.25:994][177]LogSavePackage: Save=17.07ms
-[2017.11.29-13.32.25:994][177]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Oil_TacosB2141F4B408EBF7C70A8BC8AA9677C85.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Oil_Tacos.uasset'
-[2017.11.29-13.32.25:996][177]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Oil_Tacos.uasset
-[2017.11.29-13.32.27:050][193]LogSavePackage: Save=12.22ms
-[2017.11.29-13.32.27:050][193]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Oil_Tacos2D71CB874E023DB90C73E2849EA2F858.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Oil_Tacos.uasset'
-[2017.11.29-13.32.27:051][193]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Oil_Tacos.uasset
-[2017.11.29-13.32.33:664][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Saloon)
-[2017.11.29-13.33.41:761][616]Cmd: TRANSACTION UNDO
-[2017.11.29-13.33.41:761][616]LogEditorTransaction: Undo Staticmesh editor: Material changed
-[2017.11.29-13.33.56:935][ 70]LogSavePackage: Save=277.64ms
-[2017.11.29-13.33.56:937][ 70]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Resident_House_17F93FD1F46CEE685F7270BA25B11197B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_1.uasset'
-[2017.11.29-13.33.56:944][ 70]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_1.uasset
-[2017.11.29-13.35.20:553][697]LogSavePackage: Save=16.74ms
-[2017.11.29-13.35.20:553][697]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Resident_House_29C02084844CF6FEDAE54CD8E3A143717.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_2.uasset'
-[2017.11.29-13.35.20:554][697]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_2.uasset
-[2017.11.29-13.35.23:331][735]LogSavePackage: Save=19.69ms
-[2017.11.29-13.35.23:331][735]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Intenet_Cafe53C3B37348FD55A22E9312BEFAC25D89.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Intenet_Cafe.uasset'
-[2017.11.29-13.35.23:332][735]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Intenet_Cafe.uasset
-[2017.11.29-13.36.31:408][392]LogSavePackage: Save=16.74ms
-[2017.11.29-13.36.31:408][392]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/All_Buildings_M_Resident_House_393FE94CA4FD4E90D2560C397E1A9F573.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_3.uasset'
-[2017.11.29-13.36.31:410][392]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_3.uasset
-[2017.11.29-13.38.27:817][999]MapCheck: New page: Map Check
-[2017.11.29-13.38.27:898][999]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.29-13.38.27:901][999]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.29-13.38.28:110][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.11.29-13.38.28:115][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
-[2017.11.29-13.38.28:121][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_1, compiling. 
-[2017.11.29-13.38.28:127][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_2, compiling. 
-[2017.11.29-13.38.28:134][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Smoke, compiling. 
-[2017.11.29-13.38.28:140][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bullet_Hit_3, compiling. 
-[2017.11.29-13.38.28:147][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Metal, compiling. 
-[2017.11.29-13.38.28:690][999]TextureStreamingBuild: Display: Compiling optional shaders took 0.582 seconds.
-[2017.11.29-13.38.28:700][999]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
-[2017.11.29-13.38.28:712][999]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
-[2017.11.29-13.38.28:724][999]LightingResults: New page: Lighting Build - Nov 29, 2017, 5:38:28 PM
-[2017.11.29-13.38.28:735][999]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.29-13.38.28:737][999]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.29-13.38.28:737][999]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.29-13.38.28:738][999]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.29-13.38.28:738][999]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20596
-[2017.11.29-13.38.33:252][999]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.11.29-13.38.33:253][999]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.29-13.38.33:254][999]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.29-13.38.33:254][999]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.29-13.38.33:254][999]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.29-13.38.33:254][999]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.29-13.38.33:405][999]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.11.29-13.38.33:405][999]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:38:33 PM
-[2017.11.29-13.38.33:461][999]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.29ms to complete.
-[2017.11.29-13.38.33:485][999]LogEditorBuildUtils: Build time 0:05
-[2017.11.29-13.39.29:048][823]LightingResults: Warning: All_Buildings_M_Saloon Object has wrapping UVs.
-[2017.11.29-13.39.29:445][829]Job is a success!
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
-[2017.11.29-13.39.31:595][830]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
-[2017.11.29-13.39.31:795][830]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
-[2017.11.29-13.39.31:880][830]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X1024)
-[2017.11.29-13.39.31:901][830]Lightmass on LAPTOPJAKOB: 57.3 sec total, 596 ms importing, 153 ms setup, 5.56 sec photons, 50.9 sec processing, 0 ms extra exporting [97/97 mappings]. Threads: 5:56 min total, 3:07 min processing.
-[2017.11.29-13.39.31:910][830]LogStaticLightingSystem: Illumination: 1:03 min (1.71 sec encoding lightmaps, 280 ms encoding shadowmaps)
-[2017.11.29-13.39.31:910][830]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
-[2017.11.29-13.39.31:910][830]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.11.29-13.39.32:298][830]DumpUnbuiltLightIteractions
-[2017.11.29-13.39.32:298][830]Lights with unbuilt interactions: 0
-[2017.11.29-13.39.32:298][830]
-[2017.11.29-13.39.32:298][830]Primitives with unbuilt interactions: 0
-[2017.11.29-13.39.32:306][831]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.29-13.39.32:306][831]MapCheck: New page: Saloon_Gameplay_Jakob - Nov 29, 2017, 5:39:32 PM
-[2017.11.29-13.39.32:361][831]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.996ms to complete.
-[2017.11.29-13.39.36:365][890]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.11.29-13.39.36:390][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.29-13.39.36:392][890]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Nov 29, 2017, 5:39:36 PM)
-[2017.11.29-13.39.36:392][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob
-[2017.11.29-13.39.36:404][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012371s)
-[2017.11.29-13.39.36:405][890]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
-[2017.11.29-13.39.36:405][890]LogPlayLevel: PIE: World Init took: (0.000742s)
-[2017.11.29-13.39.36:405][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.013375s)
-[2017.11.29-13.39.36:436][890]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.29-13.39.36:446][890]LogInit: FAudioDevice initialized.
-[2017.11.29-13.39.36:490][890]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.29-13.39.36:495][890]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.11.29-15.39.36
-[2017.11.29-13.39.36:496][890]LogWorld: Bringing up level for play took: 0.003817
-[2017.11.29-13.39.36:508][890]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.29-13.39.36:516][890]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Saloon_Gameplay_Jakob -0.577
-[2017.11.29-13.39.36:519][890]PIE: New page: PIE session: Saloon_Gameplay_Jakob (Nov 29, 2017, 5:39:36 PM)
-[2017.11.29-13.39.36:519][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob
-[2017.11.29-13.39.36:529][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010070s)
-[2017.11.29-13.39.36:530][890]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
-[2017.11.29-13.39.36:530][890]LogPlayLevel: PIE: World Init took: (0.000726s)
-[2017.11.29-13.39.36:530][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.011072s)
-[2017.11.29-13.39.36:589][890]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.29-13.39.36:594][890]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.11.29-15.39.36
-[2017.11.29-13.39.36:595][890]LogWorld: Bringing up level for play took: 0.003751
-[2017.11.29-13.39.36:607][890]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.29-13.39.36:617][890]PIE: Play in editor start time for /Game/Maps/UEDPIE_2_Saloon_Gameplay_Jakob -0.477
-[2017.11.29-13.39.40:398][ 80]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.40:883][105]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.40:980][110]LogBlueprintUserMessages: [Bullet_01_C_0] Hit
-[2017.11.29-13.39.41:385][131]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.41:593][142]LogBlueprintUserMessages: [Bullet_01_C_1] Hit
-[2017.11.29-13.39.41:977][162]LogBlueprintUserMessages: [Bullet_01_C_2] Hit
-[2017.11.29-13.39.50:753][613]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.51:247][638]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.51:760][664]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.39.54:461][800]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Shot fired
-[2017.11.29-13.41.11:491][801]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.41.11:491][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.29-13.41.11:511][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.29-13.41.11:511][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.29-13.41.11:544][801]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.41.11:544][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2017.11.29-13.41.11:545][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2017.11.29-13.41.11:545][801]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2017.11.29-13.41.11:545][801]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2017.11.29-13.41.11:773][802]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2017.11.29-13.41.11:773][802]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.41.11:773][802]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2017.11.29-13.41.11:773][802]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2017.11.29-13.41.18:197][860]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_3
-[2017.11.29-13.41.20:868][ 20]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_3
-[2017.11.29-13.41.33:834][207]Cmd: DELETE
-[2017.11.29-13.41.33:835][207]Cmd: ACTOR DELETE
-[2017.11.29-13.41.33:866][207]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.11.29-13.41.33:903][207]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2017.11.29-13.41.34:630][216]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_3
-[2017.11.29-13.41.35:881][291]LogActorFactory: Actor Factory created All_Buildings_M_Resident_House_3
-[2017.11.29-13.41.43:175][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (All_Buildings_M_Resident_House_2)
-[2017.11.29-13.41.49:872][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.11.29-13.41.53:315][539]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.11.29-13.48.15:865][323]SourceControl: On branch Ketheres
-[2017.11.29-13.48.15:865][323]SourceControl: Your branch is behind 'origin/Ketheres' by 9 commits, and can be fast-forwarded.
-[2017.11.29-13.48.15:865][323]SourceControl:   (use "git pull" to update your local branch)
-[2017.11.29-13.48.15:865][323]SourceControl: Changes not staged for commit:
-[2017.11.29-13.48.15:865][323]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.29-13.48.15:865][323]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Content/Maps/SaloonGameplayJesse.umap
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Content/Particle_effects/Materials/M_Bullet_Hit_1.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Content/Particle_effects/Materials/M_Bullet_Hit_3.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Content/Particle_effects/Materials/M_Smoke.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Intermediate/AssetRegistryCache/311563bb.bin
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/SourceControlSettings.ini
-[2017.11.29-13.48.15:865][323]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
-[2017.11.29-13.48.15:865][323]SourceControl: Untracked files:
-[2017.11.29-13.48.15:865][323]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Barber_Shop.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_General_Store.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Intenet_Cafe.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Jail.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Oil_Tacos.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_1.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_2.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Content/Meshes/Buildings/All_Buildings_M_Resident_House_3.uasset
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-5B22759248C46446BA22DDAC22F60AE3/
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-A9CC920545BF0F8EBED51688830C1329/
-[2017.11.29-13.48.15:865][323]SourceControl: 	HatTrick/Saved/Crashes/UE4CC-Windows-5B22759248C46446BA22DDAC22F60AE3_0000/
-[2017.11.29-13.48.15:865][323]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.29-13.48.20:259][510]SourceControl: fatal: G:/Program Files/EpicGames/UE_4.17/Engine/Content/: 'G:/Program Files/EpicGames/UE_4.17/Engine/Content/' is outside repository
-[2017.11.29-13.48.20:358][510]EditorErrors: Warning: No assets to check in!
+[2017.12.04-20.19.35:739][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.04-20.19.35:739][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.04-20.19.35:815][  0]LogInit: Computer: LAPTOPJAKOB
+[2017.12.04-20.19.35:815][  0]LogInit: User: jakob000
+[2017.12.04-20.19.35:815][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.04-20.19.35:815][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2017.12.04-20.19.35:815][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.04-20.19.35:815][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.04-20.19.35:815][  0]LogMemory: Process Physical Memory: 277.62 MB used, 277.62 MB peak
+[2017.12.04-20.19.35:815][  0]LogMemory: Process Virtual Memory: 282.42 MB used, 282.42 MB peak
+[2017.12.04-20.19.35:815][  0]LogMemory: Physical Memory: 3776.58 MB used,  12522.52 MB free, 16299.11 MB total
+[2017.12.04-20.19.35:815][  0]LogMemory: Virtual Memory: 661.32 MB used,  12522.52 MB free, 134217728.00 MB total
+[2017.12.04-20.19.35:923][  0]LogInit: Using OS detected language (en-GB).
+[2017.12.04-20.19.35:923][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.04-20.19.35:925][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.12.04-20.19.36:567][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.04-20.19.36:590][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200M' (Feature Level 11_0)
+[2017.12.04-20.19.36:590][  0]LogD3D11RHI:       1961/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.04-20.19.36:591][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.04-20.19.36:591][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.04-20.19.36:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.04-20.19.36:594][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.04-20.19.36:594][  0]LogD3D11RHI:     GPU DeviceId: 0x13b3 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.04-20.19.36:594][  0]LogWindows: EnumDisplayDevices:
+[2017.12.04-20.19.36:594][  0]LogWindows:    0. 'NVIDIA Quadro K2200M' (P:1 D:1)
+[2017.12.04-20.19.36:595][  0]LogWindows:    1. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.04-20.19.36:595][  0]LogWindows:    2. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.04-20.19.36:595][  0]LogWindows:    3. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.04-20.19.36:595][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.04-20.19.36:595][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200M
+[2017.12.04-20.19.36:595][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
+[2017.12.04-20.19.36:595][  0]LogD3D11RHI:      Driver Date: 9-25-2017
+[2017.12.04-20.19.36:595][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.04-20.19.36:607][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.04-20.19.36:624][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.04-20.19.36:667][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/2628/).
+[2017.12.04-20.19.36:667][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/F59C16124170D8B096C030B25D513D4A/'.
+[2017.12.04-20.19.36:667][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.04-20.19.37:491][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.04-20.19.37:645][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.04-20.19.37:683][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.04-20.19.37:731][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.04-20.19.37:767][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.04-20.19.37:804][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.04-20.19.37:838][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.04-20.19.37:870][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.04-20.19.37:897][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.04-20.19.37:931][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.04-20.19.37:964][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.04-20.19.37:998][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.04-20.19.38:032][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.04-20.19.38:066][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.04-20.19.38:099][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.04-20.19.38:164][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.04-20.19.38:164][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.04-20.19.38:187][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.04-20.19.38:255][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.04-20.19.38:276][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.04-20.19.38:308][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.04-20.19.38:340][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.04-20.19.38:373][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.04-20.19.38:407][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.04-20.19.38:407][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.04-20.19.38:714][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.04-20.19.38:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.04-20.19.38:828][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.04-20.19.38:840][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jakob_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.04-20.19.38:851][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.04-20.19.38:851][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.04-20.19.38:852][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.04-20.19.38:852][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.04-20.19.39:241][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2017.12.04-20.19.39:342][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.04-20.19.39:464][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.04-20.19.39:666][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.04-20.19.39:689][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.04-20.19.39:689][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.04-20.19.39:689][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.04-20.19.39:689][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.04-20.19.39:689][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.04-20.19.40:050][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.12.04-20.19.40:387][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.208073 seconds
+[2017.12.04-20.19.40:404][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.12.04-20.19.40:404][  0]LogUObjectAllocator: 7529328 out of 0 bytes used by permanent object pool.
+[2017.12.04-20.19.40:404][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.04-20.19.42:506][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.04-20.19.42:533][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.04-20.19.43:016][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.04-20.19.43:281][  0]SourceControl: Source control is disabled
+[2017.12.04-20.19.44:763][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.04-20.19.44:899][  0]LogOcInput: OculusInput pre-init called
+[2017.12.04-20.19.45:061][  0]LogEngine: Initializing Engine...
+[2017.12.04-20.19.45:063][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.04-20.19.45:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.04-20.19.45:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.04-20.19.45:346][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.04-20.19.45:351][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.04-20.19.45:655][  0]LogInit: FAudioDevice initialized.
+[2017.12.04-20.19.45:769][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.04-20.19.45:785][  0]LogInit: Texture streaming: Enabled
+[2017.12.04-20.19.45:870][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.04-20.19.46:024][  0]LogInit: Transaction tracking system initialized
+[2017.12.04-20.19.46:222][  0]BlueprintLog: New page: Editor Load
+[2017.12.04-20.19.46:712][  0]LocalizationService: Localization service is disabled
+[2017.12.04-20.19.47:103][  0]LogConsoleResponse: Display: 
+[2017.12.04-20.19.47:336][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.04-20.19.47:336][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.04-20.19.47:336][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.04-20.19.47:997][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.07s
+[2017.12.04-20.19.47:997][  0]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.04-20.19.48:040][  0]LightingResults: New page: Lighting Build
+[2017.12.04-20.19.48:085][  0]MapCheck: New page: Map Check
+[2017.12.04-20.19.48:085][  0]LightingResults: New page: Lighting Build
+[2017.12.04-20.19.51:222][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.04-20.19.51:223][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.04-20.19.51:238][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.04-20.19.51:278][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.294ms to complete.
+[2017.12.04-20.19.51:278][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 3.281
+[2017.12.04-20.19.51:381][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.04-20.19.51:381][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.04-20.19.53:166][  0]LogCollectionManager: Loaded 0 collections in 0.000771 seconds
+[2017.12.04-20.19.53:593][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.12.04-20.19.53:593][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' took 0.01s
+[2017.12.04-20.19.53:593][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.12.04-20.19.53:593][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.04-20.19.53:630][  0]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2387 classes and 502 folders.
+[2017.12.04-20.19.53:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0046 seconds. Added 0 classes and 0 folders.
+[2017.12.04-20.19.55:224][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.12.04-20.19.55:288][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.12.04-20.19.56:071][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.04-20.19.56:084][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.04-20.19.56:134][  0]LogSlate: Took 0.011326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.04-20.19.56:533][  0]LogRenderer: Reallocating scene render targets to support 1104x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.04-20.19.57:061][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.12.04-20.19.57:061][  0]LogLoad: (Engine Initialization) Total time: 23.86 seconds
+[2017.12.04-20.19.57:061][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.04-20.19.57:062][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.04-20.19.57:152][  0]SourceControl: On branch Ketheres
+[2017.12.04-20.19.57:152][  0]SourceControl: Your branch is behind 'origin/Ketheres' by 7 commits, and can be fast-forwarded.
+[2017.12.04-20.19.57:152][  0]SourceControl:   (use "git pull" to update your local branch)
+[2017.12.04-20.19.57:152][  0]SourceControl: Changes to be committed:
+[2017.12.04-20.19.57:152][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Materials/Props/Mat_Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Materials/Props/Mat_Prop_26_Wheel.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Materials/Props/T_Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Meshes/Buildings/All_Buildings_M_Saloon.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Meshes/Props/Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Meshes/Props/Prop_26_Wheel.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Textures/Props/T_Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Textures/Props/T_Prop_25_JukeBox2.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	new file:   HatTrick/Content/Textures/Props/T_Prop_26_Wheel.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: Changes not staged for commit:
+[2017.12.04-20.19.57:152][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.12.04-20.19.57:152][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Materials/Buildings/MI_Lights.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Materials/Props/Mat_Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Materials/Props/Mat_Prop_26_Wheel.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Meshes/Buildings/All_Buildings_M_Saloon.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Meshes/Props/Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Content/Textures/Props/T_Prop_25_JukeBox.uasset
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Backup/MapBlockB_2017-11-10-12-54-47.umap
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-00265EF5455656B7DD41C79342C86F87/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-1903FFE7459A90840F8C0C8F0C6DFF01/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-5B22759248C46446BA22DDAC22F60AE3/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-A9CC920545BF0F8EBED51688830C1329/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-C66D8656494418A34C0E7F9EC5B6378B/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-CC672F794A36D5C4529D1A998AE610B9/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-DC953D0A492D92A8AFA573B20013CA50/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	deleted:    HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-FEECE1C34669A0176BEFE0B662DD7AE7/CrashReportClient.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Editor.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/SourceControlSettings.ini
+[2017.12.04-20.19.57:152][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.12.04-20.19.57:152][  0]SourceControl: Untracked files:
+[2017.12.04-20.19.57:152][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.04-20.19.57:152][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-0735EC0C4B3B74C32228B8AB7B074B35/
+[2017.12.04-20.19.57:152][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-55B5B6044BC4B722EDC0D09442AF1447/
+[2017.12.04-20.19.57:152][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-5E5D470B4863E7904F1E42AB6D393354/
+[2017.12.04-20.19.57:152][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-A987B0734DFA609A9896029E904FF612/
+[2017.12.04-20.19.57:152][  0]SourceControl: 	HatTrick/Saved/Config/WorldState/2016679572.json
+[2017.12.04-20.19.57:153][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.04-20.19.57:431][  0]LogSlate: Took 0.010505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.04-20.19.57:509][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' took 0.42s
+[2017.12.04-20.19.57:541][  1]LogAssetRegistry: Asset discovery search completed in 18.3238 seconds
+[2017.12.04-20.19.57:543][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.04-20.19.57:544][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.12.04-20.20.57:110][543]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.20.57:111][543]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.20.57:111][543]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 0)
+[2017.12.04-20.22.57:128][744]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.22.57:128][744]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.22.57:128][744]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 1)
+[2017.12.04-20.24.57:148][945]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.24.57:148][945]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.24.57:148][945]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 2)
+[2017.12.04-20.26.57:202][148]LogHttp: Warning: 0000009F435D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.26.57:202][148]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.26.57:202][148]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 1 (Closing connection 3)
+[2017.12.04-20.28.57:238][350]LogHttp: Warning: 0000009F435D6800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.28.57:238][350]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.28.57:238][350]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 1 (Closing connection 4)
+[2017.12.04-20.30.57:283][523]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.30.57:283][523]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.30.57:283][523]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 5)
+[2017.12.04-20.32.57:302][724]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.32.57:302][724]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.32.57:302][724]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 6)
+[2017.12.04-20.34.57:329][925]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.34.57:329][925]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.34.57:329][925]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 7)
+[2017.12.04-20.36.57:377][128]LogHttp: Warning: 0000009F435D4A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.36.57:377][128]LogHttp: Warning: 0000009F435D4A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.36.57:377][128]LogHttp: Warning: 0000009F435D4A00: libcurl info message cache 1 (Closing connection 8)
+[2017.12.04-20.38.57:415][330]LogHttp: Warning: 0000009F435D4A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.38.57:415][330]LogHttp: Warning: 0000009F435D4A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.38.57:415][330]LogHttp: Warning: 0000009F435D4A00: libcurl info message cache 1 (Closing connection 9)
+[2017.12.04-20.40.57:451][513]LogHttp: Warning: 0000009F435D7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.40.57:452][513]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.40.57:452][513]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 1 (Closing connection 10)
+[2017.12.04-20.42.57:496][715]LogHttp: Warning: 0000009F435D7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.42.57:496][715]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.42.57:496][715]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 1 (Closing connection 11)
+[2017.12.04-20.44.57:525][917]LogHttp: Warning: 0000009F435D6800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.44.57:525][917]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.44.57:525][917]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 1 (Closing connection 12)
+[2017.12.04-20.46.57:545][118]LogHttp: Warning: 0000009F435D5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.46.57:545][118]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.46.57:545][118]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 1 (Closing connection 13)
+[2017.12.04-20.48.57:564][319]LogHttp: Warning: 0000009F435D5780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.48.57:564][319]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.48.57:564][319]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 1 (Closing connection 14)
+[2017.12.04-20.50.57:616][522]LogHttp: Warning: 0000009F435D5780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.50.57:616][522]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.50.57:616][522]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 1 (Closing connection 15)
+[2017.12.04-20.52.57:654][724]LogHttp: Warning: 0000009F435D5780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.52.57:654][724]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.52.57:654][724]LogHttp: Warning: 0000009F435D5780: libcurl info message cache 1 (Closing connection 16)
+[2017.12.04-20.54.57:690][926]LogHttp: Warning: 0000009F435D7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.54.57:690][926]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.54.57:690][926]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 1 (Closing connection 17)
+[2017.12.04-20.56.57:725][128]LogHttp: Warning: 0000009F435D7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.56.57:725][128]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.56.57:725][128]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 1 (Closing connection 18)
+[2017.12.04-20.58.57:751][329]LogHttp: Warning: 0000009F435D7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-20.58.57:751][329]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-20.58.57:751][329]LogHttp: Warning: 0000009F435D7580: libcurl info message cache 1 (Closing connection 19)
+[2017.12.04-21.00.57:768][530]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.00.57:768][530]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.00.57:768][530]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 20)
+[2017.12.04-21.02.57:804][732]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.02.57:804][732]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.02.57:804][732]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 21)
+[2017.12.04-21.04.57:845][934]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.04.57:845][934]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.04.57:845][934]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 22)
+[2017.12.04-21.06.57:877][136]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.06.57:877][136]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.06.57:877][136]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 23)
+[2017.12.04-21.08.57:914][338]LogHttp: Warning: 0000009F435D4B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.08.57:914][338]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.08.57:914][338]LogHttp: Warning: 0000009F435D4B80: libcurl info message cache 1 (Closing connection 24)
+[2017.12.04-21.10.57:953][540]LogHttp: Warning: 0000009F435D7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.10.57:954][540]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.10.57:954][540]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 1 (Closing connection 25)
+[2017.12.04-21.12.57:990][742]LogHttp: Warning: 0000009F435D7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.12.57:990][742]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.12.57:990][742]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 1 (Closing connection 26)
+[2017.12.04-21.14.58:025][944]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.14.58:025][944]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.14.58:025][944]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 27)
+[2017.12.04-21.16.58:066][146]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.16.58:066][146]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.16.58:066][146]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 28)
+[2017.12.04-21.18.58:115][349]LogHttp: Warning: 0000009F435D5F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.18.58:115][349]LogHttp: Warning: 0000009F435D5F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.18.58:115][349]LogHttp: Warning: 0000009F435D5F00: libcurl info message cache 1 (Closing connection 29)
+[2017.12.04-21.20.58:155][551]LogHttp: Warning: 0000009F435D6200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.20.58:156][551]LogHttp: Warning: 0000009F435D6200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.20.58:156][551]LogHttp: Warning: 0000009F435D6200: libcurl info message cache 1 (Closing connection 30)
+[2017.12.04-21.22.58:187][753]LogHttp: Warning: 0000009F435D5C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.22.58:187][753]LogHttp: Warning: 0000009F435D5C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.22.58:187][753]LogHttp: Warning: 0000009F435D5C00: libcurl info message cache 1 (Closing connection 31)
+[2017.12.04-21.24.58:251][956]LogHttp: Warning: 0000009F435D6B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.24.58:251][956]LogHttp: Warning: 0000009F435D6B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.24.58:251][956]LogHttp: Warning: 0000009F435D6B00: libcurl info message cache 1 (Closing connection 32)
+[2017.12.04-21.26.58:296][159]LogHttp: Warning: 0000009F435D7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.26.58:296][159]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.26.58:297][159]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 1 (Closing connection 33)
+[2017.12.04-21.28.58:350][362]LogHttp: Warning: 0000009F435D4700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.28.58:350][362]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.28.58:350][362]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 1 (Closing connection 34)
+[2017.12.04-21.30.58:396][564]LogHttp: Warning: 0000009F435D6800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.30.58:396][564]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.30.58:396][564]LogHttp: Warning: 0000009F435D6800: libcurl info message cache 1 (Closing connection 35)
+[2017.12.04-21.32.58:441][767]LogHttp: Warning: 0000009F435D5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.32.58:441][767]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.32.58:441][767]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 1 (Closing connection 36)
+[2017.12.04-21.34.58:493][970]LogHttp: Warning: 0000009F435D4700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.34.58:493][970]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.34.58:493][970]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 1 (Closing connection 37)
+[2017.12.04-21.36.58:529][172]LogHttp: Warning: 0000009F435D5000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.36.58:529][172]LogHttp: Warning: 0000009F435D5000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.36.58:529][172]LogHttp: Warning: 0000009F435D5000: libcurl info message cache 1 (Closing connection 38)
+[2017.12.04-21.38.58:583][375]LogHttp: Warning: 0000009F435D4E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.38.58:583][375]LogHttp: Warning: 0000009F435D4E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.38.58:584][375]LogHttp: Warning: 0000009F435D4E80: libcurl info message cache 1 (Closing connection 39)
+[2017.12.04-21.40.58:620][577]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.40.58:620][577]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.40.58:620][577]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 40)
+[2017.12.04-21.42.58:640][778]LogHttp: Warning: 0000009F435D5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.42.58:640][778]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.42.58:640][778]LogHttp: Warning: 0000009F435D5A80: libcurl info message cache 1 (Closing connection 41)
+[2017.12.04-21.44.58:661][979]LogHttp: Warning: 0000009F435D7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.44.58:661][979]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.44.58:661][979]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 1 (Closing connection 42)
+[2017.12.04-21.46.58:698][181]LogHttp: Warning: 0000009F435D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.46.58:698][181]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.46.58:698][181]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 1 (Closing connection 43)
+[2017.12.04-21.48.58:723][382]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.48.58:723][382]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.48.58:723][382]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 44)
+[2017.12.04-21.50.58:754][584]LogHttp: Warning: 0000009F435D4880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.50.58:754][584]LogHttp: Warning: 0000009F435D4880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.50.58:754][584]LogHttp: Warning: 0000009F435D4880: libcurl info message cache 1 (Closing connection 45)
+[2017.12.04-21.52.58:793][786]LogHttp: Warning: 0000009F435D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.52.58:793][786]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.52.58:793][786]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 1 (Closing connection 46)
+[2017.12.04-21.54.58:815][987]LogHttp: Warning: 0000009F435D5600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.54.58:815][987]LogHttp: Warning: 0000009F435D5600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.54.58:815][987]LogHttp: Warning: 0000009F435D5600: libcurl info message cache 1 (Closing connection 47)
+[2017.12.04-21.56.58:831][188]LogHttp: Warning: 0000009F435D4700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.56.58:831][188]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.56.58:831][188]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 1 (Closing connection 48)
+[2017.12.04-21.58.58:876][380]LogHttp: Warning: 0000009F435D7E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-21.58.58:877][380]LogHttp: Warning: 0000009F435D7E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-21.58.58:877][380]LogHttp: Warning: 0000009F435D7E80: libcurl info message cache 1 (Closing connection 49)
+[2017.12.04-22.00.58:922][583]LogHttp: Warning: 0000009F435D4D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.00.58:922][583]LogHttp: Warning: 0000009F435D4D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.00.58:922][583]LogHttp: Warning: 0000009F435D4D00: libcurl info message cache 1 (Closing connection 50)
+[2017.12.04-22.02.58:962][785]LogHttp: Warning: 0000009F435D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.02.58:962][785]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.02.58:962][785]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 1 (Closing connection 51)
+[2017.12.04-22.04.58:997][987]LogHttp: Warning: 0000009F435D4100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.04.58:997][987]LogHttp: Warning: 0000009F435D4100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.04.58:997][987]LogHttp: Warning: 0000009F435D4100: libcurl info message cache 1 (Closing connection 52)
+[2017.12.04-22.06.59:035][189]LogHttp: Warning: 0000009F435D6B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.06.59:035][189]LogHttp: Warning: 0000009F435D6B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.06.59:035][189]LogHttp: Warning: 0000009F435D6B00: libcurl info message cache 1 (Closing connection 53)
+[2017.12.04-22.08.59:055][372]LogHttp: Warning: 0000009F435D4100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.08.59:055][372]LogHttp: Warning: 0000009F435D4100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.08.59:055][372]LogHttp: Warning: 0000009F435D4100: libcurl info message cache 1 (Closing connection 54)
+[2017.12.04-22.10.59:073][573]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.10.59:073][573]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.10.59:073][573]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 55)
+[2017.12.04-22.12.59:111][775]LogHttp: Warning: 0000009F435D6E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.12.59:111][775]LogHttp: Warning: 0000009F435D6E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.12.59:111][775]LogHttp: Warning: 0000009F435D6E00: libcurl info message cache 1 (Closing connection 56)
+[2017.12.04-22.14.59:136][976]LogHttp: Warning: 0000009F435D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.14.59:136][976]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.14.59:136][976]LogHttp: Warning: 0000009F435D5480: libcurl info message cache 1 (Closing connection 57)
+[2017.12.04-22.16.59:203][180]LogHttp: Warning: 0000009F435D7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.16.59:203][180]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.16.59:203][180]LogHttp: Warning: 0000009F435D7280: libcurl info message cache 1 (Closing connection 58)
+[2017.12.04-22.18.59:256][383]LogHttp: Warning: 0000009F435D4D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.18.59:256][383]LogHttp: Warning: 0000009F435D4D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.18.59:256][383]LogHttp: Warning: 0000009F435D4D00: libcurl info message cache 1 (Closing connection 59)
+[2017.12.04-22.20.59:309][586]LogHttp: Warning: 0000009F435D6380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.20.59:309][586]LogHttp: Warning: 0000009F435D6380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.20.59:309][586]LogHttp: Warning: 0000009F435D6380: libcurl info message cache 1 (Closing connection 60)
+[2017.12.04-22.22.59:361][789]LogHttp: Warning: 0000009F435D6200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.22.59:361][789]LogHttp: Warning: 0000009F435D6200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.22.59:361][789]LogHttp: Warning: 0000009F435D6200: libcurl info message cache 1 (Closing connection 61)
+[2017.12.04-22.24.59:398][991]LogHttp: Warning: 0000009F435D5D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.24.59:398][991]LogHttp: Warning: 0000009F435D5D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.24.59:398][991]LogHttp: Warning: 0000009F435D5D80: libcurl info message cache 1 (Closing connection 62)
+[2017.12.04-22.26.59:417][192]LogHttp: Warning: 0000009F435D7E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.26.59:417][192]LogHttp: Warning: 0000009F435D7E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.26.59:417][192]LogHttp: Warning: 0000009F435D7E80: libcurl info message cache 1 (Closing connection 63)
+[2017.12.04-22.28.59:453][394]LogHttp: Warning: 0000009F435D5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.28.59:453][394]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.28.59:453][394]LogHttp: Warning: 0000009F435D5180: libcurl info message cache 1 (Closing connection 64)
+[2017.12.04-22.30.59:481][595]LogHttp: Warning: 0000009F435D4700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.30.59:481][595]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.30.59:481][595]LogHttp: Warning: 0000009F435D4700: libcurl info message cache 1 (Closing connection 65)
+[2017.12.04-22.32.59:527][798]LogHttp: Warning: 0000009F435D5900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.32.59:527][798]LogHttp: Warning: 0000009F435D5900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.32.59:527][798]LogHttp: Warning: 0000009F435D5900: libcurl info message cache 1 (Closing connection 66)
+[2017.12.04-22.34.59:563][  0]LogHttp: Warning: 0000009F435D7400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.34.59:563][  0]LogHttp: Warning: 0000009F435D7400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.34.59:563][  0]LogHttp: Warning: 0000009F435D7400: libcurl info message cache 1 (Closing connection 67)
+[2017.12.04-22.35.26:045][555]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.04-22.35.26:045][555]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.04-22.35.26:258][556]Cmd: QUIT_EDITOR
+[2017.12.04-22.35.26:290][556]LogExit: Preparing to exit.
+[2017.12.04-22.35.26:615][556]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.12.04-22.35.26:705][556]LogExit: Editor shut down
+[2017.12.04-22.35.26:713][556]LogExit: Transaction tracking system shut down
+[2017.12.04-22.35.26:949][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.04-22.35.26:949][556]LogDirectoryWatcher: A directory notification for '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/' was aborted.
+[2017.12.04-22.35.26:949][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.04-22.35.26:949][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.04-22.35.26:949][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.04-22.35.27:008][556]LogExit: Object subsystem successfully closed.
+[2017.12.04-22.35.27:024][556]LogD3D11RHI: Shutdown
+[2017.12.04-22.35.27:024][556]LogD3D11RHI: CleanupD3DDevice
+[2017.12.04-22.35.27:083][556]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.04-22.35.27:090][556]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (533)
+[2017.12.04-22.35.27:090][556]LogModuleManager: Shutting down and abandoning module SceneOutliner (531)
+[2017.12.04-22.35.27:090][556]LogModuleManager: Shutting down and abandoning module AddContentDialog (529)
+[2017.12.04-22.35.27:090][556]LogDirectoryWatcher: A directory notification for 'G:/Program Files/EpicGames/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.04-22.35.27:091][556]LogModuleManager: Shutting down and abandoning module WidgetCarousel (528)
+[2017.12.04-22.35.27:091][556]LogModuleManager: Shutting down and abandoning module EditorWidgets (525)
+[2017.12.04-22.35.27:091][556]LogModuleManager: Shutting down and abandoning module CollectionManager (523)
+[2017.12.04-22.35.27:091][556]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Collections/' was aborted.
+[2017.12.04-22.35.27:091][556]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' was aborted.
+[2017.12.04-22.35.27:091][556]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Saved/Collections/' was aborted.
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module StatsViewer (521)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module FoliageEdit (519)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module LandscapeEditor (517)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module MeshPaintMode (515)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (513)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module ActorPickerMode (511)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module GeometryMode (509)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module TextureAlignMode (507)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module BspMode (505)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (503)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module HardwareSurvey (501)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (499)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AutomationWorker (497)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (495)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (493)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module PlacementMode (492)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (489)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (487)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (485)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (483)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (481)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module Media (480)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (477)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module CharacterAI (475)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module AudioCapture (473)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module SequenceRecorder (472)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module SmartSnapping (469)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module SessionServices (467)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module ViewportSnapping (465)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module ViewportInteraction (463)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module ClothPainter (461)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module LogVisualizer (459)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module IntroTutorials (457)
+[2017.12.04-22.35.27:092][556]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (456)
+[2017.12.04-22.35.27:093][556]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (453)
+[2017.12.04-22.35.27:093][556]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (451)
+[2017.12.04-22.35.27:093][556]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (449)
+[2017.12.04-22.35.27:093][556]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (448)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (445)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (443)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (441)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module InputBindingEditor (439)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module MergeActors (437)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module SizeMap (435)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module TreeMap (433)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module ReferenceViewer (431)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (429)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module LocalizationService (428)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module HardwareTargeting (425)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (423)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module UndoHistory (421)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module XmlParser (419)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module Blutility (417)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (415)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (414)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (411)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module SettingsEditor (409)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module ProjectLauncher (407)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module SessionFrontend (405)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module ProfilerClient (403)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module DeviceManager (401)
+[2017.12.04-22.35.27:107][556]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (400)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module AutomationController (397)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module AutomationWindow (395)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module Layers (393)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (391)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module DetailCustomizations (389)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module PackagesDialog (387)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module Persona (385)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (384)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module AnimGraph (382)
+[2017.12.04-22.35.27:149][556]LogModuleManager: Shutting down and abandoning module Kismet (379)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module ClassViewer (377)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module Toolbox (375)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module ModuleUI (373)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module MovieSceneTools (371)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module OutputLog (369)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module GammaUI (367)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module Documentation (365)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (363)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module MovieScene (361)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module Niagara (359)
+[2017.12.04-22.35.27:150][556]LogModuleManager: Shutting down and abandoning module NiagaraEditor (358)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (355)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module LauncherPlatform (353)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module AnalyticsET (351)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module PortalServices (349)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module PortalRpc (347)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module MessagingRpc (345)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module AIModule (343)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module GameplayDebugger (342)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module AITestSuite (340)
+[2017.12.04-22.35.27:151][556]LogModuleManager: Shutting down and abandoning module ProfilerService (337)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module TaskGraph (335)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module SteamVRController (333)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (331)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (329)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module OculusInput (327)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (325)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (323)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module CableComponent (321)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (319)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module AndroidPermission (317)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (315)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module HTML5Networking (313)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module AlembicImporter (311)
+[2017.12.04-22.35.27:290][556]LogModuleManager: Shutting down and abandoning module AlembicLibrary (310)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module GeometryCache (309)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (308)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (303)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module PluginBrowser (301)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (299)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (297)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module DesktopPlatform (296)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module UObjectPlugin (293)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (291)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (289)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module GitSourceControl (287)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module SourceControl (286)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (283)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (281)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (279)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module Paper2DEditor (277)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module MeshPaint (276)
+[2017.12.04-22.35.27:291][556]LogModuleManager: Shutting down and abandoning module LevelEditor (274)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (273)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module MainFrame (271)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module HotReload (270)
+[2017.12.04-22.35.27:292][556]LogDirectoryWatcher: A directory notification for 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms2/SpaghettiArms/HatTrick/Binaries/Win64' was aborted.
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module HatTrick (265)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (263)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (261)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module PhysXVehicles (259)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module OculusEditor (257)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (255)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (253)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (251)
+[2017.12.04-22.35.27:292][556]LogModuleManager: Shutting down and abandoning module UdpMessaging (249)
+[2017.12.04-22.35.27:393][556]LogModuleManager: Shutting down and abandoning module TcpMessaging (247)
+[2017.12.04-22.35.27:493][556]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (245)
+[2017.12.04-22.35.27:493][556]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (243)
+[2017.12.04-22.35.27:493][556]LogModuleManager: Shutting down and abandoning module FacialAnimation (241)
+[2017.12.04-22.35.27:493][556]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (239)
+[2017.12.04-22.35.27:493][556]LogModuleManager: Shutting down and abandoning module GraphEditor (238)
+[2017.12.04-22.35.27:494][556]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
+[2017.12.04-22.35.27:497][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (233)
+[2017.12.04-22.35.27:497][556]LogModuleManager: Shutting down and abandoning module Paper2D (231)
+[2017.12.04-22.35.27:497][556]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (229)
+[2017.12.04-22.35.27:497][556]LogModuleManager: Shutting down and abandoning module WmfMedia (227)
+[2017.12.04-22.35.27:497][556]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module Overlay (219)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module OverlayEditor (218)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module MediaAssets (215)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module VREditor (213)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module StringTableEditor (211)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (209)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (207)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module FunctionalTesting (205)
+[2017.12.04-22.35.27:498][556]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (203)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (202)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module UMG (199)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module UMGEditor (198)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module Sequencer (197)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module MessageLog (194)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module SlateReflector (189)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module Slate (187)
+[2017.12.04-22.35.27:499][556]LogModuleManager: Shutting down and abandoning module EditorStyle (185)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module MRMesh (183)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (181)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (179)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module XAudio2 (177)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module Networking (175)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module Core (173)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module KismetCompiler (169)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
+[2017.12.04-22.35.27:506][556]LogModuleManager: Shutting down and abandoning module MeshUtilities (165)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (164)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (163)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (162)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (160)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
+[2017.12.04-22.35.27:507][556]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.12.04-22.35.27:509][556]LogModuleManager: Shutting down and abandoning module DerivedDataCache (149)
+[2017.12.04-22.35.27:596][556]LogDerivedDataCache: Shutdown
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TargetPlatform (147)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (146)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (144)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (142)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (140)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (138)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (136)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (134)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (132)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (130)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (128)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module ImageWrapper (127)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (124)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (122)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (120)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (118)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (116)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (114)
+[2017.12.04-22.35.27:597][556]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (112)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (110)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (108)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Messaging (106)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (104)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (102)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (100)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (98)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (96)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (94)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (92)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (90)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (88)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (86)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (84)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (82)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (80)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (78)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (76)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (74)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (72)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (70)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (68)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module InputCore (65)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module Settings (63)
+[2017.12.04-22.35.27:598][556]LogModuleManager: Shutting down and abandoning module PhysXCooking (61)
+[2017.12.04-22.35.27:599][556]LogModuleManager: Shutting down and abandoning module SteamVR (59)
+[2017.12.04-22.35.27:599][556]LogModuleManager: Shutting down and abandoning module OculusHMD (57)
+[2017.12.04-22.35.27:599][556]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (55)
+[2017.12.04-22.35.27:599][556]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2017.12.04-22.35.27:599][556]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2017.12.04-22.35.27:599][556]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.04-22.35.27:599][556]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.04-22.35.27:610][556]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.04-22.35.27:611][556]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.04-22.35.27:611][556]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.04-22.35.27:611][556]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.04-22.35.27:611][556]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.04-22.35.27:611][556]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.04-22.35.27:611][556]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8CD64DBE-4351-A058-2009-ABA2ADC0D972%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=357f863d4f5fb1ff71e785b6d1103b1d%7C64977fec07734a60b96d8774f36ba866%7Ce3a1f3dd-580a-406e-afe3-de2f723cde57&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.04-22.35.27:611][556]LogHttp: Warning: 0000009F435DB580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.04-22.35.27:611][556]LogHttp: Warning: 0000009F435DB580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.04-22.35.27:611][556]LogHttp: Warning: 0000009F435DB580: libcurl info message cache 1 (Closing connection 68)
+[2017.12.04-22.35.27:624][556]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.04-22.35.27:627][556]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.04-22.35.27:629][556]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.04-22.35.27:634][556]LogExit: Exiting.
+[2017.12.04-22.35.27:670][556]Log file closed, 12/05/17 00:35:27
