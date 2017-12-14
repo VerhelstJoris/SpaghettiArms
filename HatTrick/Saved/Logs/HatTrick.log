@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 ﻿Log file open, 12/14/17 18:23:55
+=======
+﻿Log file open, 12/14/17 18:21:43
+>>>>>>> 9e4e2264f1e68c81d9a8b8052b6fc8ea9f27b4b6
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HatTrick
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1545443547) SRandInit(1545443547).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.335118
+=======
+LogInit: Display: RandInit(-1163889464) SRandInit(-1163889464).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.159608
+>>>>>>> 9e4e2264f1e68c81d9a8b8052b6fc8ea9f27b4b6
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -82,7 +94,11 @@ LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+<<<<<<< HEAD
 LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/' was not found.
+=======
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/' was not found.
+>>>>>>> 9e4e2264f1e68c81d9a8b8052b6fc8ea9f27b4b6
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.17-CL-3658906
 LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
@@ -110,10 +126,11 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line: -EpicPortal 
-LogInit: Base directory: E:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.12.14-16.23.57:641][  0]LogInit: Selected Device Profile: [Windows]
 [2017.12.14-16.23.57:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.12.14-16.23.58:336][  0]LogInit: Computer: AOTA1-1L141-09D
@@ -2765,3 +2782,386 @@ LogInit: Object subsystem initialized
 [2017.12.14-16.29.55:809][450]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.12.14-16.30.06:059][450]LogExit: Exiting.
 [2017.12.14-16.30.07:156][450]Log file closed, 12/14/17 18:30:07
+=======
+[2017.12.14-16.21.44:011][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.14-16.21.44:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.14-16.21.44:038][  0]LogInit: Computer: LAPTOPJAKOB
+[2017.12.14-16.21.44:038][  0]LogInit: User: jakob000
+[2017.12.14-16.21.44:038][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.14-16.21.44:038][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2017.12.14-16.21.44:039][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.14-16.21.44:039][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.14-16.21.44:039][  0]LogMemory: Process Physical Memory: 278.50 MB used, 278.50 MB peak
+[2017.12.14-16.21.44:039][  0]LogMemory: Process Virtual Memory: 277.53 MB used, 277.53 MB peak
+[2017.12.14-16.21.44:039][  0]LogMemory: Physical Memory: 6736.17 MB used,  9562.94 MB free, 16299.11 MB total
+[2017.12.14-16.21.44:039][  0]LogMemory: Virtual Memory: 656.38 MB used,  9562.94 MB free, 134217728.00 MB total
+[2017.12.14-16.21.44:155][  0]LogInit: Using OS detected language (en-GB).
+[2017.12.14-16.21.44:155][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.14-16.21.44:157][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.12.14-16.21.44:831][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.14-16.21.44:853][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200M' (Feature Level 11_0)
+[2017.12.14-16.21.44:853][  0]LogD3D11RHI:       1961/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.14-16.21.44:854][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.14-16.21.44:854][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.14-16.21.44:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.14-16.21.44:858][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.14-16.21.44:858][  0]LogD3D11RHI:     GPU DeviceId: 0x13b3 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.14-16.21.44:858][  0]LogWindows: EnumDisplayDevices:
+[2017.12.14-16.21.44:859][  0]LogWindows:    0. 'NVIDIA Quadro K2200M' (P:1 D:1)
+[2017.12.14-16.21.44:859][  0]LogWindows:    1. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.14-16.21.44:859][  0]LogWindows:    2. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.14-16.21.44:859][  0]LogWindows:    3. 'NVIDIA Quadro K2200M' (P:0 D:0)
+[2017.12.14-16.21.44:859][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.14-16.21.44:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200M
+[2017.12.14-16.21.44:859][  0]LogD3D11RHI:   Driver Version: 385.73 (internal:22.21.13.8573, unified:385.73)
+[2017.12.14-16.21.44:859][  0]LogD3D11RHI:      Driver Date: 9-25-2017
+[2017.12.14-16.21.44:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.14-16.21.44:874][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.14-16.21.44:892][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.14-16.21.44:936][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Intermediate/Shaders/WorkingDirectory/13500/).
+[2017.12.14-16.21.44:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/E210422E43A6F8B586DF43BFB60B3631/'.
+[2017.12.14-16.21.44:937][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.14-16.21.45:893][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.14-16.21.45:927][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.14-16.21.45:961][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.14-16.21.45:997][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.14-16.21.46:031][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.14-16.21.46:065][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.14-16.21.46:100][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.14-16.21.46:135][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.14-16.21.46:162][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.14-16.21.46:197][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.14-16.21.46:231][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.14-16.21.46:264][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.14-16.21.46:297][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.14-16.21.46:332][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.14-16.21.46:366][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.14-16.21.46:434][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.14-16.21.46:434][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.14-16.21.46:457][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.14-16.21.46:525][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.14-16.21.46:560][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.14-16.21.46:614][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.14-16.21.46:653][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.14-16.21.46:687][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.14-16.21.46:721][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.14-16.21.46:721][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.14-16.21.46:996][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.14-16.21.47:087][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.14-16.21.47:087][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.14-16.21.47:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.14-16.21.47:088][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.14-16.21.47:088][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.14-16.21.47:088][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.14-16.21.47:106][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.14-16.21.47:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jakob_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.14-16.21.47:130][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.14-16.21.47:130][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.14-16.21.47:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.14-16.21.47:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.14-16.21.47:398][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.12.14-16.21.47:503][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.14-16.21.47:625][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.14-16.21.47:832][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.14-16.21.47:855][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.14-16.21.47:855][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.14-16.21.47:855][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.14-16.21.47:855][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.14-16.21.47:855][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.14-16.21.48:168][  0]LogNetVersion: HatTrick , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4276059040)
+[2017.12.14-16.21.48:330][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.037092 seconds
+[2017.12.14-16.21.48:336][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.12.14-16.21.48:336][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
+[2017.12.14-16.21.48:336][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.14-16.21.50:291][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.14-16.21.50:318][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.14-16.21.50:783][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.14-16.21.51:049][  0]SourceControl: Source control is disabled
+[2017.12.14-16.21.51:559][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.14-16.21.51:697][  0]LogOcInput: OculusInput pre-init called
+[2017.12.14-16.21.51:883][  0]LogEngine: Initializing Engine...
+[2017.12.14-16.21.51:885][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.14-16.21.52:093][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.14-16.21.52:093][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.14-16.21.52:166][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.14-16.21.52:171][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.21.52:309][  0]LogInit: FAudioDevice initialized.
+[2017.12.14-16.21.52:402][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/jakob_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.14-16.21.52:417][  0]LogInit: Texture streaming: Enabled
+[2017.12.14-16.21.52:482][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.14-16.21.52:609][  0]LogInit: Transaction tracking system initialized
+[2017.12.14-16.21.52:783][  0]BlueprintLog: New page: Editor Load
+[2017.12.14-16.21.53:314][  0]LocalizationService: Localization service is disabled
+[2017.12.14-16.21.53:713][  0]LogConsoleResponse: Display: 
+[2017.12.14-16.21.53:852][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.14-16.21.53:852][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.14-16.21.53:852][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.14-16.21.54:444][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/' took 0.01s
+[2017.12.14-16.21.54:444][  0]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.14-16.21.54:444][  0]LightingResults: New page: Lighting Build
+[2017.12.14-16.21.54:468][  0]MapCheck: New page: Map Check
+[2017.12.14-16.21.54:468][  0]LightingResults: New page: Lighting Build
+[2017.12.14-16.21.54:807][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.14-16.21.54:807][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Particle_effects/Meshes/Torus.uasset.
+[2017.12.14-16.21.54:807][  0]LoadErrors: Error: /Game/Particle_effects/Meshes/Torus : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.14-16.21.54:807][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.14-16.21.54:807][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Particle_effects/Meshes/Torus.uasset.
+[2017.12.14-16.21.54:807][  0]LoadErrors: Error: /Game/Particle_effects/Meshes/Torus : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.14-16.21.54:807][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.14-16.21.54:807][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.14-16.21.54:808][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Particle_effects/P_Shooting_Explosionit.uasset.
+[2017.12.14-16.21.54:808][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.14-16.21.54:808][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.14-16.21.54:808][  0]LogLinker: Warning: Can't find file '/Game/Particle_effects/Meshes/M_Torus'
+[2017.12.14-16.21.54:808][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.14-16.21.54:808][  0]LogLinker: Warning: Can't find file for asset '/Game/Particle_effects/Meshes/M_Torus' while loading ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Particle_effects/P_Shooting_Explosionit.uasset.
+[2017.12.14-16.21.54:808][  0]LoadErrors: Failed to load /Game/Particle_effects/Meshes/M_Torus.M_Torus Referenced by Torus
+[2017.12.14-16.21.54:808][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Can't find file for asset. /Game/Particle_effects/Meshes/M_Torus
+[2017.12.14-16.21.55:345][  0]LogMaterial: Missing cached shader map for material mat_Jerrycan, compiling. 
+[2017.12.14-16.21.55:698][  0]LogShaderCompilers: Warning: Could not create the shader compiler transfer file 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/E210422E43A6F8B586DF43BFB60B3631/08C80310843D63E752111C78CDE8566E5', retrying...
+[2017.12.14-16.21.55:698][  0]LogShaderCompilers: Warning: Could not create the shader compiler transfer file 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/E210422E43A6F8B586DF43BFB60B3631/08C80310843D63E752111C78CDE8566E5', retrying...
+[2017.12.14-16.21.55:698][  0]LogShaderCompilers: Warning: Could not create the shader compiler transfer file 'C:/Users/jakob_000/AppData/Local/Temp/UnrealShaderWorkingDir/E210422E43A6F8B586DF43BFB60B3631/08C80310843D63E752111C78CDE8566E5', retrying...
+[2017.12.14-16.21.55:698][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.14-16.21.55:699][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.14-16.21.55:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.14-16.21.55:764][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.099ms to complete.
+[2017.12.14-16.21.55:764][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 1.321
+[2017.12.14-16.21.55:827][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.14-16.21.55:828][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.14-16.21.55:914][  0]LogCollectionManager: Loaded 0 collections in 0.000707 seconds
+[2017.12.14-16.21.55:976][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Collections/' took 0.01s
+[2017.12.14-16.21.55:976][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Developers/jakob000/Collections/' took 0.01s
+[2017.12.14-16.21.55:976][  0]LogFileCache: Scanning file cache for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Collections/' took 0.01s
+[2017.12.14-16.21.55:976][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.14-16.21.55:985][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2387 classes and 502 folders.
+[2017.12.14-16.21.56:026][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.12.14-16.21.56:062][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.12.14-16.21.56:092][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.12.14-16.21.56:169][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.14-16.21.56:172][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.14-16.21.56:180][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.14-16.21.56:291][  0]LogRenderer: Reallocating scene render targets to support 1112x504 Format 10 NumSamples 1 (Frame:1).
+[2017.12.14-16.21.56:477][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.12.14-16.21.56:477][  0]LogLoad: (Engine Initialization) Total time: 13.98 seconds
+[2017.12.14-16.21.56:477][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.14-16.21.56:477][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.14-16.21.56:495][  0]LoadErrors: Error: /Game/Particle_effects/P_Shooting_Explosionit : Failed import for StaticMesh /Game/Particle_effects/Meshes/Torus.Torus [redirection] in /Game/Particle_effects/P_Shooting_Explosionit Referenced by export ParticleModuleTypeDataMesh /Game/Particle_effects/P_Shooting_Explosionit.P_Shooting_Explosionit:ParticleModuleTypeDataMesh_0 Referenced by export ParticleModuleTypeDataMesh /Game/Particle_effects/P_Shooting_Explosionit.P_Shooting_Explosionit:ParticleModuleTypeDataMesh_5
+[2017.12.14-16.21.56:529][  0]SourceControl: On branch master
+[2017.12.14-16.21.56:529][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.12.14-16.21.56:529][  0]SourceControl: Changes not staged for commit:
+[2017.12.14-16.21.56:529][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.14-16.21.56:529][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.14-16.21.56:529][  0]SourceControl: 	modified:   HatTrick/Intermediate/CachedAssetRegistry.bin
+[2017.12.14-16.21.56:529][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.14-16.21.56:529][  0]SourceControl: 	modified:   HatTrick/Saved/Config/Windows/Engine.ini
+[2017.12.14-16.21.56:529][  0]SourceControl: 	modified:   HatTrick/Saved/Logs/HatTrick.log
+[2017.12.14-16.21.56:529][  0]SourceControl: Untracked files:
+[2017.12.14-16.21.56:529][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.14-16.21.56:529][  0]SourceControl: 	HatTrick/Saved/Config/CrashReportClient/UE4CC-Windows-EBBF18084FFB0D380D061B88A59778E4/
+[2017.12.14-16.21.56:529][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.14-16.21.56:529][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.14-16.21.56:595][  0]LogSlate: Took 0.000497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-16.21.56:608][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/' took 0.10s
+[2017.12.14-16.21.56:634][  1]LogAssetRegistry: Asset discovery search completed in 9.2576 seconds
+[2017.12.14-16.21.56:636][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.14-16.21.56:636][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.12.14-16.21.57:531][ 52]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-16.22.19:639][364]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-16.22.20:552][364]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.14-16.22.20:678][364]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.14-16.22.20:713][364]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.14-16.22.20:713][364]LightingResults: New page: Lighting Build
+[2017.12.14-16.22.20:715][364]LoadErrors: New page: Loading map: Saloon_Gameplay_Jakob.umap
+[2017.12.14-16.22.20:715][364]MapCheck: New page: Map Check
+[2017.12.14-16.22.20:715][364]LightingResults: New page: Lighting Build
+[2017.12.14-16.22.20:750][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.22.20:750][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.22.20:779][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.22.20:779][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.22.20:781][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.22.20:781][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.22.20:866][364]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.14-16.22.20:932][364]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.14-16.22.20:993][364]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.777ms to complete.
+[2017.12.14-16.22.20:993][364]LogFileHelpers: Loading map 'Saloon_Gameplay_Jakob' took 0.280
+[2017.12.14-16.22.55:989][416]LogEditorViewport: Clicking on Actor (LMB): BP_Jail_C (BP_Jail)
+[2017.12.14-16.23.04:567][748]LogEditorViewport: Clicking on Actor (LMB): BP_Saloon_C (BP_Saloon)
+[2017.12.14-16.23.06:757][854]LogEditorViewport: Clicking on Actor (LMB): BP_Resident_House_2_C (M_Resident_House_2)
+[2017.12.14-16.23.09:087][983]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.12.14-16.23.15:672][344]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.12.14-16.24.28:727][939]LogSavePackage: Save=573.40ms
+[2017.12.14-16.24.28:727][939]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCSaloon_Gameplay_Jakob8C4D45674443ABD3D68861A4E8DAD400.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCSaloon_Gameplay_Jakob.umap'
+[2017.12.14-16.24.28:727][939]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCSaloon_Gameplay_Jakob.umap
+[2017.12.14-16.24.28:733][939]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.12.14-16.24.47:934][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-16.24.47:935][342]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.24.47:935][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.24.47:935][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.24.47:935][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.24.47:935][342]LogModuleManager: Warning: No filename provided for module OnlineSubsystemLAN
+[2017.12.14-16.24.47:935][342]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'G:/Program Files/EpicGames/UE_4.17/Engine/Binaries/Win64/' was not found.
+[2017.12.14-16.24.47:957][342]PIE: New page: SIE session: Saloon_Gameplay_Jakob (Dec 14, 2017, 8:24:47 PM)
+[2017.12.14-16.24.47:958][342]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob
+[2017.12.14-16.24.47:977][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019743s)
+[2017.12.14-16.24.47:978][342]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.14-16.24.47:978][342]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.12.14-16.24.47:978][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.020898s)
+[2017.12.14-16.24.47:991][342]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.24.47:999][342]LogInit: FAudioDevice initialized.
+[2017.12.14-16.24.48:044][342]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.14-16.24.48:064][342]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.24.48:065][342]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.24.48:073][342]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.14-18.24.48
+[2017.12.14-16.24.48:074][342]LogWorld: Bringing up level for play took: 0.026265
+[2017.12.14-16.24.48:087][342]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.14-16.24.48:121][342]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.12.14-16.24.48:122][342]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob 1.028
+[2017.12.14-16.24.51:430][505]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.24.51:430][505]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.24.51:432][505]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.24.51:432][505]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.24.51:432][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.14-16.24.51:487][506]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2017.12.14-16.24.51:487][506]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.24.54:194][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-16.24.54:194][663]PIE: New page: SIE session: Saloon_Gameplay_Jakob (Dec 14, 2017, 8:24:54 PM)
+[2017.12.14-16.24.54:195][663]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob
+[2017.12.14-16.24.54:213][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018567s)
+[2017.12.14-16.24.54:214][663]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.14-16.24.54:214][663]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.12.14-16.24.54:214][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.019462s)
+[2017.12.14-16.24.54:227][663]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.24.54:236][663]LogInit: FAudioDevice initialized.
+[2017.12.14-16.24.54:272][663]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.14-16.24.54:281][663]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.24.54:281][663]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.24.54:284][663]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.14-18.24.54
+[2017.12.14-16.24.54:285][663]LogWorld: Bringing up level for play took: 0.012327
+[2017.12.14-16.24.54:297][663]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.14-16.24.54:298][663]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob -0.796
+[2017.12.14-16.25.04:293][165]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.04:293][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.25.04:294][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.25.04:294][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.25.04:294][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.14-16.25.04:361][166]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2017.12.14-16.25.04:361][166]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.09:382][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-16.25.09:382][465]PIE: New page: SIE session: Saloon_Gameplay_Jakob (Dec 14, 2017, 8:25:09 PM)
+[2017.12.14-16.25.09:382][465]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob
+[2017.12.14-16.25.09:401][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019321s)
+[2017.12.14-16.25.09:402][465]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.14-16.25.09:402][465]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.12.14-16.25.09:402][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.020164s)
+[2017.12.14-16.25.09:415][465]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.25.09:424][465]LogInit: FAudioDevice initialized.
+[2017.12.14-16.25.09:459][465]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.14-16.25.09:467][465]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.25.09:467][465]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.25.09:471][465]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.14-18.25.09
+[2017.12.14-16.25.09:472][465]LogWorld: Bringing up level for play took: 0.012254
+[2017.12.14-16.25.09:485][465]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.14-16.25.09:485][465]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob 0.391
+[2017.12.14-16.25.17:846][931]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.17:846][931]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.25.17:846][931]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.25.17:846][931]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.25.17:846][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.14-16.25.17:918][933]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2017.12.14-16.25.17:919][933]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.21:972][109]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0039 seconds. Added 113 classes and 0 folders.
+[2017.12.14-16.25.23:492][109]LogSlate: Took 0.019404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.14-16.25.23:847][110]LogSlate: Took 0.014292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.14-16.25.31:264][516]BlueprintLog: New page: Compile BP_Barbershop
+[2017.12.14-16.25.32:834][565]LogSavePackage: Save=111.30ms
+[2017.12.14-16.25.32:834][565]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/BP_BarbershopA74659D34B96CA947C1E188F906EB671.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Blueprints/Buildings/BP_Barbershop.uasset'
+[2017.12.14-16.25.32:838][565]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Blueprints/Buildings/BP_Barbershop.uasset
+[2017.12.14-16.25.36:603][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-16.25.36:604][787]PIE: New page: SIE session: Saloon_Gameplay_Jakob (Dec 14, 2017, 8:25:36 PM)
+[2017.12.14-16.25.36:604][787]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob
+[2017.12.14-16.25.36:623][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019184s)
+[2017.12.14-16.25.36:624][787]LogAIModule: Creating AISystem for world Saloon_Gameplay_Jakob
+[2017.12.14-16.25.36:624][787]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2017.12.14-16.25.36:624][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob to /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob (0.020168s)
+[2017.12.14-16.25.36:644][787]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.25.36:652][787]LogInit: FAudioDevice initialized.
+[2017.12.14-16.25.36:691][787]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.14-16.25.36:717][787]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Round' 
+[2017.12.14-16.25.36:717][787]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob:PersistentLevel.M_Resident_House_679.M_09_Bottle_Large' 
+[2017.12.14-16.25.36:727][787]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob.Saloon_Gameplay_Jakob up for play (max tick rate 60) at 2017.12.14-18.25.36
+[2017.12.14-16.25.36:729][787]LogWorld: Bringing up level for play took: 0.036746
+[2017.12.14-16.25.36:743][787]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.14-16.25.36:744][787]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Saloon_Gameplay_Jakob -0.351
+[2017.12.14-16.25.41:405][  4]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.41:405][  4]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.25.41:406][  4]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.25.41:406][  4]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.25.41:406][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.14-16.25.41:471][  5]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2017.12.14-16.25.41:471][  5]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.25.51:083][539]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.14-16.25.54:104][539]LogSavePackage: Save=596.27ms
+[2017.12.14-16.25.54:104][539]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Saloon_Gameplay_Jakob4E98A3A04AF8C98A23FA8782EA2ADB0F.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap'
+[2017.12.14-16.25.54:106][539]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Maps/Saloon_Gameplay_Jakob.umap
+[2017.12.14-16.25.54:145][539]LogFileHelpers: Saving map 'Saloon_Gameplay_Jakob' took 0.730
+[2017.12.14-16.25.54:146][539]Cmd: MAP LOAD FILE="../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.14-16.25.54:146][539]LightingResults: New page: Lighting Build
+[2017.12.14-16.25.54:147][539]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2017.12.14-16.25.54:151][539]MapCheck: New page: Map Check
+[2017.12.14-16.25.54:151][539]LightingResults: New page: Lighting Build
+[2017.12.14-16.25.54:317][539]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.14-16.25.54:374][539]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.14-16.25.54:434][539]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.566ms to complete.
+[2017.12.14-16.25.54:434][539]LogFileHelpers: Loading map 'MainMenuLevel' took 0.290
+[2017.12.14-16.25.58:686][790]LogTemp: Repeating last play command: Simulate
+[2017.12.14-16.25.58:716][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.12.14-16.25.58:716][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-16.25.58:716][790]PIE: New page: SIE session: MainMenuLevel (Dec 14, 2017, 8:25:58 PM)
+[2017.12.14-16.25.58:716][790]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2017.12.14-16.25.58:717][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001087s)
+[2017.12.14-16.25.58:718][790]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.12.14-16.25.58:718][790]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.12.14-16.25.58:718][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002054s)
+[2017.12.14-16.25.58:738][790]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.14-16.25.58:746][790]LogInit: FAudioDevice initialized.
+[2017.12.14-16.25.58:782][790]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.12.14-16.25.58:783][790]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2017.12.14-18.25.58
+[2017.12.14-16.25.58:784][790]LogWorld: Bringing up level for play took: 0.001113
+[2017.12.14-16.25.58:795][790]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.14-16.25.58:796][790]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.12.14-16.25.58:797][790]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel -0.297
+[2017.12.14-16.25.58:800][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.12.14-16.26.00:298][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.12.14-16.26.00:328][880]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.26.00:328][880]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.12.14-16.26.00:328][880]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.12.14-16.26.00:328][880]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.12.14-16.26.00:328][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2017.12.14-16.26.00:328][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2017.12.14-16.26.00:410][884]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2017.12.14-16.26.00:410][884]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.14-16.26.02:960][ 22]LogSavePackage: Save=56.01ms
+[2017.12.14-16.26.02:960][ 22]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCMainMenuLevelDBFE87BA4910A87ED34BBABE0C0B51CB.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.12.14-16.26.02:960][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.12.14-16.26.02:969][ 22]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.12.14-16.26.05:279][141]LogTemp: Repeating last play command: Standalone Game
+[2017.12.14-16.26.05:466][141]LogSavePackage: Save=33.93ms
+[2017.12.14-16.26.05:466][141]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCMainMenuLevel8E6914CE4568051438D490B3F4804B36.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.12.14-16.26.05:466][141]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.12.14-16.26.05:470][141]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.12.14-16.26.13:181][368]LogTemp: Repeating last play command: Standalone Game
+[2017.12.14-16.26.13:371][368]LogSavePackage: Save=36.52ms
+[2017.12.14-16.26.13:371][368]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCMainMenuLevel3815809B4C4D2B7B26FD4B94C612FF0B.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.12.14-16.26.13:372][368]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.12.14-16.26.13:379][368]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.12.14-16.26.16:344][546]LogTemp: Repeating last play command: Standalone Game
+[2017.12.14-16.26.16:533][546]LogSavePackage: Save=34.76ms
+[2017.12.14-16.26.16:533][546]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCMainMenuLevelE6B9ACAD4440F5AD6F79A18B0AB4D530.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.12.14-16.26.16:533][546]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.12.14-16.26.16:539][546]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.12.14-16.26.17:203][586]LogTemp: Repeating last play command: Standalone Game
+[2017.12.14-16.26.17:384][586]LogSavePackage: Save=35.65ms
+[2017.12.14-16.26.17:384][586]LogSavePackage: Moving '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/UEDPCMainMenuLevel1F1898AF4B71256F749B4190400A5655.tmp' to '../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.12.14-16.26.17:385][586]LogSavePackage: Display: Finished SavePackage ../../../../../../DAE/DAE_2017_2018/Groupproject/spaghettiArms3/SpaghettiArms/HatTrick/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.12.14-16.26.17:391][586]LogEditorTransaction: Undo Spawn Play From Here Start
+>>>>>>> 9e4e2264f1e68c81d9a8b8052b6fc8ea9f27b4b6
